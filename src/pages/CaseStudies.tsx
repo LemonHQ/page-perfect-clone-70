@@ -7,79 +7,79 @@ const CaseStudies = () => {
   const caseStudies = [
     {
       id: 1,
-      title: "How Preqin gained a 450+ person global R&D centre",
+      title: "How Preqin scaled to a 450+ person R&D Centre in Bangalore",
       company: "Preqin",
       industry: "Financial Services",
-      excerpt: "Learn how Preqin scaled their development team from 5 to 450+ engineers in Bangalore, transforming their global R&D capabilities.",
+      excerpt: "In early 2018, Preqin realised it needed to expand its engineering capacity to enhance its flagship product offerings. See how they built a world-class R&D centre with 450+ professionals in Bangalore.",
       image: "/placeholder.svg",
       readTime: "8 min read",
       date: "March 2024",
-      results: ["450+ engineers hired", "3x faster product delivery", "60% cost savings"],
+      results: ["120+ Engineers and 300+ Data Team", "Launched and enhanced flagship product", "5,400 m² dedicated office space"],
       tags: ["FinTech", "Scaling", "R&D"]
     },
     {
       id: 2,
-      title: "Ykone's Journey: Building a Global MarTech Powerhouse",
-      company: "Ykone",
-      industry: "Marketing Technology",
-      excerpt: "Discover how Ykone leveraged our MarTech expertise to build a world-class influencer marketing platform with a dedicated team in Bangalore.",
+      title: "MMC Finds Offshoring Model That Works",
+      company: "My Muscle Chef",
+      industry: "Food Technology",
+      excerpt: "Over the last 10 years, My Muscle Chef has grown from a niche startup into a national food giant. They needed a cost-effective way to increase engineering output while maintaining quality.",
       image: "/placeholder.svg",
       readTime: "10 min read",
       date: "February 2024",
-      results: ["50+ MarTech specialists", "40% faster time-to-market", "Global platform launch"],
-      tags: ["MarTech", "Influencer Marketing", "Platform"]
+      results: ["70% reduction in tech debt", "Cost-effective scaling", "Enhanced customer experience"],
+      tags: ["Food Tech", "Startup Growth", "Quality"]
     },
     {
       id: 3,
-      title: "NextPoint's Retail Revolution: E-commerce at Scale",
-      company: "NextPoint",
+      title: "Integrated tech team helps PartyLite upgrade their ecommerce platform",
+      company: "PartyLite",
       industry: "Retail & E-commerce",
-      excerpt: "How NextPoint transformed their e-commerce platform with a dedicated development team, achieving remarkable growth in online sales.",
+      excerpt: "PartyLite wanted to take the digitalisation of their candle retail and ecommerce business in-house. See how they built an integrated team of expert engineers.",
       image: "/placeholder.svg",
       readTime: "6 min read",
       date: "January 2024",
-      results: ["300% sales increase", "35+ developers", "Mobile-first platform"],
-      tags: ["E-commerce", "Retail Tech", "Mobile"]
+      results: ["12-person team of expert engineers", "2X increase in dev productivity", "$700,000 per year saved on external vendor"],
+      tags: ["E-commerce", "Retail Tech", "Cost Savings"]
     },
     {
       id: 4,
-      title: "Swiggy's Tech Transformation: Food Delivery Innovation",
-      company: "Swiggy",
-      industry: "Food Technology",
-      excerpt: "Explore how Swiggy partnered with us to enhance their delivery platform and expand their engineering capabilities across multiple verticals.",
+      title: "Offshore development team helps Smart&Geek to triple output",
+      company: "Smart&Geek",
+      industry: "Technology Services",
+      excerpt: "Smart&Geek needed to scale their development capabilities rapidly. Discover how our dedicated offshore development team helped them achieve 3x output growth.",
       image: "/placeholder.svg",
       readTime: "12 min read",
       date: "December 2023",
-      results: ["100+ engineers", "Real-time delivery optimization", "Multi-city expansion"],
-      tags: ["Food Tech", "Logistics", "Real-time Systems"]
+      results: ["Triple development output", "Dedicated offshore team", "Enhanced technical capabilities"],
+      tags: ["Tech Services", "Productivity", "Offshore"]
     },
     {
       id: 5,
-      title: "Microsoft's Innovation Hub: Cloud-First Development",
-      company: "Microsoft",
-      industry: "Cloud Technology",
-      excerpt: "See how Microsoft leveraged our offshore capabilities to accelerate cloud product development and innovation in emerging markets.",
+      title: "FinTech Startup Scales from 5 to 100+ Engineers",
+      company: "Confidential Client",
+      industry: "Financial Technology",
+      excerpt: "A rapidly growing FinTech startup needed to scale their engineering team quickly to meet market demands while maintaining regulatory compliance.",
       image: "/placeholder.svg",
       readTime: "9 min read",
       date: "November 2023",
-      results: ["200+ cloud engineers", "5 new products launched", "Enterprise solutions"],
-      tags: ["Cloud", "Enterprise", "Innovation"]
+      results: ["100+ engineers in 18 months", "Regulatory compliance maintained", "3x faster product delivery"],
+      tags: ["FinTech", "Compliance", "Rapid Scaling"]
     },
     {
       id: 6,
-      title: "Flipkart's Growth Story: E-commerce Excellence",
-      company: "Flipkart",
+      title: "Global E-commerce Platform: Multi-Region Expansion",
+      company: "Confidential Client",
       industry: "E-commerce",
-      excerpt: "Learn about Flipkart's journey in building a robust e-commerce platform with our dedicated engineering teams.",
+      excerpt: "A leading e-commerce platform leveraged our expertise to expand into multiple new markets while building robust, scalable technology infrastructure.",
       image: "/placeholder.svg",
       readTime: "11 min read",
       date: "October 2023",
-      results: ["500+ engineers", "99.9% uptime", "Billion+ transactions"],
-      tags: ["E-commerce", "Scale", "Performance"]
+      results: ["Multi-region platform deployment", "99.9% uptime achieved", "50+ country expansion"],
+      tags: ["E-commerce", "Global Scale", "Infrastructure"]
     }
   ];
 
-  const industries = ["All", "Financial Services", "Marketing Technology", "Retail & E-commerce", "Food Technology", "Cloud Technology"];
+  const industries = ["All", "Financial Services", "Food Technology", "Retail & E-commerce", "Technology Services", "Financial Technology"];
 
   return (
     <div className="min-h-screen">

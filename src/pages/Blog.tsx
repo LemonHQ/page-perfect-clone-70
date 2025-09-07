@@ -8,104 +8,104 @@ const Blog = () => {
   const blogPosts = [
     {
       id: 1,
-      title: "The Future of Offshore Development: AI and Human Collaboration",
-      excerpt: "Explore how artificial intelligence is reshaping offshore development while human expertise remains irreplaceable in building world-class software teams.",
+      title: "From Outsourcing to Offshoring — Building Resilient Tech Teams",
+      excerpt: "A comprehensive guide on transitioning from traditional outsourcing to building dedicated offshore teams that become true extensions of your organization.",
       author: "Emilien Coquard",
       authorRole: "CEO & Co-Founder",
       date: "March 15, 2024",
       readTime: "8 min read",
       image: "/placeholder.svg",
-      category: "Technology",
-      tags: ["AI", "Offshore Development", "Future of Work"],
+      category: "Strategy",
+      tags: ["Outsourcing", "Offshoring", "Team Building"],
       featured: true
     },
     {
       id: 2,
-      title: "Building Cross-Cultural Teams: Lessons from 130+ Successful Partnerships",
-      excerpt: "Learn the key strategies for creating effective cross-cultural development teams that deliver exceptional results across different time zones and cultures.",
+      title: "5 Problems with Outsourcing and How You Can Overcome Them All",
+      excerpt: "Learn about the most common challenges companies face with traditional outsourcing and discover proven strategies to build more effective offshore partnerships.",
       author: "Monica Antanacci",
       authorRole: "VP People & Culture",
       date: "March 10, 2024",
       readTime: "10 min read",
       image: "/placeholder.svg",
-      category: "Culture",
-      tags: ["Team Building", "Culture", "Remote Work"]
+      category: "Strategy",
+      tags: ["Outsourcing", "Problem Solving", "Best Practices"]
     },
     {
       id: 3,
+      title: "Offshore Software Development: Your Must-Know Guide",
+      excerpt: "Everything you need to know about offshore software development - from selecting the right partner to managing distributed teams effectively.",
+      author: "Deepak Ramakrishnan",
+      authorRole: "CTO & Co-Founder",
+      date: "March 5, 2024",
+      readTime: "12 min read",
+      image: "/placeholder.svg",
+      category: "Development",
+      tags: ["Offshore Development", "Software", "Guide"]
+    },
+    {
+      id: 4,
+      title: "Benefits of Offshoring vs Outsourcing vs In-House Development",
+      excerpt: "A detailed comparison of the three main approaches to building software teams - helping you choose the right model for your organization.",
+      author: "Balasundar Pulnintasamy",
+      authorRole: "VP Engineering",
+      date: "February 28, 2024",
+      readTime: "9 min read",
+      image: "/placeholder.svg",
+      category: "Strategy",
+      tags: ["Comparison", "Development Models", "Strategy"]
+    },
+    {
+      id: 5,
+      title: "Go from Outsourced Help to Long-Term Tech Teams",
+      excerpt: "CTO guide on setting up top tech teams to support your business's long-term growth and how to transition from temporary help to permanent partnerships.",
+      author: "Ryan Choon",
+      authorRole: "VP Operations",
+      date: "February 20, 2024",
+      readTime: "11 min read",
+      image: "/placeholder.svg",
+      category: "Leadership",
+      tags: ["CTO Guide", "Long-term Strategy", "Growth"]
+    },
+    {
+      id: 6,
+      title: "Building Cross-Cultural Teams: Lessons from 130+ Partnerships",
+      excerpt: "Key strategies for creating effective cross-cultural development teams that deliver exceptional results across different time zones and cultures.",
+      author: "Adithi Kiran",
+      authorRole: "VP Talent Acquisition",
+      date: "February 15, 2024",
+      readTime: "7 min read",
+      image: "/placeholder.svg",
+      category: "Culture",
+      tags: ["Cross-Cultural", "Team Management", "Communication"]
+    },
+    {
+      id: 7,
       title: "Bangalore: The Silicon Valley of Asia - Why Location Matters",
       excerpt: "Discover why Bangalore has become the world's premier destination for offshore development and what makes it the ideal hub for scaling tech teams.",
       author: "Deepak Ramakrishnan",
       authorRole: "CTO & Co-Founder",
-      date: "March 5, 2024",
+      date: "February 10, 2024",
       readTime: "6 min read",
       image: "/placeholder.svg",
       category: "Location",
       tags: ["Bangalore", "India", "Tech Hub"]
     },
     {
-      id: 4,
-      title: "MarTech Revolution: Building Marketing Technology Teams That Scale",
-      excerpt: "How to build and scale marketing technology teams that can keep up with the rapidly evolving digital marketing landscape.",
-      author: "Balasundar Pulnintasamy",
-      authorRole: "VP Engineering",
-      date: "February 28, 2024",
-      readTime: "12 min read",
-      image: "/placeholder.svg",
-      category: "MarTech",
-      tags: ["MarTech", "Marketing", "Technology"]
-    },
-    {
-      id: 5,
-      title: "The Economics of Offshore Development: ROI Analysis",
-      excerpt: "A comprehensive analysis of the return on investment when building offshore development teams, including hidden costs and long-term benefits.",
-      author: "Ryan Choon",
-      authorRole: "VP Operations",
-      date: "February 20, 2024",
-      readTime: "9 min read",
-      image: "/placeholder.svg",
-      category: "Business",
-      tags: ["ROI", "Economics", "Business Strategy"]
-    },
-    {
-      id: 6,
-      title: "Security in Offshore Development: Best Practices and Compliance",
-      excerpt: "Essential security measures and compliance strategies for offshore development teams handling sensitive data and critical applications.",
-      author: "Adithi Kiran",
-      authorRole: "VP Talent Acquisition",
-      date: "February 15, 2024",
-      readTime: "11 min read",
-      image: "/placeholder.svg",
-      category: "Security",
-      tags: ["Security", "Compliance", "Best Practices"]
-    },
-    {
-      id: 7,
+      id: 8,
       title: "Talent Acquisition in India: Finding the Top 1% of Engineers",
       excerpt: "Our proven methodology for identifying and recruiting elite engineering talent from India's vast pool of over 2 million developers.",
       author: "Adithi Kiran",
       authorRole: "VP Talent Acquisition",
-      date: "February 10, 2024",
-      readTime: "7 min read",
+      date: "February 5, 2024",
+      readTime: "8 min read",
       image: "/placeholder.svg",
       category: "Recruitment",
-      tags: ["Talent Acquisition", "Recruitment", "Engineering"]
-    },
-    {
-      id: 8,
-      title: "FinTech Development: Regulatory Compliance in Global Markets",
-      excerpt: "Navigate the complex regulatory landscape of financial technology development with offshore teams across multiple jurisdictions.",
-      author: "Emilien Coquard",
-      authorRole: "CEO & Co-Founder",
-      date: "February 5, 2024",
-      readTime: "15 min read",
-      image: "/placeholder.svg",
-      category: "FinTech",
-      tags: ["FinTech", "Compliance", "Regulation"]
+      tags: ["Talent Acquisition", "India", "Engineering Talent"]
     }
   ];
 
-  const categories = ["All", "Technology", "Culture", "Business", "MarTech", "FinTech", "Security", "Recruitment"];
+  const categories = ["All", "Strategy", "Development", "Leadership", "Culture", "Location", "Recruitment"];
   const featuredPost = blogPosts.find(post => post.featured);
   const regularPosts = blogPosts.filter(post => !post.featured);
 
