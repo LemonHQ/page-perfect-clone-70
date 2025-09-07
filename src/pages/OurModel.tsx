@@ -4,10 +4,8 @@ import { Link } from "react-router-dom";
 import developersCoding from "@/assets/developers-coding.jpg";
 import teamCollaboration from "@/assets/team-collaboration.jpg";
 import ceoPortrait from "@/assets/ceo-portrait.jpg";
-
 const OurModel = () => {
-  return (
-    <div className="min-h-screen">
+  return <div className="min-h-screen">
       {/* Hero Section */}
       <section className="py-24 lg:py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -43,10 +41,7 @@ const OurModel = () => {
                   Our experienced recruiters and technical experts carefully select engineers from 
                   Bangalore's top talent pool, ensuring they match your specific technology needs and cultural fit.
                 </p>
-                <Button 
-                  className="bg-foreground text-background hover:bg-foreground/90 font-medium px-8 py-4"
-                  asChild
-                >
+                <Button className="bg-foreground text-background hover:bg-foreground/90 font-medium px-8 py-4" asChild>
                   <Link to="/dedicated-team">LEARN MORE</Link>
                 </Button>
               </div>
@@ -70,10 +65,7 @@ const OurModel = () => {
                   From infrastructure setup to HR management and operational support, we handle everything 
                   so you can focus on what matters most - building great products.
                 </p>
-                <Button 
-                  className="bg-foreground text-background hover:bg-foreground/90 font-medium px-8 py-4"
-                  asChild
-                >
+                <Button className="bg-foreground text-background hover:bg-foreground/90 font-medium px-8 py-4" asChild>
                   <Link to="/team-extension">LEARN MORE</Link>
                 </Button>
               </div>
@@ -97,10 +89,7 @@ const OurModel = () => {
                   With our established infrastructure and talent pipeline, scaling your team up or down 
                   becomes seamless, giving you the flexibility to respond to market demands.
                 </p>
-                <Button 
-                  className="bg-foreground text-background hover:bg-foreground/90 font-medium px-8 py-4"
-                  asChild
-                >
+                <Button className="bg-foreground text-background hover:bg-foreground/90 font-medium px-8 py-4" asChild>
                   <Link to="/offshore-centre">LEARN MORE</Link>
                 </Button>
               </div>
@@ -184,18 +173,10 @@ const OurModel = () => {
               <div className="overflow-hidden rounded-lg">
                 <div className="flex animate-scroll-horizontal">
                   <div className="flex-shrink-0 w-full">
-                    <img 
-                      src={developersCoding} 
-                      alt="Developer coding on laptop" 
-                      className="w-full h-80 object-cover rounded-lg"
-                    />
+                    <img src={developersCoding} alt="Developer coding on laptop" className="w-full h-80 object-cover rounded-lg" />
                   </div>
                   <div className="flex-shrink-0 w-full ml-4">
-                    <img 
-                      src={teamCollaboration} 
-                      alt="Team collaboration in office" 
-                      className="w-full h-80 object-cover rounded-lg"
-                    />
+                    <img src={teamCollaboration} alt="Team collaboration in office" className="w-full h-80 object-cover rounded-lg" />
                   </div>
                 </div>
               </div>
@@ -360,7 +341,7 @@ const OurModel = () => {
                 <div className="w-32 h-32 bg-yellow-foreground/10 rounded-full flex items-center justify-center">
                   <div className="w-16 h-16 bg-yellow-foreground/20 rounded-full flex items-center justify-center">
                     <svg className="w-8 h-8 text-yellow-foreground" fill="currentColor" viewBox="0 0 20 20">
-                      <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                      <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                   </div>
                 </div>
@@ -376,11 +357,7 @@ const OurModel = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="relative">
               <div className="w-full h-96 bg-muted/20 rounded-full overflow-hidden">
-                <img 
-                  src={ceoPortrait} 
-                  alt="Business leader working on laptop" 
-                  className="w-full h-full object-cover"
-                />
+                <img src={ceoPortrait} alt="Business leader working on laptop" className="w-full h-full object-cover" />
               </div>
             </div>
             <div>
@@ -543,38 +520,15 @@ const OurModel = () => {
               </div>
               
               <form className="space-y-4">
-                <input 
-                  type="text" 
-                  placeholder="Full name*" 
-                  className="w-full p-3 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-turquoise"
-                />
+                <input type="text" placeholder="Full name*" className="w-full p-3 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-turquoise" />
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                  <input 
-                    type="email" 
-                    placeholder="Business email*" 
-                    className="w-full p-3 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-turquoise"
-                  />
-                  <input 
-                    type="tel" 
-                    placeholder="Phone number*" 
-                    className="w-full p-3 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-turquoise"
-                  />
+                  <input type="email" placeholder="Business email*" className="w-full p-3 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-turquoise" />
+                  <input type="tel" placeholder="Phone number*" className="w-full p-3 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-turquoise" />
                 </div>
-                <input 
-                  type="text" 
-                  placeholder="Company name*" 
-                  className="w-full p-3 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-turquoise"
-                />
-                <textarea 
-                  placeholder="Message*" 
-                  rows={4}
-                  className="w-full p-3 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-turquoise"
-                ></textarea>
+                <input type="text" placeholder="Company name*" className="w-full p-3 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-turquoise" />
+                <textarea placeholder="Message*" rows={4} className="w-full p-3 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-turquoise"></textarea>
                 
-                <Button 
-                  type="submit"
-                  className="w-full bg-foreground text-background hover:bg-foreground/90 font-semibold py-3 rounded-full"
-                >
+                <Button type="submit" className="w-full bg-foreground text-background hover:bg-foreground/90 font-semibold py-3 rounded-full">
                   SEND NOW →
                 </Button>
                 
@@ -603,25 +557,7 @@ const OurModel = () => {
       </section>
 
       {/* Final CTA */}
-      <section className="py-24">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <p className="text-xl text-muted-foreground mb-12 max-w-3xl mx-auto leading-relaxed">
-              Unlike traditional outsourcing, our dedicated teams become an extension of your company, 
-              deeply understanding your business goals and contributing to long-term success.
-            </p>
-            <Button 
-              size="lg"
-              className="bg-foreground text-background hover:bg-foreground/90 font-medium px-8 py-4"
-              asChild
-            >
-              <Link to="/contact">GET STARTED</Link>
-            </Button>
-          </div>
-        </div>
-      </section>
-    </div>
-  );
+      
+    </div>;
 };
-
 export default OurModel;
