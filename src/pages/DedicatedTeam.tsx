@@ -451,7 +451,7 @@ const DedicatedTeam = () => {
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="w-72 h-56 bg-turquoise rounded-2xl shadow-2xl transform -rotate-6 overflow-hidden">
                   <div className="p-6 text-center">
-                    <div className="text-xs font-bold text-turquoise-foreground mb-2">THE SCALERS</div>
+                    <div className="text-xs font-bold text-turquoise-foreground mb-2">H2</div>
                     <div className="bg-yellow text-yellow-foreground px-4 py-2 rounded-lg font-bold text-lg mb-2">
                       SCALING TECH TEAMS
                     </div>
@@ -459,7 +459,7 @@ const DedicatedTeam = () => {
                       REINVENTED CASE STUDY
                     </div>
                     <div className="text-xs text-turquoise-foreground">
-                      How The Scalers Helped Preqin Establish A 450+ Person Global R&D Centre In India
+                      How H2 Helped Preqin Establish A 450+ Person Global R&D Centre In India
                     </div>
                   </div>
                 </div>

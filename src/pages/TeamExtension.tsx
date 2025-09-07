@@ -16,7 +16,7 @@ const TeamExtension = () => {
                 Extend your tech team with world-class talent
               </h1>
               <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-                The Scalers <span className="font-semibold text-foreground">handpick world-class developers and augment them into your existing engineering team.</span> Whether you're looking for web developers fluent in Java and .NET or mobile developers who sing in Kotlin and Swift — we're here to help.
+                H2 <span className="font-semibold text-foreground">handpick world-class developers and augment them into your existing engineering team.</span> Whether you're looking for web developers fluent in Java and .NET or mobile developers who sing in Kotlin and Swift — we're here to help.
               </p>
               <Button size="lg" className="bg-foreground text-background hover:bg-foreground/90 font-medium px-8 py-4" asChild>
                 <Link to="/contact">EXTEND YOUR TEAM</Link>
@@ -517,7 +517,7 @@ const TeamExtension = () => {
                 </div>
               </div>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                The Scalers tailor your security measures based on your operational requirements
+                H2 tailor your security measures based on your operational requirements
               </p>
             </div>
           </div>

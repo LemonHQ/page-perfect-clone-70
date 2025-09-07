@@ -80,7 +80,7 @@ const CaseStudies = () => {
               Case Studies
             </h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-12">
-              Real stories of transformation. See how global companies have scaled their development teams and achieved remarkable results with The Scalers.
+              Real stories of transformation. See how global companies have scaled their development teams and achieved remarkable results with H2.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
               <div>

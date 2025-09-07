@@ -71,7 +71,7 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <div className="text-2xl font-bold text-foreground">
-              THE SCALERS
+              H2
             </div>
           </Link>
 

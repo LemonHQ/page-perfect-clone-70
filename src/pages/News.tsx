@@ -6,12 +6,12 @@ const News = () => {
   const featuredStories = [
     {
       id: 1,
-      title: "The Scalers certified as a Great Place to Work for 2025",
-      excerpt: "We are thrilled to announce that The Scalers has been officially recognized as a Great Place to Work certified company for 2025.",
+      title: "H2 certified as a Great Place to Work for 2025",
+      excerpt: "We are thrilled to announce that H2 has been officially recognized as a Great Place to Work certified company for 2025.",
       date: "Dec 15, 2024",
       category: "Company News",
       image: "/placeholder.svg",
-      source: "The Scalers"
+      source: "H2"
     },
     {
       id: 2,
@@ -24,12 +24,12 @@ const News = () => {
     },
     {
       id: 3,
-      title: "The Scalers celebrates 10 years all about people",
+      title: "H2 celebrates 10 years all about people",
       excerpt: "From humble beginnings in Bangalore to becoming a global leader in offshore development, celebrating our people-first journey.",
       date: "Oct 10, 2024",
       category: "Company Milestone",
       image: "/placeholder.svg",
-      source: "The Scalers"
+      source: "H2"
     },
     {
       id: 4,
@@ -51,12 +51,12 @@ const News = () => {
     },
     {
       id: 6,
-      title: "The Scalers certified as a Great Place to Work for 2024",
-      excerpt: "We are proud to share that The Scalers has been recognized for its exceptional workplace culture and employee satisfaction.",
+      title: "H2 certified as a Great Place to Work for 2024",
+      excerpt: "We are proud to share that H2 has been recognized for its exceptional workplace culture and employee satisfaction.",
       date: "Jan 12, 2024",
       category: "Company News",
       image: "/placeholder.svg",
-      source: "The Scalers"
+      source: "H2"
     }
   ];
 
@@ -154,18 +154,18 @@ const News = () => {
               MEDIA KIT
             </h2>
             <h3 className="text-2xl lg:text-3xl font-bold text-turquoise-foreground mb-6">
-              Download The Scalers' brand assets
+              Download H2's brand assets
             </h3>
           </div>
 
           <div className="bg-background rounded-lg p-8 max-w-2xl mx-auto">
             <div className="flex items-center justify-center mb-6">
               <div className="bg-navy text-navy-foreground px-6 py-3 rounded font-bold text-lg">
-                THE SCALERS
+                H2
               </div>
             </div>
             <p className="text-muted-foreground mb-6">
-              Need official The Scalers branding assets?
+              Need official H2 branding assets?
               Brand files are royalty-free under our
               Brand Guidelines Terms & Conditions.
               Perfect for articles, presentations and media kits.

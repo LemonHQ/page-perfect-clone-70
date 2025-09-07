@@ -8,19 +8,19 @@ const Leadership = () => {
       name: "Emilien Corcuard",
       role: "CEO & Co-Founder",
       image: "/placeholder.svg",
-      bio: "Emilien brings over 15 years of experience in scaling technology companies across Europe and Asia. Prior to founding The Scalers, he led engineering teams at several successful startups and has a deep understanding of the challenges companies face when scaling their development capabilities."
+      bio: "Emilien brings over 15 years of experience in scaling technology companies across Europe and Asia. Prior to founding H2, he led engineering teams at several successful startups and has a deep understanding of the challenges companies face when scaling their development capabilities."
     },
     {
       name: "Deepak Ramakrishnan",
       role: "CTO & Co-Founder", 
       image: "/placeholder.svg",
-      bio: "Deepak is a seasoned technology leader with extensive experience in building and managing large-scale engineering teams. His expertise in distributed systems and offshore development models has been instrumental in creating The Scalers' unique approach to team building."
+      bio: "Deepak is a seasoned technology leader with extensive experience in building and managing large-scale engineering teams. His expertise in distributed systems and offshore development models has been instrumental in creating H2's unique approach to team building."
     },
     {
       name: "Ryan Choon",
       role: "VP Operations",
       image: "/placeholder.svg",
-      bio: "Ryan oversees all operational aspects of The Scalers, ensuring smooth delivery and exceptional client experience. With his background in project management and business operations, he ensures that our teams deliver consistent, high-quality results."
+      bio: "Ryan oversees all operational aspects of H2, ensuring smooth delivery and exceptional client experience. With his background in project management and business operations, he ensures that our teams deliver consistent, high-quality results."
     },
     {
       name: "Monica Antanacci",
@@ -52,7 +52,7 @@ const Leadership = () => {
               Leadership
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Meet the team that steers The Scalers
+              Meet the team that steers H2
             </p>
           </div>
         </div>
@@ -163,7 +163,7 @@ const Leadership = () => {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="text-6xl text-navy-foreground/20 mb-6">"</div>
           <blockquote className="text-2xl lg:text-3xl font-medium mb-8">
-            At The Scalers, we believe people build amazing companies, not the reverse. 
+            At H2, we believe people build amazing companies, not the reverse. 
             Our job is to find the best people and help them build the future.
           </blockquote>
           <div className="flex items-center justify-center space-x-4">
@@ -180,12 +180,12 @@ const Leadership = () => {
         </div>
       </section>
 
-      {/* Life at The Scalers / Read more about The Scalers */}
+      {/* Life at H2 / Read more about H2 */}
       <section className="py-24 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <div className="text-sm font-medium text-muted-foreground mb-4 tracking-wider uppercase">
-              READ MORE ABOUT THE SCALERS
+              READ MORE ABOUT H2
             </div>
           </div>
 
@@ -193,7 +193,7 @@ const Leadership = () => {
             <Card className="p-0 overflow-hidden">
               <img 
                 src="/lovable-uploads/ad17ffa6-5e2e-4ba7-bacb-df7a6d76d25e.png" 
-                alt="About Us - The Scalers team"
+                alt="About Us - H2 team"
                 className="w-full h-64 object-cover"
               />
               <div className="p-8">
@@ -215,7 +215,7 @@ const Leadership = () => {
             <Card className="p-0 overflow-hidden">
               <img 
                 src="/lovable-uploads/ad17ffa6-5e2e-4ba7-bacb-df7a6d76d25e.png" 
-                alt="Our model - The Scalers office"
+                alt="Our model - H2 office"
                 className="w-full h-64 object-cover"
               />
               <div className="p-8">

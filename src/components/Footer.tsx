@@ -57,7 +57,7 @@ const Footer = () => {
           {/* Company Info */}
           <div className="col-span-1">
             <div className="text-2xl font-bold text-background mb-6">
-              THE SCALERS
+              H2
             </div>
             <p className="text-sm text-background/70 mb-6 leading-relaxed">
               We scale your tech team with world-class engineers from Bangalore.
@@ -104,7 +104,7 @@ const Footer = () => {
 
         <div className="border-t border-background/20 mt-16 pt-12 text-center">
           <p className="text-sm text-background/60">
-            © 2024 The Scalers. All rights reserved.
+            © 2024 H2. All rights reserved.
           </p>
         </div>
       </div>

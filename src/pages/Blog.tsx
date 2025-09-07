@@ -103,7 +103,7 @@ const Blog = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-5xl lg:text-7xl font-bold text-foreground mb-8 leading-tight">
-              The Scalers Blog
+              H2 Blog
             </h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-12">
               Insights, trends, and best practices in offshore development, team building, and scaling technology organizations globally.

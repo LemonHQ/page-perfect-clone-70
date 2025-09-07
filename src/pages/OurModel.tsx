@@ -133,7 +133,7 @@ const OurModel = () => {
               <h3 className="text-2xl font-bold text-foreground">See the bigger picture</h3>
               <p className="text-muted-foreground leading-relaxed">
                 As VP of engineering you have <strong>open, direct, daily communication with your engineers 
-                in Bangalore</strong> and weekly reports from The Scalers. Our model allows you to smoothly 
+                in Bangalore</strong> and weekly reports from H2. Our model allows you to smoothly 
                 oversee their projects remotely and make sure that every task is on track.
               </p>
             </div>
@@ -209,7 +209,7 @@ const OurModel = () => {
                   <th className="text-left py-6 px-4 font-medium text-foreground"></th>
                   <th className="text-center py-6 px-4 font-semibold text-foreground">Hiring locally</th>
                   <th className="text-center py-6 px-4 font-semibold text-foreground">Traditional Offshoring</th>
-                  <th className="text-center py-6 px-4 font-semibold text-foreground">The Scalers' Model</th>
+                  <th className="text-center py-6 px-4 font-semibold text-foreground">H2's Model</th>
                 </tr>
               </thead>
               <tbody>

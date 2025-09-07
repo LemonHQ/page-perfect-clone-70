@@ -251,7 +251,7 @@ const MarTech = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <div className="text-sm font-medium text-muted-foreground mb-4 tracking-wider uppercase">
-              WHY CHOOSE THE SCALERS
+              WHY CHOOSE H2
             </div>
             <h2 className="text-4xl lg:text-6xl font-bold text-foreground mb-8 leading-tight">
               The smarter way to scale
@@ -429,7 +429,7 @@ const MarTech = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
               <div className="text-sm font-medium text-muted-foreground mb-4 tracking-wider uppercase">
-                WHY THE SCALERS?
+                WHY H2?
               </div>
               <h2 className="text-4xl lg:text-6xl font-bold text-foreground mb-12 leading-tight">
                 Your trusted partner for MarTech talent

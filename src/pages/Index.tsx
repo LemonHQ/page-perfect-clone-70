@@ -150,7 +150,7 @@ const Index = () => {
               </h2>
               <p className="text-lg text-muted-foreground mb-12 leading-relaxed">
                 Leverage our proven approach to <strong>expand your software development capacity and deliver at speed</strong>. 
-                The Scalers is your partner on the ground that assembles your team, acquires and sets up your premises, 
+                H2 is your partner on the ground that assembles your team, acquires and sets up your premises, 
                 and supports your mission in Bangalore.
               </p>
               <Button 
@@ -564,7 +564,7 @@ const Index = () => {
             </div>
             
             <blockquote className="text-2xl lg:text-3xl font-medium text-center text-navy-foreground mb-8 italic">
-              Building our engineering team with The Scalers has been a success, and I don't say that lightly!
+              Building our engineering team with H2 has been a success, and I don't say that lightly!
             </blockquote>
             
             <div className="flex items-center justify-center">

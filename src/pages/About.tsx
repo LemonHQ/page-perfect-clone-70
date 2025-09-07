@@ -20,7 +20,7 @@ const About = () => {
         </div>
       </section>
 
-      {/* We are The Scalers */}
+      {/* We are H2 */}
       <section className="py-24 bg-gradient-to-br from-turquoise-light to-turquoise">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
@@ -38,7 +38,7 @@ const About = () => {
             <div className="flex justify-center">
               <img 
                 src="/lovable-uploads/a3c5b93c-cf82-4bcb-a55d-1312483f4fd1.png" 
-                alt="The Scalers team founders"
+                alt="H2 team founders"
                 className="w-full max-w-md h-auto object-cover rounded-lg"
               />
             </div>
@@ -95,7 +95,7 @@ const About = () => {
             <div className="relative">
               <img 
                 src="/lovable-uploads/527369ee-8c20-40ca-949b-7e4c431913ce.png" 
-                alt="The Scalers team celebrating"
+                alt="H2 team celebrating"
                 className="w-full h-auto object-cover rounded-lg"
               />
             </div>
@@ -107,7 +107,7 @@ const About = () => {
                 Why we're here
               </h2>
               <p className="text-xl text-navy/80 mb-8 leading-relaxed">
-                Our founder Emilien Coquard came to India in 2011, where he was managing a development centre of a French company. On the one hand, he was impressed to see the level of talent people had, and on the other he was frustrated to see how poor the environment was for Indian engineers working in services companies. So, he decided to create <span className="font-bold text-navy">a company where the engineers would be in the centre of everything.</span> That's how The Scalers was born.
+                Our founder Emilien Coquard came to India in 2011, where he was managing a development centre of a French company. On the one hand, he was impressed to see the level of talent people had, and on the other he was frustrated to see how poor the environment was for Indian engineers working in services companies. So, he decided to create <span className="font-bold text-navy">a company where the engineers would be in the centre of everything.</span> That's how H2 was born.
               </p>
             </div>
           </div>
@@ -169,7 +169,7 @@ const About = () => {
               </div>
               <h3 className="text-3xl font-bold text-foreground mb-6">Transparency</h3>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Everyone at The Scalers is encouraged to <span className="font-bold text-foreground">give feedback without fear of judgement.</span> Open and honest dialogue is how we move forward as one unified team.
+                Everyone at H2 is encouraged to <span className="font-bold text-foreground">give feedback without fear of judgement.</span> Open and honest dialogue is how we move forward as one unified team.
               </p>
             </div>
 
@@ -201,7 +201,7 @@ const About = () => {
               </div>
               <h3 className="text-3xl font-bold text-foreground mb-6">Inclusivity</h3>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Everyone is a part of The Scalers family no matter where they're from. <span className="font-bold text-foreground">Diversity is more than a slogan at The Scalers,</span> it's a commitment and what makes us, us.
+                Everyone is a part of H2 family no matter where they're from. <span className="font-bold text-foreground">Diversity is more than a slogan at H2,</span> it's a commitment and what makes us, us.
               </p>
             </div>
           </div>
@@ -220,7 +220,7 @@ const About = () => {
                 Behind the scenes
               </h2>
               <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-                We wouldn't be able to talk the talk when it comes to your company culture if we didn't walk the walk ourselves. <span className="font-bold text-foreground">We love what we do and believe that what makes us different makes us stronger</span> — and our unique blend of backgrounds makes The Scalers a truly dynamic place to work.
+                We wouldn't be able to talk the talk when it comes to your company culture if we didn't walk the walk ourselves. <span className="font-bold text-foreground">We love what we do and believe that what makes us different makes us stronger</span> — and our unique blend of backgrounds makes H2 a truly dynamic place to work.
               </p>
               <p className="text-xl text-muted-foreground mb-12 leading-relaxed">
                 We love how each new hire adds to our culture. And, <span className="text-turquoise font-bold underline cursor-pointer">we're hiring</span>.
@@ -286,12 +286,12 @@ const About = () => {
         </div>
       </section>
 
-      {/* Read more about The Scalers */}
+      {/* Read more about H2 */}
       <section className="py-24 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <div className="text-sm font-medium text-muted-foreground mb-4 tracking-wider uppercase">
-              READ MORE ABOUT THE SCALERS
+              READ MORE ABOUT H2
             </div>
           </div>
 
@@ -299,7 +299,7 @@ const About = () => {
             <Card className="p-0 overflow-hidden">
               <img 
                 src="/lovable-uploads/2230665e-c5ff-4f83-9e9f-098ee024b3cf.png" 
-                alt="The Scalers office logo"
+                alt="H2 office logo"
                 className="w-full h-64 object-cover"
               />
               <div className="p-8">
@@ -522,7 +522,7 @@ const About = () => {
             Ready to scale your team?
           </h2>
           <p className="text-xl mb-12 text-background/80 leading-relaxed">
-            Join the growing number of companies that trust The Scalers with their offshore development needs
+            Join the growing number of companies that trust H2 with their offshore development needs
           </p>
           <Button 
             size="lg"
