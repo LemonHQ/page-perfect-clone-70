@@ -59,30 +59,55 @@ const Index = () => {
               TRUSTED BY
             </h3>
           </div>
-          <div className="overflow-x-auto">
-            <div className="flex items-center justify-center gap-12 min-w-max px-4">
-              <div className="text-2xl font-bold text-muted-foreground/60 hover:text-muted-foreground transition-colors whitespace-nowrap">
+          <div className="overflow-hidden">
+            <div className="flex items-center gap-12 animate-scroll whitespace-nowrap">
+              <div className="text-2xl font-bold text-muted-foreground/60 hover:text-muted-foreground transition-colors">
                 MICROSOFT
               </div>
-              <div className="text-2xl font-bold text-muted-foreground/60 hover:text-muted-foreground transition-colors whitespace-nowrap">
+              <div className="text-2xl font-bold text-muted-foreground/60 hover:text-muted-foreground transition-colors">
                 FLIPKART
               </div>
-              <div className="text-2xl font-bold text-muted-foreground/60 hover:text-muted-foreground transition-colors whitespace-nowrap">
+              <div className="text-2xl font-bold text-muted-foreground/60 hover:text-muted-foreground transition-colors">
                 OPTUM
               </div>
-              <div className="text-2xl font-bold text-muted-foreground/60 hover:text-muted-foreground transition-colors whitespace-nowrap">
+              <div className="text-2xl font-bold text-muted-foreground/60 hover:text-muted-foreground transition-colors">
                 SWIGGY
               </div>
-              <div className="text-2xl font-bold text-muted-foreground/60 hover:text-muted-foreground transition-colors whitespace-nowrap">
+              <div className="text-2xl font-bold text-muted-foreground/60 hover:text-muted-foreground transition-colors">
                 NASSCOM
               </div>
-              <div className="text-2xl font-bold text-muted-foreground/60 hover:text-muted-foreground transition-colors whitespace-nowrap">
+              <div className="text-2xl font-bold text-muted-foreground/60 hover:text-muted-foreground transition-colors">
                 PREQIN
               </div>
-              <div className="text-2xl font-bold text-muted-foreground/60 hover:text-muted-foreground transition-colors whitespace-nowrap">
+              <div className="text-2xl font-bold text-muted-foreground/60 hover:text-muted-foreground transition-colors">
                 NEXTPOINT
               </div>
-              <div className="text-2xl font-bold text-muted-foreground/60 hover:text-muted-foreground transition-colors whitespace-nowrap">
+              <div className="text-2xl font-bold text-muted-foreground/60 hover:text-muted-foreground transition-colors">
+                YKONE
+              </div>
+              {/* Duplicate for seamless loop */}
+              <div className="text-2xl font-bold text-muted-foreground/60 hover:text-muted-foreground transition-colors">
+                MICROSOFT
+              </div>
+              <div className="text-2xl font-bold text-muted-foreground/60 hover:text-muted-foreground transition-colors">
+                FLIPKART
+              </div>
+              <div className="text-2xl font-bold text-muted-foreground/60 hover:text-muted-foreground transition-colors">
+                OPTUM
+              </div>
+              <div className="text-2xl font-bold text-muted-foreground/60 hover:text-muted-foreground transition-colors">
+                SWIGGY
+              </div>
+              <div className="text-2xl font-bold text-muted-foreground/60 hover:text-muted-foreground transition-colors">
+                NASSCOM
+              </div>
+              <div className="text-2xl font-bold text-muted-foreground/60 hover:text-muted-foreground transition-colors">
+                PREQIN
+              </div>
+              <div className="text-2xl font-bold text-muted-foreground/60 hover:text-muted-foreground transition-colors">
+                NEXTPOINT
+              </div>
+              <div className="text-2xl font-bold text-muted-foreground/60 hover:text-muted-foreground transition-colors">
                 YKONE
               </div>
             </div>
