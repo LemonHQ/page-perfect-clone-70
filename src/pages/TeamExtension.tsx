@@ -6,27 +6,27 @@ const TeamExtension = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-turquoise py-16 lg:py-24">
+      <section className="py-24 lg:py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
-              <h1 className="text-4xl lg:text-6xl font-bold text-turquoise-foreground mb-6">
+              <h1 className="text-5xl lg:text-7xl font-bold text-foreground mb-8 leading-tight">
                 Development Team Extension
               </h1>
-              <p className="text-xl text-turquoise-foreground/80 mb-8">
+              <p className="text-xl text-muted-foreground mb-12 leading-relaxed">
                 Extend your tech team with world-class talent
               </p>
               <Button 
                 size="lg"
-                className="bg-navy text-navy-foreground hover:bg-navy/90 font-semibold"
+                className="bg-foreground text-background hover:bg-foreground/90 font-medium px-8 py-4"
                 asChild
               >
                 <Link to="/contact">EXTEND YOUR TEAM</Link>
               </Button>
             </div>
-            <div className="bg-turquoise-light rounded-lg p-8 flex items-center justify-center">
+            <div className="bg-muted/30 rounded-lg p-12 flex items-center justify-center">
               <div className="w-full h-64 bg-background rounded-lg flex items-center justify-center">
-                <span className="text-foreground text-lg font-semibold">Team Extension Visual</span>
+                <span className="text-foreground text-lg font-medium">Team Extension Visual</span>
               </div>
             </div>
           </div>

@@ -6,27 +6,27 @@ const DedicatedTeam = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-turquoise py-16 lg:py-24">
+      <section className="py-24 lg:py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
-              <h1 className="text-4xl lg:text-6xl font-bold text-turquoise-foreground mb-6">
+              <h1 className="text-5xl lg:text-7xl font-bold text-foreground mb-8 leading-tight">
                 Dedicated Development Team
               </h1>
-              <p className="text-xl text-turquoise-foreground/80 mb-8">
+              <p className="text-xl text-muted-foreground mb-12 leading-relaxed">
                 Build your fully integrated team in Bangalore with world-class talent
               </p>
               <Button 
                 size="lg"
-                className="bg-navy text-navy-foreground hover:bg-navy/90 font-semibold"
+                className="bg-foreground text-background hover:bg-foreground/90 font-medium px-8 py-4"
                 asChild
               >
                 <Link to="/contact">GET STARTED</Link>
               </Button>
             </div>
-            <div className="bg-turquoise-light rounded-lg p-8 flex items-center justify-center">
+            <div className="bg-muted/30 rounded-lg p-12 flex items-center justify-center">
               <div className="w-full h-64 bg-background rounded-lg flex items-center justify-center">
-                <span className="text-foreground text-lg font-semibold">Dedicated Team Visual</span>
+                <span className="text-foreground text-lg font-medium">Dedicated Team Visual</span>
               </div>
             </div>
           </div>
@@ -34,38 +34,38 @@ const DedicatedTeam = () => {
       </section>
 
       {/* Features */}
-      <section className="py-16 bg-background">
+      <section className="py-24 bg-muted/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <Card className="p-6 text-center">
-              <div className="w-16 h-16 bg-turquoise rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-turquoise-foreground text-2xl">👥</span>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+            <Card className="p-8 text-center">
+              <div className="w-16 h-16 bg-foreground rounded-full flex items-center justify-center mx-auto mb-6">
+                <span className="text-background text-2xl">👥</span>
               </div>
-              <h3 className="font-semibold mb-2">World-class engineering</h3>
+              <h3 className="font-semibold mb-3">World-class engineering</h3>
               <p className="text-sm text-muted-foreground">Top 1% engineers from premier institutes</p>
             </Card>
 
-            <Card className="p-6 text-center">
-              <div className="w-16 h-16 bg-yellow rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-yellow-foreground text-2xl">⚡</span>
+            <Card className="p-8 text-center">
+              <div className="w-16 h-16 bg-foreground rounded-full flex items-center justify-center mx-auto mb-6">
+                <span className="text-background text-2xl">⚡</span>
               </div>
-              <h3 className="font-semibold mb-2">Blazing fast delivery</h3>
+              <h3 className="font-semibold mb-3">Blazing fast delivery</h3>
               <p className="text-sm text-muted-foreground">Accelerate your development timeline</p>
             </Card>
 
-            <Card className="p-6 text-center">
-              <div className="w-16 h-16 bg-navy rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-navy-foreground text-2xl">🔒</span>
+            <Card className="p-8 text-center">
+              <div className="w-16 h-16 bg-foreground rounded-full flex items-center justify-center mx-auto mb-6">
+                <span className="text-background text-2xl">🔒</span>
               </div>
-              <h3 className="font-semibold mb-2">Bulletproof engagement</h3>
+              <h3 className="font-semibold mb-3">Bulletproof engagement</h3>
               <p className="text-sm text-muted-foreground">Complete legal and operational coverage</p>
             </Card>
 
-            <Card className="p-6 text-center">
-              <div className="w-16 h-16 bg-turquoise rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-turquoise-foreground text-2xl">💬</span>
+            <Card className="p-8 text-center">
+              <div className="w-16 h-16 bg-foreground rounded-full flex items-center justify-center mx-auto mb-6">
+                <span className="text-background text-2xl">💬</span>
               </div>
-              <h3 className="font-semibold mb-2">Easy communication</h3>
+              <h3 className="font-semibold mb-3">Easy communication</h3>
               <p className="text-sm text-muted-foreground">Seamless collaboration across time zones</p>
             </Card>
           </div>

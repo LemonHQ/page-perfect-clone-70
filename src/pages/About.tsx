@@ -6,34 +6,34 @@ const About = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-turquoise py-16 lg:py-24">
+      <section className="py-24 lg:py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
-              <h1 className="text-4xl lg:text-6xl font-bold text-turquoise-foreground mb-6">
+              <h1 className="text-5xl lg:text-7xl font-bold text-foreground mb-8 leading-tight">
                 About Us
               </h1>
-              <p className="text-xl text-turquoise-foreground/80 mb-8">
+              <p className="text-xl text-muted-foreground mb-12 leading-relaxed">
                 Hello, 팀원들, Ciao다, Bonjour, We are The Scalers!
               </p>
-              <div className="grid grid-cols-3 gap-4 text-center">
-                <div className="bg-background rounded-lg p-4">
-                  <div className="text-2xl font-bold text-turquoise mb-2">1</div>
+              <div className="grid grid-cols-3 gap-6 text-center">
+                <div className="bg-muted/50 rounded-lg p-6">
+                  <div className="text-3xl font-bold text-foreground mb-2">1</div>
                   <p className="text-sm text-muted-foreground">Office in India</p>
                 </div>
-                <div className="bg-background rounded-lg p-4">
-                  <div className="text-2xl font-bold text-turquoise mb-2">47+</div>
+                <div className="bg-muted/50 rounded-lg p-6">
+                  <div className="text-3xl font-bold text-foreground mb-2">47+</div>
                   <p className="text-sm text-muted-foreground">Countries served</p>
                 </div>
-                <div className="bg-background rounded-lg p-4">
-                  <div className="text-2xl font-bold text-turquoise mb-2">3</div>
+                <div className="bg-muted/50 rounded-lg p-6">
+                  <div className="text-3xl font-bold text-foreground mb-2">3</div>
                   <p className="text-sm text-muted-foreground">Years in business</p>
                 </div>
               </div>
             </div>
-            <div className="bg-turquoise-light rounded-lg p-8 flex items-center justify-center">
+            <div className="bg-muted/30 rounded-lg p-12 flex items-center justify-center">
               <div className="w-full h-64 bg-background rounded-lg flex items-center justify-center">
-                <span className="text-foreground text-lg font-semibold">Global Presence Visual</span>
+                <span className="text-foreground text-lg font-medium">Global Presence Visual</span>
               </div>
             </div>
           </div>
@@ -41,28 +41,28 @@ const About = () => {
       </section>
 
       {/* We don't build software */}
-      <section className="py-16 bg-yellow">
+      <section className="py-24 bg-muted/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-bold text-yellow-foreground mb-6">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-8 leading-tight">
               We don't build software, we build teams who build software
             </h2>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="bg-yellow-light rounded-lg p-8 flex items-center justify-center">
-              <div className="w-full h-48 bg-background rounded-lg flex items-center justify-center">
-                <span className="text-foreground text-lg font-semibold">Team Building Philosophy</span>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div className="bg-background rounded-lg p-12 flex items-center justify-center">
+              <div className="w-full h-48 bg-muted/50 rounded-lg flex items-center justify-center">
+                <span className="text-foreground text-lg font-medium">Team Building Philosophy</span>
               </div>
             </div>
             <div>
-              <h3 className="text-2xl font-bold text-yellow-foreground mb-4">Why we're here</h3>
-              <p className="text-lg text-yellow-foreground/80 mb-6">
+              <h3 className="text-2xl font-bold text-foreground mb-6">Why we're here</h3>
+              <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
                 We believe that great software comes from great teams. Our mission is to connect 
                 global companies with India's finest engineering talent, creating partnerships 
                 that drive innovation and growth.
               </p>
-              <p className="text-lg text-yellow-foreground/80">
+              <p className="text-lg text-muted-foreground leading-relaxed">
                 Founded with the vision of making world-class engineering talent accessible to 
                 companies worldwide, we've helped over 130 organizations build their dream teams.
               </p>
@@ -72,20 +72,20 @@ const About = () => {
       </section>
 
       {/* How The Scalers took off */}
-      <section className="py-16 bg-background">
+      <section className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-4">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
               How The Scalers took off
             </h2>
           </div>
 
-          <div className="space-y-12">
+          <div className="space-y-16">
             {/* Timeline Item 1 */}
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
               <div className="lg:col-span-2">
-                <div className="w-24 h-24 bg-background rounded-lg border-2 border-turquoise flex items-center justify-center">
-                  <span className="text-turquoise text-lg font-semibold">2021</span>
+                <div className="w-24 h-24 bg-muted/50 rounded-lg border border-border flex items-center justify-center">
+                  <span className="text-foreground text-lg font-medium">2021</span>
                 </div>
               </div>
               <div className="lg:col-span-4">
@@ -96,8 +96,8 @@ const About = () => {
                 />
               </div>
               <div className="lg:col-span-6">
-                <h3 className="text-xl font-bold mb-3">The Beginning</h3>
-                <p className="text-muted-foreground">
+                <h3 className="text-xl font-bold mb-4">The Beginning</h3>
+                <p className="text-muted-foreground leading-relaxed">
                   Started with a simple idea: connecting global companies with India's best engineering talent 
                   through a transparent, people-first approach.
                 </p>
@@ -105,10 +105,10 @@ const About = () => {
             </div>
 
             {/* Timeline Item 2 */}
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
               <div className="lg:col-span-2 lg:order-3">
-                <div className="w-24 h-24 bg-background rounded-lg border-2 border-yellow flex items-center justify-center">
-                  <span className="text-yellow text-lg font-semibold">2022</span>
+                <div className="w-24 h-24 bg-muted/50 rounded-lg border border-border flex items-center justify-center">
+                  <span className="text-foreground text-lg font-medium">2022</span>
                 </div>
               </div>
               <div className="lg:col-span-4 lg:order-2">
@@ -119,8 +119,8 @@ const About = () => {
                 />
               </div>
               <div className="lg:col-span-6 lg:order-1">
-                <h3 className="text-xl font-bold mb-3">First Major Milestone</h3>
-                <p className="text-muted-foreground">
+                <h3 className="text-xl font-bold mb-4">First Major Milestone</h3>
+                <p className="text-muted-foreground leading-relaxed">
                   Established our first dedicated development center and successfully delivered 
                   our first 10 teams to clients across different industries.
                 </p>
@@ -128,10 +128,10 @@ const About = () => {
             </div>
 
             {/* Timeline Item 3 */}
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
               <div className="lg:col-span-2">
-                <div className="w-24 h-24 bg-background rounded-lg border-2 border-navy flex items-center justify-center">
-                  <span className="text-navy text-lg font-semibold">2023</span>
+                <div className="w-24 h-24 bg-muted/50 rounded-lg border border-border flex items-center justify-center">
+                  <span className="text-foreground text-lg font-medium">2023</span>
                 </div>
               </div>
               <div className="lg:col-span-4">
@@ -142,8 +142,8 @@ const About = () => {
                 />
               </div>
               <div className="lg:col-span-6">
-                <h3 className="text-xl font-bold mb-3">Scaling Success</h3>
-                <p className="text-muted-foreground">
+                <h3 className="text-xl font-bold mb-4">Scaling Success</h3>
+                <p className="text-muted-foreground leading-relaxed">
                   Reached 100+ successful team deployments and expanded to serve clients 
                   in 47+ countries worldwide.
                 </p>
@@ -151,10 +151,10 @@ const About = () => {
             </div>
 
             {/* More timeline items */}
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
               <div className="lg:col-span-2 lg:order-3">
-                <div className="w-24 h-24 bg-background rounded-lg border-2 border-turquoise flex items-center justify-center">
-                  <span className="text-turquoise text-lg font-semibold">2024</span>
+                <div className="w-24 h-24 bg-muted/50 rounded-lg border border-border flex items-center justify-center">
+                  <span className="text-foreground text-lg font-medium">2024</span>
                 </div>
               </div>
               <div className="lg:col-span-4 lg:order-2">
@@ -165,8 +165,8 @@ const About = () => {
                 />
               </div>
               <div className="lg:col-span-6 lg:order-1">
-                <h3 className="text-xl font-bold mb-3">Today & Beyond</h3>
-                <p className="text-muted-foreground">
+                <h3 className="text-xl font-bold mb-4">Today & Beyond</h3>
+                <p className="text-muted-foreground leading-relaxed">
                   Continuing to innovate in the offshore development space with 130+ teams delivered 
                   and a growing network of world-class engineering talent.
                 </p>
@@ -177,41 +177,41 @@ const About = () => {
       </section>
 
       {/* We're people people */}
-      <section className="py-16 bg-turquoise-light">
+      <section className="py-24 bg-muted/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-bold text-turquoise-foreground mb-4">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
               We're people people
             </h2>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <Card className="p-6 text-center">
-              <div className="w-16 h-16 bg-turquoise rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-turquoise-foreground text-2xl">🤝</span>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+            <Card className="p-8 text-center">
+              <div className="w-16 h-16 bg-foreground rounded-full flex items-center justify-center mx-auto mb-6">
+                <span className="text-background text-2xl">🤝</span>
               </div>
-              <h3 className="text-xl font-semibold mb-3">Transparency</h3>
-              <p className="text-muted-foreground">
+              <h3 className="text-xl font-semibold mb-4">Transparency</h3>
+              <p className="text-muted-foreground leading-relaxed">
                 Open communication and honest partnerships in everything we do
               </p>
             </Card>
 
-            <Card className="p-6 text-center">
-              <div className="w-16 h-16 bg-yellow rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-yellow-foreground text-2xl">🎯</span>
+            <Card className="p-8 text-center">
+              <div className="w-16 h-16 bg-foreground rounded-full flex items-center justify-center mx-auto mb-6">
+                <span className="text-background text-2xl">🎯</span>
               </div>
-              <h3 className="text-xl font-semibold mb-3">Empowerment</h3>
-              <p className="text-muted-foreground">
+              <h3 className="text-xl font-semibold mb-4">Empowerment</h3>
+              <p className="text-muted-foreground leading-relaxed">
                 Empowering both our clients and engineers to achieve their full potential
               </p>
             </Card>
 
-            <Card className="p-6 text-center">
-              <div className="w-16 h-16 bg-navy rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-navy-foreground text-2xl">🌟</span>
+            <Card className="p-8 text-center">
+              <div className="w-16 h-16 bg-foreground rounded-full flex items-center justify-center mx-auto mb-6">
+                <span className="text-background text-2xl">🌟</span>
               </div>
-              <h3 className="text-xl font-semibold mb-3">Integrity</h3>
-              <p className="text-muted-foreground">
+              <h3 className="text-xl font-semibold mb-4">Integrity</h3>
+              <p className="text-muted-foreground leading-relaxed">
                 Building long-term relationships based on trust and mutual respect
               </p>
             </Card>
@@ -220,34 +220,34 @@ const About = () => {
       </section>
 
       {/* Behind the scenes */}
-      <section className="py-16 bg-background">
+      <section className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
-              <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-6">
+              <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-8 leading-tight">
                 Behind the scenes
               </h2>
-              <p className="text-lg text-muted-foreground mb-8">
+              <p className="text-lg text-muted-foreground mb-12 leading-relaxed">
                 Our team combines deep technical expertise with a passion for building meaningful 
                 connections between global companies and Indian engineering talent.
               </p>
               <Button 
-                className="bg-turquoise text-turquoise-foreground hover:bg-turquoise/90"
+                className="bg-foreground text-background hover:bg-foreground/90 font-medium px-8 py-4"
                 asChild
               >
                 <Link to="/leadership">MEET OUR TEAM</Link>
               </Button>
             </div>
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-2 gap-6">
               <img 
                 src="/placeholder.svg" 
                 alt="Team at work" 
-                className="rounded-lg shadow-medium"
+                className="rounded-lg"
               />
               <img 
                 src="/placeholder.svg" 
                 alt="Office environment" 
-                className="rounded-lg shadow-medium"
+                className="rounded-lg"
               />
             </div>
           </div>
@@ -255,46 +255,46 @@ const About = () => {
       </section>
 
       {/* Our locations */}
-      <section className="py-16 bg-muted/30">
+      <section className="py-24 bg-muted/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-4">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
               Our locations
             </h2>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <Card className="p-6 text-center">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+            <Card className="p-8 text-center">
               <img 
                 src="/placeholder.svg" 
                 alt="Bangalore office" 
-                className="w-full h-32 object-cover rounded-lg mb-4"
+                className="w-full h-32 object-cover rounded-lg mb-6"
               />
-              <h3 className="text-xl font-semibold mb-2">Bangalore</h3>
+              <h3 className="text-xl font-semibold mb-3">Bangalore</h3>
               <p className="text-muted-foreground">
                 Our main development hub in India's Silicon Valley
               </p>
             </Card>
 
-            <Card className="p-6 text-center">
+            <Card className="p-8 text-center">
               <img 
                 src="/placeholder.svg" 
                 alt="Global reach" 
-                className="w-full h-32 object-cover rounded-lg mb-4"
+                className="w-full h-32 object-cover rounded-lg mb-6"
               />
-              <h3 className="text-xl font-semibold mb-2">Global</h3>
+              <h3 className="text-xl font-semibold mb-3">Global</h3>
               <p className="text-muted-foreground">
                 Serving clients across 47+ countries worldwide
               </p>
             </Card>
 
-            <Card className="p-6 text-center">
+            <Card className="p-8 text-center">
               <img 
                 src="/placeholder.svg" 
                 alt="Remote collaboration" 
-                className="w-full h-32 object-cover rounded-lg mb-4"
+                className="w-full h-32 object-cover rounded-lg mb-6"
               />
-              <h3 className="text-xl font-semibold mb-2">Remote</h3>
+              <h3 className="text-xl font-semibold mb-3">Remote</h3>
               <p className="text-muted-foreground">
                 Seamless remote collaboration capabilities
               </p>
@@ -304,17 +304,17 @@ const About = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-navy text-navy-foreground">
+      <section className="py-24 bg-foreground text-background">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl lg:text-4xl font-bold mb-6">
+          <h2 className="text-4xl lg:text-5xl font-bold mb-8 leading-tight">
             Set up a world-class tech team in Bangalore
           </h2>
-          <p className="text-xl mb-8 text-navy-foreground/80">
+          <p className="text-xl mb-12 text-background/80 leading-relaxed">
             Join the growing number of companies that trust The Scalers with their offshore development needs
           </p>
           <Button 
             size="lg"
-            className="bg-turquoise text-turquoise-foreground hover:bg-turquoise/90 font-semibold"
+            className="bg-background text-foreground hover:bg-background/90 font-medium px-8 py-4"
             asChild
           >
             <Link to="/contact">LET'S TALK</Link>
