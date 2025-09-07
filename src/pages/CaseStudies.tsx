@@ -244,40 +244,40 @@ const CaseStudies = () => {
               
               <div className="space-y-6 mb-8">
                 <div className="flex items-start space-x-4">
-                  <div className="w-8 h-8 bg-turquoise rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                    <span className="text-turquoise-foreground text-sm font-bold">1</span>
+                  <div className="w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1 bg-[D5BDAF] bg-[#d5bdaf]">
+                    <span className="text-sm font-bold text-slate-950">1</span>
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold text-turquoise mb-2">Tell us what you need</h3>
-                    <p className="text-navy-foreground/80">Fill in your details — your data is 100% confidential and secure</p>
+                    <h3 className="text-xl font-semibold mb-2 text-slate-950">Tell us what you need</h3>
+                    <p className="text-slate-950">Fill in your details — your data is 100% confidential and secure</p>
                   </div>
                 </div>
                 
                 <div className="flex items-start space-x-4">
-                  <div className="w-8 h-8 bg-turquoise rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                    <span className="text-turquoise-foreground text-sm font-bold">2</span>
+                  <div className="w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1 bg-[D5BDAF] bg-[#d5bdaf]">
+                    <span className="text-sm font-bold text-slate-950">2</span>
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold text-turquoise mb-2">Talk to our experts</h3>
-                    <p className="text-navy-foreground/80">One of our team members will contact you promptly for a brief discovery call</p>
+                    <h3 className="text-xl font-semibold mb-2 text-gray-950">Talk to our experts</h3>
+                    <p className="text-gray-950">One of our team members will contact you promptly for a brief discovery call</p>
                   </div>
                 </div>
                 
                 <div className="flex items-start space-x-4">
-                  <div className="w-8 h-8 bg-turquoise rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                    <span className="text-turquoise-foreground text-sm font-bold">3</span>
+                  <div className="w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1 bg-[#d5bdaf]">
+                    <span className="text-sm font-bold text-slate-950">3</span>
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold text-turquoise mb-2">Get a tailored proposal</h3>
-                    <p className="text-navy-foreground/80">We'll prepare a solution matched to your needs and timeline</p>
+                    <h3 className="text-xl font-semibold mb-2 text-gray-950">Get a tailored proposal</h3>
+                    <p className="text-gray-950">We'll prepare a solution matched to your needs and timeline</p>
                   </div>
                 </div>
               </div>
             </div>
             
-            <div className="bg-background rounded-lg p-8">
+            <div className="rounded-lg p-8 bg-[D5BDAF] bg-[#d5bdaf]">
               <div className="mb-6">
-                <div className="bg-turquoise text-turquoise-foreground px-4 py-2 rounded-full inline-block font-semibold">
+                <div className="text-turquoise-foreground px-4 py-2 rounded-full inline-block font-semibold bg-slate-950">
                   Let's talk
                 </div>
               </div>
@@ -297,20 +297,20 @@ const CaseStudies = () => {
                 
                 <div className="flex items-center space-x-4 text-sm text-muted-foreground">
                   <div className="flex items-center space-x-2">
-                    <div className="w-5 h-5 bg-turquoise rounded-full flex items-center justify-center">
+                    <div className="w-5 h-5 rounded-full flex items-center justify-center bg-slate-950">
                       <span className="text-white text-xs">✓</span>
                     </div>
-                    <span>100% confidential</span>
+                    <span className="text-gray-950">100% confidential</span>
                   </div>
                   <div className="flex items-center space-x-2">
-                    <div className="w-5 h-5 bg-turquoise rounded-full flex items-center justify-center">
+                    <div className="w-5 h-5 rounded-full flex items-center justify-center bg-slate-950">
                       <span className="text-white text-xs">✓</span>
                     </div>
-                    <span>We sign NDAs</span>
+                    <span className="text-gray-950">We sign NDAs</span>
                   </div>
                 </div>
                 
-                <p className="text-xs text-muted-foreground">
+                <p className="text-xs text-zinc-950">
                   To give you the content requested, we need to store and process your personal data. For information on how to unsubscribe, as well as our privacy practices and commitment to protecting your privacy, please review our Privacy Policy.
                 </p>
               </form>
