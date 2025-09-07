@@ -2,87 +2,76 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Link } from "react-router-dom";
 import { Calendar, Clock, ArrowRight } from "lucide-react";
-
 const CaseStudies = () => {
-  const caseStudies = [
-    {
-      id: 1,
-      title: "How Preqin scaled to a 450+ person R&D Centre in Bangalore",
-      company: "Preqin",
-      industry: "Financial Services",
-      excerpt: "In early 2018, Preqin realised it needed to expand its engineering capacity to enhance its flagship product offerings. See how they built a world-class R&D centre with 450+ professionals in Bangalore.",
-      image: "/placeholder.svg",
-      readTime: "8 min read",
-      date: "March 2024",
-      results: ["120+ Engineers and 300+ Data Team", "Launched and enhanced flagship product", "5,400 m² dedicated office space"],
-      tags: ["FinTech", "Scaling", "R&D"]
-    },
-    {
-      id: 2,
-      title: "MMC Finds Offshoring Model That Works",
-      company: "My Muscle Chef",
-      industry: "Food Technology",
-      excerpt: "Over the last 10 years, My Muscle Chef has grown from a niche startup into a national food giant. They needed a cost-effective way to increase engineering output while maintaining quality.",
-      image: "/placeholder.svg",
-      readTime: "10 min read",
-      date: "February 2024",
-      results: ["70% reduction in tech debt", "Cost-effective scaling", "Enhanced customer experience"],
-      tags: ["Food Tech", "Startup Growth", "Quality"]
-    },
-    {
-      id: 3,
-      title: "Integrated tech team helps PartyLite upgrade their ecommerce platform",
-      company: "PartyLite",
-      industry: "Retail & E-commerce",
-      excerpt: "PartyLite wanted to take the digitalisation of their candle retail and ecommerce business in-house. See how they built an integrated team of expert engineers.",
-      image: "/placeholder.svg",
-      readTime: "6 min read",
-      date: "January 2024",
-      results: ["12-person team of expert engineers", "2X increase in dev productivity", "$700,000 per year saved on external vendor"],
-      tags: ["E-commerce", "Retail Tech", "Cost Savings"]
-    },
-    {
-      id: 4,
-      title: "Offshore development team helps Smart&Geek to triple output",
-      company: "Smart&Geek",
-      industry: "Technology Services",
-      excerpt: "Smart&Geek needed to scale their development capabilities rapidly. Discover how our dedicated offshore development team helped them achieve 3x output growth.",
-      image: "/placeholder.svg",
-      readTime: "12 min read",
-      date: "December 2023",
-      results: ["Triple development output", "Dedicated offshore team", "Enhanced technical capabilities"],
-      tags: ["Tech Services", "Productivity", "Offshore"]
-    },
-    {
-      id: 5,
-      title: "FinTech Startup Scales from 5 to 100+ Engineers",
-      company: "Confidential Client",
-      industry: "Financial Technology",
-      excerpt: "A rapidly growing FinTech startup needed to scale their engineering team quickly to meet market demands while maintaining regulatory compliance.",
-      image: "/placeholder.svg",
-      readTime: "9 min read",
-      date: "November 2023",
-      results: ["100+ engineers in 18 months", "Regulatory compliance maintained", "3x faster product delivery"],
-      tags: ["FinTech", "Compliance", "Rapid Scaling"]
-    },
-    {
-      id: 6,
-      title: "Global E-commerce Platform: Multi-Region Expansion",
-      company: "Confidential Client",
-      industry: "E-commerce",
-      excerpt: "A leading e-commerce platform leveraged our expertise to expand into multiple new markets while building robust, scalable technology infrastructure.",
-      image: "/placeholder.svg",
-      readTime: "11 min read",
-      date: "October 2023",
-      results: ["Multi-region platform deployment", "99.9% uptime achieved", "50+ country expansion"],
-      tags: ["E-commerce", "Global Scale", "Infrastructure"]
-    }
-  ];
-
+  const caseStudies = [{
+    id: 1,
+    title: "How Preqin scaled to a 450+ person R&D Centre in Bangalore",
+    company: "Preqin",
+    industry: "Financial Services",
+    excerpt: "In early 2018, Preqin realised it needed to expand its engineering capacity to enhance its flagship product offerings. See how they built a world-class R&D centre with 450+ professionals in Bangalore.",
+    image: "/placeholder.svg",
+    readTime: "8 min read",
+    date: "March 2024",
+    results: ["120+ Engineers and 300+ Data Team", "Launched and enhanced flagship product", "5,400 m² dedicated office space"],
+    tags: ["FinTech", "Scaling", "R&D"]
+  }, {
+    id: 2,
+    title: "MMC Finds Offshoring Model That Works",
+    company: "My Muscle Chef",
+    industry: "Food Technology",
+    excerpt: "Over the last 10 years, My Muscle Chef has grown from a niche startup into a national food giant. They needed a cost-effective way to increase engineering output while maintaining quality.",
+    image: "/placeholder.svg",
+    readTime: "10 min read",
+    date: "February 2024",
+    results: ["70% reduction in tech debt", "Cost-effective scaling", "Enhanced customer experience"],
+    tags: ["Food Tech", "Startup Growth", "Quality"]
+  }, {
+    id: 3,
+    title: "Integrated tech team helps PartyLite upgrade their ecommerce platform",
+    company: "PartyLite",
+    industry: "Retail & E-commerce",
+    excerpt: "PartyLite wanted to take the digitalisation of their candle retail and ecommerce business in-house. See how they built an integrated team of expert engineers.",
+    image: "/placeholder.svg",
+    readTime: "6 min read",
+    date: "January 2024",
+    results: ["12-person team of expert engineers", "2X increase in dev productivity", "$700,000 per year saved on external vendor"],
+    tags: ["E-commerce", "Retail Tech", "Cost Savings"]
+  }, {
+    id: 4,
+    title: "Offshore development team helps Smart&Geek to triple output",
+    company: "Smart&Geek",
+    industry: "Technology Services",
+    excerpt: "Smart&Geek needed to scale their development capabilities rapidly. Discover how our dedicated offshore development team helped them achieve 3x output growth.",
+    image: "/placeholder.svg",
+    readTime: "12 min read",
+    date: "December 2023",
+    results: ["Triple development output", "Dedicated offshore team", "Enhanced technical capabilities"],
+    tags: ["Tech Services", "Productivity", "Offshore"]
+  }, {
+    id: 5,
+    title: "FinTech Startup Scales from 5 to 100+ Engineers",
+    company: "Confidential Client",
+    industry: "Financial Technology",
+    excerpt: "A rapidly growing FinTech startup needed to scale their engineering team quickly to meet market demands while maintaining regulatory compliance.",
+    image: "/placeholder.svg",
+    readTime: "9 min read",
+    date: "November 2023",
+    results: ["100+ engineers in 18 months", "Regulatory compliance maintained", "3x faster product delivery"],
+    tags: ["FinTech", "Compliance", "Rapid Scaling"]
+  }, {
+    id: 6,
+    title: "Global E-commerce Platform: Multi-Region Expansion",
+    company: "Confidential Client",
+    industry: "E-commerce",
+    excerpt: "A leading e-commerce platform leveraged our expertise to expand into multiple new markets while building robust, scalable technology infrastructure.",
+    image: "/placeholder.svg",
+    readTime: "11 min read",
+    date: "October 2023",
+    results: ["Multi-region platform deployment", "99.9% uptime achieved", "50+ country expansion"],
+    tags: ["E-commerce", "Global Scale", "Infrastructure"]
+  }];
   const industries = ["All", "Financial Services", "Food Technology", "Retail & E-commerce", "Technology Services", "Financial Technology"];
-
-  return (
-    <div className="min-h-screen">
+  return <div className="min-h-screen">
       {/* Hero Section */}
       <section className="py-24 lg:py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -118,15 +107,9 @@ const CaseStudies = () => {
       <section className="py-12 bg-background border-b border-border">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-wrap gap-4 justify-center">
-            {industries.map((industry) => (
-              <Button
-                key={industry}
-                variant={industry === "All" ? "default" : "outline"}
-                className={industry === "All" ? "bg-turquoise text-turquoise-foreground hover:bg-turquoise/90" : "border-muted-foreground text-muted-foreground hover:bg-muted hover:text-foreground"}
-              >
+            {industries.map(industry => <Button key={industry} variant={industry === "All" ? "default" : "outline"} className={industry === "All" ? "bg-turquoise text-turquoise-foreground hover:bg-turquoise/90" : "border-muted-foreground text-muted-foreground hover:bg-muted hover:text-foreground"}>
                 {industry}
-              </Button>
-            ))}
+              </Button>)}
           </div>
         </div>
       </section>
@@ -143,11 +126,7 @@ const CaseStudies = () => {
           <Card className="overflow-hidden">
             <div className="grid grid-cols-1 lg:grid-cols-2">
               <div className="relative h-64 lg:h-full">
-                <img 
-                  src={caseStudies[0].image}
-                  alt={caseStudies[0].company}
-                  className="w-full h-full object-cover"
-                />
+                <img src={caseStudies[0].image} alt={caseStudies[0].company} className="w-full h-full object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-r from-navy/20 to-transparent" />
               </div>
               <div className="p-8 lg:p-12">
@@ -173,12 +152,10 @@ const CaseStudies = () => {
                 <div className="space-y-2 mb-8">
                   <h3 className="font-semibold text-foreground">Key Results:</h3>
                   <ul className="space-y-1">
-                    {caseStudies[0].results.map((result, index) => (
-                      <li key={index} className="text-muted-foreground flex items-center gap-2">
+                    {caseStudies[0].results.map((result, index) => <li key={index} className="text-muted-foreground flex items-center gap-2">
                         <div className="w-2 h-2 bg-turquoise rounded-full" />
                         {result}
-                      </li>
-                    ))}
+                      </li>)}
                   </ul>
                 </div>
                 <Button className="bg-turquoise text-turquoise-foreground hover:bg-turquoise/90 group">
@@ -204,14 +181,9 @@ const CaseStudies = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {caseStudies.slice(1).map((study) => (
-              <Card key={study.id} className="overflow-hidden hover:shadow-lg transition-shadow group">
+            {caseStudies.slice(1).map(study => <Card key={study.id} className="overflow-hidden hover:shadow-lg transition-shadow group">
                 <div className="relative h-48">
-                  <img 
-                    src={study.image}
-                    alt={study.company}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                  />
+                  <img src={study.image} alt={study.company} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
                   <div className="absolute top-4 left-4">
                     <span className="bg-background/90 text-foreground px-2 py-1 rounded text-sm font-medium">
                       {study.industry}
@@ -238,27 +210,22 @@ const CaseStudies = () => {
                   <div className="space-y-2 mb-4">
                     <h4 className="font-semibold text-sm text-foreground">Key Results:</h4>
                     <ul className="space-y-1">
-                      {study.results.slice(0, 2).map((result, index) => (
-                        <li key={index} className="text-xs text-muted-foreground flex items-center gap-2">
+                      {study.results.slice(0, 2).map((result, index) => <li key={index} className="text-xs text-muted-foreground flex items-center gap-2">
                           <div className="w-1.5 h-1.5 bg-turquoise rounded-full" />
                           {result}
-                        </li>
-                      ))}
+                        </li>)}
                     </ul>
                   </div>
                   <div className="flex flex-wrap gap-2 mb-4">
-                    {study.tags.map((tag) => (
-                      <span key={tag} className="bg-muted text-muted-foreground px-2 py-1 rounded-full text-xs">
+                    {study.tags.map(tag => <span key={tag} className="bg-muted text-muted-foreground px-2 py-1 rounded-full text-xs">
                         {tag}
-                      </span>
-                    ))}
+                      </span>)}
                   </div>
                   <Button variant="outline" className="w-full group-hover:bg-turquoise group-hover:text-turquoise-foreground group-hover:border-turquoise transition-all">
                     Read Case Study
                   </Button>
                 </div>
-              </Card>
-            ))}
+              </Card>)}
           </div>
         </div>
       </section>
@@ -316,38 +283,15 @@ const CaseStudies = () => {
               </div>
               
               <form className="space-y-4">
-                <input 
-                  type="text" 
-                  placeholder="Full name*" 
-                  className="w-full p-3 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-turquoise"
-                />
+                <input type="text" placeholder="Full name*" className="w-full p-3 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-turquoise" />
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                  <input 
-                    type="email" 
-                    placeholder="Business email*" 
-                    className="w-full p-3 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-turquoise"
-                  />
-                  <input 
-                    type="tel" 
-                    placeholder="Phone number*" 
-                    className="w-full p-3 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-turquoise"
-                  />
+                  <input type="email" placeholder="Business email*" className="w-full p-3 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-turquoise" />
+                  <input type="tel" placeholder="Phone number*" className="w-full p-3 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-turquoise" />
                 </div>
-                <input 
-                  type="text" 
-                  placeholder="Company name*" 
-                  className="w-full p-3 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-turquoise"
-                />
-                <textarea 
-                  placeholder="Message*" 
-                  rows={4}
-                  className="w-full p-3 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-turquoise"
-                ></textarea>
+                <input type="text" placeholder="Company name*" className="w-full p-3 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-turquoise" />
+                <textarea placeholder="Message*" rows={4} className="w-full p-3 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-turquoise"></textarea>
                 
-                <Button 
-                  type="submit"
-                  className="w-full bg-foreground text-background hover:bg-foreground/90 font-semibold py-3 rounded-full"
-                >
+                <Button type="submit" className="w-full bg-foreground text-background hover:bg-foreground/90 font-semibold py-3 rounded-full">
                   SEND NOW →
                 </Button>
                 
@@ -376,25 +320,7 @@ const CaseStudies = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-background">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-foreground">
-            Ready to write your success story?
-          </h2>
-          <p className="text-xl text-muted-foreground mb-8">
-            Join the companies that have transformed their development capabilities with The Scalers
-          </p>
-          <Button 
-            size="lg"
-            className="bg-turquoise text-turquoise-foreground hover:bg-turquoise/90 font-semibold px-8 py-4"
-            asChild
-          >
-            <Link to="/contact">START YOUR PROJECT</Link>
-          </Button>
-        </div>
-      </section>
-    </div>
-  );
+      
+    </div>;
 };
-
 export default CaseStudies;
