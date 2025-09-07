@@ -466,9 +466,9 @@ const DedicatedTeam = () => {
               </div>
             </div>
             <div>
-              <h2 className="text-4xl lg:text-5xl font-bold text-yellow-foreground mb-6 leading-tight">
-                Scaling innovation: Preqin case study
-              </h2>
+            <h2 className="text-4xl font-medium text-yellow-foreground leading-[1.3] mb-6">
+              Scaling innovation: Preqin case study
+            </h2>
               <p className="text-xl text-yellow-foreground/90 mb-8">
                 How we helped Preqin establish a 450+ person global R&D centre in India
               </p>
