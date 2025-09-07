@@ -92,7 +92,7 @@ const OffshoreCenter = () => {
       <section className="py-16 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-           <h2>
+            <h2 className="h2 mb-4">
               You're in good company
             </h2>
           </div>
@@ -146,7 +146,7 @@ const OffshoreCenter = () => {
       <section className="py-16 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2>
+            <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-4">
               Powering your development operations
             </h2>
           </div>

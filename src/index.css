@@ -119,113 +119,68 @@
     line-height: 1.7;
   }
 
-  /* Typography Hierarchy - Noto Sans System */
-  
-  /* Primary Text Colors */
-  :root {
-    --text-primary: 0 0% 0%;        /* #000000 Black */
-    --text-on-dark: 0 0% 100%;      /* #FFFFFF White */  
-    --text-muted: 0 0% 40%;         /* #666666 Gray 600 */
-  }
-  
-  .dark {
-    --text-primary: 0 0% 100%;      /* White on dark mode */
-    --text-on-dark: 0 0% 0%;        /* Black on dark mode */
-  }
-  
-  /* Typography Classes */
+  /* Typography Hierarchy - Noto Sans */
   .h1 {
-    @apply font-semibold;
+    @apply text-5xl font-semibold leading-[1.2] text-black;
     font-size: 48px;
-    line-height: 1.2;
-    color: hsl(var(--text-primary));
   }
   
   .h2 {
-    @apply font-medium;
+    @apply text-4xl font-medium leading-[1.3] text-black;
     font-size: 36px;
-    line-height: 1.3;
-    color: hsl(var(--text-primary));
   }
   
   .h3 {
-    @apply font-medium;
+    @apply text-3xl font-medium leading-[1.3] text-black;
     font-size: 28px;
-    line-height: 1.3;
-    color: hsl(var(--text-primary));
   }
   
   .h4 {
-    @apply font-normal;
+    @apply text-2xl font-normal leading-[1.4] text-black;
     font-size: 22px;
-    line-height: 1.4;
-    color: hsl(var(--text-primary));
   }
   
   .h5 {
-    @apply font-normal;
+    @apply text-lg font-normal leading-[1.4] text-black;
     font-size: 18px;
-    line-height: 1.4;
-    color: hsl(var(--text-primary));
   }
   
   .h6 {
-    @apply font-medium;
+    @apply text-base font-medium leading-[1.4] text-black;
     font-size: 16px;
-    line-height: 1.4;
-    color: hsl(var(--text-primary));
   }
   
   .body-text {
-    @apply font-normal;
+    @apply text-base font-normal leading-[1.5] text-black;
     font-size: 16px;
-    line-height: 1.5;
-    color: hsl(var(--text-primary));
   }
   
   .caption {
-    @apply font-normal;
+    @apply text-sm font-normal leading-[1.4] text-black;
     font-size: 12px;
-    line-height: 1.4;
-    color: hsl(var(--text-muted));
   }
   
   .button-text {
-    @apply font-medium;
+    @apply text-sm font-medium leading-[1.4] text-black;
     font-size: 14px;
-    line-height: 1.4;
-    color: hsl(var(--text-primary));
   }
   
-  /* Text Color Utilities */
   .text-muted {
-    color: hsl(var(--text-muted));
-  }
-  
-  .text-on-dark {
-    color: hsl(var(--text-on-dark));
+    color: #666666;
   }
 
-  /* Responsive Typography - Mobile (≤768px) */
+  /* Responsive Typography - Mobile */
   @media (max-width: 768px) {
     .h1 {
-      font-size: 40px;  /* ~17% smaller (48px → 40px) */
+      font-size: 40px; /* ~15% smaller */
     }
     
     .h2 {
-      font-size: 31px;  /* ~14% smaller (36px → 31px) */
+      font-size: 28px; /* ~22% smaller */
     }
     
     .h3 {
-      font-size: 24px;  /* ~14% smaller (28px → 24px) */
-    }
-    
-    .h4 {
-      font-size: 19px;  /* ~14% smaller (22px → 19px) */
-    }
-    
-    .h5 {
-      font-size: 16px;  /* ~11% smaller (18px → 16px) */
+      font-size: 24px; /* ~14% smaller */
     }
   }
 

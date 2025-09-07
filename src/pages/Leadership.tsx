@@ -122,7 +122,7 @@ const Leadership = () => {
       <section className="py-16 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-           <h2>
+            <h2 className="h2 mb-4">
               The people that propel us forward
             </h2>
           </div>
@@ -265,7 +265,7 @@ const Leadership = () => {
               <div className="text-sm font-semibold text-foreground/70 tracking-wide mb-4">
                 FROM 5 TO 100+ ENGINEERS
               </div>
-             <h2>
+              <h2 className="text-4xl lg:text-5xl font-bold mb-8">
                 Set up a world-class tech team in Bangalore
               </h2>
               
@@ -373,7 +373,7 @@ const Leadership = () => {
       <section className="py-24 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-           <h2>
+            <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-8">
               Our locations
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
@@ -412,7 +412,7 @@ const Leadership = () => {
       {/* CTA Section */}
       <section className="py-16 bg-panel-medium text-background">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2>
+          <h2 className="text-3xl lg:text-4xl font-bold mb-6">
             Ready to meet the team?
           </h2>
           <p className="text-xl mb-8 text-background/80">

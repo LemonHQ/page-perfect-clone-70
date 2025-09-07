@@ -143,7 +143,7 @@ const CaseStudies = () => {
                     {caseStudies[0].date}
                   </span>
                 </div>
-                <h2>
+                <h2 className="text-3xl font-bold text-foreground mb-4">
                   {caseStudies[0].title}
                 </h2>
                 <p className="text-lg text-muted-foreground mb-6">
@@ -172,7 +172,7 @@ const CaseStudies = () => {
       <section className="py-16 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2>
+            <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-4">
               All Case Studies
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -238,7 +238,7 @@ const CaseStudies = () => {
               <div className="text-sm font-semibold text-navy-foreground/70 tracking-wide mb-4">
                 FROM 5 TO 100+ ENGINEERS
               </div>
-             <h2>
+              <h2 className="text-4xl lg:text-5xl font-bold mb-8">
                 Set up a world-class tech team in Bangalore
               </h2>
               
