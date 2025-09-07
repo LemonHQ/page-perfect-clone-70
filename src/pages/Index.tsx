@@ -52,14 +52,40 @@ const Index = () => {
       </section>
 
       {/* Company Logos */}
-      <section className="py-12 bg-background">
+      <section className="py-16 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-wrap justify-center items-center gap-8 opacity-60">
-            <div className="text-2xl font-bold text-muted-foreground">MICROSOFT</div>
-            <div className="text-2xl font-bold text-muted-foreground">FLIPKART</div>
-            <div className="text-2xl font-bold text-muted-foreground">OPTUM</div>
-            <div className="text-2xl font-bold text-muted-foreground">SWIGGY</div>
-            <div className="text-2xl font-bold text-muted-foreground">NASSCOM</div>
+          <div className="text-center mb-12">
+            <h3 className="text-sm font-semibold text-muted-foreground tracking-wide uppercase mb-8">
+              TRUSTED BY
+            </h3>
+          </div>
+          <div className="overflow-x-auto">
+            <div className="flex items-center justify-center gap-12 min-w-max px-4">
+              <div className="text-2xl font-bold text-muted-foreground/60 hover:text-muted-foreground transition-colors whitespace-nowrap">
+                MICROSOFT
+              </div>
+              <div className="text-2xl font-bold text-muted-foreground/60 hover:text-muted-foreground transition-colors whitespace-nowrap">
+                FLIPKART
+              </div>
+              <div className="text-2xl font-bold text-muted-foreground/60 hover:text-muted-foreground transition-colors whitespace-nowrap">
+                OPTUM
+              </div>
+              <div className="text-2xl font-bold text-muted-foreground/60 hover:text-muted-foreground transition-colors whitespace-nowrap">
+                SWIGGY
+              </div>
+              <div className="text-2xl font-bold text-muted-foreground/60 hover:text-muted-foreground transition-colors whitespace-nowrap">
+                NASSCOM
+              </div>
+              <div className="text-2xl font-bold text-muted-foreground/60 hover:text-muted-foreground transition-colors whitespace-nowrap">
+                PREQIN
+              </div>
+              <div className="text-2xl font-bold text-muted-foreground/60 hover:text-muted-foreground transition-colors whitespace-nowrap">
+                NEXTPOINT
+              </div>
+              <div className="text-2xl font-bold text-muted-foreground/60 hover:text-muted-foreground transition-colors whitespace-nowrap">
+                YKONE
+              </div>
+            </div>
           </div>
         </div>
       </section>
