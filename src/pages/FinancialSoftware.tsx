@@ -1,10 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Link } from "react-router-dom";
-
 const FinancialSoftware = () => {
-  return (
-    <div className="min-h-screen">
+  return <div className="min-h-screen">
       {/* Hero Section */}
       <section className="py-24 lg:py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -98,10 +96,7 @@ const FinancialSoftware = () => {
                 the critical nature of financial data and regulatory requirements, ensuring your 
                 solutions meet the highest industry standards.
               </p>
-              <Button 
-                className="bg-navy text-navy-foreground hover:bg-navy/90"
-                asChild
-              >
+              <Button className="bg-navy text-navy-foreground hover:bg-navy/90" asChild>
                 <Link to="/contact">BUILD YOUR TEAM</Link>
               </Button>
             </div>
@@ -143,10 +138,7 @@ const FinancialSoftware = () => {
                 </div>
               </div>
 
-              <Button 
-                className="bg-turquoise text-turquoise-foreground hover:bg-turquoise/90"
-                asChild
-              >
+              <Button className="bg-turquoise text-turquoise-foreground hover:bg-turquoise/90" asChild>
                 <Link to="/dedicated-team">LEARN MORE</Link>
               </Button>
             </div>
@@ -229,25 +221,7 @@ const FinancialSoftware = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-navy text-navy-foreground">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl lg:text-4xl font-bold mb-6">
-            Build your FinTech team in Bangalore
-          </h2>
-          <p className="text-xl mb-8 text-navy-foreground/80">
-            Partner with India's top financial software development talent
-          </p>
-          <Button 
-            size="lg"
-            className="bg-turquoise text-turquoise-foreground hover:bg-turquoise/90 font-semibold"
-            asChild
-          >
-            <Link to="/contact">LET'S TALK</Link>
-          </Button>
-        </div>
-      </section>
-    </div>
-  );
+      
+    </div>;
 };
-
 export default FinancialSoftware;
