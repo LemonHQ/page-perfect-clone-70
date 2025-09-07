@@ -111,36 +111,51 @@ const OurModel = () => {
         </div>
       </section>
 
-      {/* The Real Value */}
-      <section className="py-24">
+      {/* Benefits - The Real Value */}
+      <section className="py-24 bg-muted/20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
+            <div className="text-sm font-semibold text-muted-foreground tracking-wide mb-4">
+              BENEFITS
+            </div>
             <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
               The real value
             </h2>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-            <Card className="p-8 text-center">
-              <h3 className="text-xl font-semibold mb-4 text-foreground">Every piece of mind</h3>
+            <div className="space-y-6">
+              <div className="w-16 h-1 bg-foreground"></div>
+              <div className="text-lg font-semibold text-foreground">CTO</div>
+              <h3 className="text-2xl font-bold text-foreground">Enjoy peace of mind</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Complete operational support and risk management so you can focus on growth
+                As CTO, a key priority is to ensure your product remains innovative and that your 
+                company stays ahead of the competition. With our model, <strong>your product team of 
+                technical experts deliver exceptional code to help you meet your strategic goals.</strong>
               </p>
-            </Card>
+            </div>
 
-            <Card className="p-8 text-center">
-              <h3 className="text-xl font-semibold mb-4 text-foreground">Get the bigger picture</h3>
+            <div className="space-y-6">
+              <div className="w-16 h-1 bg-foreground"></div>
+              <div className="text-lg font-semibold text-foreground">VP of Engineering</div>
+              <h3 className="text-2xl font-bold text-foreground">See the bigger picture</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Strategic insights and technical expertise to help you make better decisions
+                As VP of engineering you have <strong>open, direct, daily communication with your engineers 
+                in Bangalore</strong> and weekly reports from The Scalers. Our model allows you to smoothly 
+                oversee their projects remotely and make sure that every task is on track.
               </p>
-            </Card>
+            </div>
 
-            <Card className="p-8 text-center">
-              <h3 className="text-xl font-semibold mb-4 text-foreground">Collaborate easily</h3>
+            <div className="space-y-6">
+              <div className="w-16 h-1 bg-foreground"></div>
+              <div className="text-lg font-semibold text-foreground">Product Manager</div>
+              <h3 className="text-2xl font-bold text-foreground">Collaborate easily</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Seamless integration with your existing processes and development workflows
+                As PM, you work with your engineers in Bangalore as one team, using the <strong>same 
+                methodology and tools as with your team at home.</strong> You're in charge of the workflow 
+                and you have clear visibility of the daily progress of your developers' workload.
               </p>
-            </Card>
+            </div>
           </div>
         </div>
       </section>
