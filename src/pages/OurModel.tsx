@@ -1,6 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Link } from "react-router-dom";
+import developersCoding from "@/assets/developers-coding.jpg";
+import teamCollaboration from "@/assets/team-collaboration.jpg";
 
 const OurModel = () => {
   return (
@@ -155,6 +157,52 @@ const OurModel = () => {
                 methodology and tools as with your team at home.</strong> You're in charge of the workflow 
                 and you have clear visibility of the daily progress of your developers' workload.
               </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Proven Approach - The Real Results */}
+      <section className="py-24">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div>
+              <div className="text-sm font-semibold text-muted-foreground tracking-wide mb-4">
+                PROVEN APPROACH
+              </div>
+              <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-8">
+                The real results
+              </h2>
+              <p className="text-lg text-muted-foreground leading-relaxed mb-6">
+                Your offshore team is powered by our unique model — combining finely-tuned recruitment and 
+                managed operations with holistic cultural alignment. The result? <strong>Award-winning engineers 
+                that deliver award-winning products.</strong>
+              </p>
+            </div>
+            <div className="relative">
+              <div className="overflow-hidden rounded-lg">
+                <div className="flex animate-scroll-horizontal">
+                  <div className="flex-shrink-0 w-full">
+                    <img 
+                      src={developersCoding} 
+                      alt="Developer coding on laptop" 
+                      className="w-full h-80 object-cover rounded-lg"
+                    />
+                  </div>
+                  <div className="flex-shrink-0 w-full ml-4">
+                    <img 
+                      src={teamCollaboration} 
+                      alt="Team collaboration in office" 
+                      className="w-full h-80 object-cover rounded-lg"
+                    />
+                  </div>
+                </div>
+              </div>
+              {/* Navigation dots */}
+              <div className="flex justify-center mt-6 space-x-2">
+                <div className="w-2 h-2 bg-foreground rounded-full"></div>
+                <div className="w-2 h-2 bg-muted-foreground/40 rounded-full"></div>
+              </div>
             </div>
           </div>
         </div>
