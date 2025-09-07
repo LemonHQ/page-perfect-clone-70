@@ -13,6 +13,8 @@ import OffshoreCenter from "./pages/OffshoreCenter";
 import About from "./pages/About";
 import Leadership from "./pages/Leadership";
 import MarTech from "./pages/MarTech";
+import FinancialSoftware from "./pages/FinancialSoftware";
+import RetailEcommerce from "./pages/RetailEcommerce";
 import News from "./pages/News";
 import FAQ from "./pages/FAQ";
 import NotFound from "./pages/NotFound";
@@ -37,6 +39,8 @@ const App = () => (
               <Route path="/about" element={<About />} />
               <Route path="/leadership" element={<Leadership />} />
               <Route path="/martech" element={<MarTech />} />
+              <Route path="/financial-software" element={<FinancialSoftware />} />
+              <Route path="/retail-ecommerce" element={<RetailEcommerce />} />
               <Route path="/news" element={<News />} />
               <Route path="/faq" element={<FAQ />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

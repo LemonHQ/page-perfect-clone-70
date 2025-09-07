@@ -33,13 +33,13 @@ const Header = () => {
         industry: [
           { 
             name: "Financial Software Development", 
-            href: "/martech",
+            href: "/financial-software",
             description: "Scale your FinTech company with a dedicated tech team in India's tech capital",
             icon: "🏛️"
           },
           { 
             name: "Retail & Ecommerce Software Development", 
-            href: "/martech",
+            href: "/retail-ecommerce",
             description: "Deliver exceptional online and offline retail experiences with a dedicated team",
             icon: "🛒"
           },
