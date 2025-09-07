@@ -8,7 +8,7 @@ const Header = () => {
     { name: "Our Model", href: "/our-model" },
     { 
       name: "Solutions", 
-      href: "/solutions", 
+      href: "/dedicated-team", 
       megamenu: {
         businessNeed: [
           { 
@@ -53,11 +53,11 @@ const Header = () => {
       }
     },
     { name: "Case Studies", href: "/case-studies" },
-    { name: "Resources", href: "/resources", submenu: [
+    { name: "Resources", href: "/news", submenu: [
       { name: "News & Media", href: "/news" },
       { name: "FAQ", href: "/faq" }
     ]},
-    { name: "Company", href: "/company", submenu: [
+    { name: "Company", href: "/about", submenu: [
       { name: "About Us", href: "/about" },
       { name: "Leadership", href: "/leadership" }
     ]},
