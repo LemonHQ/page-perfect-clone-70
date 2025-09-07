@@ -14,7 +14,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
-              <h1 className="h1 mb-8">
+              <h1>
                 130+ world-class tech teams built in Bangalore
               </h1>
               <p className="body-text text-lg mb-12">
@@ -231,7 +231,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="h2 mb-6">
+              <h2>
                 Work with your offshore team in the same way as your one at home
               </h2>
             </div>
@@ -287,7 +287,7 @@ const Index = () => {
               <div className="h6 font-semibold tracking-wide mb-4">
                 SILICON VALLEY OF ASIA
               </div>
-              <h2 className="h2 mb-6">
+              <h2>
                 Elite engineers in Bangalore
               </h2>
               <p className="body-text text-lg mb-8">
@@ -322,7 +322,7 @@ const Index = () => {
               <div className="h6 font-semibold tracking-wide mb-4">
                 MULTICULTURAL MANAGEMENT
               </div>
-              <h2 className="h2 mb-6">
+              <h2>
                 European and Indian leadership
               </h2>
               <p className="body-text text-lg mb-8">
@@ -344,7 +344,7 @@ const Index = () => {
               <div className="h6 font-semibold tracking-wide mb-4">
                 ABOUT US
               </div>
-              <h2 className="h2 mb-6">
+              <h2>
                 Powered by people
               </h2>
               <p className="body-text text-lg mb-4">

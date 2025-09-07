@@ -10,7 +10,7 @@ const About = () => {
       <section className="py-24 lg:py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="h1 mb-8">
+            <h1>
               About Us
             </h1>
             <p className="body-text text-lg max-w-2xl mx-auto">
@@ -25,7 +25,7 @@ const About = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
-              <h2 className="h1 mb-8">
+              <h2>
                 Hello, नमस्कार,<br/>
                 Cześć, Bonjour.<br/>
                 We are The<br/>
@@ -81,7 +81,7 @@ const About = () => {
         </div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="max-w-4xl">
-            <h2 className="h1 mb-8">
+            <h2>
               We don't build software, we build teams who build software
             </h2>
           </div>
@@ -103,7 +103,7 @@ const About = () => {
               <div className="h6 mb-4 tracking-wider uppercase">
                 HOW IT STARTED
               </div>
-              <h2 className="h1 mb-8">
+              <h2>
                 Why we're here
               </h2>
               <p className="body-text text-lg mb-8">
@@ -129,7 +129,7 @@ const About = () => {
               <div className="h6 mb-4 tracking-wider uppercase">
                 OUR ETHOS
               </div>
-              <h2 className="h1 mb-8">
+              <h2>
                 We're people people
               </h2>
               <p className="body-text text-lg mb-8">
@@ -216,7 +216,7 @@ const About = () => {
               <div className="h6 mb-4 tracking-wider uppercase">
                 OUR CULTURE
               </div>
-              <h2 className="h1 mb-8">
+              <h2>
                 Behind the scenes
               </h2>
               <p className="body-text text-lg mb-8">
@@ -269,7 +269,7 @@ const About = () => {
               />
             </div>
             <div>
-              <h2 className="h1 mb-8">
+              <h2>
                 Build future-proof dev teams
               </h2>
               <p className="body-text text-lg mb-12">

@@ -12,7 +12,7 @@ const TeamExtension = () => {
               <div className="h6 mb-4 tracking-wider uppercase">
                 STAFF AUGMENTATION
               </div>
-              <h1 className="h1 mb-8">
+              <h1>
                 Extend your tech team with world-class talent
               </h1>
               <p className="body-text text-lg mb-8">

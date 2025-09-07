@@ -12,7 +12,7 @@ const MarTech = () => {
               <div className="h6 mb-4 tracking-wider uppercase">
                 MARTECH SOFTWARE TEAM
               </div>
-              <h1 className="h1 mb-8">
+              <h1>
                 Increase the ROI of development
               </h1>
               <p className="body-text text-lg mb-8">
