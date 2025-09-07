@@ -1,0 +1,366 @@
+import { Button } from "@/components/ui/button";
+import { Card } from "@/components/ui/card";
+import { Link } from "react-router-dom";
+import { Calendar, Clock, User, ArrowRight, Search } from "lucide-react";
+import { Input } from "@/components/ui/input";
+
+const Blog = () => {
+  const blogPosts = [
+    {
+      id: 1,
+      title: "The Future of Offshore Development: AI and Human Collaboration",
+      excerpt: "Explore how artificial intelligence is reshaping offshore development while human expertise remains irreplaceable in building world-class software teams.",
+      author: "Emilien Coquard",
+      authorRole: "CEO & Co-Founder",
+      date: "March 15, 2024",
+      readTime: "8 min read",
+      image: "/placeholder.svg",
+      category: "Technology",
+      tags: ["AI", "Offshore Development", "Future of Work"],
+      featured: true
+    },
+    {
+      id: 2,
+      title: "Building Cross-Cultural Teams: Lessons from 130+ Successful Partnerships",
+      excerpt: "Learn the key strategies for creating effective cross-cultural development teams that deliver exceptional results across different time zones and cultures.",
+      author: "Monica Antanacci",
+      authorRole: "VP People & Culture",
+      date: "March 10, 2024",
+      readTime: "10 min read",
+      image: "/placeholder.svg",
+      category: "Culture",
+      tags: ["Team Building", "Culture", "Remote Work"]
+    },
+    {
+      id: 3,
+      title: "Bangalore: The Silicon Valley of Asia - Why Location Matters",
+      excerpt: "Discover why Bangalore has become the world's premier destination for offshore development and what makes it the ideal hub for scaling tech teams.",
+      author: "Deepak Ramakrishnan",
+      authorRole: "CTO & Co-Founder",
+      date: "March 5, 2024",
+      readTime: "6 min read",
+      image: "/placeholder.svg",
+      category: "Location",
+      tags: ["Bangalore", "India", "Tech Hub"]
+    },
+    {
+      id: 4,
+      title: "MarTech Revolution: Building Marketing Technology Teams That Scale",
+      excerpt: "How to build and scale marketing technology teams that can keep up with the rapidly evolving digital marketing landscape.",
+      author: "Balasundar Pulnintasamy",
+      authorRole: "VP Engineering",
+      date: "February 28, 2024",
+      readTime: "12 min read",
+      image: "/placeholder.svg",
+      category: "MarTech",
+      tags: ["MarTech", "Marketing", "Technology"]
+    },
+    {
+      id: 5,
+      title: "The Economics of Offshore Development: ROI Analysis",
+      excerpt: "A comprehensive analysis of the return on investment when building offshore development teams, including hidden costs and long-term benefits.",
+      author: "Ryan Choon",
+      authorRole: "VP Operations",
+      date: "February 20, 2024",
+      readTime: "9 min read",
+      image: "/placeholder.svg",
+      category: "Business",
+      tags: ["ROI", "Economics", "Business Strategy"]
+    },
+    {
+      id: 6,
+      title: "Security in Offshore Development: Best Practices and Compliance",
+      excerpt: "Essential security measures and compliance strategies for offshore development teams handling sensitive data and critical applications.",
+      author: "Adithi Kiran",
+      authorRole: "VP Talent Acquisition",
+      date: "February 15, 2024",
+      readTime: "11 min read",
+      image: "/placeholder.svg",
+      category: "Security",
+      tags: ["Security", "Compliance", "Best Practices"]
+    },
+    {
+      id: 7,
+      title: "Talent Acquisition in India: Finding the Top 1% of Engineers",
+      excerpt: "Our proven methodology for identifying and recruiting elite engineering talent from India's vast pool of over 2 million developers.",
+      author: "Adithi Kiran",
+      authorRole: "VP Talent Acquisition",
+      date: "February 10, 2024",
+      readTime: "7 min read",
+      image: "/placeholder.svg",
+      category: "Recruitment",
+      tags: ["Talent Acquisition", "Recruitment", "Engineering"]
+    },
+    {
+      id: 8,
+      title: "FinTech Development: Regulatory Compliance in Global Markets",
+      excerpt: "Navigate the complex regulatory landscape of financial technology development with offshore teams across multiple jurisdictions.",
+      author: "Emilien Coquard",
+      authorRole: "CEO & Co-Founder",
+      date: "February 5, 2024",
+      readTime: "15 min read",
+      image: "/placeholder.svg",
+      category: "FinTech",
+      tags: ["FinTech", "Compliance", "Regulation"]
+    }
+  ];
+
+  const categories = ["All", "Technology", "Culture", "Business", "MarTech", "FinTech", "Security", "Recruitment"];
+  const featuredPost = blogPosts.find(post => post.featured);
+  const regularPosts = blogPosts.filter(post => !post.featured);
+
+  return (
+    <div className="min-h-screen">
+      {/* Hero Section */}
+      <section className="py-24 lg:py-32 bg-gradient-to-r from-turquoise via-navy to-navy relative overflow-hidden">
+        <div className="absolute inset-0">
+          <div className="absolute top-10 left-10 w-32 h-32 bg-turquoise-light rounded-full opacity-20"></div>
+          <div className="absolute top-20 right-20 w-16 h-16 bg-yellow rounded-full opacity-30"></div>
+          <div className="absolute bottom-20 left-1/4 w-24 h-24 bg-turquoise rounded-full opacity-15"></div>
+          <div className="absolute bottom-10 right-10 w-20 h-20 border-2 border-turquoise rounded-full opacity-40"></div>
+        </div>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+          <div className="text-center">
+            <h1 className="text-5xl lg:text-7xl font-bold text-white mb-8 leading-tight">
+              The Scalers Blog
+            </h1>
+            <p className="text-xl text-white/90 max-w-3xl mx-auto mb-12">
+              Insights, trends, and best practices in offshore development, team building, and scaling technology organizations globally.
+            </p>
+            <div className="max-w-md mx-auto relative">
+              <Input 
+                type="text" 
+                placeholder="Search articles..." 
+                className="pl-12 pr-4 py-3 bg-white/10 border-white/20 text-white placeholder:text-white/60 backdrop-blur-sm"
+              />
+              <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 w-5 h-5 text-white/60" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Categories Filter */}
+      <section className="py-12 bg-background border-b border-border">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-wrap gap-4 justify-center">
+            {categories.map((category) => (
+              <Button
+                key={category}
+                variant={category === "All" ? "default" : "outline"}
+                className={category === "All" ? "bg-turquoise text-turquoise-foreground hover:bg-turquoise/90" : "border-muted-foreground text-muted-foreground hover:bg-muted hover:text-foreground"}
+              >
+                {category}
+              </Button>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Featured Article */}
+      {featuredPost && (
+        <section className="py-16 bg-muted/30">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="mb-8">
+              <span className="text-sm font-medium text-turquoise bg-turquoise/10 px-3 py-1 rounded-full">
+                FEATURED ARTICLE
+              </span>
+            </div>
+            
+            <Card className="overflow-hidden">
+              <div className="grid grid-cols-1 lg:grid-cols-2">
+                <div className="relative h-64 lg:h-full">
+                  <img 
+                    src={featuredPost.image}
+                    alt={featuredPost.title}
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-r from-navy/20 to-transparent" />
+                  <div className="absolute top-4 left-4">
+                    <span className="bg-turquoise text-turquoise-foreground px-3 py-1 rounded-full text-sm font-medium">
+                      {featuredPost.category}
+                    </span>
+                  </div>
+                </div>
+                <div className="p-8 lg:p-12">
+                  <div className="flex items-center gap-4 mb-4 text-sm text-muted-foreground">
+                    <span className="flex items-center gap-1">
+                      <User className="w-4 h-4" />
+                      {featuredPost.author}
+                    </span>
+                    <span>•</span>
+                    <span className="flex items-center gap-1">
+                      <Clock className="w-4 h-4" />
+                      {featuredPost.readTime}
+                    </span>
+                    <span>•</span>
+                    <span className="flex items-center gap-1">
+                      <Calendar className="w-4 h-4" />
+                      {featuredPost.date}
+                    </span>
+                  </div>
+                  <h2 className="text-3xl font-bold text-foreground mb-4">
+                    {featuredPost.title}
+                  </h2>
+                  <p className="text-lg text-muted-foreground mb-6">
+                    {featuredPost.excerpt}
+                  </p>
+                  <div className="flex items-center gap-3 mb-8">
+                    <div className="w-10 h-10 bg-turquoise rounded-full flex items-center justify-center">
+                      <span className="text-white font-semibold text-sm">
+                        {featuredPost.author.split(' ').map(n => n[0]).join('')}
+                      </span>
+                    </div>
+                    <div>
+                      <p className="font-semibold text-foreground">{featuredPost.author}</p>
+                      <p className="text-sm text-muted-foreground">{featuredPost.authorRole}</p>
+                    </div>
+                  </div>
+                  <div className="flex flex-wrap gap-2 mb-8">
+                    {featuredPost.tags.map((tag) => (
+                      <span key={tag} className="bg-muted text-muted-foreground px-3 py-1 rounded-full text-sm">
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                  <Button className="bg-turquoise text-turquoise-foreground hover:bg-turquoise/90 group">
+                    Read Full Article
+                    <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+                  </Button>
+                </div>
+              </div>
+            </Card>
+          </div>
+        </section>
+      )}
+
+      {/* Latest Articles */}
+      <section className="py-16 bg-background">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-4">
+              Latest Articles
+            </h2>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              Stay updated with the latest insights and trends in offshore development
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {regularPosts.map((post) => (
+              <Card key={post.id} className="overflow-hidden hover:shadow-lg transition-shadow group">
+                <div className="relative h-48">
+                  <img 
+                    src={post.image}
+                    alt={post.title}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
+                  <div className="absolute top-4 left-4">
+                    <span className="bg-background/90 text-foreground px-2 py-1 rounded text-sm font-medium">
+                      {post.category}
+                    </span>
+                  </div>
+                </div>
+                <div className="p-6">
+                  <div className="flex items-center gap-4 mb-3 text-sm text-muted-foreground">
+                    <span className="flex items-center gap-1">
+                      <Clock className="w-4 h-4" />
+                      {post.readTime}
+                    </span>
+                    <span className="flex items-center gap-1">
+                      <Calendar className="w-4 h-4" />
+                      {post.date}
+                    </span>
+                  </div>
+                  <h3 className="text-xl font-bold text-foreground mb-3 group-hover:text-turquoise transition-colors line-clamp-2">
+                    {post.title}
+                  </h3>
+                  <p className="text-muted-foreground text-sm mb-4 line-clamp-3">
+                    {post.excerpt}
+                  </p>
+                  <div className="flex items-center gap-3 mb-4">
+                    <div className="w-8 h-8 bg-turquoise rounded-full flex items-center justify-center">
+                      <span className="text-white font-semibold text-xs">
+                        {post.author.split(' ').map(n => n[0]).join('')}
+                      </span>
+                    </div>
+                    <div>
+                      <p className="font-medium text-foreground text-sm">{post.author}</p>
+                      <p className="text-xs text-muted-foreground">{post.authorRole}</p>
+                    </div>
+                  </div>
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    {post.tags.slice(0, 2).map((tag) => (
+                      <span key={tag} className="bg-muted text-muted-foreground px-2 py-1 rounded-full text-xs">
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                  <Button variant="outline" className="w-full group-hover:bg-turquoise group-hover:text-turquoise-foreground group-hover:border-turquoise transition-all">
+                    Read Article
+                  </Button>
+                </div>
+              </Card>
+            ))}
+          </div>
+
+          {/* Load More Button */}
+          <div className="text-center mt-12">
+            <Button variant="outline" size="lg" className="border-turquoise text-turquoise hover:bg-turquoise hover:text-turquoise-foreground">
+              Load More Articles
+            </Button>
+          </div>
+        </div>
+      </section>
+
+      {/* Newsletter Signup */}
+      <section className="py-16 bg-turquoise text-turquoise-foreground">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-3xl lg:text-4xl font-bold mb-6">
+            Stay in the loop
+          </h2>
+          <p className="text-xl mb-8 text-turquoise-foreground/90">
+            Get the latest insights on offshore development, team building, and technology trends delivered to your inbox.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
+            <Input 
+              type="email" 
+              placeholder="Enter your email" 
+              className="flex-1 bg-white text-foreground border-white"
+            />
+            <Button 
+              size="lg"
+              className="bg-navy text-navy-foreground hover:bg-navy/90 font-semibold"
+            >
+              Subscribe
+            </Button>
+          </div>
+          <p className="text-sm text-turquoise-foreground/70 mt-4">
+            No spam, unsubscribe anytime. Read our privacy policy.
+          </p>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="py-16 bg-navy text-navy-foreground">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-3xl lg:text-4xl font-bold mb-6">
+            Ready to scale your development team?
+          </h2>
+          <p className="text-xl mb-8 text-navy-foreground/80">
+            Let's discuss how The Scalers can help you build a world-class offshore development team
+          </p>
+          <Button 
+            size="lg"
+            className="bg-turquoise text-turquoise-foreground hover:bg-turquoise/90 font-semibold"
+            asChild
+          >
+            <Link to="/contact">START A CONVERSATION</Link>
+          </Button>
+        </div>
+      </section>
+    </div>
+  );
+};
+
+export default Blog;

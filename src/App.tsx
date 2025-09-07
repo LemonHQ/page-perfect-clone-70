@@ -17,6 +17,8 @@ import FinancialSoftware from "./pages/FinancialSoftware";
 import RetailEcommerce from "./pages/RetailEcommerce";
 import News from "./pages/News";
 import FAQ from "./pages/FAQ";
+import CaseStudies from "./pages/CaseStudies";
+import Blog from "./pages/Blog";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -41,6 +43,8 @@ const App = () => (
               <Route path="/martech" element={<MarTech />} />
               <Route path="/financial-software" element={<FinancialSoftware />} />
               <Route path="/retail-ecommerce" element={<RetailEcommerce />} />
+              <Route path="/case-studies" element={<CaseStudies />} />
+              <Route path="/blog" element={<Blog />} />
               <Route path="/news" element={<News />} />
               <Route path="/faq" element={<FAQ />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
