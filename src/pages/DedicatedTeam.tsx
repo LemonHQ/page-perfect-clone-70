@@ -1,34 +1,39 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Link } from "react-router-dom";
-import { Check, ArrowUp, Users, Handshake, MessageCircle } from "lucide-react";
+import { Check, ArrowUp, Users, Handshake, MessageCircle, Rocket } from "lucide-react";
 
 const DedicatedTeam = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="py-24 lg:py-32">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            <div className="bg-muted/30 rounded-lg overflow-hidden">
-              <img 
-                src="/lovable-uploads/ffcbad56-1241-4ebf-96fd-12802a3156b5.png" 
-                alt="Professional developer working"
-                className="w-full h-full object-cover"
-              />
-            </div>
-            <div>
-              <div className="text-sm font-medium text-muted-foreground mb-4 tracking-wider uppercase">
-                DEDICATED DEVELOPMENT TEAM
-              </div>
-              <h1 className="text-4xl lg:text-6xl font-bold text-foreground mb-8 leading-tight">
-                Build your fully integrated team in Bangalore
-              </h1>
-              <p className="text-xl text-muted-foreground mb-12 leading-relaxed">
-                Beat the skills shortage at home and build your world-class dedicated development team in India. <span className="font-semibold text-foreground">We build your team, set up your operations on the ground, and support you on a daily basis while you work directly with your team</span> — freeing you to focus on development and delivery.
-              </p>
-            </div>
+      <section className="relative py-24 lg:py-32 bg-turquoise overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-r from-turquoise via-turquoise to-turquoise-light opacity-90"></div>
+        <div className="absolute inset-0">
+          <svg className="w-full h-full" preserveAspectRatio="none" viewBox="0 0 1200 600">
+            <path
+              d="M0,200 C400,100 800,300 1200,200 L1200,600 L0,600 Z"
+              fill="rgba(255,255,255,0.1)"
+            />
+            <path
+              d="M0,300 C600,200 900,400 1200,300 L1200,600 L0,600 Z"
+              fill="rgba(255,255,255,0.05)"
+            />
+          </svg>
+        </div>
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <div className="w-20 h-20 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-8">
+            <Rocket className="w-10 h-10 text-turquoise-foreground" />
           </div>
+          <h1 className="text-5xl lg:text-7xl font-bold text-turquoise-foreground mb-8 leading-tight">
+            Dedicated Development Team
+          </h1>
+          <p className="text-2xl text-turquoise-foreground/90 mb-4">
+            Does the talent you need feel out of reach?
+          </p>
+          <p className="text-3xl lg:text-4xl font-bold text-turquoise-foreground">
+            Build your tech team in Bangalore
+          </p>
         </div>
       </section>
 
