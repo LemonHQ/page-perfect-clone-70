@@ -102,10 +102,10 @@ const Blog = () => {
       <section className="py-24 lg:py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-5xl lg:text-7xl font-bold text-foreground mb-8 leading-tight">
+            <h1 className="h1 mb-8">
               H2 Blog
             </h1>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-12">
+            <p className="body-text text-lg max-w-3xl mx-auto mb-12">
               Insights, trends, and best practices in offshore development, team building, and scaling technology organizations globally.
             </p>
             <div className="max-w-md mx-auto relative">
@@ -164,10 +164,10 @@ const Blog = () => {
                       {featuredPost.date}
                     </span>
                   </div>
-                  <h2 className="text-3xl font-bold text-foreground mb-4">
+                  <h2 className="h3 mb-4">
                     {featuredPost.title}
                   </h2>
-                  <p className="text-lg text-muted-foreground mb-6">
+                  <p className="body-text text-lg mb-6">
                     {featuredPost.excerpt}
                   </p>
                   <div className="flex items-center gap-3 mb-8">

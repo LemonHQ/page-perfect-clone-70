@@ -151,9 +151,9 @@ const About = () => {
         
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="text-center mb-16">
-            <div className="text-sm font-medium text-muted-foreground mb-4 tracking-wider uppercase">
-              OUR CORE VALUES
-            </div>
+              <div className="h6 mb-4 tracking-wider uppercase">
+                OUR CORE VALUES
+              </div>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
@@ -167,9 +167,9 @@ const About = () => {
                   </div>
                 </div>
               </div>
-              <h3 className="text-3xl font-bold text-foreground mb-6">Transparency</h3>
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                Everyone at H2 is encouraged to <span className="font-bold text-foreground">give feedback without fear of judgement.</span> Open and honest dialogue is how we move forward as one unified team.
+              <h3 className="h3 mb-6">Transparency</h3>
+              <p className="body-text text-lg">
+                Everyone at H2 is encouraged to <span className="font-bold">give feedback without fear of judgement.</span> Open and honest dialogue is how we move forward as one unified team.
               </p>
             </div>
 
@@ -183,9 +183,9 @@ const About = () => {
                   </div>
                 </div>
               </div>
-              <h3 className="text-3xl font-bold text-foreground mb-6">Empowerment</h3>
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                Everyone's contribution is key and matters for our mission. We <span className="font-bold text-foreground">reward responsibility and empower</span> progress as we journey together towards success.
+              <h3 className="h3 mb-6">Empowerment</h3>
+              <p className="body-text text-lg">
+                Everyone's contribution is key and matters for our mission. We <span className="font-bold">reward responsibility and empower</span> progress as we journey together towards success.
               </p>
             </div>
 
@@ -199,9 +199,9 @@ const About = () => {
                   </div>
                 </div>
               </div>
-              <h3 className="text-3xl font-bold text-foreground mb-6">Inclusivity</h3>
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                Everyone is a part of H2 family no matter where they're from. <span className="font-bold text-foreground">Diversity is more than a slogan at H2,</span> it's a commitment and what makes us, us.
+              <h3 className="h3 mb-6">Inclusivity</h3>
+              <p className="body-text text-lg">
+                Everyone is a part of H2 family no matter where they're from. <span className="font-bold">Diversity is more than a slogan at H2,</span> it's a commitment and what makes us, us.
               </p>
             </div>
           </div>
@@ -213,14 +213,14 @@ const About = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
-              <div className="text-sm font-medium text-muted-foreground mb-4 tracking-wider uppercase">
+              <div className="h6 mb-4 tracking-wider uppercase">
                 OUR CULTURE
               </div>
-              <h2 className="text-5xl lg:text-6xl font-bold text-foreground mb-8 leading-tight">
+              <h2 className="h1 mb-8">
                 Behind the scenes
               </h2>
-              <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-                We wouldn't be able to talk the talk when it comes to your company culture if we didn't walk the walk ourselves. <span className="font-bold text-foreground">We love what we do and believe that what makes us different makes us stronger</span> — and our unique blend of backgrounds makes H2 a truly dynamic place to work.
+              <p className="body-text text-lg mb-8">
+                We wouldn't be able to talk the talk when it comes to your company culture if we didn't walk the walk ourselves. <span className="font-bold">We love what we do and believe that what makes us different makes us stronger</span> — and our unique blend of backgrounds makes H2 a truly dynamic place to work.
               </p>
               <p className="text-xl text-muted-foreground mb-12 leading-relaxed">
                 We love how each new hire adds to our culture. And, <span className="text-turquoise font-bold underline cursor-pointer">we're hiring</span>.
@@ -269,10 +269,10 @@ const About = () => {
               />
             </div>
             <div>
-              <h2 className="text-5xl lg:text-6xl font-bold text-white mb-8 leading-tight">
+              <h2 className="h1 mb-8">
                 Build future-proof dev teams
               </h2>
-              <p className="text-xl text-white/90 mb-12 leading-relaxed">
+              <p className="body-text text-lg mb-12">
                 Discover how to scale development teams in 2023 and beyond
               </p>
               <Button 
@@ -290,7 +290,7 @@ const About = () => {
       <section className="py-24 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <div className="text-sm font-medium text-muted-foreground mb-4 tracking-wider uppercase">
+            <div className="h6 mb-4 tracking-wider uppercase">
               READ MORE ABOUT H2
             </div>
           </div>
@@ -304,8 +304,8 @@ const About = () => {
               />
               <div className="p-8">
                 <div className="w-12 h-1 bg-turquoise mb-6"></div>
-                <h3 className="text-2xl font-bold text-foreground mb-4">Our model</h3>
-                <p className="text-muted-foreground mb-8 leading-relaxed">
+                <h3 className="h4 mb-4">Our model</h3>
+                <p className="body-text mb-8">
                   Learn about our approach that combines finely-tuned recruitment, managed operations, and cultural alignment.
                 </p>
                 <Button 
@@ -326,8 +326,8 @@ const About = () => {
               />
               <div className="p-8">
                 <div className="w-12 h-1 bg-turquoise mb-6"></div>
-                <h3 className="text-2xl font-bold text-foreground mb-4">Bangalore</h3>
-                <p className="text-muted-foreground mb-8 leading-relaxed">
+                <h3 className="h4 mb-4">Bangalore</h3>
+                <p className="body-text mb-8">
                   Discover the world's fastest-growing tech hub. It's the Silicon Valley of Asia and the place we call home.
                 </p>
                 <Button 
@@ -346,8 +346,8 @@ const About = () => {
               />
               <div className="p-8">
                 <div className="w-12 h-1 bg-turquoise mb-6"></div>
-                <h3 className="text-2xl font-bold text-foreground mb-4">Leadership</h3>
-                <p className="text-muted-foreground mb-8 leading-relaxed">
+                <h3 className="h4 mb-4">Leadership</h3>
+                <p className="body-text mb-8">
                   Meet the cross-cultural team of experts who ensure the success of your offshore development team.
                 </p>
                 <Button 

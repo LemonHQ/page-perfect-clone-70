@@ -118,8 +118,8 @@ const OurModel = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             <div className="space-y-6">
               <div className="w-16 h-1 bg-foreground"></div>
-              <div className="text-lg font-semibold text-foreground">CTO</div>
-              <h3 className="text-2xl font-bold text-foreground">Enjoy peace of mind</h3>
+              <div className="h5">CTO</div>
+              <h3 className="h4">Enjoy peace of mind</h3>
               <p className="text-muted-foreground leading-relaxed">
                 As CTO, a key priority is to ensure your product remains innovative and that your 
                 company stays ahead of the competition. With our model, <strong>your product team of 
@@ -129,8 +129,8 @@ const OurModel = () => {
 
             <div className="space-y-6">
               <div className="w-16 h-1 bg-foreground"></div>
-              <div className="text-lg font-semibold text-foreground">VP of Engineering</div>
-              <h3 className="text-2xl font-bold text-foreground">See the bigger picture</h3>
+              <div className="h5">VP of Engineering</div>
+              <h3 className="h4">See the bigger picture</h3>
               <p className="text-muted-foreground leading-relaxed">
                 As VP of engineering you have <strong>open, direct, daily communication with your engineers 
                 in Bangalore</strong> and weekly reports from H2. Our model allows you to smoothly 
@@ -140,8 +140,8 @@ const OurModel = () => {
 
             <div className="space-y-6">
               <div className="w-16 h-1 bg-foreground"></div>
-              <div className="text-lg font-semibold text-foreground">Product Manager</div>
-              <h3 className="text-2xl font-bold text-foreground">Collaborate easily</h3>
+              <div className="h5">Product Manager</div>
+              <h3 className="h4">Collaborate easily</h3>
               <p className="text-muted-foreground leading-relaxed">
                 As PM, you work with your engineers in Bangalore as one team, using the <strong>same 
                 methodology and tools as with your team at home.</strong> You're in charge of the workflow 

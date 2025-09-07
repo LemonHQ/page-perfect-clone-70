@@ -98,21 +98,21 @@ const Leadership = () => {
               <div className="w-48 h-32 bg-yellow rounded-[3rem] mx-auto mb-8 flex items-center justify-center relative overflow-hidden">
                 <span className="text-6xl font-bold text-navy">11</span>
               </div>
-              <p className="text-2xl font-medium text-foreground">nationalities in the team</p>
+              <p className="h4">nationalities in the team</p>
             </div>
             <div className="relative">
               <div className="w-48 h-32 bg-turquoise-light rounded-[3rem] mx-auto mb-8 flex items-center justify-center relative overflow-hidden">
                 <span className="text-5xl font-bold text-navy">130+</span>
               </div>
-              <p className="text-2xl font-medium text-foreground">teams built</p>
-              <p className="text-2xl font-medium text-foreground">since 2014</p>
+              <p className="h4">teams built</p>
+              <p className="h4">since 2014</p>
             </div>
             <div className="relative">
               <div className="w-48 h-32 bg-turquoise rounded-[3rem] mx-auto mb-8 flex items-center justify-center relative overflow-hidden">
                 <span className="text-6xl font-bold text-white">10</span>
               </div>
-              <p className="text-2xl font-medium text-foreground">years of successful</p>
-              <p className="text-2xl font-medium text-foreground">partnerships</p>
+              <p className="h4">years of successful</p>
+              <p className="h4">partnerships</p>
             </div>
           </div>
         </div>
@@ -122,7 +122,7 @@ const Leadership = () => {
       <section className="py-16 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-4">
+            <h2 className="h2 mb-4">
               The people that propel us forward
             </h2>
           </div>
@@ -142,13 +142,13 @@ const Leadership = () => {
                   </div>
                 </div>
                 <div className={`lg:col-span-8 ${index % 2 === 1 ? 'lg:col-start-1' : ''}`}>
-                  <h3 className="text-2xl lg:text-3xl font-bold text-foreground mb-2">
+                  <h3 className="h3 mb-2">
                     {leader.name}
                   </h3>
-                  <p className="text-lg text-turquoise font-semibold mb-4">
+                  <p className="h5 mb-4">
                     {leader.role}
                   </p>
-                  <p className="text-muted-foreground text-lg leading-relaxed">
+                  <p className="body-text text-lg">
                     {leader.bio}
                   </p>
                 </div>
@@ -162,7 +162,7 @@ const Leadership = () => {
       <section className="py-16 bg-panel-soft text-foreground">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="text-6xl text-foreground/20 mb-6">"</div>
-          <blockquote className="text-2xl lg:text-3xl font-medium mb-8">
+          <blockquote className="h3 mb-8">
             At H2, we believe people build amazing companies, not the reverse. 
             Our job is to find the best people and help them build the future.
           </blockquote>
@@ -173,8 +173,8 @@ const Leadership = () => {
               className="w-16 h-16 rounded-full border-2 border-navy-foreground"
             />
             <div className="text-left">
-              <div className="font-semibold">Emilien Corcuard</div>
-              <div className="text-navy-foreground/80">CEO & Co-Founder</div>
+              <div className="h6">Emilien Corcuard</div>
+              <div className="body-text">CEO & Co-Founder</div>
             </div>
           </div>
         </div>
@@ -184,7 +184,7 @@ const Leadership = () => {
       <section className="py-24 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <div className="text-sm font-medium text-muted-foreground mb-4 tracking-wider uppercase">
+            <div className="h6 mb-4 tracking-wider uppercase">
               READ MORE ABOUT H2
             </div>
           </div>
@@ -198,8 +198,8 @@ const Leadership = () => {
               />
               <div className="p-8">
                 <div className="w-12 h-1 bg-turquoise mb-6"></div>
-                <h3 className="text-2xl font-bold text-foreground mb-4">About Us</h3>
-                <p className="text-muted-foreground mb-8 leading-relaxed">
+                <h3 className="h4 mb-4">About Us</h3>
+                <p className="body-text mb-8">
                   Read more on how we got started, where we've been, where we're headed — and what makes us, us.
                 </p>
                 <Button 
@@ -220,8 +220,8 @@ const Leadership = () => {
               />
               <div className="p-8">
                 <div className="w-12 h-1 bg-turquoise mb-6"></div>
-                <h3 className="text-2xl font-bold text-foreground mb-4">Our model</h3>
-                <p className="text-muted-foreground mb-8 leading-relaxed">
+                <h3 className="h4 mb-4">Our model</h3>
+                <p className="body-text mb-8">
                   Learn about our approach that combines finely-tuned recruitment, managed operations, and cultural alignment.
                 </p>
                 <Button 
@@ -241,8 +241,8 @@ const Leadership = () => {
               />
               <div className="p-8">
                 <div className="w-12 h-1 bg-turquoise mb-6"></div>
-                <h3 className="text-2xl font-bold text-foreground mb-4">Bangalore</h3>
-                <p className="text-muted-foreground mb-8 leading-relaxed">
+                <h3 className="h4 mb-4">Bangalore</h3>
+                <p className="body-text mb-8">
                   Discover the world's fastest-growing tech hub. It's the Silicon Valley of Asia and the place we call home.
                 </p>
                 <Button 

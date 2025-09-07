@@ -107,14 +107,14 @@ const DedicatedTeam = () => {
               />
             </div>
             <div>
-              <div className="text-sm font-medium text-turquoise-foreground/80 mb-4 tracking-wider uppercase">
+              <div className="h6 mb-4 tracking-wider uppercase">
                 ASIA'S SILICON VALLEY
               </div>
-              <h2 className="text-4xl lg:text-6xl font-bold text-turquoise-foreground mb-8 leading-tight">
+              <h2 className="h2 mb-8">
                 Bangalore's got talent
               </h2>
-              <p className="text-xl text-turquoise-foreground/90 mb-8 leading-relaxed">
-                Wave goodbye to lengthy and disruptive recruitment drives and say hello to quick scaling. We handpick the cream of the crop and <span className="font-semibold text-turquoise-foreground">build you a team from the top 1%</span> of Bangalore's engineering talent.
+              <p className="body-text text-lg mb-8">
+                Wave goodbye to lengthy and disruptive recruitment drives and say hello to quick scaling. We handpick the cream of the crop and <span className="font-semibold">build you a team from the top 1%</span> of Bangalore's engineering talent.
               </p>
             </div>
           </div>
@@ -126,14 +126,14 @@ const DedicatedTeam = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
-              <div className="text-sm font-medium text-muted-foreground mb-4 tracking-wider uppercase">
+              <div className="h6 mb-4 tracking-wider uppercase">
                 YOU'RE IN GOOD COMPANY
               </div>
-              <h2 className="text-4xl lg:text-6xl font-bold text-foreground mb-8 leading-tight">
+              <h2 className="h2 mb-8">
                 It's a place that you can call home
               </h2>
-              <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-                Leverage the talent of India's top developers and access skills you can't find locally. With 90k engineers graduating every year and <span className="font-semibold text-foreground">the R&D centres of the world's top tech giants</span>, Asia's Silicon Valley is a dynamic hub of innovation and a place you'll feel right at home in.
+              <p className="body-text text-lg mb-8">
+                Leverage the talent of India's top developers and access skills you can't find locally. With 90k engineers graduating every year and <span className="font-semibold">the R&D centres of the world's top tech giants</span>, Asia's Silicon Valley is a dynamic hub of innovation and a place you'll feel right at home in.
               </p>
               <Button 
                 className="bg-panel-medium text-background hover:bg-panel-medium/90"
@@ -161,22 +161,22 @@ const DedicatedTeam = () => {
               <div className="w-32 h-32 bg-yellow/20 rounded-full flex items-center justify-center mx-auto mb-6">
                 <span className="text-5xl font-bold text-foreground">2M</span>
               </div>
-              <p className="text-xl font-semibold mb-2">people employed in</p>
-              <p className="text-xl font-semibold text-foreground">Bangalore's IT sector</p>
+              <p className="h5 mb-2">people employed in</p>
+              <p className="h5">Bangalore's IT sector</p>
             </div>
             <div>
               <div className="w-32 h-32 bg-turquoise/20 rounded-full flex items-center justify-center mx-auto mb-6">
                 <span className="text-5xl font-bold text-foreground">90K</span>
               </div>
-              <p className="text-xl font-semibold mb-2">engineers graduate in</p>
-              <p className="text-xl font-semibold text-foreground">the city every year</p>
+              <p className="h5 mb-2">engineers graduate in</p>
+              <p className="h5">the city every year</p>
             </div>
             <div>
               <div className="w-32 h-32 bg-panel-light rounded-full flex items-center justify-center mx-auto mb-6">
                 <span className="text-5xl font-bold text-foreground">400</span>
               </div>
-              <p className="text-xl font-semibold mb-2">R&D centres, including</p>
-              <p className="text-xl font-semibold text-foreground">Google's and Amazon's</p>
+              <p className="h5 mb-2">R&D centres, including</p>
+              <p className="h5">Google's and Amazon's</p>
             </div>
           </div>
         </div>
@@ -194,13 +194,13 @@ const DedicatedTeam = () => {
               />
             </div>
             <div>
-              <div className="text-sm font-medium text-muted-foreground mb-4 tracking-wider uppercase">
+              <div className="h6 mb-4 tracking-wider uppercase">
                 CULTURE
               </div>
-              <h2 className="text-4xl lg:text-6xl font-bold text-foreground mb-8 leading-tight">
+              <h2 className="h2 mb-8">
                 A people-first approach
               </h2>
-              <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
+              <p className="body-text text-lg mb-8">
                 One of the things our partners value about us the most is that culture is a key principle. What does this mean?
               </p>
               <div className="space-y-6">
@@ -208,24 +208,24 @@ const DedicatedTeam = () => {
                   <div className="w-8 h-8 bg-turquoise rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                     <Check className="w-5 h-5 text-turquoise-foreground" />
                   </div>
-                  <p className="text-lg text-muted-foreground">
-                    During our recruitment processes, we place <span className="font-semibold text-foreground">a strong focus on cultural fit.</span>
+                  <p className="body-text text-lg">
+                    During our recruitment processes, we place <span className="font-semibold">a strong focus on cultural fit.</span>
                   </p>
                 </div>
                 <div className="flex items-start space-x-4">
                   <div className="w-8 h-8 bg-turquoise rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                     <Check className="w-5 h-5 text-turquoise-foreground" />
                   </div>
-                  <p className="text-lg text-muted-foreground">
-                    We organise <span className="font-semibold text-foreground">team building activities</span> and events.
+                  <p className="body-text text-lg">
+                    We organise <span className="font-semibold">team building activities</span> and events.
                   </p>
                 </div>
                 <div className="flex items-start space-x-4">
                   <div className="w-8 h-8 bg-turquoise rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                     <Check className="w-5 h-5 text-turquoise-foreground" />
                   </div>
-                  <p className="text-lg text-muted-foreground">
-                    You have <span className="font-semibold text-foreground">a dedicated Chief Happiness Officer</span> who handles your team's engagement on a daily basis.
+                  <p className="body-text text-lg">
+                    You have <span className="font-semibold">a dedicated Chief Happiness Officer</span> who handles your team's engagement on a daily basis.
                   </p>
                 </div>
               </div>
@@ -239,13 +239,13 @@ const DedicatedTeam = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
-              <div className="text-sm font-medium text-muted-foreground mb-4 tracking-wider uppercase">
+              <div className="h6 mb-4 tracking-wider uppercase">
                 YOUR BRANDED WORKSPACE
               </div>
-              <h2 className="text-4xl lg:text-6xl font-bold text-foreground mb-8 leading-tight">
+              <h2 className="h2 mb-8">
                 Enjoy a modern office space
               </h2>
-              <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
+              <p className="body-text text-lg mb-8">
                 Your team will work in a branded office in our business centre. It's fully equipped with the tools your developers need to deliver results, including:
               </p>
               <div className="space-y-4 mb-8">
