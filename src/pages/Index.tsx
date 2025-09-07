@@ -291,6 +291,74 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Statistics Section */}
+      <section className="py-16 bg-background">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="text-center">
+              <div className="relative inline-block mb-6">
+                <div className="w-32 h-24 bg-yellow rounded-full flex items-center justify-center mx-auto">
+                  <span className="text-5xl font-bold text-yellow-foreground">5</span>
+                </div>
+              </div>
+              <p className="text-lg text-foreground">global locations</p>
+            </div>
+            <div className="text-center">
+              <div className="relative inline-block mb-6">
+                <div className="w-32 h-24 bg-turquoise rounded-full flex items-center justify-center mx-auto">
+                  <span className="text-4xl font-bold text-turquoise-foreground">130+</span>
+                </div>
+              </div>
+              <p className="text-lg text-foreground">teams built</p>
+              <p className="text-lg text-foreground">since 2014</p>
+            </div>
+            <div className="text-center">
+              <div className="relative inline-block mb-6">
+                <div className="w-32 h-24 bg-turquoise-light rounded-full flex items-center justify-center mx-auto">
+                  <span className="text-5xl font-bold text-turquoise-light-foreground">10</span>
+                </div>
+              </div>
+              <p className="text-lg text-foreground">years of successful</p>
+              <p className="text-lg text-foreground">partnerships</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Silicon Valley of Asia */}
+      <section className="py-16 bg-background">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <div className="text-sm font-semibold text-foreground/70 tracking-wide mb-4">
+                SILICON VALLEY OF ASIA
+              </div>
+              <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
+                Elite engineers in Bangalore
+              </h2>
+              <p className="text-lg text-foreground/80 mb-8">
+                Home to the R&D centres of the <strong>world's leading tech companies</strong> including 
+                Google, Amazon, and Microsoft — we tap you into a pool of top talent.
+              </p>
+              <Button className="bg-foreground text-background hover:bg-foreground/90">
+                LEARN MORE
+              </Button>
+            </div>
+            <div className="relative">
+              <div className="w-full h-80 bg-turquoise/20 rounded-2xl relative overflow-hidden">
+                <div className="absolute inset-0 bg-gradient-to-br from-turquoise/20 to-turquoise-light/30 rounded-2xl">
+                  <img 
+                    src={officeWorkspace} 
+                    alt="Bangalore cityscape showing the Silicon Valley of Asia" 
+                    className="w-full h-full object-cover rounded-2xl opacity-80"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* European and Indian Leadership */}
       <section className="py-16 bg-turquoise-light">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
