@@ -456,6 +456,111 @@ const DedicatedTeam = () => {
         </div>
       </section>
 
+      {/* Case Study Section */}
+      <section className="py-24 bg-yellow">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div className="relative">
+              <div className="w-80 h-64 bg-yellow-foreground/20 rounded-3xl transform rotate-12 mx-auto"></div>
+              <div className="absolute inset-0 flex items-center justify-center">
+                <div className="w-72 h-56 bg-turquoise rounded-2xl shadow-2xl transform -rotate-6 overflow-hidden">
+                  <div className="p-6 text-center">
+                    <div className="text-xs font-bold text-turquoise-foreground mb-2">THE SCALERS</div>
+                    <div className="bg-yellow text-yellow-foreground px-4 py-2 rounded-lg font-bold text-lg mb-2">
+                      SCALING TECH TEAMS
+                    </div>
+                    <div className="bg-yellow/80 text-yellow-foreground px-3 py-1 rounded text-sm font-medium mb-4">
+                      REINVENTED CASE STUDY
+                    </div>
+                    <div className="text-xs text-turquoise-foreground">
+                      How The Scalers Helped Preqin Establish A 450+ Person Global R&D Centre In India
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h2 className="text-4xl lg:text-5xl font-bold text-yellow-foreground mb-6 leading-tight">
+                Scaling innovation: Preqin case study
+              </h2>
+              <p className="text-xl text-yellow-foreground/90 mb-8">
+                How we helped Preqin establish a 450+ person global R&D centre in India
+              </p>
+              <Button 
+                className="bg-yellow-foreground text-yellow hover:bg-yellow-foreground/90 font-semibold px-8 py-4 rounded-full"
+                asChild
+              >
+                <Link to="/contact">DOWNLOAD CASE STUDY →</Link>
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Build your team with a trusted partner */}
+      <section className="py-24 bg-background">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <div className="text-sm font-medium text-muted-foreground mb-4 tracking-wider uppercase">
+              YOUR DEVELOPMENT TEAM IN BANGALORE
+            </div>
+            <h2 className="text-4xl lg:text-6xl font-bold text-foreground mb-8 leading-tight">
+              Build your team with a trusted partner
+            </h2>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+            <div className="text-center">
+              <div className="w-32 h-32 bg-yellow/20 rounded-full flex items-center justify-center mx-auto mb-8 relative overflow-hidden">
+                <div className="w-16 h-16 bg-yellow/40 rounded-full absolute top-4 left-6"></div>
+                <div className="w-12 h-12 bg-yellow/60 rounded-full absolute top-8 right-6"></div>
+                <Users className="w-12 h-12 text-foreground relative z-10" />
+              </div>
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                Your developers are full-time colleagues, not external support
+              </p>
+            </div>
+
+            <div className="text-center">
+              <div className="w-32 h-32 bg-yellow/20 rounded-full flex items-center justify-center mx-auto mb-8">
+                <div className="w-16 h-16 bg-yellow/40 rounded-lg relative">
+                  <div className="absolute inset-2 bg-yellow-foreground rounded-sm"></div>
+                  <div className="absolute top-0 left-2 right-2 h-1 bg-yellow/60 rounded-full"></div>
+                  <div className="absolute bottom-0 left-2 right-2 h-1 bg-yellow/60 rounded-full"></div>
+                  <div className="absolute left-0 top-2 bottom-2 w-1 bg-yellow/60 rounded-full"></div>
+                  <div className="absolute right-0 top-2 bottom-2 w-1 bg-yellow/60 rounded-full"></div>
+                </div>
+              </div>
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                Your admin, logistics, payroll and HR are managed
+              </p>
+            </div>
+
+            <div className="text-center">
+              <div className="w-32 h-32 bg-turquoise/20 rounded-full flex items-center justify-center mx-auto mb-8 relative">
+                <div className="w-16 h-12 bg-turquoise/40 rounded-lg border-4 border-turquoise/60 relative">
+                  <div className="w-8 h-6 bg-turquoise rounded-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                    <div className="w-4 h-4 bg-turquoise-foreground rounded-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"></div>
+                  </div>
+                </div>
+              </div>
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                Your engineers are aligned with your company's vision
+              </p>
+            </div>
+
+            <div className="text-center">
+              <div className="w-32 h-32 bg-turquoise/20 rounded-full flex items-center justify-center mx-auto mb-8">
+                <Rocket className="w-12 h-12 text-turquoise" />
+              </div>
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                You can rapidly scale your team as and when you need to
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-24 bg-navy text-navy-foreground">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
