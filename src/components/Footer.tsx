@@ -4,6 +4,55 @@ const Footer = () => {
   return (
     <footer className="bg-navy text-navy-foreground">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        {/* Locations Section */}
+        <div className="mb-16">
+          <div className="text-center mb-12">
+            <h3 className="text-2xl font-bold text-navy-foreground mb-8">Our locations:</h3>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div className="text-center">
+              <div className="w-20 h-20 bg-turquoise rounded-full mx-auto mb-4 flex items-center justify-center">
+                <span className="text-2xl">🏙️</span>
+              </div>
+              <h4 className="font-bold text-turquoise text-lg mb-2">INDIA</h4>
+              <p className="text-navy-foreground font-semibold">Bangalore</p>
+              <p className="text-navy-foreground/80 text-sm">43 Residency Road</p>
+              <p className="text-navy-foreground/80 text-sm">Bangalore, 560025</p>
+            </div>
+            
+            <div className="text-center">
+              <div className="w-20 h-20 bg-turquoise rounded-full mx-auto mb-4 flex items-center justify-center">
+                <span className="text-2xl">🏛️</span>
+              </div>
+              <h4 className="font-bold text-turquoise text-lg mb-2">IRELAND</h4>
+              <p className="text-navy-foreground font-semibold">Dublin</p>
+              <p className="text-navy-foreground/80 text-sm">13 Adelaide Road</p>
+              <p className="text-navy-foreground/80 text-sm">Dublin 2, D02 P950</p>
+            </div>
+            
+            <div className="text-center">
+              <div className="w-20 h-20 bg-turquoise rounded-full mx-auto mb-4 flex items-center justify-center">
+                <span className="text-2xl">🏢</span>
+              </div>
+              <h4 className="font-bold text-turquoise text-lg mb-2">UK</h4>
+              <p className="text-navy-foreground font-semibold">London</p>
+              <p className="text-navy-foreground/80 text-sm">127 Cheapside</p>
+              <p className="text-navy-foreground/80 text-sm">London, EC2V 6BT</p>
+            </div>
+            
+            <div className="text-center">
+              <div className="w-20 h-20 bg-turquoise rounded-full mx-auto mb-4 flex items-center justify-center">
+                <span className="text-2xl">🌉</span>
+              </div>
+              <h4 className="font-bold text-turquoise text-lg mb-2">AUSTRALIA</h4>
+              <p className="text-navy-foreground font-semibold">Sydney</p>
+              <p className="text-navy-foreground/80 text-sm">383 George St</p>
+              <p className="text-navy-foreground/80 text-sm">Sydney, NSW 2000</p>
+            </div>
+          </div>
+        </div>
+
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="col-span-1">
