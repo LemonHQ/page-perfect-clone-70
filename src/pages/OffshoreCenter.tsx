@@ -1,10 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Link } from "react-router-dom";
-
 const OffshoreCenter = () => {
-  return (
-    <div className="min-h-screen">
+  return <div className="min-h-screen">
       {/* Hero Section */}
       <section className="py-24 lg:py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -16,11 +14,7 @@ const OffshoreCenter = () => {
               <p className="text-xl text-muted-foreground mb-12 leading-relaxed">
                 Increase innovation with a captive ODC
               </p>
-              <Button 
-                size="lg"
-                className="bg-foreground text-background hover:bg-foreground/90 font-medium px-8 py-4"
-                asChild
-              >
+              <Button size="lg" className="bg-foreground text-background hover:bg-foreground/90 font-medium px-8 py-4" asChild>
                 <Link to="/contact">BUILD YOUR ODC</Link>
               </Button>
             </div>
@@ -140,10 +134,7 @@ const OffshoreCenter = () => {
                 Located in the heart of India's Silicon Valley, your ODC benefits from the vibrant 
                 tech ecosystem while providing a focused environment for your team.
               </p>
-              <Button 
-                className="bg-navy text-navy-foreground hover:bg-navy/90"
-                asChild
-              >
+              <Button className="bg-navy text-navy-foreground hover:bg-navy/90" asChild>
                 <Link to="/about">EXPLORE LOCATION</Link>
               </Button>
             </div>
@@ -206,10 +197,7 @@ const OffshoreCenter = () => {
                 Your dedicated innovation hub in Bangalore, designed to accelerate product development 
                 and drive technological breakthroughs.
               </p>
-              <Button 
-                className="bg-navy text-navy-foreground hover:bg-navy/90"
-                asChild
-              >
+              <Button className="bg-navy text-navy-foreground hover:bg-navy/90" asChild>
                 <Link to="/contact">START INNOVATING</Link>
               </Button>
             </div>
@@ -223,25 +211,7 @@ const OffshoreCenter = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-navy text-navy-foreground">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl lg:text-4xl font-bold mb-6">
-            Set up a world-class tech team in Bangalore
-          </h2>
-          <p className="text-xl mb-8 text-navy-foreground/80">
-            Launch your offshore development center with India's top engineering talent
-          </p>
-          <Button 
-            size="lg"
-            className="bg-turquoise text-turquoise-foreground hover:bg-turquoise/90 font-semibold"
-            asChild
-          >
-            <Link to="/contact">LET'S TALK</Link>
-          </Button>
-        </div>
-      </section>
-    </div>
-  );
+      
+    </div>;
 };
-
 export default OffshoreCenter;
