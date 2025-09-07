@@ -12,20 +12,20 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-turquoise-light to-turquoise py-16 lg:py-24">
+      <section className="py-24 lg:py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
-              <h1 className="text-4xl lg:text-6xl font-bold text-turquoise-foreground mb-6">
+              <h1 className="text-5xl lg:text-7xl font-bold text-foreground mb-8 leading-tight">
                 130+ world-class tech teams built in Bangalore
               </h1>
-              <p className="text-xl text-turquoise-foreground/80 mb-8">
+              <p className="text-xl text-muted-foreground mb-12 leading-relaxed">
                 Scale your software development with dedicated offshore teams
               </p>
-              <div className="flex flex-col sm:flex-row gap-4">
+              <div className="flex flex-col sm:flex-row gap-6">
                 <Button 
                   size="lg"
-                  className="bg-navy text-navy-foreground hover:bg-navy/90 font-semibold"
+                  className="bg-foreground text-background hover:bg-foreground/90 font-medium px-8 py-4 text-base"
                   asChild
                 >
                   <Link to="/our-model">OUR MODEL</Link>
@@ -33,7 +33,7 @@ const Index = () => {
                 <Button 
                   variant="outline" 
                   size="lg"
-                  className="border-turquoise-foreground text-turquoise-foreground hover:bg-turquoise-foreground hover:text-turquoise"
+                  className="border-foreground text-foreground hover:bg-foreground hover:text-background px-8 py-4 text-base"
                   asChild
                 >
                   <Link to="/contact">LET'S TALK</Link>
@@ -44,7 +44,7 @@ const Index = () => {
               <img 
                 src={heroTeam} 
                 alt="Professional development team collaboration" 
-                className="rounded-lg shadow-strong w-full h-auto object-cover"
+                className="rounded-lg w-full h-auto object-cover"
               />
             </div>
           </div>
@@ -52,62 +52,62 @@ const Index = () => {
       </section>
 
       {/* Company Logos */}
-      <section className="py-16 bg-background">
+      <section className="py-20 bg-muted/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h3 className="text-sm font-semibold text-muted-foreground tracking-wide uppercase mb-8">
+          <div className="text-center mb-16">
+            <h3 className="text-sm font-medium text-muted-foreground tracking-wide uppercase mb-12">
               TRUSTED BY
             </h3>
           </div>
           <div className="overflow-hidden">
-            <div className="flex items-center gap-12 animate-scroll whitespace-nowrap">
-              <div className="text-2xl font-bold text-muted-foreground/60 hover:text-muted-foreground transition-colors">
+            <div className="flex items-center gap-16 animate-scroll whitespace-nowrap">
+              <div className="text-xl font-medium text-muted-foreground hover:text-foreground transition-colors">
                 MICROSOFT
               </div>
-              <div className="text-2xl font-bold text-muted-foreground/60 hover:text-muted-foreground transition-colors">
+              <div className="text-xl font-medium text-muted-foreground hover:text-foreground transition-colors">
                 FLIPKART
               </div>
-              <div className="text-2xl font-bold text-muted-foreground/60 hover:text-muted-foreground transition-colors">
+              <div className="text-xl font-medium text-muted-foreground hover:text-foreground transition-colors">
                 OPTUM
               </div>
-              <div className="text-2xl font-bold text-muted-foreground/60 hover:text-muted-foreground transition-colors">
+              <div className="text-xl font-medium text-muted-foreground hover:text-foreground transition-colors">
                 SWIGGY
               </div>
-              <div className="text-2xl font-bold text-muted-foreground/60 hover:text-muted-foreground transition-colors">
+              <div className="text-xl font-medium text-muted-foreground hover:text-foreground transition-colors">
                 NASSCOM
               </div>
-              <div className="text-2xl font-bold text-muted-foreground/60 hover:text-muted-foreground transition-colors">
+              <div className="text-xl font-medium text-muted-foreground hover:text-foreground transition-colors">
                 PREQIN
               </div>
-              <div className="text-2xl font-bold text-muted-foreground/60 hover:text-muted-foreground transition-colors">
+              <div className="text-xl font-medium text-muted-foreground hover:text-foreground transition-colors">
                 NEXTPOINT
               </div>
-              <div className="text-2xl font-bold text-muted-foreground/60 hover:text-muted-foreground transition-colors">
+              <div className="text-xl font-medium text-muted-foreground hover:text-foreground transition-colors">
                 YKONE
               </div>
               {/* Duplicate for seamless loop */}
-              <div className="text-2xl font-bold text-muted-foreground/60 hover:text-muted-foreground transition-colors">
+              <div className="text-xl font-medium text-muted-foreground hover:text-foreground transition-colors">
                 MICROSOFT
               </div>
-              <div className="text-2xl font-bold text-muted-foreground/60 hover:text-muted-foreground transition-colors">
+              <div className="text-xl font-medium text-muted-foreground hover:text-foreground transition-colors">
                 FLIPKART
               </div>
-              <div className="text-2xl font-bold text-muted-foreground/60 hover:text-muted-foreground transition-colors">
+              <div className="text-xl font-medium text-muted-foreground hover:text-foreground transition-colors">
                 OPTUM
               </div>
-              <div className="text-2xl font-bold text-muted-foreground/60 hover:text-muted-foreground transition-colors">
+              <div className="text-xl font-medium text-muted-foreground hover:text-foreground transition-colors">
                 SWIGGY
               </div>
-              <div className="text-2xl font-bold text-muted-foreground/60 hover:text-muted-foreground transition-colors">
+              <div className="text-xl font-medium text-muted-foreground hover:text-foreground transition-colors">
                 NASSCOM
               </div>
-              <div className="text-2xl font-bold text-muted-foreground/60 hover:text-muted-foreground transition-colors">
+              <div className="text-xl font-medium text-muted-foreground hover:text-foreground transition-colors">
                 PREQIN
               </div>
-              <div className="text-2xl font-bold text-muted-foreground/60 hover:text-muted-foreground transition-colors">
+              <div className="text-xl font-medium text-muted-foreground hover:text-foreground transition-colors">
                 NEXTPOINT
               </div>
-              <div className="text-2xl font-bold text-muted-foreground/60 hover:text-muted-foreground transition-colors">
+              <div className="text-xl font-medium text-muted-foreground hover:text-foreground transition-colors">
                 YKONE
               </div>
             </div>
@@ -116,48 +116,48 @@ const Index = () => {
       </section>
 
       {/* Scale Your Tech Team Section */}
-      <section className="py-16 bg-turquoise-light">
+      <section className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div className="grid grid-cols-2 gap-6">
               <img 
                 src={teamCollaboration} 
                 alt="Team collaboration in modern office" 
-                className="rounded-lg shadow-medium w-full h-full object-cover" 
+                className="rounded-lg w-full h-full object-cover" 
               />
               <img 
                 src={officeWorkspace} 
                 alt="Modern office workspace environment" 
-                className="rounded-lg shadow-medium w-full h-full object-cover" 
+                className="rounded-lg w-full h-full object-cover" 
               />
               <img 
                 src={diverseTeam} 
                 alt="Diverse software engineering team" 
-                className="rounded-lg shadow-medium w-full h-full object-cover" 
+                className="rounded-lg w-full h-full object-cover" 
               />
               <img 
                 src={developersCoding} 
                 alt="Developers coding and collaborating" 
-                className="rounded-lg shadow-medium w-full h-full object-cover" 
+                className="rounded-lg w-full h-full object-cover" 
               />
             </div>
             <div>
-              <div className="text-sm font-semibold text-foreground/70 tracking-wide mb-4">
+              <div className="text-sm font-medium text-muted-foreground tracking-wide mb-6">
                 THE SMARTER WAY
               </div>
-              <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
+              <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-8 leading-tight">
                 Scale your tech team easily
               </h2>
-              <p className="text-lg text-foreground/80 mb-8">
+              <p className="text-lg text-muted-foreground mb-12 leading-relaxed">
                 Leverage our proven approach to <strong>expand your software development capacity and deliver at speed</strong>. 
                 The Scalers is your partner on the ground that assembles your team, acquires and sets up your premises, 
                 and supports your mission in Bangalore.
               </p>
               <Button 
-                className="bg-foreground text-background hover:bg-foreground/90 font-semibold px-8 py-3 rounded-full"
+                className="bg-foreground text-background hover:bg-foreground/90 font-medium px-8 py-4"
                 asChild
               >
-                <Link to="/our-model">LEARN MORE →</Link>
+                <Link to="/our-model">LEARN MORE</Link>
               </Button>
             </div>
           </div>
@@ -165,22 +165,22 @@ const Index = () => {
       </section>
 
       {/* Statistics */}
-      <section className="py-16 bg-background">
+      <section className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-            <div className="p-6">
-              <div className="text-5xl font-bold text-turquoise mb-4">130+</div>
-              <p className="text-xl font-semibold text-foreground mb-2">Teams built</p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
+            <div>
+              <div className="text-6xl font-bold text-foreground mb-6">130+</div>
+              <p className="text-xl font-medium text-foreground mb-3">Teams built</p>
               <p className="text-muted-foreground">World-class development teams delivered</p>
             </div>
-            <div className="p-6">
-              <div className="text-5xl font-bold text-turquoise mb-4">39+</div>
-              <p className="text-xl font-semibold text-foreground mb-2">Countries served</p>
+            <div>
+              <div className="text-6xl font-bold text-foreground mb-6">39+</div>
+              <p className="text-xl font-medium text-foreground mb-3">Countries served</p>
               <p className="text-muted-foreground">Global reach and expertise</p>
             </div>
-            <div className="p-6">
-              <div className="text-5xl font-bold text-turquoise mb-4">3</div>
-              <p className="text-xl font-semibold text-foreground mb-2">Months average</p>
+            <div>
+              <div className="text-6xl font-bold text-foreground mb-6">3</div>
+              <p className="text-xl font-medium text-foreground mb-3">Months average</p>
               <p className="text-muted-foreground">Time to build your team</p>
             </div>
           </div>

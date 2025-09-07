@@ -24,24 +24,24 @@ const Header = () => {
   ];
 
   return (
-    <header className="bg-background shadow-sm border-b border-border sticky top-0 z-50">
+    <header className="bg-background border-b border-border sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center py-4">
+        <div className="flex justify-between items-center py-6">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="bg-navy text-navy-foreground px-3 py-1 rounded font-bold text-lg">
+            <div className="text-2xl font-bold text-foreground">
               THE SCALERS
             </div>
           </Link>
 
           {/* Navigation */}
-          <nav className="hidden lg:flex items-center space-x-8">
+          <nav className="hidden lg:flex items-center space-x-10">
             {navigation.map((item) => (
               <div key={item.name} className="relative group">
                 <Link
                   to={item.href}
-                  className={`text-sm font-medium transition-colors hover:text-turquoise ${
-                    location.pathname === item.href ? 'text-turquoise' : 'text-foreground'
+                  className={`text-sm font-medium transition-colors hover:text-foreground ${
+                    location.pathname === item.href ? 'text-foreground' : 'text-muted-foreground'
                   }`}
                 >
                   {item.name}
@@ -53,7 +53,7 @@ const Header = () => {
                         <Link
                           key={subitem.name}
                           to={subitem.href}
-                          className="block px-4 py-2 text-sm text-foreground hover:bg-turquoise-light hover:text-turquoise-foreground transition-colors"
+                          className="block px-4 py-3 text-sm text-muted-foreground hover:bg-muted hover:text-foreground transition-colors"
                         >
                           {subitem.name}
                         </Link>
@@ -68,7 +68,7 @@ const Header = () => {
           {/* CTA Button */}
           <Button 
             variant="default"
-            className="bg-turquoise text-turquoise-foreground hover:bg-turquoise/90 font-medium"
+            className="bg-foreground text-background hover:bg-foreground/90 font-medium"
             asChild
           >
             <Link to="/contact">CONTACT US</Link>
