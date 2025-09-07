@@ -134,7 +134,7 @@ const OffshoreCenter = () => {
                 Located in the heart of India's Silicon Valley, your ODC benefits from the vibrant 
                 tech ecosystem while providing a focused environment for your team.
               </p>
-              <Button className="bg-navy text-navy-foreground hover:bg-navy/90" asChild>
+              <Button className="bg-panel-medium text-background hover:bg-panel-medium/90" asChild>
                 <Link to="/about">EXPLORE LOCATION</Link>
               </Button>
             </div>
@@ -197,7 +197,7 @@ const OffshoreCenter = () => {
                 Your dedicated innovation hub in Bangalore, designed to accelerate product development 
                 and drive technological breakthroughs.
               </p>
-              <Button className="bg-navy text-navy-foreground hover:bg-navy/90" asChild>
+              <Button className="bg-panel-medium text-background hover:bg-panel-medium/90" asChild>
                 <Link to="/contact">START INNOVATING</Link>
               </Button>
             </div>

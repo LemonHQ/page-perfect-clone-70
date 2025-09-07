@@ -113,7 +113,7 @@ const News = () => {
                     <Button 
                       variant="outline"
                       size="sm"
-                      className="border-turquoise text-turquoise hover:bg-turquoise hover:text-turquoise-foreground"
+                      className="border-panel-medium text-panel-medium hover:bg-panel-medium hover:text-background"
                     >
                       READ MORE →
                     </Button>
@@ -129,7 +129,7 @@ const News = () => {
               ← Previous
             </Button>
             <div className="flex space-x-2">
-              <Button variant="default" size="sm" className="bg-turquoise text-turquoise-foreground">1</Button>
+              <Button variant="default" size="sm" className="bg-panel-medium text-background">1</Button>
               <Button variant="outline" size="sm">2</Button>
               <Button variant="outline" size="sm">3</Button>
               <span className="px-3 py-2 text-muted-foreground">...</span>
@@ -138,7 +138,7 @@ const News = () => {
             <Button 
               variant="outline" 
               size="sm"
-              className="border-turquoise text-turquoise hover:bg-turquoise hover:text-turquoise-foreground"
+              className="border-panel-medium text-panel-medium hover:bg-panel-medium hover:text-background"
             >
               Next →
             </Button>
@@ -255,7 +255,7 @@ const News = () => {
 
           <Button 
             size="lg"
-            className="bg-turquoise text-turquoise-foreground hover:bg-turquoise/90 font-semibold"
+            className="bg-panel-medium text-background hover:bg-panel-medium/90 font-semibold"
             asChild
           >
             <Link to="/contact">LET'S TALK</Link>

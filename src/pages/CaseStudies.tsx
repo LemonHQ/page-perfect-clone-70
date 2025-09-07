@@ -107,7 +107,7 @@ const CaseStudies = () => {
       <section className="py-12 bg-background border-b border-border">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-wrap gap-4 justify-center">
-            {industries.map(industry => <Button key={industry} variant={industry === "All" ? "default" : "outline"} className={industry === "All" ? "bg-turquoise text-turquoise-foreground hover:bg-turquoise/90" : "border-muted-foreground text-muted-foreground hover:bg-muted hover:text-foreground"}>
+            {industries.map(industry => <Button key={industry} variant={industry === "All" ? "default" : "outline"} className={industry === "All" ? "bg-panel-medium text-background hover:bg-panel-medium/90" : "border-muted-foreground text-muted-foreground hover:bg-muted hover:text-foreground"}>
                 {industry}
               </Button>)}
           </div>
@@ -158,7 +158,7 @@ const CaseStudies = () => {
                       </li>)}
                   </ul>
                 </div>
-                <Button className="bg-turquoise text-turquoise-foreground hover:bg-turquoise/90 group">
+                <Button className="bg-panel-medium text-background hover:bg-panel-medium/90 group">
                   Read Full Case Study
                   <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                 </Button>
@@ -221,7 +221,7 @@ const CaseStudies = () => {
                         {tag}
                       </span>)}
                   </div>
-                  <Button variant="outline" className="w-full group-hover:bg-turquoise group-hover:text-turquoise-foreground group-hover:border-turquoise transition-all">
+                  <Button variant="outline" className="w-full group-hover:bg-panel-medium group-hover:text-background group-hover:border-panel-medium transition-all">
                     Read Case Study
                   </Button>
                 </div>

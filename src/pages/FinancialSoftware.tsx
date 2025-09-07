@@ -138,7 +138,7 @@ const FinancialSoftware = () => {
                 </div>
               </div>
 
-              <Button className="bg-turquoise text-turquoise-foreground hover:bg-turquoise/90" asChild>
+              <Button className="bg-panel-medium text-background hover:bg-panel-medium/90" asChild>
                 <Link to="/dedicated-team">LEARN MORE</Link>
               </Button>
             </div>

@@ -120,7 +120,7 @@ const Blog = () => {
       <section className="py-12 bg-background border-b border-border">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-wrap gap-4 justify-center">
-            {categories.map(category => <Button key={category} variant={category === "All" ? "default" : "outline"} className={category === "All" ? "bg-turquoise text-turquoise-foreground hover:bg-turquoise/90" : "border-muted-foreground text-muted-foreground hover:bg-muted hover:text-foreground"}>
+            {categories.map(category => <Button key={category} variant={category === "All" ? "default" : "outline"} className={category === "All" ? "bg-panel-medium text-background hover:bg-panel-medium/90" : "border-muted-foreground text-muted-foreground hover:bg-muted hover:text-foreground"}>
                 {category}
               </Button>)}
           </div>
@@ -186,7 +186,7 @@ const Blog = () => {
                         {tag}
                       </span>)}
                   </div>
-                  <Button className="bg-turquoise text-turquoise-foreground hover:bg-turquoise/90 group">
+                  <Button className="bg-panel-medium text-background hover:bg-panel-medium/90 group">
                     Read Full Article
                     <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                   </Button>
@@ -252,7 +252,7 @@ const Blog = () => {
                         {tag}
                       </span>)}
                   </div>
-                  <Button variant="outline" className="w-full group-hover:bg-turquoise group-hover:text-turquoise-foreground group-hover:border-turquoise transition-all">
+                  <Button variant="outline" className="w-full group-hover:bg-panel-medium group-hover:text-background group-hover:border-panel-medium transition-all">
                     Read Article
                   </Button>
                 </div>
@@ -261,7 +261,7 @@ const Blog = () => {
 
           {/* Load More Button */}
           <div className="text-center mt-12">
-            <Button variant="outline" size="lg" className="border-turquoise text-turquoise hover:bg-turquoise hover:text-turquoise-foreground">
+            <Button variant="outline" size="lg" className="border-panel-medium text-panel-medium hover:bg-panel-medium hover:text-background">
               Load More Articles
             </Button>
           </div>

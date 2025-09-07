@@ -414,7 +414,7 @@ const MarTech = () => {
                 <p className="text-lg text-muted-foreground mb-8">
                   Find out how a eight-person engineering team helped Ykone's CEO realise his vision for a <span className="font-semibold text-foreground">powerful flagship product</span> and drive the business to new heights.
                 </p>
-                <Button className="bg-yellow text-yellow-foreground hover:bg-yellow/90 font-semibold px-8 py-3" asChild>
+                <Button className="bg-panel-medium text-background hover:bg-panel-medium/90 font-semibold px-8 py-3" asChild>
                   <Link to="/case-studies">READ MORE →</Link>
                 </Button>
               </div>

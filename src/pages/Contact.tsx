@@ -172,33 +172,33 @@ const Contact = () => {
               href="https://linkedin.com" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="w-16 h-16 bg-panel-warm rounded-full flex items-center justify-center hover:bg-turquoise transition-colors group"
+              className="w-16 h-16 bg-panel-warm rounded-full flex items-center justify-center hover:bg-panel-medium transition-colors group"
             >
-              <Linkedin className="w-8 h-8 text-background group-hover:text-turquoise-foreground" />
+              <Linkedin className="w-8 h-8 text-background group-hover:text-background" />
             </a>
             <a 
               href="https://x.com" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="w-16 h-16 bg-panel-warm rounded-full flex items-center justify-center hover:bg-turquoise transition-colors group"
+              className="w-16 h-16 bg-panel-warm rounded-full flex items-center justify-center hover:bg-panel-medium transition-colors group"
             >
-              <Twitter className="w-8 h-8 text-background group-hover:text-turquoise-foreground" />
+              <Twitter className="w-8 h-8 text-background group-hover:text-background" />
             </a>
             <a 
               href="https://facebook.com" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="w-16 h-16 bg-panel-warm rounded-full flex items-center justify-center hover:bg-turquoise transition-colors group"
+              className="w-16 h-16 bg-panel-warm rounded-full flex items-center justify-center hover:bg-panel-medium transition-colors group"
             >
-              <Facebook className="w-8 h-8 text-background group-hover:text-turquoise-foreground" />
+              <Facebook className="w-8 h-8 text-background group-hover:text-background" />
             </a>
             <a 
               href="https://instagram.com" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="w-16 h-16 bg-panel-warm rounded-full flex items-center justify-center hover:bg-turquoise transition-colors group"
+              className="w-16 h-16 bg-panel-warm rounded-full flex items-center justify-center hover:bg-panel-medium transition-colors group"
             >
-              <Instagram className="w-8 h-8 text-background group-hover:text-turquoise-foreground" />
+              <Instagram className="w-8 h-8 text-background group-hover:text-background" />
             </a>
           </div>
         </div>

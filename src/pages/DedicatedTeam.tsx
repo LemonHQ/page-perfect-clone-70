@@ -473,7 +473,7 @@ const DedicatedTeam = () => {
                 How we helped Preqin establish a 450+ person global R&D centre in India
               </p>
               <Button 
-                className="bg-yellow-foreground text-yellow hover:bg-yellow-foreground/90 font-semibold px-8 py-4 rounded-full"
+                className="bg-panel-medium text-background hover:bg-panel-medium/90 font-semibold px-8 py-4 rounded-full"
                 asChild
               >
                 <Link to="/contact">DOWNLOAD CASE STUDY →</Link>

@@ -225,7 +225,7 @@ const Leadership = () => {
                   Learn about our approach that combines finely-tuned recruitment, managed operations, and cultural alignment.
                 </p>
                 <Button 
-                  className="rounded-full bg-yellow text-yellow-foreground hover:bg-yellow/90 font-semibold px-6 py-2"
+                  className="rounded-full bg-panel-medium text-background hover:bg-panel-medium/90 font-semibold px-6 py-2"
                   asChild
                 >
                   <Link to="/our-model">LEARN MORE →</Link>
@@ -420,7 +420,7 @@ const Leadership = () => {
           </p>
           <Button 
             size="lg"
-            className="bg-turquoise text-turquoise-foreground hover:bg-turquoise/90 font-semibold"
+            className="bg-panel-medium text-background hover:bg-panel-medium/90 font-semibold"
             asChild
           >
             <Link to="/contact">GET STARTED</Link>

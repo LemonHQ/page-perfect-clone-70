@@ -478,7 +478,7 @@ const Index = () => {
               </p>
               <Button 
                 variant="ghost" 
-                className="text-turquoise-foreground hover:bg-turquoise-foreground/10 p-0 h-auto font-semibold"
+                className="text-panel-medium hover:bg-panel-medium/10 p-0 h-auto font-semibold"
                 asChild
               >
                 <Link to="/offshore-centre">LEARN MORE →</Link>
@@ -535,7 +535,7 @@ const Index = () => {
                   Read how <strong>an in-house development team</strong> helped PartyLite move away from third-party vendors, upgrade existing skills, and keep capability within the business.
                 </p>
                 <Button 
-                  className="bg-yellow text-yellow-foreground hover:bg-yellow/90 font-semibold px-6 py-2"
+                  className="bg-panel-medium text-background hover:bg-panel-medium/90 font-semibold px-6 py-2"
                   asChild
                 >
                   <Link to="/case-studies">READ MORE →</Link>

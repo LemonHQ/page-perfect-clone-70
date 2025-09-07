@@ -331,7 +331,7 @@ const About = () => {
                   Discover the world's fastest-growing tech hub. It's the Silicon Valley of Asia and the place we call home.
                 </p>
                 <Button 
-                  className="rounded-full bg-yellow text-yellow-foreground hover:bg-yellow/90 font-semibold px-6 py-2"
+                  className="rounded-full bg-panel-medium text-background hover:bg-panel-medium/90 font-semibold px-6 py-2"
                 >
                   LEARN MORE →
                 </Button>
