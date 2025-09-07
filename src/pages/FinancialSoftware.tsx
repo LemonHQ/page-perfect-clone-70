@@ -64,7 +64,7 @@ const FinancialSoftware = () => {
               <div className="text-3xl mb-3">🤖</div>
               <p className="text-sm font-medium">Robo-Advisory</p>
             </Card>
-            <Card className="p-6 text-center bg-navy text-navy-foreground">
+            <Card className="p-6 text-center bg-panel-warm text-foreground">
               <div className="text-3xl mb-3">📈</div>
               <p className="text-sm font-medium">Trading Platforms</p>
             </Card>
@@ -96,7 +96,7 @@ const FinancialSoftware = () => {
                 the critical nature of financial data and regulatory requirements, ensuring your 
                 solutions meet the highest industry standards.
               </p>
-              <Button className="bg-navy text-navy-foreground hover:bg-navy/90" asChild>
+              <Button className="bg-panel-medium text-background hover:bg-panel-medium/90" asChild>
                 <Link to="/contact">BUILD YOUR TEAM</Link>
               </Button>
             </div>
@@ -129,7 +129,7 @@ const FinancialSoftware = () => {
                   <span className="text-sm font-medium">Python</span>
                 </div>
                 <div className="flex items-center space-x-2 bg-muted rounded-full px-4 py-2">
-                  <span className="w-6 h-6 bg-navy rounded-full"></span>
+                  <span className="w-6 h-6 bg-panel-medium rounded-full"></span>
                   <span className="text-sm font-medium">Blockchain</span>
                 </div>
                 <div className="flex items-center space-x-2 bg-muted rounded-full px-4 py-2">
@@ -176,7 +176,7 @@ const FinancialSoftware = () => {
             </Card>
 
             <Card className="p-4 text-center">
-              <div className="w-12 h-12 bg-navy rounded-full flex items-center justify-center mx-auto mb-3">
+              <div className="w-12 h-12 bg-panel-warm rounded-full flex items-center justify-center mx-auto mb-3">
                 <span className="text-navy-foreground text-lg">📊</span>
               </div>
               <h3 className="font-semibold mb-2 text-sm">Risk Analytics</h3>
@@ -197,7 +197,7 @@ const FinancialSoftware = () => {
             </Card>
 
             <Card className="p-4 text-center">
-              <div className="w-12 h-12 bg-navy rounded-full flex items-center justify-center mx-auto mb-3">
+              <div className="w-12 h-12 bg-panel-warm rounded-full flex items-center justify-center mx-auto mb-3">
                 <span className="text-navy-foreground text-lg">⚖️</span>
               </div>
               <h3 className="font-semibold mb-2 text-sm">Regulatory Compliance</h3>

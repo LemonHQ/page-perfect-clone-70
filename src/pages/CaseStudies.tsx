@@ -231,7 +231,7 @@ const CaseStudies = () => {
       </section>
 
       {/* Let's Talk Form */}
-      <section className="py-16 bg-navy text-navy-foreground">
+      <section className="py-16 bg-panel-soft text-foreground">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -291,7 +291,7 @@ const CaseStudies = () => {
                 <input type="text" placeholder="Company name*" className="w-full p-3 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-turquoise" />
                 <textarea placeholder="Message*" rows={4} className="w-full p-3 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-turquoise"></textarea>
                 
-                <Button type="submit" className="w-full bg-foreground text-background hover:bg-foreground/90 font-semibold py-3 rounded-full">
+                <Button type="submit" className="w-full bg-panel-medium text-background hover:bg-panel-medium/90 font-semibold py-3 rounded-full">
                   SEND NOW →
                 </Button>
                 

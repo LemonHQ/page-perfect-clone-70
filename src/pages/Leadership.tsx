@@ -159,9 +159,9 @@ const Leadership = () => {
       </section>
 
       {/* Testimonial */}
-      <section className="py-16 bg-navy text-navy-foreground">
+      <section className="py-16 bg-panel-soft text-foreground">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="text-6xl text-navy-foreground/20 mb-6">"</div>
+          <div className="text-6xl text-foreground/20 mb-6">"</div>
           <blockquote className="text-2xl lg:text-3xl font-medium mb-8">
             At H2, we believe people build amazing companies, not the reverse. 
             Our job is to find the best people and help them build the future.
@@ -204,7 +204,7 @@ const Leadership = () => {
                 </p>
                 <Button 
                   variant="outline"
-                  className="rounded-full border-foreground text-foreground hover:bg-foreground hover:text-background font-semibold px-6 py-2"
+                  className="rounded-full border-panel-medium text-panel-medium hover:bg-panel-medium hover:text-background font-semibold px-6 py-2"
                   asChild
                 >
                   <Link to="/about">LEARN MORE →</Link>
@@ -247,7 +247,7 @@ const Leadership = () => {
                 </p>
                 <Button 
                   variant="outline"
-                  className="rounded-full border-foreground text-foreground hover:bg-foreground hover:text-background font-semibold px-6 py-2"
+                  className="rounded-full border-panel-medium text-panel-medium hover:bg-panel-medium hover:text-background font-semibold px-6 py-2"
                 >
                   LEARN MORE →
                 </Button>
@@ -258,11 +258,11 @@ const Leadership = () => {
       </section>
 
       {/* Let's Talk Form Section */}
-      <section className="py-16 bg-navy text-navy-foreground">
+      <section className="py-16 bg-panel-soft text-foreground">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <div className="text-sm font-semibold text-navy-foreground/70 tracking-wide mb-4">
+              <div className="text-sm font-semibold text-foreground/70 tracking-wide mb-4">
                 FROM 5 TO 100+ ENGINEERS
               </div>
               <h2 className="text-4xl lg:text-5xl font-bold mb-8">
@@ -340,7 +340,7 @@ const Leadership = () => {
                 
                 <Button 
                   type="submit"
-                  className="w-full bg-foreground text-background hover:bg-foreground/90 font-semibold py-3 rounded-full"
+                  className="w-full bg-panel-medium text-background hover:bg-panel-medium/90 font-semibold py-3 rounded-full"
                 >
                   SEND NOW →
                 </Button>
@@ -410,7 +410,7 @@ const Leadership = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-foreground text-background">
+      <section className="py-16 bg-panel-medium text-background">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl lg:text-4xl font-bold mb-6">
             Ready to meet the team?

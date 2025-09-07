@@ -160,7 +160,7 @@ const News = () => {
 
           <div className="bg-background rounded-lg p-8 max-w-2xl mx-auto">
             <div className="flex items-center justify-center mb-6">
-              <div className="bg-navy text-navy-foreground px-6 py-3 rounded font-bold text-lg">
+              <div className="bg-panel-medium text-background px-6 py-3 rounded font-bold text-lg">
                 H2
               </div>
             </div>
@@ -172,7 +172,7 @@ const News = () => {
             </p>
             <Button 
               size="lg"
-              className="bg-navy text-navy-foreground hover:bg-navy/90 font-semibold"
+              className="bg-panel-medium text-background hover:bg-panel-medium/90 font-semibold"
             >
               📥 DOWNLOAD BRAND ASSETS
             </Button>
@@ -181,12 +181,12 @@ const News = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-navy text-navy-foreground">
+      <section className="py-16 bg-panel-soft text-foreground">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl lg:text-4xl font-bold mb-6">
             Set up a world-class tech team in Bangalore
           </h2>
-          <p className="text-xl mb-8 text-navy-foreground/80">
+          <p className="text-xl mb-8 text-foreground/80">
             From 5 to 500+ engineers - we help companies scale their development capabilities
           </p>
           <div className="space-y-4 mb-8">

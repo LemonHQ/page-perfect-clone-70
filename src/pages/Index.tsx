@@ -25,7 +25,7 @@ const Index = () => {
               <div className="flex flex-col sm:flex-row gap-6">
                 <Button 
                   size="lg"
-                  className="bg-foreground text-background hover:bg-foreground/90 font-medium px-8 py-4 text-base"
+                  className="bg-panel-medium text-background hover:bg-panel-medium/90 font-medium px-8 py-4 text-base"
                   asChild
                 >
                   <Link to="/our-model">OUR MODEL</Link>
@@ -33,7 +33,7 @@ const Index = () => {
                 <Button 
                   variant="outline" 
                   size="lg"
-                  className="border-foreground text-foreground hover:bg-foreground hover:text-background px-8 py-4 text-base"
+                  className="border-panel-medium text-panel-medium hover:bg-panel-medium hover:text-background px-8 py-4 text-base"
                   asChild
                 >
                   <Link to="/contact">LET'S TALK</Link>
@@ -154,7 +154,7 @@ const Index = () => {
                 and supports your mission in Bangalore.
               </p>
               <Button 
-                className="bg-foreground text-background hover:bg-foreground/90 font-medium px-8 py-4"
+                className="bg-panel-medium text-background hover:bg-panel-medium/90 font-medium px-8 py-4"
                 asChild
               >
                 <Link to="/our-model">LEARN MORE</Link>
@@ -210,7 +210,7 @@ const Index = () => {
               </p>
               <Button 
                 variant="outline" 
-                className="rounded-full border-foreground text-foreground hover:bg-foreground hover:text-background"
+                className="rounded-full border-panel-medium text-panel-medium hover:bg-panel-medium hover:text-background"
                 asChild
               >
                 <Link to="/dedicated-team">LEARN MORE →</Link>
@@ -236,7 +236,7 @@ const Index = () => {
               </p>
               <Button 
                 variant="outline" 
-                className="rounded-full border-foreground text-foreground hover:bg-foreground hover:text-background"
+                className="rounded-full border-panel-medium text-panel-medium hover:bg-panel-medium hover:text-background"
                 asChild
               >
                 <Link to="/offshore-centre">LEARN MORE →</Link>
@@ -262,7 +262,7 @@ const Index = () => {
               </p>
               <Button 
                 variant="outline" 
-                className="rounded-full border-foreground text-foreground hover:bg-foreground hover:text-background"
+                className="rounded-full border-panel-medium text-panel-medium hover:bg-panel-medium hover:text-background"
                 asChild
               >
                 <Link to="/our-model">LEARN MORE →</Link>
@@ -340,7 +340,7 @@ const Index = () => {
                 Home to the R&D centres of the <strong>world's leading tech companies</strong> including 
                 Google, Amazon, and Microsoft — we tap you into a pool of top talent.
               </p>
-              <Button className="bg-foreground text-background hover:bg-foreground/90">
+              <Button className="bg-panel-medium text-background hover:bg-panel-medium/90">
                 LEARN MORE
               </Button>
             </div>
@@ -383,7 +383,7 @@ const Index = () => {
                 Our management structure combines <strong>European organisation and processes with world-class Indian engineering</strong> expertise to deliver a truly holistic solution.
               </p>
               <Button 
-                className="bg-foreground text-background hover:bg-foreground/90 font-semibold px-8 py-3 rounded-full"
+                className="bg-panel-medium text-background hover:bg-panel-medium/90 font-semibold px-8 py-3 rounded-full"
                 asChild
               >
                 <Link to="/leadership">LEARN MORE →</Link>
@@ -408,7 +408,7 @@ const Index = () => {
                 People are at the heart of everything we do. We've refined our approach to give you <strong>the authentic cultural alignment</strong> your competition doesn't have.
               </p>
               <Button 
-                className="bg-foreground text-background hover:bg-foreground/90 font-semibold px-8 py-3 rounded-full"
+                className="bg-panel-medium text-background hover:bg-panel-medium/90 font-semibold px-8 py-3 rounded-full"
                 asChild
               >
                 <Link to="/about">LEARN MORE →</Link>
@@ -446,7 +446,7 @@ const Index = () => {
               </p>
               <Button 
                 variant="ghost" 
-                className="text-foreground hover:bg-foreground/10 p-0 h-auto font-semibold"
+                className="text-panel-medium hover:bg-panel-medium/10 p-0 h-auto font-semibold"
                 asChild
               >
                 <Link to="/dedicated-team">LEARN MORE →</Link>
@@ -462,7 +462,7 @@ const Index = () => {
               </p>
               <Button 
                 variant="ghost" 
-                className="text-foreground hover:bg-foreground/10 p-0 h-auto font-semibold"
+                className="text-panel-medium hover:bg-panel-medium/10 p-0 h-auto font-semibold"
                 asChild
               >
                 <Link to="/team-extension">LEARN MORE →</Link>
@@ -491,7 +491,7 @@ const Index = () => {
               If you have any other requirements, we can create a custom-built solution to meet your needs.
             </p>
             <Button 
-              className="bg-foreground text-background hover:bg-foreground/90 font-semibold px-8 py-3 rounded-full"
+              className="bg-panel-medium text-background hover:bg-panel-medium/90 font-semibold px-8 py-3 rounded-full"
               asChild
             >
               <Link to="/contact">CONTACT US →</Link>
@@ -547,7 +547,7 @@ const Index = () => {
       </section>
 
       {/* Testimonial */}
-      <section className="py-16 bg-navy text-navy-foreground">
+      <section className="py-16 bg-panel-soft text-foreground">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8">
             <div className="text-sm font-semibold text-navy-foreground/70 tracking-wide mb-8">
@@ -555,7 +555,7 @@ const Index = () => {
             </div>
           </div>
           
-          <div className="relative bg-navy/80 rounded-lg p-12 border border-navy-foreground/20">
+          <div className="relative bg-panel-warm rounded-lg p-12 border border-panel-medium/20">
             <div className="absolute top-4 left-4 text-turquoise text-6xl">
               "
             </div>
@@ -568,8 +568,8 @@ const Index = () => {
             </blockquote>
             
             <div className="flex items-center justify-center">
-              <div className="w-16 h-16 bg-navy-foreground rounded-full mr-4 flex items-center justify-center">
-                <span className="text-navy font-bold text-lg">DB</span>
+              <div className="w-16 h-16 bg-background rounded-full mr-4 flex items-center justify-center">
+                <span className="text-panel-medium font-bold text-lg">DB</span>
               </div>
               <div>
                 <div className="font-bold text-navy-foreground">Daniel Barnes</div>
@@ -607,7 +607,7 @@ const Index = () => {
                 </h3>
                 <Button 
                   variant="ghost" 
-                  className="text-foreground hover:bg-foreground/10 p-0 h-auto font-semibold"
+                  className="text-panel-medium hover:bg-panel-medium/10 p-0 h-auto font-semibold"
                   asChild
                 >
                   <Link to="/resources">READ MORE →</Link>
@@ -632,7 +632,7 @@ const Index = () => {
                 </h3>
                 <Button 
                   variant="ghost" 
-                  className="text-foreground hover:bg-foreground/10 p-0 h-auto font-semibold"
+                  className="text-panel-medium hover:bg-panel-medium/10 p-0 h-auto font-semibold"
                   asChild
                 >
                   <Link to="/resources">READ MORE →</Link>
@@ -657,7 +657,7 @@ const Index = () => {
                 </h3>
                 <Button 
                   variant="ghost" 
-                  className="text-foreground hover:bg-foreground/10 p-0 h-auto font-semibold"
+                  className="text-panel-medium hover:bg-panel-medium/10 p-0 h-auto font-semibold"
                   asChild
                 >
                   <Link to="/resources">READ MORE →</Link>
@@ -669,7 +669,7 @@ const Index = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-navy text-navy-foreground">
+      <section className="py-16 bg-panel-soft text-foreground">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -751,7 +751,7 @@ const Index = () => {
                 
                 <Button 
                   type="submit"
-                  className="w-full bg-foreground text-background hover:bg-foreground/90 font-semibold py-3 rounded-full"
+                  className="w-full bg-panel-medium text-background hover:bg-panel-medium/90 font-semibold py-3 rounded-full"
                 >
                   SEND NOW →
                 </Button>

@@ -243,10 +243,10 @@ const About = () => {
                   />
                 </div>
               </div>
-              <div className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-black/50 rounded-full p-2 cursor-pointer">
+              <div className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-panel-warm/70 rounded-full p-2 cursor-pointer">
                 <ChevronLeft className="w-6 h-6 text-white" />
               </div>
-              <div className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-black/50 rounded-full p-2 cursor-pointer">
+              <div className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-panel-warm/70 rounded-full p-2 cursor-pointer">
                 <ChevronRight className="w-6 h-6 text-white" />
               </div>
             </div>
@@ -257,7 +257,7 @@ const About = () => {
       {/* Build future-proof dev teams */}
       <section className="py-24 bg-turquoise relative overflow-hidden">
         <div className="absolute left-0 top-1/2 transform -translate-y-1/2">
-          <div className="w-64 h-64 bg-navy/20 rounded-full"></div>
+          <div className="w-64 h-64 bg-panel-light rounded-full"></div>
         </div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
@@ -277,7 +277,7 @@ const About = () => {
               </p>
               <Button 
                 size="lg"
-                className="bg-navy text-white hover:bg-navy/90 font-semibold px-8 py-4 rounded-full"
+                className="bg-panel-medium text-white hover:bg-panel-medium/90 font-semibold px-8 py-4 rounded-full"
               >
                 DOWNLOAD GUIDE →
               </Button>
@@ -310,7 +310,7 @@ const About = () => {
                 </p>
                 <Button 
                   variant="outline"
-                  className="rounded-full border-foreground text-foreground hover:bg-foreground hover:text-background font-semibold px-6 py-2"
+                  className="rounded-full border-panel-medium text-panel-medium hover:bg-panel-medium hover:text-background font-semibold px-6 py-2"
                   asChild
                 >
                   <Link to="/our-model">LEARN MORE →</Link>
@@ -352,7 +352,7 @@ const About = () => {
                 </p>
                 <Button 
                   variant="outline"
-                  className="rounded-full border-foreground text-foreground hover:bg-foreground hover:text-background font-semibold px-6 py-2"
+                  className="rounded-full border-panel-medium text-panel-medium hover:bg-panel-medium hover:text-background font-semibold px-6 py-2"
                   asChild
                 >
                   <Link to="/leadership">LEARN MORE →</Link>
@@ -364,7 +364,7 @@ const About = () => {
       </section>
 
       {/* Let's Talk Form Section */}
-      <section className="py-16 bg-navy text-navy-foreground">
+      <section className="py-16 bg-panel-soft text-foreground">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -446,7 +446,7 @@ const About = () => {
                 
                 <Button 
                   type="submit"
-                  className="w-full bg-foreground text-background hover:bg-foreground/90 font-semibold py-3 rounded-full"
+                  className="w-full bg-panel-medium text-background hover:bg-panel-medium/90 font-semibold py-3 rounded-full"
                 >
                   SEND NOW →
                 </Button>
@@ -516,7 +516,7 @@ const About = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-24 bg-foreground text-background">
+      <section className="py-24 bg-panel-medium text-background">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl lg:text-5xl font-bold mb-8 leading-tight">
             Ready to scale your team?

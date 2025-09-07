@@ -117,7 +117,7 @@ const FAQ = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-navy text-navy-foreground">
+      <section className="py-16 bg-panel-soft text-foreground">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl lg:text-4xl font-bold mb-6">
             Set up a world-class tech team in Bangalore
@@ -183,7 +183,7 @@ const FAQ = () => {
               ></textarea>
               <Button 
                 size="lg"
-                className="w-full bg-navy text-navy-foreground hover:bg-navy/90 font-semibold"
+                className="w-full bg-panel-medium text-background hover:bg-panel-medium/90 font-semibold"
               >
                 SEND NOW ➤
               </Button>

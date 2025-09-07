@@ -51,8 +51,8 @@ const MarTech = () => {
             </Card>
 
             <Card className="p-8 bg-background">
-              <div className="w-16 h-16 bg-navy/20 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Eye className="w-8 h-8 text-navy" />
+              <div className="w-16 h-16 bg-panel-light rounded-full flex items-center justify-center mx-auto mb-6">
+                <Eye className="w-8 h-8 text-panel-medium" />
               </div>
               <h3 className="text-xl font-bold text-center mb-4">Complete visibility</h3>
               <p className="text-muted-foreground text-center">
@@ -204,7 +204,7 @@ const MarTech = () => {
             <div>
               <div className="mb-8">
                 <div className="flex flex-wrap gap-4 mb-6">
-                  <span className="bg-foreground text-background px-4 py-2 rounded-full text-sm font-medium">TECHNOLOGIES</span>
+                  <span className="bg-panel-medium text-background px-4 py-2 rounded-full text-sm font-medium">TECHNOLOGIES</span>
                   <span className="bg-muted text-muted-foreground px-4 py-2 rounded-full text-sm font-medium">Back-end</span>
                   <span className="bg-muted text-muted-foreground px-4 py-2 rounded-full text-sm font-medium">Front-end</span>
                   <span className="bg-yellow text-yellow-foreground px-4 py-2 rounded-full text-sm font-medium">Database</span>
@@ -228,7 +228,7 @@ const MarTech = () => {
             {/* Roles */}
             <div>
               <div className="mb-8">
-                <div className="bg-foreground text-background px-4 py-2 rounded-full text-sm font-medium inline-block mb-6">
+                <div className="bg-panel-medium text-background px-4 py-2 rounded-full text-sm font-medium inline-block mb-6">
                   ROLES
                 </div>
                 <div className="grid grid-cols-1 gap-3">
@@ -499,11 +499,11 @@ const MarTech = () => {
       </section>
 
       {/* Let's Talk Form Section */}
-      <section className="py-16 bg-navy text-navy-foreground">
+      <section className="py-16 bg-panel-soft text-foreground">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <div className="text-sm font-semibold text-navy-foreground/70 tracking-wide mb-4">
+              <div className="text-sm font-semibold text-foreground/70 tracking-wide mb-4">
                 FROM 5 TO 100+ ENGINEERS
               </div>
               <h2 className="text-4xl lg:text-5xl font-bold mb-8">
@@ -559,7 +559,7 @@ const MarTech = () => {
                 <input type="text" placeholder="Company name*" className="w-full p-3 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-turquoise" />
                 <textarea placeholder="Message*" rows={4} className="w-full p-3 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-turquoise"></textarea>
                 
-                <Button type="submit" className="w-full bg-foreground text-background hover:bg-foreground/90 font-semibold py-3 rounded-full">
+                <Button type="submit" className="w-full bg-panel-medium text-background hover:bg-panel-medium/90 font-semibold py-3 rounded-full">
                   SEND NOW →
                 </Button>
                 

@@ -58,7 +58,7 @@ const DedicatedTeam = () => {
             </div>
 
             <div className="text-center">
-              <div className="w-24 h-24 bg-navy/20 rounded-full flex items-center justify-center mx-auto mb-6">
+              <div className="w-24 h-24 bg-panel-light rounded-full flex items-center justify-center mx-auto mb-6">
                 <MessageCircle className="w-12 h-12 text-navy" />
               </div>
               <h3 className="text-2xl font-bold mb-4">Easy communication</h3>
@@ -136,7 +136,7 @@ const DedicatedTeam = () => {
                 Leverage the talent of India's top developers and access skills you can't find locally. With 90k engineers graduating every year and <span className="font-semibold text-foreground">the R&D centres of the world's top tech giants</span>, Asia's Silicon Valley is a dynamic hub of innovation and a place you'll feel right at home in.
               </p>
               <Button 
-                className="bg-foreground text-background hover:bg-foreground/90"
+                className="bg-panel-medium text-background hover:bg-panel-medium/90"
                 asChild
               >
                 <Link to="/about">LEARN MORE</Link>
@@ -172,7 +172,7 @@ const DedicatedTeam = () => {
               <p className="text-xl font-semibold text-foreground">the city every year</p>
             </div>
             <div>
-              <div className="w-32 h-32 bg-navy/20 rounded-full flex items-center justify-center mx-auto mb-6">
+              <div className="w-32 h-32 bg-panel-light rounded-full flex items-center justify-center mx-auto mb-6">
                 <span className="text-5xl font-bold text-foreground">400</span>
               </div>
               <p className="text-xl font-semibold mb-2">R&D centres, including</p>
@@ -336,7 +336,7 @@ const DedicatedTeam = () => {
             </div>
 
             <div className="text-center">
-              <div className="w-32 h-32 bg-navy/20 rounded-full flex items-center justify-center mx-auto mb-8">
+              <div className="w-32 h-32 bg-panel-light rounded-full flex items-center justify-center mx-auto mb-8">
                 <span className="text-3xl font-bold text-foreground">03</span>
               </div>
               <h3 className="text-2xl font-bold mb-6">You scale without limits</h3>
@@ -548,7 +548,7 @@ const DedicatedTeam = () => {
       </section>
 
       {/* CTA Section with Form */}
-      <section className="py-24 bg-navy text-navy-foreground">
+      <section className="py-24 bg-panel-soft text-foreground">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -630,7 +630,7 @@ const DedicatedTeam = () => {
                 
                 <Button 
                   type="submit"
-                  className="w-full bg-foreground text-background hover:bg-foreground/90 font-semibold py-3 rounded-full"
+                  className="w-full bg-panel-medium text-background hover:bg-panel-medium/90 font-semibold py-3 rounded-full"
                 >
                   SEND NOW →
                 </Button>

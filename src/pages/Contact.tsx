@@ -145,7 +145,7 @@ const Contact = () => {
                   <Button 
                     type="submit"
                     size="lg"
-                    className="w-full bg-navy text-navy-foreground hover:bg-navy/90 font-semibold py-4 rounded-full"
+                    className="w-full bg-panel-medium text-background hover:bg-panel-medium/90 font-semibold py-4 rounded-full"
                   >
                     SUBMIT →
                   </Button>
@@ -172,7 +172,7 @@ const Contact = () => {
               href="https://linkedin.com" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="w-16 h-16 bg-foreground rounded-full flex items-center justify-center hover:bg-turquoise transition-colors group"
+              className="w-16 h-16 bg-panel-warm rounded-full flex items-center justify-center hover:bg-turquoise transition-colors group"
             >
               <Linkedin className="w-8 h-8 text-background group-hover:text-turquoise-foreground" />
             </a>
@@ -180,7 +180,7 @@ const Contact = () => {
               href="https://x.com" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="w-16 h-16 bg-foreground rounded-full flex items-center justify-center hover:bg-turquoise transition-colors group"
+              className="w-16 h-16 bg-panel-warm rounded-full flex items-center justify-center hover:bg-turquoise transition-colors group"
             >
               <Twitter className="w-8 h-8 text-background group-hover:text-turquoise-foreground" />
             </a>
@@ -188,7 +188,7 @@ const Contact = () => {
               href="https://facebook.com" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="w-16 h-16 bg-foreground rounded-full flex items-center justify-center hover:bg-turquoise transition-colors group"
+              className="w-16 h-16 bg-panel-warm rounded-full flex items-center justify-center hover:bg-turquoise transition-colors group"
             >
               <Facebook className="w-8 h-8 text-background group-hover:text-turquoise-foreground" />
             </a>
@@ -196,7 +196,7 @@ const Contact = () => {
               href="https://instagram.com" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="w-16 h-16 bg-foreground rounded-full flex items-center justify-center hover:bg-turquoise transition-colors group"
+              className="w-16 h-16 bg-panel-warm rounded-full flex items-center justify-center hover:bg-turquoise transition-colors group"
             >
               <Instagram className="w-8 h-8 text-background group-hover:text-turquoise-foreground" />
             </a>
@@ -248,7 +248,7 @@ const Contact = () => {
           </div>
 
           {/* World Map */}
-          <div className="relative bg-navy rounded-lg overflow-hidden h-96">
+          <div className="relative bg-panel-soft rounded-lg overflow-hidden h-96">
             <img 
               src="/lovable-uploads/e5893bf1-f372-4824-9dc9-7714aaf54ccf.png" 
               alt="Global locations map showing our offices worldwide"
@@ -275,7 +275,7 @@ const Contact = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 
               size="lg"
-              className="bg-navy text-navy-foreground hover:bg-navy/90 font-semibold px-8 py-4"
+              className="bg-panel-medium text-background hover:bg-panel-medium/90 font-semibold px-8 py-4"
             >
               <Phone className="w-5 h-5 mr-2" />
               CALL US NOW

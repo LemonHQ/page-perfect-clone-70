@@ -170,7 +170,7 @@ const Header = () => {
           {/* CTA Button */}
           <Button 
             variant="default"
-            className="bg-foreground text-background hover:bg-foreground/90 font-medium"
+            className="bg-panel-medium text-background hover:bg-panel-medium/90 font-medium"
             asChild
           >
             <Link to="/contact">CONTACT US</Link>
