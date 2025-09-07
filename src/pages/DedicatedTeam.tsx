@@ -281,9 +281,9 @@ const DedicatedTeam = () => {
             <div className="text-sm font-medium text-muted-foreground mb-4 tracking-wider uppercase">
               OFFSHORE DEVELOPMENT MODEL
             </div>
-            <h2 className="text-4xl lg:text-6xl font-bold text-foreground mb-8 leading-tight">
-              The right talent, the right place, the right model
-            </h2>
+              <h2 className="h2 mb-8">
+                The right talent, the right place, the right model
+              </h2>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
