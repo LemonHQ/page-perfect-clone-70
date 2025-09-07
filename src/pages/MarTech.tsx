@@ -1,156 +1,260 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Link } from "react-router-dom";
+import { Check, ChevronDown, Diamond, DollarSign, Eye } from "lucide-react";
 
 const MarTech = () => {
   return (
     <div className="min-h-screen">
-      {/* Hero Section */}
-      <section className="bg-gradient-to-br from-navy via-turquoise to-navy py-16 lg:py-24">
+      {/* Hero Section - Increase the ROI of development */}
+      <section className="py-24 lg:py-32 bg-turquoise">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center text-navy-foreground">
-            <h1 className="text-4xl lg:text-6xl font-bold mb-6">
-              MarTech Software Development
-            </h1>
-            <p className="text-xl mb-8 max-w-3xl mx-auto opacity-90">
-              Increase the ROI of development with world-class MarTech engineering talent
-            </p>
-            <div className="flex flex-wrap justify-center gap-4 mb-8">
-              <span className="bg-background text-foreground px-4 py-2 rounded-full text-sm font-medium">Node.js</span>
-              <span className="bg-background text-foreground px-4 py-2 rounded-full text-sm font-medium">Python</span>
-              <span className="bg-background text-foreground px-4 py-2 rounded-full text-sm font-medium">React</span>
-              <span className="bg-background text-foreground px-4 py-2 rounded-full text-sm font-medium">AWS</span>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div>
+              <div className="text-sm font-medium text-turquoise-foreground/80 mb-4 tracking-wider uppercase">
+                MARTECH SOFTWARE TEAM
+              </div>
+              <h1 className="text-4xl lg:text-6xl font-bold text-turquoise-foreground mb-8 leading-tight">
+                Increase the ROI of development
+              </h1>
+              <p className="text-xl text-turquoise-foreground/90 mb-8 leading-relaxed">
+                Marketing technology is a constant battle to <span className="font-semibold text-turquoise-foreground">deliver the right message, at the right time, to the right person.</span> Leverage the latest technology advancements, stay ahead of regulation, and prevent security threats with a dedicated team of top experts. We'll find, manage, and scale <span className="font-semibold text-turquoise-foreground">a cost-optimal team of MarTech experts from Bangalore's vast talent pool</span> of engineers and marketing experts, fully integrated with your company and culture.
+              </p>
             </div>
+            <div className="bg-turquoise-light rounded-lg overflow-hidden">
+              <img 
+                src="/lovable-uploads/588a9cc4-ee1d-4279-9044-8f5bcff8e845.png" 
+                alt="MarTech developer working on laptop"
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
+
+          {/* Benefits Cards */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
+            <Card className="p-8 bg-background">
+              <div className="w-16 h-16 bg-yellow/20 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Diamond className="w-8 h-8 text-yellow-foreground" />
+              </div>
+              <h3 className="text-xl font-bold text-center mb-4">Gain niche skills</h3>
+              <p className="text-muted-foreground text-center">
+                By building an offshore team in the "Silicon Valley of Asia", you can <span className="font-semibold text-foreground">scale a team of experts</span> in any skill or role you need.
+              </p>
+            </Card>
+
+            <Card className="p-8 bg-background">
+              <div className="w-16 h-16 bg-turquoise/20 rounded-full flex items-center justify-center mx-auto mb-6">
+                <DollarSign className="w-8 h-8 text-turquoise" />
+              </div>
+              <h3 className="text-xl font-bold text-center mb-4">Increase delivery</h3>
+              <p className="text-muted-foreground text-center">
+                Get more from your hiring budget and <span className="font-semibold text-foreground">take advantage of the lower overheads</span> in Bangalore, India, to deliver value to users faster.
+              </p>
+            </Card>
+
+            <Card className="p-8 bg-background">
+              <div className="w-16 h-16 bg-navy/20 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Eye className="w-8 h-8 text-navy" />
+              </div>
+              <h3 className="text-xl font-bold text-center mb-4">Complete visibility</h3>
+              <p className="text-muted-foreground text-center">
+                Manage your offshore team just like your in-house team. <span className="font-semibold text-foreground">Use the same systems and workflows</span> for complete visibility and management.
+              </p>
+            </Card>
           </div>
         </div>
       </section>
 
       {/* Custom-built MarTech engineering teams */}
-      <section className="py-16 bg-turquoise">
+      <section className="py-24 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-bold text-turquoise-foreground mb-4">
+          <div className="text-center mb-16">
+            <div className="text-sm font-medium text-muted-foreground mb-4 tracking-wider uppercase">
+              SECTOR EXPERTISE
+            </div>
+            <h2 className="text-4xl lg:text-6xl font-bold text-foreground mb-8 leading-tight">
               Custom-built MarTech engineering teams
             </h2>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12">
-            {/* Tech Icons Grid */}
-            <Card className="p-6 text-center bg-background">
-              <div className="text-3xl mb-3">AD</div>
-              <p className="text-sm font-medium">Ad Tech</p>
-            </Card>
-            <Card className="p-6 text-center bg-turquoise-light">
-              <div className="text-3xl mb-3">📊</div>
-              <p className="text-sm font-medium">Analytics</p>
-            </Card>
-            <Card className="p-6 text-center bg-yellow">
-              <div className="text-3xl mb-3">🎯</div>
-              <p className="text-sm font-medium">Marketing Automation</p>
-            </Card>
-            <Card className="p-6 text-center bg-background">
-              <div className="text-3xl mb-3">📱</div>
-              <p className="text-sm font-medium">CRM Systems</p>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <Card className="p-6 text-center bg-turquoise text-turquoise-foreground relative overflow-hidden">
+              <div className="absolute top-4 right-4 w-6 h-6 bg-turquoise-foreground/20 rounded-full flex items-center justify-center">
+                <span className="text-turquoise-foreground text-xs">+</span>
+              </div>
+              <div className="h-32 bg-turquoise-foreground/10 rounded-lg mb-4 flex items-center justify-center">
+                <span className="text-4xl font-bold">AD</span>
+              </div>
+              <h3 className="font-semibold">Advertising Technology (AdTech)</h3>
             </Card>
 
-            <Card className="p-6 text-center bg-yellow-light">
-              <div className="text-3xl mb-3">🛒</div>
-              <p className="text-sm font-medium">E-commerce</p>
+            <Card className="p-6 text-center bg-turquoise text-turquoise-foreground relative overflow-hidden">
+              <div className="absolute top-4 right-4 w-6 h-6 bg-turquoise-foreground/20 rounded-full flex items-center justify-center">
+                <span className="text-turquoise-foreground text-xs">+</span>
+              </div>
+              <div className="h-32 bg-turquoise-foreground/10 rounded-lg mb-4 flex items-center justify-center">
+                <div className="w-16 h-16 bg-turquoise-foreground/30 rounded-full flex items-center justify-center">
+                  <div className="w-8 h-8 bg-turquoise-foreground rounded-full"></div>
+                </div>
+              </div>
+              <h3 className="font-semibold">Influencer Marketing</h3>
             </Card>
-            <Card className="p-6 text-center bg-turquoise">
-              <div className="text-3xl mb-3">📈</div>
-              <p className="text-sm font-medium">Data Science</p>
+
+            <Card className="p-6 text-center bg-yellow text-yellow-foreground relative overflow-hidden">
+              <div className="absolute top-4 right-4 w-6 h-6 bg-yellow-foreground/20 rounded-full flex items-center justify-center">
+                <span className="text-yellow-foreground text-xs">+</span>
+              </div>
+              <div className="h-32 bg-yellow-foreground/10 rounded-lg mb-4 flex items-center justify-center">
+                <div className="w-16 h-12 bg-yellow-foreground/30 rounded-lg flex items-center justify-center">
+                  <span className="text-2xl">📱</span>
+                </div>
+              </div>
+              <h3 className="font-semibold">Mobile Marketing</h3>
             </Card>
-            <Card className="p-6 text-center bg-background">
-              <div className="text-3xl mb-3">🤖</div>
-              <p className="text-sm font-medium">AI/ML</p>
+
+            <Card className="p-6 text-center bg-turquoise text-turquoise-foreground relative overflow-hidden">
+              <div className="absolute top-4 right-4 w-6 h-6 bg-turquoise-foreground/20 rounded-full flex items-center justify-center">
+                <span className="text-turquoise-foreground text-xs">+</span>
+              </div>
+              <div className="h-32 bg-turquoise-foreground/10 rounded-lg mb-4 flex items-center justify-center">
+                <div className="flex space-x-2">
+                  <div className="w-4 h-8 bg-turquoise-foreground/50 rounded"></div>
+                  <div className="w-4 h-6 bg-turquoise-foreground/50 rounded"></div>
+                  <div className="w-4 h-4 bg-turquoise-foreground/50 rounded"></div>
+                </div>
+              </div>
+              <h3 className="font-semibold">Omnichannel Marketing</h3>
             </Card>
-            <Card className="p-6 text-center bg-navy text-navy-foreground">
-              <div className="text-3xl mb-3">☁️</div>
-              <p className="text-sm font-medium">Cloud Infrastructure</p>
+
+            <Card className="p-6 text-center bg-yellow text-yellow-foreground relative overflow-hidden">
+              <div className="absolute top-4 right-4 w-6 h-6 bg-yellow-foreground/20 rounded-full flex items-center justify-center">
+                <span className="text-yellow-foreground text-xs">+</span>
+              </div>
+              <div className="h-32 bg-yellow-foreground/10 rounded-lg mb-4 flex items-center justify-center">
+                <span className="text-4xl">#</span>
+              </div>
+              <h3 className="font-semibold">Content Marketing</h3>
+            </Card>
+
+            <Card className="p-6 text-center bg-turquoise text-turquoise-foreground relative overflow-hidden">
+              <div className="absolute top-4 right-4 w-6 h-6 bg-turquoise-foreground/20 rounded-full flex items-center justify-center">
+                <span className="text-turquoise-foreground text-xs">+</span>
+              </div>
+              <div className="h-32 bg-turquoise-foreground/10 rounded-lg mb-4 flex items-center justify-center">
+                <div className="flex space-x-1">
+                  <div className="w-6 h-6 bg-turquoise-foreground/50 rounded"></div>
+                  <div className="w-6 h-6 bg-turquoise-foreground/50 rounded"></div>
+                </div>
+              </div>
+              <h3 className="font-semibold">Social Media</h3>
+            </Card>
+
+            <Card className="p-6 text-center bg-turquoise text-turquoise-foreground relative overflow-hidden">
+              <div className="absolute top-4 right-4 w-6 h-6 bg-turquoise-foreground/20 rounded-full flex items-center justify-center">
+                <span className="text-turquoise-foreground text-xs">+</span>
+              </div>
+              <div className="h-32 bg-turquoise-foreground/10 rounded-lg mb-4 flex items-center justify-center">
+                <div className="w-16 h-16 bg-turquoise-foreground/30 rounded-full"></div>
+              </div>
+              <h3 className="font-semibold">Marketing Automation</h3>
+            </Card>
+
+            <Card className="p-6 text-center bg-yellow text-yellow-foreground relative overflow-hidden">
+              <div className="absolute top-4 right-4 w-6 h-6 bg-yellow-foreground/20 rounded-full flex items-center justify-center">
+                <span className="text-yellow-foreground text-xs">+</span>
+              </div>
+              <div className="h-32 bg-yellow-foreground/10 rounded-lg mb-4 flex items-center justify-center">
+                <div className="flex space-x-1">
+                  <div className="w-3 h-8 bg-yellow-foreground/50 rounded"></div>
+                  <div className="w-3 h-12 bg-yellow-foreground/50 rounded"></div>
+                  <div className="w-3 h-6 bg-yellow-foreground/50 rounded"></div>
+                </div>
+              </div>
+              <h3 className="font-semibold">Marketing Analytics</h3>
             </Card>
           </div>
+        </div>
+      </section>
 
-          <div className="bg-turquoise-light rounded-lg p-8 flex items-center justify-center">
-            <div className="w-full h-48 bg-background rounded-lg flex items-center justify-center">
-              <span className="text-foreground text-lg font-semibold">MarTech Innovation Platform</span>
+      {/* Bangalore: MarTech talent hub */}
+      <section className="py-24 bg-muted/30">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div>
+              <div className="text-sm font-medium text-muted-foreground mb-4 tracking-wider uppercase">
+                RICH TALENT POOL
+              </div>
+              <h2 className="text-4xl lg:text-6xl font-bold text-foreground mb-8 leading-tight">
+                Bangalore: MarTech talent hub
+              </h2>
+              <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
+                <span className="font-semibold text-foreground">HubSpot, Zoom, Konnect, Zoho, VWO</span> — just a few MarTech giants who have development centres in Bangalore, sometimes known as the "Silicon Valley of Asia". Our 7-step recruitment process secures the <span className="font-semibold text-foreground">top 1% of Bangalore's more than 2 million tech talent pool</span>, and our unique model means you get a team that's truly yours. <span className="font-semibold text-foreground">Your employees, your systems, your culture.</span> So you can scale fast and scale sustainably.
+              </p>
+            </div>
+            <div className="bg-background rounded-lg overflow-hidden">
+              <img 
+                src="/lovable-uploads/45afd01d-11e1-4cca-a41f-f0f33282d9fe.png" 
+                alt="Female developer working on MarTech solutions"
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
         </div>
       </section>
 
-      {/* Scaling Innovation */}
-      <section className="py-16 bg-yellow">
+      {/* Technologies and Roles */}
+      <section className="py-24 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="bg-yellow-light rounded-lg p-8 flex items-center justify-center">
-              <div className="w-full h-48 bg-background rounded-lg flex items-center justify-center">
-                <span className="text-foreground text-lg font-semibold">Scaling Innovation Diagram</span>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
+            {/* Technologies */}
+            <div>
+              <div className="mb-8">
+                <div className="flex flex-wrap gap-4 mb-6">
+                  <span className="bg-foreground text-background px-4 py-2 rounded-full text-sm font-medium">TECHNOLOGIES</span>
+                  <span className="bg-muted text-muted-foreground px-4 py-2 rounded-full text-sm font-medium">Back-end</span>
+                  <span className="bg-muted text-muted-foreground px-4 py-2 rounded-full text-sm font-medium">Front-end</span>
+                  <span className="bg-yellow text-yellow-foreground px-4 py-2 rounded-full text-sm font-medium">Database</span>
+                  <span className="bg-muted text-muted-foreground px-4 py-2 rounded-full text-sm font-medium">Cloud</span>
+                </div>
+                <div className="flex items-center space-x-4 mb-4">
+                  <div className="w-12 h-12 bg-blue-600 rounded flex items-center justify-center">
+                    <span className="text-white font-bold text-sm">SQL</span>
+                  </div>
+                  <div className="w-12 h-12 bg-blue-500 rounded flex items-center justify-center">
+                    <span className="text-white text-lg">🧠</span>
+                  </div>
+                  <div className="w-12 h-12 bg-blue-400 rounded flex items-center justify-center">
+                    <span className="text-white text-lg">🦢</span>
+                  </div>
+                  <span className="text-lg font-medium">...and more</span>
+                </div>
               </div>
             </div>
-            <div>
-              <h2 className="text-3xl lg:text-4xl font-bold text-yellow-foreground mb-6">
-                Scaling Innovation: People over profit
-              </h2>
-              <p className="text-lg text-yellow-foreground/80 mb-8">
-                Our MarTech teams are built around innovation, not just delivery. We focus on 
-                creating sustainable, scalable solutions that grow with your business needs.
-              </p>
-              <Button 
-                className="bg-navy text-navy-foreground hover:bg-navy/90"
-                asChild
-              >
-                <Link to="/contact">BUILD YOUR TEAM</Link>
-              </Button>
-            </div>
-          </div>
-        </div>
-      </section>
 
-      {/* We build the best MarTech talent hub */}
-      <section className="py-16 bg-background">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            {/* Roles */}
             <div>
-              <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-6">
-                We build the best MarTech talent hub
-              </h2>
-              <p className="text-lg text-muted-foreground mb-8">
-                Our specialized MarTech division connects you with engineers who understand 
-                the unique challenges of marketing technology - from data integration to 
-                real-time personalization and campaign optimization.
-              </p>
-              
-              {/* Tech Stack Icons */}
-              <div className="flex flex-wrap gap-4 mb-8">
-                <div className="flex items-center space-x-2 bg-muted rounded-full px-4 py-2">
-                  <span className="w-6 h-6 bg-turquoise rounded-full"></span>
-                  <span className="text-sm font-medium">React</span>
+              <div className="mb-8">
+                <div className="bg-foreground text-background px-4 py-2 rounded-full text-sm font-medium inline-block mb-6">
+                  ROLES
                 </div>
-                <div className="flex items-center space-x-2 bg-muted rounded-full px-4 py-2">
-                  <span className="w-6 h-6 bg-yellow rounded-full"></span>
-                  <span className="text-sm font-medium">Node.js</span>
+                <div className="grid grid-cols-1 gap-3">
+                  {[
+                    "Front-end Developer", "ERP Developer", "Back-end Developer", "Project Manager", "Scrum Master",
+                    "Full-stack Developer", "Data Analyst", "UI Designer/Developer", "Mobile App Developer",
+                    "API Developer", "Cloud Developer", "DevOps Engineer", "Systems Architect", "Security Engineer",
+                    "Integration Specialist", "UX Researcher", "Business Analyst", "Product Owner",
+                    "Content Management Specialist", "Machine Learning Engineer", "Quality Assurance Engineer",
+                    "Database Administrator"
+                  ].map((role, index) => (
+                    <div key={index} className="flex items-center space-x-3">
+                      <div className="w-6 h-6 bg-turquoise rounded flex items-center justify-center flex-shrink-0">
+                        <Check className="w-4 h-4 text-turquoise-foreground" />
+                      </div>
+                      <span className="text-sm font-medium">{role}</span>
+                      {index === 21 && <span className="text-sm text-muted-foreground">...and more</span>}
+                    </div>
+                  ))}
                 </div>
-                <div className="flex items-center space-x-2 bg-muted rounded-full px-4 py-2">
-                  <span className="w-6 h-6 bg-navy rounded-full"></span>
-                  <span className="text-sm font-medium">Python</span>
-                </div>
-                <div className="flex items-center space-x-2 bg-muted rounded-full px-4 py-2">
-                  <span className="w-6 h-6 bg-turquoise rounded-full"></span>
-                  <span className="text-sm font-medium">AWS</span>
-                </div>
-              </div>
-
-              <Button 
-                className="bg-turquoise text-turquoise-foreground hover:bg-turquoise/90"
-                asChild
-              >
-                <Link to="/dedicated-team">LEARN MORE</Link>
-              </Button>
-            </div>
-            <div className="bg-turquoise-light rounded-lg p-8 flex items-center justify-center">
-              <div className="w-full h-48 bg-background rounded-lg flex items-center justify-center">
-                <span className="text-foreground text-lg font-semibold">MarTech Talent Hub</span>
               </div>
             </div>
           </div>
@@ -158,56 +262,48 @@ const MarTech = () => {
       </section>
 
       {/* The smarter way to scale */}
-      <section className="py-16 bg-muted/30">
+      <section className="py-24 bg-muted/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-4">
+          <div className="text-center mb-16">
+            <div className="text-sm font-medium text-muted-foreground mb-4 tracking-wider uppercase">
+              WHY CHOOSE THE SCALERS
+            </div>
+            <h2 className="text-4xl lg:text-6xl font-bold text-foreground mb-8 leading-tight">
               The smarter way to scale
             </h2>
+            <p className="text-xl text-muted-foreground max-w-4xl mx-auto">
+              Our unique model gives you a team in India so good it feels in-house. <span className="font-semibold text-foreground">And we handle all the hassle.</span>
+            </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-            <div className="space-y-6">
-              <div className="flex items-start space-x-4">
-                <div className="w-12 h-12 bg-turquoise rounded-full flex items-center justify-center flex-shrink-0">
-                  <span className="text-turquoise-foreground font-bold">1</span>
-                </div>
-                <div>
-                  <h3 className="font-semibold mb-2">Stand out in your industry</h3>
-                  <p className="text-muted-foreground text-sm">
-                    Build differentiated MarTech solutions that give you a competitive edge
-                  </p>
-                </div>
-              </div>
-              
-              <div className="flex items-start space-x-4">
-                <div className="w-12 h-12 bg-yellow rounded-full flex items-center justify-center flex-shrink-0">
-                  <span className="text-yellow-foreground font-bold">2</span>
-                </div>
-                <div>
-                  <h3 className="font-semibold mb-2">Boost on-demand</h3>
-                  <p className="text-muted-foreground text-sm">
-                    Scale your development capacity instantly based on project demands
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex items-start space-x-4">
-                <div className="w-12 h-12 bg-navy rounded-full flex items-center justify-center flex-shrink-0">
-                  <span className="text-navy-foreground font-bold">3</span>
-                </div>
-                <div>
-                  <h3 className="font-semibold mb-2">Access on-demand specialized skills</h3>
-                  <p className="text-muted-foreground text-sm">
-                    Get expertise in niche MarTech domains without long-term hiring commitments
-                  </p>
-                </div>
-              </div>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div className="bg-background rounded-lg overflow-hidden">
+              <img 
+                src="/lovable-uploads/3845201e-79ff-42cc-9d3c-245e85dbf645.png" 
+                alt="Team collaboration in office"
+                className="w-full h-full object-cover"
+              />
             </div>
+            <div className="space-y-8">
+              <div>
+                <h3 className="text-2xl font-bold text-foreground mb-4">Hired just for you</h3>
+                <p className="text-lg text-muted-foreground">
+                  We speak to <span className="font-semibold text-foreground">100 candidates for every position</span>, and test them against your specific requirements, so you only get the best.
+                </p>
+              </div>
 
-            <div className="bg-background rounded-lg p-8 flex items-center justify-center">
-              <div className="w-full h-48 bg-turquoise rounded-lg flex items-center justify-center">
-                <span className="text-turquoise-foreground text-lg font-semibold">Scaling Strategy Visual</span>
+              <div>
+                <h3 className="text-2xl font-bold text-foreground mb-4">Tech teams built to last</h3>
+                <p className="text-lg text-muted-foreground">
+                  Your team gets regular engagement activities and team building, so you get happy <span className="font-semibold text-foreground">employees who stay on average 3-5 years.</span>
+                </p>
+              </div>
+
+              <div>
+                <h3 className="text-2xl font-bold text-foreground mb-4">Grow on demand</h3>
+                <p className="text-lg text-muted-foreground">
+                  Our turnkey recruitment process gets the <span className="font-semibold text-foreground">top 1% talent from Bangalore's 2M+ talent pool</span>, so you can scale whenever you need.
+                </p>
               </div>
             </div>
           </div>
@@ -215,144 +311,235 @@ const MarTech = () => {
       </section>
 
       {/* Your dedicated offshore team can help you with */}
-      <section className="py-16 bg-turquoise">
+      <section className="py-24 bg-turquoise">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-bold text-turquoise-foreground mb-4">
+          <div className="text-center mb-16">
+            <div className="text-sm font-medium text-turquoise-foreground/80 mb-4 tracking-wider uppercase">
+              MARTECH SOFTWARE SOLUTIONS
+            </div>
+            <h2 className="text-4xl lg:text-6xl font-bold text-turquoise-foreground mb-8 leading-tight">
               Your dedicated offshore team can help you with
             </h2>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <Card className="p-4 text-center">
-              <div className="w-12 h-12 bg-turquoise rounded-full flex items-center justify-center mx-auto mb-3">
-                <span className="text-turquoise-foreground text-lg">🚀</span>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="bg-background rounded-lg p-6 flex items-center justify-between hover:shadow-lg transition-shadow">
+              <div className="flex items-center space-x-4">
+                <div className="w-12 h-12 bg-yellow/20 rounded-lg flex items-center justify-center">
+                  <span className="text-2xl">📢</span>
+                </div>
+                <span className="text-lg font-semibold">Marketing and advertising platforms</span>
               </div>
-              <h3 className="font-semibold mb-2 text-sm">Campaign Management Platforms</h3>
-            </Card>
+              <ChevronDown className="w-6 h-6 text-muted-foreground" />
+            </div>
 
-            <Card className="p-4 text-center">
-              <div className="w-12 h-12 bg-yellow rounded-full flex items-center justify-center mx-auto mb-3">
-                <span className="text-yellow-foreground text-lg">📊</span>
+            <div className="bg-background rounded-lg p-6 flex items-center justify-between hover:shadow-lg transition-shadow">
+              <div className="flex items-center space-x-4">
+                <div className="w-12 h-12 bg-turquoise/20 rounded-lg flex items-center justify-center">
+                  <span className="text-2xl">💾</span>
+                </div>
+                <span className="text-lg font-semibold">Big data solutions</span>
               </div>
-              <h3 className="font-semibold mb-2 text-sm">Analytics & Attribution</h3>
-            </Card>
+              <ChevronDown className="w-6 h-6 text-muted-foreground" />
+            </div>
 
-            <Card className="p-4 text-center">
-              <div className="w-12 h-12 bg-navy rounded-full flex items-center justify-center mx-auto mb-3">
-                <span className="text-navy-foreground text-lg">🎯</span>
+            <div className="bg-background rounded-lg p-6 flex items-center justify-between hover:shadow-lg transition-shadow">
+              <div className="flex items-center space-x-4">
+                <div className="w-12 h-12 bg-yellow/20 rounded-lg flex items-center justify-center">
+                  <span className="text-2xl">📊</span>
+                </div>
+                <span className="text-lg font-semibold">Data analytics & visualisation</span>
               </div>
-              <h3 className="font-semibold mb-2 text-sm">Personalization Engines</h3>
-            </Card>
+              <ChevronDown className="w-6 h-6 text-muted-foreground" />
+            </div>
 
-            <Card className="p-4 text-center">
-              <div className="w-12 h-12 bg-turquoise rounded-full flex items-center justify-center mx-auto mb-3">
-                <span className="text-turquoise-foreground text-lg">🔗</span>
+            <div className="bg-background rounded-lg p-6 flex items-center justify-between hover:shadow-lg transition-shadow">
+              <div className="flex items-center space-x-4">
+                <div className="w-12 h-12 bg-turquoise/20 rounded-lg flex items-center justify-center">
+                  <span className="text-2xl">🤝</span>
+                </div>
+                <span className="text-lg font-semibold">Affiliate marketing</span>
               </div>
-              <h3 className="font-semibold mb-2 text-sm">API Integrations</h3>
-            </Card>
+              <ChevronDown className="w-6 h-6 text-muted-foreground" />
+            </div>
 
-            <Card className="p-4 text-center">
-              <div className="w-12 h-12 bg-yellow rounded-full flex items-center justify-center mx-auto mb-3">
-                <span className="text-yellow-foreground text-lg">📱</span>
+            <div className="bg-background rounded-lg p-6 flex items-center justify-between hover:shadow-lg transition-shadow">
+              <div className="flex items-center space-x-4">
+                <div className="w-12 h-12 bg-yellow/20 rounded-lg flex items-center justify-center">
+                  <span className="text-2xl">👥</span>
+                </div>
+                <span className="text-lg font-semibold">Marketing CRM development</span>
               </div>
-              <h3 className="font-semibold mb-2 text-sm">Customer Journey Mapping</h3>
-            </Card>
+              <ChevronDown className="w-6 h-6 text-muted-foreground" />
+            </div>
 
-            <Card className="p-4 text-center">
-              <div className="w-12 h-12 bg-navy rounded-full flex items-center justify-center mx-auto mb-3">
-                <span className="text-navy-foreground text-lg">🤖</span>
+            <div className="bg-background rounded-lg p-6 flex items-center justify-between hover:shadow-lg transition-shadow">
+              <div className="flex items-center space-x-4">
+                <div className="w-12 h-12 bg-turquoise/20 rounded-lg flex items-center justify-center">
+                  <span className="text-2xl">🤖</span>
+                </div>
+                <span className="text-lg font-semibold">AI & chatbots</span>
               </div>
-              <h3 className="font-semibold mb-2 text-sm">Marketing Automation</h3>
-            </Card>
+              <ChevronDown className="w-6 h-6 text-muted-foreground" />
+            </div>
 
-            <Card className="p-4 text-center">
-              <div className="w-12 h-12 bg-turquoise rounded-full flex items-center justify-center mx-auto mb-3">
-                <span className="text-turquoise-foreground text-lg">💰</span>
+            <div className="bg-background rounded-lg p-6 flex items-center justify-between hover:shadow-lg transition-shadow">
+              <div className="flex items-center space-x-4">
+                <div className="w-12 h-12 bg-yellow/20 rounded-lg flex items-center justify-center">
+                  <span className="text-2xl">📄</span>
+                </div>
+                <span className="text-lg font-semibold">Digital content & distribution management</span>
               </div>
-              <h3 className="font-semibold mb-2 text-sm">Revenue Attribution</h3>
-            </Card>
+              <ChevronDown className="w-6 h-6 text-muted-foreground" />
+            </div>
 
-            <Card className="p-4 text-center">
-              <div className="w-12 h-12 bg-yellow rounded-full flex items-center justify-center mx-auto mb-3">
-                <span className="text-yellow-foreground text-lg">📈</span>
+            <div className="bg-background rounded-lg p-6 flex items-center justify-between hover:shadow-lg transition-shadow">
+              <div className="flex items-center space-x-4">
+                <div className="w-12 h-12 bg-turquoise/20 rounded-lg flex items-center justify-center">
+                  <span className="text-2xl">🎭</span>
+                </div>
+                <span className="text-lg font-semibold">Online media platforms & digital media apps</span>
               </div>
-              <h3 className="font-semibold mb-2 text-sm">Performance Optimization</h3>
-            </Card>
+              <ChevronDown className="w-6 h-6 text-muted-foreground" />
+            </div>
           </div>
         </div>
       </section>
 
-      {/* We build the best MarTech teams */}
-      <section className="py-16 bg-background">
+      {/* We build the best MarTech teams - Case Study */}
+      <section className="py-24 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-4">
+          <div className="text-center mb-16">
+            <div className="text-sm font-medium text-muted-foreground mb-4 tracking-wider uppercase">
+              FEATURED CASE STUDIES
+            </div>
+            <h2 className="text-4xl lg:text-6xl font-bold text-foreground mb-8 leading-tight">
               We build the best MarTech teams
             </h2>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="bg-turquoise-light rounded-lg p-8 flex items-center justify-center">
-              <div className="w-full h-48 bg-background rounded-lg flex items-center justify-center">
-                <span className="text-foreground text-lg font-semibold">Best MarTech Teams</span>
+          <Card className="p-12 border border-border">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+              <div className="bg-muted/30 rounded-lg overflow-hidden">
+                <img 
+                  src="/lovable-uploads/42eaf101-58e4-49f6-bb88-4488aede3078.png" 
+                  alt="Ykone team collaboration"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div>
+                <div className="text-sm font-medium text-muted-foreground mb-4 tracking-wider uppercase">
+                  MARKETING & ADVERTISING
+                </div>
+                <h3 className="text-3xl lg:text-4xl font-bold text-foreground mb-6">
+                  Offshore team delivers game-changing product for Ykone
+                </h3>
+                <p className="text-lg text-muted-foreground mb-8">
+                  Find out how a eight-person engineering team helped Ykone's CEO realise his vision for a <span className="font-semibold text-foreground">powerful flagship product</span> and drive the business to new heights.
+                </p>
+                <Button 
+                  className="bg-yellow text-yellow-foreground hover:bg-yellow/90 font-semibold px-8 py-3"
+                  asChild
+                >
+                  <Link to="/case-studies">READ MORE →</Link>
+                </Button>
               </div>
             </div>
+          </Card>
+        </div>
+      </section>
+
+      {/* Your trusted partner for MarTech talent */}
+      <section className="py-24 bg-muted/30">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
-              <div className="space-y-6">
+              <div className="text-sm font-medium text-muted-foreground mb-4 tracking-wider uppercase">
+                WHY THE SCALERS?
+              </div>
+              <h2 className="text-4xl lg:text-6xl font-bold text-foreground mb-12 leading-tight">
+                Your trusted partner for MarTech talent
+              </h2>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div className="flex items-start space-x-4">
-                  <div className="w-8 h-8 bg-turquoise rounded-full flex items-center justify-center flex-shrink-0">
-                    <span className="text-turquoise-foreground text-sm">✓</span>
+                  <div className="w-12 h-12 bg-turquoise rounded-lg flex items-center justify-center flex-shrink-0">
+                    <Check className="w-6 h-6 text-turquoise-foreground" />
                   </div>
                   <div>
-                    <h3 className="font-semibold mb-1">Experienced team delivery</h3>
-                    <p className="text-muted-foreground text-sm">
-                      Pre-vetted engineers with proven MarTech experience
-                    </p>
-                  </div>
-                </div>
-                
-                <div className="flex items-start space-x-4">
-                  <div className="w-8 h-8 bg-yellow rounded-full flex items-center justify-center flex-shrink-0">
-                    <span className="text-yellow-foreground text-sm">✓</span>
-                  </div>
-                  <div>
-                    <h3 className="font-semibold mb-1">Innovative team solutions</h3>
-                    <p className="text-muted-foreground text-sm">
-                      Creative approaches to complex MarTech challenges
-                    </p>
+                    <h3 className="font-bold text-foreground mb-2">Leverage our MarTech experience</h3>
                   </div>
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  <div className="w-8 h-8 bg-navy rounded-full flex items-center justify-center flex-shrink-0">
-                    <span className="text-navy-foreground text-sm">✓</span>
+                  <div className="w-12 h-12 bg-turquoise rounded-lg flex items-center justify-center flex-shrink-0">
+                    <Check className="w-6 h-6 text-turquoise-foreground" />
                   </div>
                   <div>
-                    <h3 className="font-semibold mb-1">Bulletproof team protocol</h3>
-                    <p className="text-muted-foreground text-sm">
-                      Rigorous security and compliance standards for sensitive marketing data
-                    </p>
+                    <h3 className="font-bold text-foreground mb-2">Take advantage of our proven model</h3>
+                  </div>
+                </div>
+
+                <div className="flex items-start space-x-4">
+                  <div className="w-12 h-12 bg-turquoise rounded-lg flex items-center justify-center flex-shrink-0">
+                    <Check className="w-6 h-6 text-turquoise-foreground" />
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-foreground mb-2">Enjoy fully managed operations</h3>
+                  </div>
+                </div>
+
+                <div className="flex items-start space-x-4">
+                  <div className="w-12 h-12 bg-turquoise rounded-lg flex items-center justify-center flex-shrink-0">
+                    <Check className="w-6 h-6 text-turquoise-foreground" />
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-foreground mb-2">Collaborate easily with complete cultural fit</h3>
+                  </div>
+                </div>
+
+                <div className="flex items-start space-x-4">
+                  <div className="w-12 h-12 bg-turquoise rounded-lg flex items-center justify-center flex-shrink-0">
+                    <Check className="w-6 h-6 text-turquoise-foreground" />
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-foreground mb-2">Access a massive talent pool in Bangalore</h3>
+                  </div>
+                </div>
+
+                <div className="flex items-start space-x-4">
+                  <div className="w-12 h-12 bg-turquoise rounded-lg flex items-center justify-center flex-shrink-0">
+                    <Check className="w-6 h-6 text-turquoise-foreground" />
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-foreground mb-2">Rest easy with a security-certified partner</h3>
                   </div>
                 </div>
               </div>
+            </div>
+            <div className="bg-background rounded-lg overflow-hidden">
+              <img 
+                src="/lovable-uploads/fbd75eee-b6e3-4946-ad62-7b5a723455b1.png" 
+                alt="Team collaborating on MarTech solutions"
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
         </div>
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-navy text-navy-foreground">
+      <section className="py-24 bg-navy text-navy-foreground">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl lg:text-4xl font-bold mb-6">
-            Set up a world-class tech team in Bangalore
+          <h2 className="text-4xl lg:text-6xl font-bold mb-8 leading-tight">
+            Build your MarTech team in Bangalore
           </h2>
-          <p className="text-xl mb-8 text-navy-foreground/80">
-            Build your specialized MarTech development team with India's top engineering talent
+          <p className="text-xl mb-12 text-navy-foreground/80">
+            Partner with India's top marketing technology development talent
           </p>
           <Button 
             size="lg"
-            className="bg-turquoise text-turquoise-foreground hover:bg-turquoise/90 font-semibold"
+            className="bg-turquoise text-turquoise-foreground hover:bg-turquoise/90 font-semibold px-12 py-6 text-lg"
             asChild
           >
             <Link to="/contact">LET'S TALK</Link>
