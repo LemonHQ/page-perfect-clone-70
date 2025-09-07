@@ -5,6 +5,8 @@ import heroTeam from "@/assets/hero-team.jpg";
 import ceoPortrait from "@/assets/ceo-portrait.jpg";
 import officeWorkspace from "@/assets/office-workspace.jpg";
 import diverseTeam from "@/assets/diverse-team.jpg";
+import teamCollaboration from "@/assets/team-collaboration.jpg";
+import developersCoding from "@/assets/developers-coding.jpg";
 
 const Index = () => {
   return (
@@ -63,26 +65,49 @@ const Index = () => {
       </section>
 
       {/* Scale Your Tech Team Section */}
-      <section className="py-16 bg-yellow">
+      <section className="py-16 bg-turquoise-light">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div className="grid grid-cols-2 gap-4">
+              <img 
+                src={teamCollaboration} 
+                alt="Team collaboration in modern office" 
+                className="rounded-lg shadow-medium w-full h-full object-cover" 
+              />
+              <img 
+                src={officeWorkspace} 
+                alt="Modern office workspace environment" 
+                className="rounded-lg shadow-medium w-full h-full object-cover" 
+              />
+              <img 
+                src={diverseTeam} 
+                alt="Diverse software engineering team" 
+                className="rounded-lg shadow-medium w-full h-full object-cover" 
+              />
+              <img 
+                src={developersCoding} 
+                alt="Developers coding and collaborating" 
+                className="rounded-lg shadow-medium w-full h-full object-cover" 
+              />
+            </div>
             <div>
-              <h2 className="text-4xl font-bold text-yellow-foreground mb-6">
+              <div className="text-sm font-semibold text-foreground/70 tracking-wide mb-4">
+                THE SMARTER WAY
+              </div>
+              <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
                 Scale your tech team easily
               </h2>
-              <p className="text-lg text-yellow-foreground/80 mb-8">
-                Access world-class engineers from Bangalore through our proven offshore development model
+              <p className="text-lg text-foreground/80 mb-8">
+                Leverage our proven approach to <strong>expand your software development capacity and deliver at speed</strong>. 
+                The Scalers is your partner on the ground that assembles your team, acquires and sets up your premises, 
+                and supports your mission in Bangalore.
               </p>
               <Button 
-                className="bg-navy text-navy-foreground hover:bg-navy/90 font-semibold"
+                className="bg-foreground text-background hover:bg-foreground/90 font-semibold px-8 py-3 rounded-full"
                 asChild
               >
-                <Link to="/our-model">LEARN MORE</Link>
+                <Link to="/our-model">LEARN MORE →</Link>
               </Button>
-            </div>
-            <div className="grid grid-cols-2 gap-4">
-              <img src={officeWorkspace} alt="Modern office workspace" className="rounded-lg shadow-medium" />
-              <img src={diverseTeam} alt="Diverse engineering team" className="rounded-lg shadow-medium" />
             </div>
           </div>
         </div>
