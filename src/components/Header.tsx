@@ -6,11 +6,52 @@ const Header = () => {
 
   const navigation = [
     { name: "Our Model", href: "/our-model" },
-    { name: "Solutions", href: "/solutions", submenu: [
-      { name: "Dedicated Development Team", href: "/dedicated-team" },
-      { name: "Development Team Extension", href: "/team-extension" },
-      { name: "Offshore Development Centre", href: "/offshore-centre" }
-    ]},
+    { 
+      name: "Solutions", 
+      href: "/solutions", 
+      megamenu: {
+        businessNeed: [
+          { 
+            name: "Dedicated Development Team", 
+            href: "/dedicated-team",
+            description: "Build your development team in Bangalore with elite engineers",
+            icon: "🚀"
+          },
+          { 
+            name: "Development Team Extension", 
+            href: "/team-extension",
+            description: "Extend your software delivery capacity with an integrated team",
+            icon: "👥"
+          },
+          { 
+            name: "Offshore Development Centre", 
+            href: "/offshore-centre",
+            description: "Scale your development operations at speed with a captive centre",
+            icon: "🏢"
+          }
+        ],
+        industry: [
+          { 
+            name: "Financial Software Development", 
+            href: "/martech",
+            description: "Scale your FinTech company with a dedicated tech team in India's tech capital",
+            icon: "🏛️"
+          },
+          { 
+            name: "Retail & Ecommerce Software Development", 
+            href: "/martech",
+            description: "Deliver exceptional online and offline retail experiences with a dedicated team",
+            icon: "🛒"
+          },
+          { 
+            name: "MarTech Software Development", 
+            href: "/martech",
+            description: "Enhance your digital marketing solutions with expert MarTech developers",
+            icon: "📢"
+          }
+        ]
+      }
+    },
     { name: "Case Studies", href: "/case-studies" },
     { name: "Resources", href: "/resources", submenu: [
       { name: "News & Media", href: "/news" },
@@ -46,8 +87,69 @@ const Header = () => {
                 >
                   {item.name}
                 </Link>
-                {item.submenu && (
-                  <div className="absolute top-full left-0 mt-2 w-64 bg-background border border-border rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+                {item.megamenu && (
+                  <div className="absolute top-full left-1/2 transform -translate-x-1/2 mt-2 w-[800px] bg-background border border-border rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+                    <div className="grid grid-cols-2 gap-0">
+                      {/* Left Column - By Business Need */}
+                      <div className="p-6 border-r border-border">
+                        <div className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-4">
+                          BY BUSINESS NEED
+                        </div>
+                        <div className="space-y-1">
+                          {item.megamenu.businessNeed.map((subitem) => (
+                            <Link
+                              key={subitem.name}
+                              to={subitem.href}
+                              className="group/item flex items-start space-x-3 p-3 rounded-lg hover:bg-muted transition-colors"
+                            >
+                              <div className="w-8 h-8 bg-turquoise/10 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                                <span className="text-sm">{subitem.icon}</span>
+                              </div>
+                              <div className="flex-1 min-w-0">
+                                <div className="text-sm font-medium text-foreground group-hover/item:text-turquoise transition-colors">
+                                  {subitem.name}
+                                </div>
+                                <div className="text-xs text-muted-foreground mt-1 leading-relaxed">
+                                  {subitem.description}
+                                </div>
+                              </div>
+                            </Link>
+                          ))}
+                        </div>
+                      </div>
+                      
+                      {/* Right Column - By Industry */}
+                      <div className="p-6">
+                        <div className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-4">
+                          BY INDUSTRY
+                        </div>
+                        <div className="space-y-1">
+                          {item.megamenu.industry.map((subitem) => (
+                            <Link
+                              key={subitem.name}
+                              to={subitem.href}
+                              className="group/item flex items-start space-x-3 p-3 rounded-lg hover:bg-muted transition-colors"
+                            >
+                              <div className="w-8 h-8 bg-yellow/10 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                                <span className="text-sm">{subitem.icon}</span>
+                              </div>
+                              <div className="flex-1 min-w-0">
+                                <div className="text-sm font-medium text-foreground group-hover/item:text-yellow-foreground transition-colors">
+                                  {subitem.name}
+                                </div>
+                                <div className="text-xs text-muted-foreground mt-1 leading-relaxed">
+                                  {subitem.description}
+                                </div>
+                              </div>
+                            </Link>
+                          ))}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                )}
+                {item.submenu && !item.megamenu && (
+                  <div className="absolute top-full left-0 mt-2 w-64 bg-background border border-border rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
                     <div className="py-2">
                       {item.submenu.map((subitem) => (
                         <Link
