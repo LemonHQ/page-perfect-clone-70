@@ -3,6 +3,7 @@ import { Card } from "@/components/ui/card";
 import { Link } from "react-router-dom";
 import developersCoding from "@/assets/developers-coding.jpg";
 import teamCollaboration from "@/assets/team-collaboration.jpg";
+import ceoPortrait from "@/assets/ceo-portrait.jpg";
 
 const OurModel = () => {
   return (
@@ -346,12 +347,153 @@ const OurModel = () => {
       </section>
 
       {/* Call to Action */}
+      <section className="py-24 bg-yellow">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <h2 className="text-4xl lg:text-5xl font-bold text-yellow-foreground mb-8 leading-tight">
+                Your developers work only for your business and add long-term value to your organisation
+              </h2>
+            </div>
+            <div className="flex justify-center">
+              <div className="relative">
+                <div className="w-32 h-32 bg-yellow-foreground/10 rounded-full flex items-center justify-center">
+                  <div className="w-16 h-16 bg-yellow-foreground/20 rounded-full flex items-center justify-center">
+                    <svg className="w-8 h-8 text-yellow-foreground" fill="currentColor" viewBox="0 0 20 20">
+                      <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Dedicated Development Team */}
+      <section className="py-24">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div className="relative">
+              <div className="w-full h-96 bg-muted/20 rounded-full overflow-hidden">
+                <img 
+                  src={ceoPortrait} 
+                  alt="Business leader working on laptop" 
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            </div>
+            <div>
+              <div className="text-sm font-semibold text-muted-foreground tracking-wide mb-4">
+                DEDICATED DEVELOPMENT TEAM
+              </div>
+              <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-12">
+                Think beyond traditional offshoring
+              </h2>
+              <div className="space-y-8">
+                <div>
+                  <div className="w-16 h-1 bg-foreground mb-4"></div>
+                  <p className="text-lg text-foreground leading-relaxed">
+                    Access to Bangalore's <strong>elite engineering talent</strong> pool
+                  </p>
+                </div>
+                <div>
+                  <div className="w-16 h-1 bg-foreground mb-4"></div>
+                  <p className="text-lg text-foreground leading-relaxed">
+                    Fully managed operations — <strong>your hands are off</strong>
+                  </p>
+                </div>
+                <div>
+                  <div className="w-16 h-1 bg-foreground mb-4"></div>
+                  <p className="text-lg text-foreground leading-relaxed">
+                    Your team <strong>aligned with your company vision</strong> and mission
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* What's Next Process */}
+      <section className="py-24 bg-foreground">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <div className="text-sm font-semibold text-background/70 tracking-wide mb-4">
+              WHAT'S NEXT?
+            </div>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div className="relative">
+              <div className="bg-background rounded-lg p-8 h-full">
+                <div className="flex items-center justify-between mb-6">
+                  <div className="w-12 h-12 bg-foreground rounded-full flex items-center justify-center">
+                    <span className="text-xl font-bold text-background">1</span>
+                  </div>
+                </div>
+                <h3 className="text-xl font-bold text-foreground mb-4">DISCOVERY</h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  We prepare an offering based on your requirements and present you with a detailed roadmap.
+                </p>
+              </div>
+              {/* Connector line */}
+              <div className="hidden md:block absolute top-6 -right-4 w-8 h-0.5 bg-background/30"></div>
+            </div>
+            
+            <div className="relative">
+              <div className="bg-background rounded-lg p-8 h-full">
+                <div className="flex items-center justify-between mb-6">
+                  <div className="w-12 h-12 bg-foreground rounded-full flex items-center justify-center">
+                    <span className="text-xl font-bold text-background">2</span>
+                  </div>
+                </div>
+                <h3 className="text-xl font-bold text-foreground mb-4">SET UP</h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  We source elite talent for your team using our recruitment model, then set up your office, equipment, and infrastructure.
+                </p>
+              </div>
+              {/* Connector line */}
+              <div className="hidden md:block absolute top-6 -right-4 w-8 h-0.5 bg-background/30"></div>
+            </div>
+            
+            <div className="relative">
+              <div className="bg-background rounded-lg p-8 h-full">
+                <div className="flex items-center justify-between mb-6">
+                  <div className="w-12 h-12 bg-foreground rounded-full flex items-center justify-center">
+                    <span className="text-xl font-bold text-background">3</span>
+                  </div>
+                </div>
+                <h3 className="text-xl font-bold text-foreground mb-4">KICK OFF</h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  We onboard your new hires and ensure everything is in place so that your engineers are ready to begin working.
+                </p>
+              </div>
+              {/* Connector line */}
+              <div className="hidden md:block absolute top-6 -right-4 w-8 h-0.5 bg-background/30"></div>
+            </div>
+            
+            <div>
+              <div className="bg-background rounded-lg p-8 h-full">
+                <div className="flex items-center justify-between mb-6">
+                  <div className="w-12 h-12 bg-foreground rounded-full flex items-center justify-center">
+                    <span className="text-xl font-bold text-background">4</span>
+                  </div>
+                </div>
+                <h3 className="text-xl font-bold text-foreground mb-4">SCALING</h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  We keep your engineers aligned and engaged, and help you scale on demand to your specific requirements.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Final CTA */}
       <section className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-8 leading-tight">
-              Your developers work only for your business and add long-term value to your organisation
-            </h2>
             <p className="text-xl text-muted-foreground mb-12 max-w-3xl mx-auto leading-relaxed">
               Unlike traditional outsourcing, our dedicated teams become an extension of your company, 
               deeply understanding your business goals and contributing to long-term success.
