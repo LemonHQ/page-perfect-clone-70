@@ -369,7 +369,7 @@ const DedicatedTeam = () => {
             <div className="text-sm font-medium text-muted-foreground mb-4 tracking-wider uppercase">
               FULLY INTEGRATED DEVELOPMENT TEAM
             </div>
-            <h2 className="text-4xl lg:text-6xl font-bold text-foreground mb-8 leading-tight">
+            <h2 className="text-4xl font-medium text-foreground leading-[1.3] mb-8">
               Go offshore the smarter way
             </h2>
           </div>
