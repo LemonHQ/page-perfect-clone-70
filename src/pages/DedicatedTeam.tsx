@@ -369,7 +369,7 @@ const DedicatedTeam = () => {
             <div className="text-sm font-medium text-muted-foreground mb-4 tracking-wider uppercase">
               FULLY INTEGRATED DEVELOPMENT TEAM
             </div>
-            <h2 className="text-4xl font-medium text-foreground leading-[1.3] mb-8">
+            <h2>
               Go offshore the smarter way
             </h2>
           </div>
@@ -466,7 +466,7 @@ const DedicatedTeam = () => {
               </div>
             </div>
             <div>
-            <h2 className="text-4xl font-medium text-yellow-foreground leading-[1.3] mb-6">
+            <h2>
               Scaling innovation: Preqin case study
             </h2>
               <p className="text-xl text-yellow-foreground/90 mb-8">
@@ -490,7 +490,7 @@ const DedicatedTeam = () => {
             <div className="text-sm font-medium text-muted-foreground mb-4 tracking-wider uppercase">
               YOUR DEVELOPMENT TEAM IN BANGALORE
             </div>
-            <h2 className="text-4xl lg:text-6xl font-bold text-foreground mb-8 leading-tight">
+            <h2>
               Build your team with a trusted partner
             </h2>
           </div>
@@ -555,7 +555,7 @@ const DedicatedTeam = () => {
               <div className="text-sm font-semibold text-navy-foreground/70 tracking-wide mb-4">
                 FROM 5 TO 100+ ENGINEERS
               </div>
-              <h2 className="text-4xl lg:text-5xl font-bold mb-8">
+              <h2>
                 Set up a world-class tech team in Bangalore
               </h2>
               
