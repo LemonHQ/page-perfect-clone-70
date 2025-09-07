@@ -14,7 +14,7 @@ export default {
     },
         extend: {
           fontFamily: {
-            sans: ['Inter', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif'],
+            sans: ['Noto Sans', 'Arial', 'Helvetica Neue', 'sans-serif'],
           },
           keyframes: {
             "accordion-down": {
