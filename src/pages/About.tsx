@@ -1,303 +1,380 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Link } from "react-router-dom";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const About = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="py-24 lg:py-32">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            <div>
-              <h1 className="text-5xl lg:text-7xl font-bold text-foreground mb-8 leading-tight">
-                About Us
-              </h1>
-              <p className="text-xl text-muted-foreground mb-12 leading-relaxed">
-                Hello, 팀원들, Ciao다, Bonjour, We are The Scalers!
-              </p>
-              <div className="grid grid-cols-3 gap-6 text-center">
-                <div className="bg-muted/50 rounded-lg p-6">
-                  <div className="text-3xl font-bold text-foreground mb-2">1</div>
-                  <p className="text-sm text-muted-foreground">Office in India</p>
-                </div>
-                <div className="bg-muted/50 rounded-lg p-6">
-                  <div className="text-3xl font-bold text-foreground mb-2">47+</div>
-                  <p className="text-sm text-muted-foreground">Countries served</p>
-                </div>
-                <div className="bg-muted/50 rounded-lg p-6">
-                  <div className="text-3xl font-bold text-foreground mb-2">3</div>
-                  <p className="text-sm text-muted-foreground">Years in business</p>
+      <section className="py-24 lg:py-32 bg-gradient-to-r from-turquoise via-navy to-navy relative overflow-hidden">
+        <div className="absolute inset-0">
+          <div className="absolute top-10 left-10 w-32 h-32 bg-turquoise-light rounded-full opacity-20"></div>
+          <div className="absolute top-20 right-20 w-16 h-16 bg-yellow rounded-full opacity-30"></div>
+          <div className="absolute bottom-20 left-1/4 w-24 h-24 bg-turquoise rounded-full opacity-15"></div>
+          <div className="absolute bottom-10 right-10 w-20 h-20 border-2 border-turquoise rounded-full opacity-40"></div>
+        </div>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+          <div className="text-center">
+            <h1 className="text-6xl lg:text-8xl font-bold text-white mb-8 leading-tight">
+              About Us
+            </h1>
+            <p className="text-2xl text-white/90 max-w-2xl mx-auto">
+              We're disruptors of the offshore industry
+            </p>
+          </div>
+          <div className="mt-16 flex justify-center">
+            <div className="relative">
+              <div className="w-96 h-48 bg-navy/50 rounded-lg transform rotate-6 absolute"></div>
+              <div className="w-96 h-48 bg-background/10 rounded-lg flex items-center justify-center relative">
+                <div className="text-center text-white">
+                  <div className="text-4xl mb-2">💻</div>
+                  <p>Workspace Innovation</p>
                 </div>
               </div>
             </div>
-            <div className="bg-muted/30 rounded-lg p-12 flex items-center justify-center">
-              <div className="w-full h-64 bg-background rounded-lg flex items-center justify-center">
-                <span className="text-foreground text-lg font-medium">Global Presence Visual</span>
+          </div>
+        </div>
+      </section>
+
+      {/* We are The Scalers */}
+      <section className="py-24 bg-gradient-to-br from-turquoise-light to-turquoise">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div>
+              <h2 className="text-5xl lg:text-6xl font-bold text-navy mb-8 leading-tight">
+                Hello, नमस्कार,<br/>
+                Cześć, Bonjour.<br/>
+                We are The<br/>
+                Scalers!
+              </h2>
+              <p className="text-xl text-navy/80 leading-relaxed">
+                We work with companies worldwide to build scalable, results-driven software development teams in Bangalore.
+              </p>
+            </div>
+            <div className="flex justify-center">
+              <img 
+                src="/lovable-uploads/a3c5b93c-cf82-4bcb-a55d-1312483f4fd1.png" 
+                alt="The Scalers team founders"
+                className="w-full max-w-md h-auto object-cover rounded-lg"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Statistics */}
+      <section className="py-24 bg-background">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
+            <div className="relative">
+              <div className="w-48 h-32 bg-yellow rounded-[3rem] mx-auto mb-8 flex items-center justify-center relative overflow-hidden">
+                <span className="text-6xl font-bold text-navy">5</span>
               </div>
+              <p className="text-2xl font-medium text-foreground">global locations</p>
+            </div>
+            <div className="relative">
+              <div className="w-48 h-32 bg-turquoise-light rounded-[3rem] mx-auto mb-8 flex items-center justify-center relative overflow-hidden">
+                <span className="text-5xl font-bold text-navy">130+</span>
+              </div>
+              <p className="text-2xl font-medium text-foreground">teams built</p>
+              <p className="text-2xl font-medium text-foreground">since 2014</p>
+            </div>
+            <div className="relative">
+              <div className="w-48 h-32 bg-turquoise rounded-[3rem] mx-auto mb-8 flex items-center justify-center relative overflow-hidden">
+                <span className="text-6xl font-bold text-white">10</span>
+              </div>
+              <p className="text-2xl font-medium text-foreground">years of successful</p>
+              <p className="text-2xl font-medium text-foreground">partnerships</p>
             </div>
           </div>
         </div>
       </section>
 
       {/* We don't build software */}
-      <section className="py-24 bg-muted/30">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-8 leading-tight">
+      <section className="py-24 bg-yellow relative overflow-hidden">
+        <div className="absolute right-0 top-1/2 transform -translate-y-1/2">
+          <div className="w-64 h-64 bg-turquoise rounded-full opacity-80"></div>
+        </div>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+          <div className="max-w-4xl">
+            <h2 className="text-5xl lg:text-7xl font-bold text-navy mb-8 leading-tight">
               We don't build software, we build teams who build software
             </h2>
-          </div>
-
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            <div className="bg-background rounded-lg p-12 flex items-center justify-center">
-              <div className="w-full h-48 bg-muted/50 rounded-lg flex items-center justify-center">
-                <span className="text-foreground text-lg font-medium">Team Building Philosophy</span>
-              </div>
-            </div>
-            <div>
-              <h3 className="text-2xl font-bold text-foreground mb-6">Why we're here</h3>
-              <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-                We believe that great software comes from great teams. Our mission is to connect 
-                global companies with India's finest engineering talent, creating partnerships 
-                that drive innovation and growth.
-              </p>
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                Founded with the vision of making world-class engineering talent accessible to 
-                companies worldwide, we've helped over 130 organizations build their dream teams.
-              </p>
-            </div>
           </div>
         </div>
       </section>
 
-      {/* How The Scalers took off */}
-      <section className="py-24">
+      {/* Why we're here */}
+      <section className="py-24 bg-turquoise-light">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
-              How The Scalers took off
-            </h2>
-          </div>
-
-          <div className="space-y-16">
-            {/* Timeline Item 1 */}
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-              <div className="lg:col-span-2">
-                <div className="w-24 h-24 bg-muted/50 rounded-lg border border-border flex items-center justify-center">
-                  <span className="text-foreground text-lg font-medium">2021</span>
-                </div>
-              </div>
-              <div className="lg:col-span-4">
-                <img 
-                  src="/placeholder.svg" 
-                  alt="Founding team" 
-                  className="w-full h-48 object-cover rounded-lg"
-                />
-              </div>
-              <div className="lg:col-span-6">
-                <h3 className="text-xl font-bold mb-4">The Beginning</h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  Started with a simple idea: connecting global companies with India's best engineering talent 
-                  through a transparent, people-first approach.
-                </p>
-              </div>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div className="relative">
+              <img 
+                src="/lovable-uploads/527369ee-8c20-40ca-949b-7e4c431913ce.png" 
+                alt="The Scalers team celebrating"
+                className="w-full h-auto object-cover rounded-lg"
+              />
             </div>
-
-            {/* Timeline Item 2 */}
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-              <div className="lg:col-span-2 lg:order-3">
-                <div className="w-24 h-24 bg-muted/50 rounded-lg border border-border flex items-center justify-center">
-                  <span className="text-foreground text-lg font-medium">2022</span>
-                </div>
+            <div>
+              <div className="text-sm font-medium text-navy/70 mb-4 tracking-wider uppercase">
+                HOW IT STARTED
               </div>
-              <div className="lg:col-span-4 lg:order-2">
-                <img 
-                  src="/placeholder.svg" 
-                  alt="First office" 
-                  className="w-full h-48 object-cover rounded-lg"
-                />
-              </div>
-              <div className="lg:col-span-6 lg:order-1">
-                <h3 className="text-xl font-bold mb-4">First Major Milestone</h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  Established our first dedicated development center and successfully delivered 
-                  our first 10 teams to clients across different industries.
-                </p>
-              </div>
-            </div>
-
-            {/* Timeline Item 3 */}
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-              <div className="lg:col-span-2">
-                <div className="w-24 h-24 bg-muted/50 rounded-lg border border-border flex items-center justify-center">
-                  <span className="text-foreground text-lg font-medium">2023</span>
-                </div>
-              </div>
-              <div className="lg:col-span-4">
-                <img 
-                  src="/placeholder.svg" 
-                  alt="Team expansion" 
-                  className="w-full h-48 object-cover rounded-lg"
-                />
-              </div>
-              <div className="lg:col-span-6">
-                <h3 className="text-xl font-bold mb-4">Scaling Success</h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  Reached 100+ successful team deployments and expanded to serve clients 
-                  in 47+ countries worldwide.
-                </p>
-              </div>
-            </div>
-
-            {/* More timeline items */}
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-              <div className="lg:col-span-2 lg:order-3">
-                <div className="w-24 h-24 bg-muted/50 rounded-lg border border-border flex items-center justify-center">
-                  <span className="text-foreground text-lg font-medium">2024</span>
-                </div>
-              </div>
-              <div className="lg:col-span-4 lg:order-2">
-                <img 
-                  src="/placeholder.svg" 
-                  alt="Current operations" 
-                  className="w-full h-48 object-cover rounded-lg"
-                />
-              </div>
-              <div className="lg:col-span-6 lg:order-1">
-                <h3 className="text-xl font-bold mb-4">Today & Beyond</h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  Continuing to innovate in the offshore development space with 130+ teams delivered 
-                  and a growing network of world-class engineering talent.
-                </p>
-              </div>
+              <h2 className="text-5xl lg:text-6xl font-bold text-navy mb-8 leading-tight">
+                Why we're here
+              </h2>
+              <p className="text-xl text-navy/80 mb-8 leading-relaxed">
+                Our founder Emilien Coquard came to India in 2011, where he was managing a development centre of a French company. On the one hand, he was impressed to see the level of talent people had, and on the other he was frustrated to see how poor the environment was for Indian engineers working in services companies. So, he decided to create <span className="font-bold text-navy">a company where the engineers would be in the centre of everything.</span> That's how The Scalers was born.
+              </p>
             </div>
           </div>
         </div>
       </section>
 
       {/* We're people people */}
-      <section className="py-24 bg-muted/30">
+      <section className="py-24 bg-turquoise">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
-              We're people people
-            </h2>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-            <Card className="p-8 text-center">
-              <div className="w-16 h-16 bg-foreground rounded-full flex items-center justify-center mx-auto mb-6">
-                <span className="text-background text-2xl">🤝</span>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div className="relative">
+              <img 
+                src="/lovable-uploads/0a46af02-e2ff-43fa-8bbc-fb0d2cc836e7.png" 
+                alt="Team members collaborating"
+                className="w-full h-auto object-cover rounded-lg"
+              />
+            </div>
+            <div>
+              <div className="text-sm font-medium text-white/70 mb-4 tracking-wider uppercase">
+                OUR ETHOS
               </div>
-              <h3 className="text-xl font-semibold mb-4">Transparency</h3>
-              <p className="text-muted-foreground leading-relaxed">
-                Open communication and honest partnerships in everything we do
+              <h2 className="text-5xl lg:text-6xl font-bold text-white mb-8 leading-tight">
+                We're people people
+              </h2>
+              <p className="text-xl text-white/90 mb-8 leading-relaxed">
+                Our partners don't call their teams "offshore" anymore. They treat them <span className="font-bold text-white">as an integral part of their team, genuine colleagues, not outsourced help.</span>
               </p>
-            </Card>
-
-            <Card className="p-8 text-center">
-              <div className="w-16 h-16 bg-foreground rounded-full flex items-center justify-center mx-auto mb-6">
-                <span className="text-background text-2xl">🎯</span>
-              </div>
-              <h3 className="text-xl font-semibold mb-4">Empowerment</h3>
-              <p className="text-muted-foreground leading-relaxed">
-                Empowering both our clients and engineers to achieve their full potential
+              <p className="text-xl text-white/90 leading-relaxed">
+                It's all about people and enabling their personal growth — scaling them up in the same way we do our teams.
               </p>
-            </Card>
-
-            <Card className="p-8 text-center">
-              <div className="w-16 h-16 bg-foreground rounded-full flex items-center justify-center mx-auto mb-6">
-                <span className="text-background text-2xl">🌟</span>
-              </div>
-              <h3 className="text-xl font-semibold mb-4">Integrity</h3>
-              <p className="text-muted-foreground leading-relaxed">
-                Building long-term relationships based on trust and mutual respect
-              </p>
-            </Card>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Behind the scenes */}
-      <section className="py-24">
+      {/* Our Core Values */}
+      <section className="py-24 bg-background relative overflow-hidden">
+        <div className="absolute top-20 left-20 w-24 h-24 bg-yellow/20 rounded-full"></div>
+        <div className="absolute bottom-20 right-20 w-32 h-32 bg-turquoise/15 rounded-full"></div>
+        <div className="absolute top-1/2 right-1/4 w-16 h-16 border-2 border-turquoise/30 rounded-full"></div>
+        
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+          <div className="text-center mb-16">
+            <div className="text-sm font-medium text-muted-foreground mb-4 tracking-wider uppercase">
+              OUR CORE VALUES
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+            <div className="text-center">
+              <div className="relative mb-8">
+                <div className="w-48 h-48 bg-gradient-to-br from-turquoise/20 to-turquoise/10 rounded-full mx-auto flex items-center justify-center relative overflow-hidden">
+                  <div className="w-32 h-32 bg-turquoise/30 rounded-full flex items-center justify-center">
+                    <div className="w-16 h-16 bg-yellow rounded-lg flex items-center justify-center">
+                      <span className="text-2xl text-navy">💬</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <h3 className="text-3xl font-bold text-foreground mb-6">Transparency</h3>
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                Everyone at The Scalers is encouraged to <span className="font-bold text-foreground">give feedback without fear of judgement.</span> Open and honest dialogue is how we move forward as one unified team.
+              </p>
+            </div>
+
+            <div className="text-center">
+              <div className="relative mb-8">
+                <div className="w-48 h-48 bg-gradient-to-br from-yellow/20 to-yellow/10 rounded-full mx-auto flex items-center justify-center relative overflow-hidden">
+                  <div className="w-32 h-32 bg-yellow/30 rounded-full flex items-center justify-center">
+                    <div className="w-16 h-16 bg-turquoise rounded-lg flex items-center justify-center">
+                      <span className="text-2xl text-white">🌐</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <h3 className="text-3xl font-bold text-foreground mb-6">Empowerment</h3>
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                Everyone's contribution is key and matters for our mission. We <span className="font-bold text-foreground">reward responsibility and empower</span> progress as we journey together towards success.
+              </p>
+            </div>
+
+            <div className="text-center">
+              <div className="relative mb-8">
+                <div className="w-48 h-48 bg-gradient-to-br from-turquoise-light/20 to-turquoise-light/10 rounded-full mx-auto flex items-center justify-center relative overflow-hidden">
+                  <div className="w-32 h-32 bg-turquoise-light/30 rounded-full flex items-center justify-center">
+                    <div className="w-16 h-16 bg-yellow rounded-lg flex items-center justify-center">
+                      <span className="text-2xl text-navy">🤝</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <h3 className="text-3xl font-bold text-foreground mb-6">Inclusivity</h3>
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                Everyone is a part of The Scalers family no matter where they're from. <span className="font-bold text-foreground">Diversity is more than a slogan at The Scalers,</span> it's a commitment and what makes us, us.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Behind the scenes / Our Culture */}
+      <section className="py-24 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
-              <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-8 leading-tight">
+              <div className="text-sm font-medium text-muted-foreground mb-4 tracking-wider uppercase">
+                OUR CULTURE
+              </div>
+              <h2 className="text-5xl lg:text-6xl font-bold text-foreground mb-8 leading-tight">
                 Behind the scenes
               </h2>
-              <p className="text-lg text-muted-foreground mb-12 leading-relaxed">
-                Our team combines deep technical expertise with a passion for building meaningful 
-                connections between global companies and Indian engineering talent.
+              <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
+                We wouldn't be able to talk the talk when it comes to your company culture if we didn't walk the walk ourselves. <span className="font-bold text-foreground">We love what we do and believe that what makes us different makes us stronger</span> — and our unique blend of backgrounds makes The Scalers a truly dynamic place to work.
               </p>
-              <Button 
-                className="bg-foreground text-background hover:bg-foreground/90 font-medium px-8 py-4"
-                asChild
-              >
-                <Link to="/leadership">MEET OUR TEAM</Link>
-              </Button>
+              <p className="text-xl text-muted-foreground mb-12 leading-relaxed">
+                We love how each new hire adds to our culture. And, <span className="text-turquoise font-bold underline cursor-pointer">we're hiring</span>.
+              </p>
             </div>
-            <div className="grid grid-cols-2 gap-6">
-              <img 
-                src="/placeholder.svg" 
-                alt="Team at work" 
-                className="rounded-lg"
-              />
-              <img 
-                src="/placeholder.svg" 
-                alt="Office environment" 
-                className="rounded-lg"
-              />
+            <div className="relative">
+              <div className="flex space-x-4 overflow-hidden">
+                <div className="flex-shrink-0">
+                  <img 
+                    src="/lovable-uploads/49c0a73d-c0c3-48b8-83b8-8195bdceaa91.png" 
+                    alt="Team playing table tennis"
+                    className="w-80 h-64 object-cover rounded-lg"
+                  />
+                </div>
+                <div className="flex-shrink-0">
+                  <img 
+                    src="/lovable-uploads/49c0a73d-c0c3-48b8-83b8-8195bdceaa91.png" 
+                    alt="Team outdoor activities"
+                    className="w-80 h-64 object-cover rounded-lg"
+                  />
+                </div>
+              </div>
+              <div className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-black/50 rounded-full p-2 cursor-pointer">
+                <ChevronLeft className="w-6 h-6 text-white" />
+              </div>
+              <div className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-black/50 rounded-full p-2 cursor-pointer">
+                <ChevronRight className="w-6 h-6 text-white" />
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Our locations */}
-      <section className="py-24 bg-muted/30">
+      {/* Build future-proof dev teams */}
+      <section className="py-24 bg-turquoise relative overflow-hidden">
+        <div className="absolute left-0 top-1/2 transform -translate-y-1/2">
+          <div className="w-64 h-64 bg-navy/20 rounded-full"></div>
+        </div>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div className="relative">
+              <img 
+                src="/lovable-uploads/d0af40cb-5d79-4950-99d3-4b5d623dbe48.png" 
+                alt="Scaling beyond borders guide on tablet"
+                className="w-full max-w-md h-auto object-cover"
+              />
+            </div>
+            <div>
+              <h2 className="text-5xl lg:text-6xl font-bold text-white mb-8 leading-tight">
+                Build future-proof dev teams
+              </h2>
+              <p className="text-xl text-white/90 mb-12 leading-relaxed">
+                Discover how to scale development teams in 2023 and beyond
+              </p>
+              <Button 
+                size="lg"
+                className="bg-navy text-white hover:bg-navy/90 font-semibold px-8 py-4 rounded-full"
+              >
+                DOWNLOAD GUIDE →
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Read more about The Scalers */}
+      <section className="py-24 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
-              Our locations
-            </h2>
+            <div className="text-sm font-medium text-muted-foreground mb-4 tracking-wider uppercase">
+              READ MORE ABOUT THE SCALERS
+            </div>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-            <Card className="p-8 text-center">
+            <Card className="p-0 overflow-hidden">
               <img 
-                src="/placeholder.svg" 
-                alt="Bangalore office" 
-                className="w-full h-32 object-cover rounded-lg mb-6"
+                src="/lovable-uploads/2230665e-c5ff-4f83-9e9f-098ee024b3cf.png" 
+                alt="The Scalers office logo"
+                className="w-full h-64 object-cover"
               />
-              <h3 className="text-xl font-semibold mb-3">Bangalore</h3>
-              <p className="text-muted-foreground">
-                Our main development hub in India's Silicon Valley
-              </p>
+              <div className="p-8">
+                <div className="w-12 h-1 bg-turquoise mb-6"></div>
+                <h3 className="text-2xl font-bold text-foreground mb-4">Our model</h3>
+                <p className="text-muted-foreground mb-8 leading-relaxed">
+                  Learn about our approach that combines finely-tuned recruitment, managed operations, and cultural alignment.
+                </p>
+                <Button 
+                  variant="outline"
+                  className="rounded-full border-foreground text-foreground hover:bg-foreground hover:text-background font-semibold px-6 py-2"
+                  asChild
+                >
+                  <Link to="/our-model">LEARN MORE →</Link>
+                </Button>
+              </div>
             </Card>
 
-            <Card className="p-8 text-center">
+            <Card className="p-0 overflow-hidden">
               <img 
-                src="/placeholder.svg" 
-                alt="Global reach" 
-                className="w-full h-32 object-cover rounded-lg mb-6"
+                src="/lovable-uploads/2230665e-c5ff-4f83-9e9f-098ee024b3cf.png" 
+                alt="Bangalore cityscape"
+                className="w-full h-64 object-cover"
               />
-              <h3 className="text-xl font-semibold mb-3">Global</h3>
-              <p className="text-muted-foreground">
-                Serving clients across 47+ countries worldwide
-              </p>
+              <div className="p-8">
+                <div className="w-12 h-1 bg-turquoise mb-6"></div>
+                <h3 className="text-2xl font-bold text-foreground mb-4">Bangalore</h3>
+                <p className="text-muted-foreground mb-8 leading-relaxed">
+                  Discover the world's fastest-growing tech hub. It's the Silicon Valley of Asia and the place we call home.
+                </p>
+                <Button 
+                  className="rounded-full bg-yellow text-yellow-foreground hover:bg-yellow/90 font-semibold px-6 py-2"
+                >
+                  LEARN MORE →
+                </Button>
+              </div>
             </Card>
 
-            <Card className="p-8 text-center">
+            <Card className="p-0 overflow-hidden">
               <img 
-                src="/placeholder.svg" 
-                alt="Remote collaboration" 
-                className="w-full h-32 object-cover rounded-lg mb-6"
+                src="/lovable-uploads/2230665e-c5ff-4f83-9e9f-098ee024b3cf.png" 
+                alt="Leadership team meeting"
+                className="w-full h-64 object-cover"
               />
-              <h3 className="text-xl font-semibold mb-3">Remote</h3>
-              <p className="text-muted-foreground">
-                Seamless remote collaboration capabilities
-              </p>
+              <div className="p-8">
+                <div className="w-12 h-1 bg-turquoise mb-6"></div>
+                <h3 className="text-2xl font-bold text-foreground mb-4">Leadership</h3>
+                <p className="text-muted-foreground mb-8 leading-relaxed">
+                  Meet the cross-cultural team of experts who ensure the success of your offshore development team.
+                </p>
+                <Button 
+                  variant="outline"
+                  className="rounded-full border-foreground text-foreground hover:bg-foreground hover:text-background font-semibold px-6 py-2"
+                  asChild
+                >
+                  <Link to="/leadership">LEARN MORE →</Link>
+                </Button>
+              </div>
             </Card>
           </div>
         </div>
