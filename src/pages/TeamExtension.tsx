@@ -2,10 +2,8 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Link } from "react-router-dom";
 import { UserPlus, TrendingUp, Compass, Shield, Eye, Globe, Users, Lock } from "lucide-react";
-
 const TeamExtension = () => {
-  return (
-    <div className="min-h-screen">
+  return <div className="min-h-screen">
       {/* Hero Section */}
       <section className="py-24 lg:py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -20,20 +18,12 @@ const TeamExtension = () => {
               <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
                 The Scalers <span className="font-semibold text-foreground">handpick world-class developers and augment them into your existing engineering team.</span> Whether you're looking for web developers fluent in Java and .NET or mobile developers who sing in Kotlin and Swift — we're here to help.
               </p>
-              <Button 
-                size="lg"
-                className="bg-foreground text-background hover:bg-foreground/90 font-medium px-8 py-4"
-                asChild
-              >
+              <Button size="lg" className="bg-foreground text-background hover:bg-foreground/90 font-medium px-8 py-4" asChild>
                 <Link to="/contact">EXTEND YOUR TEAM</Link>
               </Button>
             </div>
             <div className="bg-muted/30 rounded-lg overflow-hidden">
-              <img 
-                src="/lovable-uploads/33b3742c-ceb8-46dd-931c-456926255bf0.png" 
-                alt="Developer working on laptop"
-                className="w-full h-full object-cover"
-              />
+              <img src="/lovable-uploads/33b3742c-ceb8-46dd-931c-456926255bf0.png" alt="Developer working on laptop" className="w-full h-full object-cover" />
             </div>
           </div>
         </div>
@@ -131,19 +121,12 @@ const TeamExtension = () => {
               <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
                 Leverage the talent of Bangalore's top developers and access skills you can't find elsewhere. Known as the Silicon Valley of Asia, it's a dynamic hub of innovation with a deep pool of highly talented engineers.
               </p>
-              <Button 
-                className="bg-foreground text-background hover:bg-foreground/90 border border-foreground rounded-full px-8 py-3 font-semibold"
-                asChild
-              >
+              <Button className="bg-foreground text-background hover:bg-foreground/90 border border-foreground rounded-full px-8 py-3 font-semibold" asChild>
                 <Link to="/about">LEARN MORE</Link>
               </Button>
             </div>
             <div className="bg-muted/30 rounded-lg overflow-hidden relative">
-              <img 
-                src="/lovable-uploads/f319eeef-95aa-4737-b598-67e8c980c42f.png" 
-                alt="World map showing Your Team and Bangalore locations"
-                className="w-full h-full object-cover"
-              />
+              <img src="/lovable-uploads/f319eeef-95aa-4737-b598-67e8c980c42f.png" alt="World map showing Your Team and Bangalore locations" className="w-full h-full object-cover" />
             </div>
           </div>
         </div>
@@ -183,11 +166,7 @@ const TeamExtension = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="bg-muted/30 rounded-lg overflow-hidden">
-              <img 
-                src="/lovable-uploads/b072d8cf-7345-42b5-b71c-1fa86c41a01b.png" 
-                alt="Diverse team collaborating"
-                className="w-full h-full object-cover"
-              />
+              <img src="/lovable-uploads/b072d8cf-7345-42b5-b71c-1fa86c41a01b.png" alt="Diverse team collaborating" className="w-full h-full object-cover" />
             </div>
             <div>
               <div className="text-sm font-medium text-muted-foreground mb-4 tracking-wider uppercase">
@@ -598,38 +577,15 @@ const TeamExtension = () => {
               </div>
               
               <form className="space-y-4">
-                <input 
-                  type="text" 
-                  placeholder="Full name*" 
-                  className="w-full p-3 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-turquoise"
-                />
+                <input type="text" placeholder="Full name*" className="w-full p-3 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-turquoise" />
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                  <input 
-                    type="email" 
-                    placeholder="Business email*" 
-                    className="w-full p-3 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-turquoise"
-                  />
-                  <input 
-                    type="tel" 
-                    placeholder="Phone number*" 
-                    className="w-full p-3 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-turquoise"
-                  />
+                  <input type="email" placeholder="Business email*" className="w-full p-3 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-turquoise" />
+                  <input type="tel" placeholder="Phone number*" className="w-full p-3 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-turquoise" />
                 </div>
-                <input 
-                  type="text" 
-                  placeholder="Company name*" 
-                  className="w-full p-3 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-turquoise"
-                />
-                <textarea 
-                  placeholder="Message*" 
-                  rows={4}
-                  className="w-full p-3 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-turquoise"
-                ></textarea>
+                <input type="text" placeholder="Company name*" className="w-full p-3 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-turquoise" />
+                <textarea placeholder="Message*" rows={4} className="w-full p-3 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-turquoise"></textarea>
                 
-                <Button 
-                  type="submit"
-                  className="w-full bg-foreground text-background hover:bg-foreground/90 font-semibold py-3 rounded-full"
-                >
+                <Button type="submit" className="w-full bg-foreground text-background hover:bg-foreground/90 font-semibold py-3 rounded-full">
                   SEND NOW →
                 </Button>
                 
@@ -658,25 +614,7 @@ const TeamExtension = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-24 bg-background">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl lg:text-6xl font-bold mb-8 leading-tight">
-            Extend your development team in Bangalore
-          </h2>
-          <p className="text-xl mb-12 text-navy-foreground/80">
-            Scale your development capabilities with India's finest engineering talent
-          </p>
-          <Button 
-            size="lg"
-            className="bg-turquoise text-turquoise-foreground hover:bg-turquoise/90 font-semibold px-12 py-6 text-lg"
-            asChild
-          >
-            <Link to="/contact">LET'S TALK</Link>
-          </Button>
-        </div>
-      </section>
-    </div>
-  );
+      
+    </div>;
 };
-
 export default TeamExtension;
