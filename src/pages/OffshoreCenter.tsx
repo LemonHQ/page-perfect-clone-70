@@ -8,12 +8,12 @@ const OffshoreCenter = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
-              <h1 className="text-5xl lg:text-7xl font-bold text-foreground mb-8 leading-tight">
-                Offshore Development Centre
-              </h1>
-              <p className="text-xl text-muted-foreground mb-12 leading-relaxed">
-                Increase innovation with a captive ODC
-              </p>
+            <h1 className="h1 mb-8">
+              Offshore Development Centre
+            </h1>
+            <p className="body-text text-lg mb-12">
+              Increase innovation with a captive ODC
+            </p>
               <Button size="lg" className="bg-foreground text-background hover:bg-foreground/90 font-medium px-8 py-4" asChild>
                 <Link to="/contact">BUILD YOUR ODC</Link>
               </Button>
@@ -35,32 +35,32 @@ const OffshoreCenter = () => {
               <div className="w-16 h-16 bg-turquoise rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-turquoise-foreground text-2xl">🏢</span>
               </div>
-              <h3 className="font-semibold mb-2">Own dedicated space</h3>
-              <p className="text-sm text-muted-foreground">Your own office space in Bangalore</p>
+              <h3 className="h6 mb-2">Own dedicated space</h3>
+              <p className="caption">Your own office space in Bangalore</p>
             </Card>
 
             <Card className="p-6 text-center">
               <div className="w-16 h-16 bg-yellow rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-yellow-foreground text-2xl">⚡</span>
               </div>
-              <h3 className="font-semibold mb-2">Elite technologies</h3>
-              <p className="text-sm text-muted-foreground">Latest tools and cutting-edge tech stack</p>
+              <h3 className="h6 mb-2">Elite technologies</h3>
+              <p className="caption">Latest tools and cutting-edge tech stack</p>
             </Card>
 
             <Card className="p-6 text-center">
               <div className="w-16 h-16 bg-navy rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-navy-foreground text-2xl">🔒</span>
               </div>
-              <h3 className="font-semibold mb-2">Bulletproof security</h3>
-              <p className="text-sm text-muted-foreground">Enterprise-grade security and compliance</p>
+              <h3 className="h6 mb-2">Bulletproof security</h3>
+              <p className="caption">Enterprise-grade security and compliance</p>
             </Card>
 
             <Card className="p-6 text-center">
               <div className="w-16 h-16 bg-turquoise rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-turquoise-foreground text-2xl">🚀</span>
               </div>
-              <h3 className="font-semibold mb-2">High-speed work</h3>
-              <p className="text-sm text-muted-foreground">Optimized for maximum productivity</p>
+              <h3 className="h6 mb-2">High-speed work</h3>
+              <p className="caption">Optimized for maximum productivity</p>
             </Card>
           </div>
         </div>
@@ -71,10 +71,10 @@ const OffshoreCenter = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl lg:text-4xl font-bold text-yellow-foreground mb-6">
+              <h2 className="h2 mb-6">
                 More goodbye to the corporate overload and hello to business growth
               </h2>
-              <p className="text-lg text-yellow-foreground/80 mb-8">
+              <p className="body-text text-lg mb-8">
                 Focus on innovation and growth while we handle all the operational complexities 
                 of running an offshore development center.
               </p>
@@ -92,7 +92,7 @@ const OffshoreCenter = () => {
       <section className="py-16 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-4">
+            <h2 className="h2 mb-4">
               You're in good company
             </h2>
           </div>

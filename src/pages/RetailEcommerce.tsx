@@ -7,18 +7,18 @@ const RetailEcommerce = () => {
       <section className="py-24 lg:py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-5xl lg:text-7xl font-bold text-foreground mb-8 leading-tight">
+            <h1 className="h1 mb-8">
               Retail & Ecommerce Software Development
             </h1>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
+            <p className="body-text text-lg max-w-3xl mx-auto mb-8">
               Deliver exceptional online and offline retail experiences with a dedicated team
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <span className="bg-muted text-muted-foreground px-4 py-2 rounded-full text-sm font-medium">React</span>
-              <span className="bg-muted text-muted-foreground px-4 py-2 rounded-full text-sm font-medium">Node.js</span>
-              <span className="bg-muted text-muted-foreground px-4 py-2 rounded-full text-sm font-medium">Shopify</span>
-              <span className="bg-muted text-muted-foreground px-4 py-2 rounded-full text-sm font-medium">Magento</span>
-              <span className="bg-muted text-muted-foreground px-4 py-2 rounded-full text-sm font-medium">AWS</span>
+              <span className="button-text px-4 py-2 rounded-full">React</span>
+              <span className="button-text px-4 py-2 rounded-full">Node.js</span>
+              <span className="button-text px-4 py-2 rounded-full">Shopify</span>
+              <span className="button-text px-4 py-2 rounded-full">Magento</span>
+              <span className="button-text px-4 py-2 rounded-full">AWS</span>
             </div>
           </div>
         </div>
@@ -28,7 +28,7 @@ const RetailEcommerce = () => {
       <section className="py-16 bg-turquoise">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-bold text-turquoise-foreground mb-4">
+            <h2 className="h2 mb-4">
               Custom-built Retail engineering teams
             </h2>
           </div>
@@ -88,10 +88,10 @@ const RetailEcommerce = () => {
               </div>
             </div>
             <div>
-              <h2 className="text-3xl lg:text-4xl font-bold text-yellow-foreground mb-6">
+              <h2 className="h2 mb-6">
                 Scaling Retail Innovation: Customer first
               </h2>
-              <p className="text-lg text-yellow-foreground/80 mb-8">
+              <p className="body-text text-lg mb-8">
                 Our retail teams are built around customer experience and omnichannel excellence. 
                 We focus on creating seamless shopping experiences that drive conversion and 
                 customer loyalty across all touchpoints.

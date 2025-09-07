@@ -9,14 +9,14 @@ const TeamExtension = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
-              <div className="text-sm font-medium text-muted-foreground mb-4 tracking-wider uppercase">
+              <div className="h6 mb-4 tracking-wider uppercase">
                 STAFF AUGMENTATION
               </div>
-              <h1 className="text-5xl lg:text-7xl font-bold text-foreground mb-8 leading-tight">
+              <h1 className="h1 mb-8">
                 Extend your tech team with world-class talent
               </h1>
-              <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-                H2 <span className="font-semibold text-foreground">handpick world-class developers and augment them into your existing engineering team.</span> Whether you're looking for web developers fluent in Java and .NET or mobile developers who sing in Kotlin and Swift — we're here to help.
+              <p className="body-text text-lg mb-8">
+                H2 <span className="font-semibold">handpick world-class developers and augment them into your existing engineering team.</span> Whether you're looking for web developers fluent in Java and .NET or mobile developers who sing in Kotlin and Swift — we're here to help.
               </p>
               <Button size="lg" className="bg-foreground text-background hover:bg-foreground/90 font-medium px-8 py-4" asChild>
                 <Link to="/contact">EXTEND YOUR TEAM</Link>
@@ -37,9 +37,9 @@ const TeamExtension = () => {
               <div className="w-24 h-24 bg-turquoise/20 rounded-full flex items-center justify-center mx-auto mb-6">
                 <UserPlus className="w-12 h-12 text-turquoise" />
               </div>
-              <h3 className="text-2xl font-bold mb-4">Scale your team easily</h3>
-              <p className="text-muted-foreground">
-                Hiring <span className="font-semibold text-foreground">additional developers on demand</span> is a key component of our approach — helping you to deliver planned projects successfully.
+              <h3 className="h4 mb-4">Scale your team easily</h3>
+              <p className="body-text">
+                Hiring <span className="font-semibold">additional developers on demand</span> is a key component of our approach — helping you to deliver planned projects successfully.
               </p>
             </div>
 
@@ -47,9 +47,9 @@ const TeamExtension = () => {
               <div className="w-24 h-24 bg-yellow/20 rounded-full flex items-center justify-center mx-auto mb-6">
                 <Compass className="w-12 h-12 text-yellow-foreground" />
               </div>
-              <h3 className="text-2xl font-bold mb-4">Cultural alignment</h3>
-              <p className="text-muted-foreground">
-                An emphasis on cultural alignment ensures <span className="font-semibold text-foreground">high engineer engagement and retention</span> to keep your team cohesive.
+              <h3 className="h4 mb-4">Cultural alignment</h3>
+              <p className="body-text">
+                An emphasis on cultural alignment ensures <span className="font-semibold">high engineer engagement and retention</span> to keep your team cohesive.
               </p>
             </div>
 
@@ -57,9 +57,9 @@ const TeamExtension = () => {
               <div className="w-24 h-24 bg-turquoise/20 rounded-full flex items-center justify-center mx-auto mb-6">
                 <Lock className="w-12 h-12 text-turquoise" />
               </div>
-              <h3 className="text-2xl font-bold mb-4">IT security</h3>
-              <p className="text-muted-foreground">
-                Your extended team operates using the same <span className="font-semibold text-foreground">security protocol and tools you do at home.</span> Your code is safe and sound in Bangalore.
+              <h3 className="h4 mb-4">IT security</h3>
+              <p className="body-text">
+                Your extended team operates using the same <span className="font-semibold">security protocol and tools you do at home.</span> Your code is safe and sound in Bangalore.
               </p>
             </div>
 
@@ -67,9 +67,9 @@ const TeamExtension = () => {
               <div className="w-24 h-24 bg-yellow/20 rounded-full flex items-center justify-center mx-auto mb-6">
                 <Eye className="w-12 h-12 text-yellow-foreground" />
               </div>
-              <h3 className="text-2xl font-bold mb-4">Direct oversight</h3>
-              <p className="text-muted-foreground">
-                You're in the driving seat, managing the daily workflow — you have <span className="font-semibold text-foreground">total control over your product and IP.</span>
+              <h3 className="h4 mb-4">Direct oversight</h3>
+              <p className="body-text">
+                You're in the driving seat, managing the daily workflow — you have <span className="font-semibold">total control over your product and IP.</span>
               </p>
             </div>
           </div>
@@ -81,7 +81,7 @@ const TeamExtension = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
-              <h2 className="text-4xl lg:text-6xl font-bold text-yellow-foreground mb-8 leading-tight">
+              <h2 className="h2 mb-8">
                 The best talent for your extended team, on tap
               </h2>
             </div>

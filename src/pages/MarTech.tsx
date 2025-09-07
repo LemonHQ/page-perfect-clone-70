@@ -9,14 +9,14 @@ const MarTech = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
-              <div className="text-sm font-medium text-muted-foreground mb-4 tracking-wider uppercase">
+              <div className="h6 mb-4 tracking-wider uppercase">
                 MARTECH SOFTWARE TEAM
               </div>
-              <h1 className="text-5xl lg:text-7xl font-bold text-foreground mb-8 leading-tight">
+              <h1 className="h1 mb-8">
                 Increase the ROI of development
               </h1>
-              <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-                Marketing technology is a constant battle to <span className="font-semibold text-foreground">deliver the right message, at the right time, to the right person.</span> Leverage the latest technology advancements, stay ahead of regulation, and prevent security threats with a dedicated team of top experts. We'll find, manage, and scale <span className="font-semibold text-foreground">a cost-optimal team of MarTech experts from Bangalore's vast talent pool</span> of engineers and marketing experts, fully integrated with your company and culture.
+              <p className="body-text text-lg mb-8">
+                Marketing technology is a constant battle to <span className="font-semibold">deliver the right message, at the right time, to the right person.</span> Leverage the latest technology advancements, stay ahead of regulation, and prevent security threats with a dedicated team of top experts. We'll find, manage, and scale <span className="font-semibold">a cost-optimal team of MarTech experts from Bangalore's vast talent pool</span> of engineers and marketing experts, fully integrated with your company and culture.
               </p>
             </div>
             <div className="bg-muted/30 rounded-lg overflow-hidden">
@@ -34,9 +34,9 @@ const MarTech = () => {
               <div className="w-16 h-16 bg-yellow/20 rounded-full flex items-center justify-center mx-auto mb-6">
                 <Diamond className="w-8 h-8 text-yellow-foreground" />
               </div>
-              <h3 className="text-xl font-bold text-center mb-4">Gain niche skills</h3>
-              <p className="text-muted-foreground text-center">
-                By building an offshore team in the "Silicon Valley of Asia", you can <span className="font-semibold text-foreground">scale a team of experts</span> in any skill or role you need.
+              <h3 className="h5 text-center mb-4">Gain niche skills</h3>
+              <p className="body-text text-center">
+                By building an offshore team in the "Silicon Valley of Asia", you can <span className="font-semibold">scale a team of experts</span> in any skill or role you need.
               </p>
             </Card>
 
@@ -44,9 +44,9 @@ const MarTech = () => {
               <div className="w-16 h-16 bg-turquoise/20 rounded-full flex items-center justify-center mx-auto mb-6">
                 <DollarSign className="w-8 h-8 text-turquoise" />
               </div>
-              <h3 className="text-xl font-bold text-center mb-4">Increase delivery</h3>
-              <p className="text-muted-foreground text-center">
-                Get more from your hiring budget and <span className="font-semibold text-foreground">take advantage of the lower overheads</span> in Bangalore, India, to deliver value to users faster.
+              <h3 className="h5 text-center mb-4">Increase delivery</h3>
+              <p className="body-text text-center">
+                Get more from your hiring budget and <span className="font-semibold">take advantage of the lower overheads</span> in Bangalore, India, to deliver value to users faster.
               </p>
             </Card>
 
@@ -54,9 +54,9 @@ const MarTech = () => {
               <div className="w-16 h-16 bg-panel-light rounded-full flex items-center justify-center mx-auto mb-6">
                 <Eye className="w-8 h-8 text-panel-medium" />
               </div>
-              <h3 className="text-xl font-bold text-center mb-4">Complete visibility</h3>
-              <p className="text-muted-foreground text-center">
-                Manage your offshore team just like your in-house team. <span className="font-semibold text-foreground">Use the same systems and workflows</span> for complete visibility and management.
+              <h3 className="h5 text-center mb-4">Complete visibility</h3>
+              <p className="body-text text-center">
+                Manage your offshore team just like your in-house team. <span className="font-semibold">Use the same systems and workflows</span> for complete visibility and management.
               </p>
             </Card>
           </div>
@@ -67,10 +67,10 @@ const MarTech = () => {
       <section className="py-24 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <div className="text-sm font-medium text-muted-foreground mb-4 tracking-wider uppercase">
+            <div className="h6 mb-4 tracking-wider uppercase">
               SECTOR EXPERTISE
             </div>
-            <h2 className="text-4xl lg:text-6xl font-bold text-foreground mb-8 leading-tight">
+            <h2 className="h2 mb-8">
               Custom-built MarTech engineering teams
             </h2>
           </div>
@@ -83,7 +83,7 @@ const MarTech = () => {
               <div className="h-32 bg-turquoise-foreground/10 rounded-lg mb-4 flex items-center justify-center">
                 <span className="text-4xl font-bold">AD</span>
               </div>
-              <h3 className="font-semibold">Advertising Technology (AdTech)</h3>
+              <h3 className="h6">Advertising Technology (AdTech)</h3>
             </Card>
 
             <Card className="p-6 text-center bg-turquoise text-turquoise-foreground relative overflow-hidden">
@@ -95,7 +95,7 @@ const MarTech = () => {
                   <div className="w-8 h-8 bg-turquoise-foreground rounded-full"></div>
                 </div>
               </div>
-              <h3 className="font-semibold">Influencer Marketing</h3>
+              <h3 className="h6">Influencer Marketing</h3>
             </Card>
 
             <Card className="p-6 text-center bg-yellow text-yellow-foreground relative overflow-hidden">
