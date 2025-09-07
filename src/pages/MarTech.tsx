@@ -2,10 +2,8 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Link } from "react-router-dom";
 import { Check, ChevronDown, Diamond, DollarSign, Eye } from "lucide-react";
-
 const MarTech = () => {
-  return (
-    <div className="min-h-screen">
+  return <div className="min-h-screen">
       {/* Hero Section - Increase the ROI of development */}
       <section className="py-24 lg:py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -22,11 +20,7 @@ const MarTech = () => {
               </p>
             </div>
             <div className="bg-muted/30 rounded-lg overflow-hidden">
-              <img 
-                src="/lovable-uploads/588a9cc4-ee1d-4279-9044-8f5bcff8e845.png" 
-                alt="MarTech developer working on laptop"
-                className="w-full h-full object-cover"
-              />
+              <img src="/lovable-uploads/588a9cc4-ee1d-4279-9044-8f5bcff8e845.png" alt="MarTech developer working on laptop" className="w-full h-full object-cover" />
             </div>
           </div>
         </div>
@@ -196,11 +190,7 @@ const MarTech = () => {
               </p>
             </div>
             <div className="bg-background rounded-lg overflow-hidden">
-              <img 
-                src="/lovable-uploads/45afd01d-11e1-4cca-a41f-f0f33282d9fe.png" 
-                alt="Female developer working on MarTech solutions"
-                className="w-full h-full object-cover"
-              />
+              <img src="/lovable-uploads/45afd01d-11e1-4cca-a41f-f0f33282d9fe.png" alt="Female developer working on MarTech solutions" className="w-full h-full object-cover" />
             </div>
           </div>
         </div>
@@ -242,22 +232,13 @@ const MarTech = () => {
                   ROLES
                 </div>
                 <div className="grid grid-cols-1 gap-3">
-                  {[
-                    "Front-end Developer", "ERP Developer", "Back-end Developer", "Project Manager", "Scrum Master",
-                    "Full-stack Developer", "Data Analyst", "UI Designer/Developer", "Mobile App Developer",
-                    "API Developer", "Cloud Developer", "DevOps Engineer", "Systems Architect", "Security Engineer",
-                    "Integration Specialist", "UX Researcher", "Business Analyst", "Product Owner",
-                    "Content Management Specialist", "Machine Learning Engineer", "Quality Assurance Engineer",
-                    "Database Administrator"
-                  ].map((role, index) => (
-                    <div key={index} className="flex items-center space-x-3">
+                  {["Front-end Developer", "ERP Developer", "Back-end Developer", "Project Manager", "Scrum Master", "Full-stack Developer", "Data Analyst", "UI Designer/Developer", "Mobile App Developer", "API Developer", "Cloud Developer", "DevOps Engineer", "Systems Architect", "Security Engineer", "Integration Specialist", "UX Researcher", "Business Analyst", "Product Owner", "Content Management Specialist", "Machine Learning Engineer", "Quality Assurance Engineer", "Database Administrator"].map((role, index) => <div key={index} className="flex items-center space-x-3">
                       <div className="w-6 h-6 bg-turquoise rounded flex items-center justify-center flex-shrink-0">
                         <Check className="w-4 h-4 text-turquoise-foreground" />
                       </div>
                       <span className="text-sm font-medium">{role}</span>
                       {index === 21 && <span className="text-sm text-muted-foreground">...and more</span>}
-                    </div>
-                  ))}
+                    </div>)}
                 </div>
               </div>
             </div>
@@ -282,11 +263,7 @@ const MarTech = () => {
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="bg-background rounded-lg overflow-hidden">
-              <img 
-                src="/lovable-uploads/3845201e-79ff-42cc-9d3c-245e85dbf645.png" 
-                alt="Team collaboration in office"
-                className="w-full h-full object-cover"
-              />
+              <img src="/lovable-uploads/3845201e-79ff-42cc-9d3c-245e85dbf645.png" alt="Team collaboration in office" className="w-full h-full object-cover" />
             </div>
             <div className="space-y-8">
               <div>
@@ -425,11 +402,7 @@ const MarTech = () => {
           <Card className="p-12 border border-border">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
               <div className="bg-muted/30 rounded-lg overflow-hidden">
-                <img 
-                  src="/lovable-uploads/42eaf101-58e4-49f6-bb88-4488aede3078.png" 
-                  alt="Ykone team collaboration"
-                  className="w-full h-full object-cover"
-                />
+                <img src="/lovable-uploads/42eaf101-58e4-49f6-bb88-4488aede3078.png" alt="Ykone team collaboration" className="w-full h-full object-cover" />
               </div>
               <div>
                 <div className="text-sm font-medium text-muted-foreground mb-4 tracking-wider uppercase">
@@ -441,10 +414,7 @@ const MarTech = () => {
                 <p className="text-lg text-muted-foreground mb-8">
                   Find out how a eight-person engineering team helped Ykone's CEO realise his vision for a <span className="font-semibold text-foreground">powerful flagship product</span> and drive the business to new heights.
                 </p>
-                <Button 
-                  className="bg-yellow text-yellow-foreground hover:bg-yellow/90 font-semibold px-8 py-3"
-                  asChild
-                >
+                <Button className="bg-yellow text-yellow-foreground hover:bg-yellow/90 font-semibold px-8 py-3" asChild>
                   <Link to="/case-studies">READ MORE →</Link>
                 </Button>
               </div>
@@ -522,11 +492,7 @@ const MarTech = () => {
               </div>
             </div>
             <div className="bg-background rounded-lg overflow-hidden">
-              <img 
-                src="/lovable-uploads/fbd75eee-b6e3-4946-ad62-7b5a723455b1.png" 
-                alt="Team collaborating on MarTech solutions"
-                className="w-full h-full object-cover"
-              />
+              <img src="/lovable-uploads/fbd75eee-b6e3-4946-ad62-7b5a723455b1.png" alt="Team collaborating on MarTech solutions" className="w-full h-full object-cover" />
             </div>
           </div>
         </div>
@@ -585,38 +551,15 @@ const MarTech = () => {
               </div>
               
               <form className="space-y-4">
-                <input 
-                  type="text" 
-                  placeholder="Full name*" 
-                  className="w-full p-3 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-turquoise"
-                />
+                <input type="text" placeholder="Full name*" className="w-full p-3 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-turquoise" />
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                  <input 
-                    type="email" 
-                    placeholder="Business email*" 
-                    className="w-full p-3 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-turquoise"
-                  />
-                  <input 
-                    type="tel" 
-                    placeholder="Phone number*" 
-                    className="w-full p-3 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-turquoise"
-                  />
+                  <input type="email" placeholder="Business email*" className="w-full p-3 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-turquoise" />
+                  <input type="tel" placeholder="Phone number*" className="w-full p-3 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-turquoise" />
                 </div>
-                <input 
-                  type="text" 
-                  placeholder="Company name*" 
-                  className="w-full p-3 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-turquoise"
-                />
-                <textarea 
-                  placeholder="Message*" 
-                  rows={4}
-                  className="w-full p-3 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-turquoise"
-                ></textarea>
+                <input type="text" placeholder="Company name*" className="w-full p-3 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-turquoise" />
+                <textarea placeholder="Message*" rows={4} className="w-full p-3 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-turquoise"></textarea>
                 
-                <Button 
-                  type="submit"
-                  className="w-full bg-foreground text-background hover:bg-foreground/90 font-semibold py-3 rounded-full"
-                >
+                <Button type="submit" className="w-full bg-foreground text-background hover:bg-foreground/90 font-semibold py-3 rounded-full">
                   SEND NOW →
                 </Button>
                 
@@ -685,25 +628,7 @@ const MarTech = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-24 bg-navy text-navy-foreground">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl lg:text-6xl font-bold mb-8 leading-tight">
-            Build your MarTech team in Bangalore
-          </h2>
-          <p className="text-xl mb-12 text-navy-foreground/80">
-            Partner with India's top marketing technology development talent
-          </p>
-          <Button 
-            size="lg"
-            className="bg-turquoise text-turquoise-foreground hover:bg-turquoise/90 font-semibold px-12 py-6 text-lg"
-            asChild
-          >
-            <Link to="/contact">LET'S TALK</Link>
-          </Button>
-        </div>
-      </section>
-    </div>
-  );
+      
+    </div>;
 };
-
 export default MarTech;
