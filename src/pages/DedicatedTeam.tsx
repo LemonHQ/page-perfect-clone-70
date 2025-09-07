@@ -7,33 +7,19 @@ const DedicatedTeam = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative py-24 lg:py-32 bg-turquoise overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-turquoise via-turquoise to-turquoise-light opacity-90"></div>
-        <div className="absolute inset-0">
-          <svg className="w-full h-full" preserveAspectRatio="none" viewBox="0 0 1200 600">
-            <path
-              d="M0,200 C400,100 800,300 1200,200 L1200,600 L0,600 Z"
-              fill="rgba(255,255,255,0.1)"
-            />
-            <path
-              d="M0,300 C600,200 900,400 1200,300 L1200,600 L0,600 Z"
-              fill="rgba(255,255,255,0.05)"
-            />
-          </svg>
-        </div>
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="w-20 h-20 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-8">
-            <Rocket className="w-10 h-10 text-turquoise-foreground" />
+      <section className="py-24 lg:py-32">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center">
+            <h1 className="text-5xl lg:text-7xl font-bold text-foreground mb-8 leading-tight">
+              Dedicated Development Team
+            </h1>
+            <p className="text-xl text-muted-foreground mb-4 max-w-2xl mx-auto">
+              Does the talent you need feel out of reach?
+            </p>
+            <p className="text-2xl lg:text-3xl font-bold text-foreground">
+              Build your tech team in Bangalore
+            </p>
           </div>
-          <h1 className="text-5xl lg:text-7xl font-bold text-turquoise-foreground mb-8 leading-tight">
-            Dedicated Development Team
-          </h1>
-          <p className="text-2xl text-turquoise-foreground/90 mb-4">
-            Does the talent you need feel out of reach?
-          </p>
-          <p className="text-3xl lg:text-4xl font-bold text-turquoise-foreground">
-            Build your tech team in Bangalore
-          </p>
         </div>
       </section>
 

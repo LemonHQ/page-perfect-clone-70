@@ -83,17 +83,16 @@ const FAQ = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-turquoise py-16 lg:py-24">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="w-16 h-16 bg-turquoise-foreground rounded-full flex items-center justify-center mx-auto mb-6">
-            <span className="text-turquoise text-2xl font-bold">?</span>
+      <section className="py-24 lg:py-32">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center">
+            <h1 className="text-5xl lg:text-7xl font-bold text-foreground mb-8 leading-tight">
+              FAQ
+            </h1>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+              Your most common questions answered
+            </p>
           </div>
-          <h1 className="text-4xl lg:text-6xl font-bold text-turquoise-foreground mb-6">
-            FAQ
-          </h1>
-          <p className="text-xl text-turquoise-foreground/80 max-w-3xl mx-auto">
-            Your most common questions answered
-          </p>
         </div>
       </section>
 

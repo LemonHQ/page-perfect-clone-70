@@ -112,28 +112,22 @@ const Blog = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="py-24 lg:py-32 bg-gradient-to-r from-turquoise via-navy to-navy relative overflow-hidden">
-        <div className="absolute inset-0">
-          <div className="absolute top-10 left-10 w-32 h-32 bg-turquoise-light rounded-full opacity-20"></div>
-          <div className="absolute top-20 right-20 w-16 h-16 bg-yellow rounded-full opacity-30"></div>
-          <div className="absolute bottom-20 left-1/4 w-24 h-24 bg-turquoise rounded-full opacity-15"></div>
-          <div className="absolute bottom-10 right-10 w-20 h-20 border-2 border-turquoise rounded-full opacity-40"></div>
-        </div>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+      <section className="py-24 lg:py-32">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-5xl lg:text-7xl font-bold text-white mb-8 leading-tight">
+            <h1 className="text-5xl lg:text-7xl font-bold text-foreground mb-8 leading-tight">
               The Scalers Blog
             </h1>
-            <p className="text-xl text-white/90 max-w-3xl mx-auto mb-12">
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-12">
               Insights, trends, and best practices in offshore development, team building, and scaling technology organizations globally.
             </p>
             <div className="max-w-md mx-auto relative">
               <Input 
                 type="text" 
                 placeholder="Search articles..." 
-                className="pl-12 pr-4 py-3 bg-white/10 border-white/20 text-white placeholder:text-white/60 backdrop-blur-sm"
+                className="pl-12 pr-4 py-3 border-input"
               />
-              <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 w-5 h-5 text-white/60" />
+              <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 w-5 h-5 text-muted-foreground" />
             </div>
           </div>
         </div>

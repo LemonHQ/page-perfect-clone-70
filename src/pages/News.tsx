@@ -63,14 +63,16 @@ const News = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-turquoise py-16 lg:py-24">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl lg:text-6xl font-bold text-turquoise-foreground mb-6">
-            News & Media
-          </h1>
-          <p className="text-xl text-turquoise-foreground/80 max-w-3xl mx-auto">
-            Read our features on the web and download our brand assets
-          </p>
+      <section className="py-24 lg:py-32">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center">
+            <h1 className="text-5xl lg:text-7xl font-bold text-foreground mb-8 leading-tight">
+              News & Media
+            </h1>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+              Read our features on the web and download our brand assets
+            </p>
+          </div>
         </div>
       </section>
 

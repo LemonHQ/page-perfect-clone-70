@@ -9,32 +9,15 @@ const Contact = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="py-24 lg:py-32 bg-gradient-to-r from-turquoise via-navy to-navy relative overflow-hidden">
-        <div className="absolute inset-0">
-          <div className="absolute top-10 left-10 w-32 h-32 bg-turquoise-light rounded-full opacity-20"></div>
-          <div className="absolute top-20 right-20 w-16 h-16 bg-yellow rounded-full opacity-30"></div>
-          <div className="absolute bottom-20 left-1/4 w-24 h-24 bg-turquoise rounded-full opacity-15"></div>
-          <div className="absolute bottom-10 right-10 w-20 h-20 border-2 border-turquoise rounded-full opacity-40"></div>
-        </div>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+      <section className="py-24 lg:py-32">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-6xl lg:text-8xl font-bold text-white mb-8 leading-tight">
+            <h1 className="text-5xl lg:text-7xl font-bold text-foreground mb-8 leading-tight">
               Contact
             </h1>
-            <p className="text-2xl text-white/90 max-w-2xl mx-auto">
+            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               Want to get in touch? You're in the right place
             </p>
-          </div>
-          <div className="mt-16 flex justify-center">
-            <div className="relative">
-              <div className="w-96 h-48 bg-navy/50 rounded-lg transform rotate-6 absolute"></div>
-              <div className="w-96 h-48 bg-background/10 rounded-lg flex items-center justify-center relative">
-                <div className="text-center text-white">
-                  <div className="text-4xl mb-2">💬</div>
-                  <p>Get In Touch</p>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </section>

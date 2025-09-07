@@ -7,21 +7,21 @@ const MarTech = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section - Increase the ROI of development */}
-      <section className="py-24 lg:py-32 bg-turquoise">
+      <section className="py-24 lg:py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
-              <div className="text-sm font-medium text-turquoise-foreground/80 mb-4 tracking-wider uppercase">
+              <div className="text-sm font-medium text-muted-foreground mb-4 tracking-wider uppercase">
                 MARTECH SOFTWARE TEAM
               </div>
-              <h1 className="text-4xl lg:text-6xl font-bold text-turquoise-foreground mb-8 leading-tight">
+              <h1 className="text-5xl lg:text-7xl font-bold text-foreground mb-8 leading-tight">
                 Increase the ROI of development
               </h1>
-              <p className="text-xl text-turquoise-foreground/90 mb-8 leading-relaxed">
-                Marketing technology is a constant battle to <span className="font-semibold text-turquoise-foreground">deliver the right message, at the right time, to the right person.</span> Leverage the latest technology advancements, stay ahead of regulation, and prevent security threats with a dedicated team of top experts. We'll find, manage, and scale <span className="font-semibold text-turquoise-foreground">a cost-optimal team of MarTech experts from Bangalore's vast talent pool</span> of engineers and marketing experts, fully integrated with your company and culture.
+              <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
+                Marketing technology is a constant battle to <span className="font-semibold text-foreground">deliver the right message, at the right time, to the right person.</span> Leverage the latest technology advancements, stay ahead of regulation, and prevent security threats with a dedicated team of top experts. We'll find, manage, and scale <span className="font-semibold text-foreground">a cost-optimal team of MarTech experts from Bangalore's vast talent pool</span> of engineers and marketing experts, fully integrated with your company and culture.
               </p>
             </div>
-            <div className="bg-turquoise-light rounded-lg overflow-hidden">
+            <div className="bg-muted/30 rounded-lg overflow-hidden">
               <img 
                 src="/lovable-uploads/588a9cc4-ee1d-4279-9044-8f5bcff8e845.png" 
                 alt="MarTech developer working on laptop"
@@ -29,9 +29,13 @@ const MarTech = () => {
               />
             </div>
           </div>
+        </div>
+      </section>
 
-          {/* Benefits Cards */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
+      {/* Benefits Cards */}
+      <section className="py-16 bg-muted/30">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <Card className="p-8 bg-background">
               <div className="w-16 h-16 bg-yellow/20 rounded-full flex items-center justify-center mx-auto mb-6">
                 <Diamond className="w-8 h-8 text-yellow-foreground" />

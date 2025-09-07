@@ -84,37 +84,30 @@ const CaseStudies = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="py-24 lg:py-32 bg-gradient-to-r from-turquoise via-navy to-navy relative overflow-hidden">
-        <div className="absolute inset-0">
-          <div className="absolute top-10 left-10 w-32 h-32 bg-turquoise-light rounded-full opacity-20"></div>
-          <div className="absolute top-20 right-20 w-16 h-16 bg-yellow rounded-full opacity-30"></div>
-          <div className="absolute bottom-20 left-1/4 w-24 h-24 bg-turquoise rounded-full opacity-15"></div>
-          <div className="absolute bottom-10 right-10 w-20 h-20 border-2 border-turquoise rounded-full opacity-40"></div>
-        </div>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+      <section className="py-24 lg:py-32">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-5xl lg:text-7xl font-bold text-white mb-8 leading-tight">
+            <h1 className="text-5xl lg:text-7xl font-bold text-foreground mb-8 leading-tight">
               Case Studies
             </h1>
-            <p className="text-xl text-white/90 max-w-3xl mx-auto mb-12">
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-12">
               Real stories of transformation. See how global companies have scaled their development teams and achieved remarkable results with The Scalers.
             </p>
-            <div className="flex justify-center">
-              <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6">
-                <div className="grid grid-cols-3 gap-8 text-center">
-                  <div>
-                    <div className="text-3xl font-bold text-turquoise mb-2">130+</div>
-                    <p className="text-white/80 text-sm">Success Stories</p>
-                  </div>
-                  <div>
-                    <div className="text-3xl font-bold text-yellow mb-2">39+</div>
-                    <p className="text-white/80 text-sm">Countries</p>
-                  </div>
-                  <div>
-                    <div className="text-3xl font-bold text-turquoise-light mb-2">10</div>
-                    <p className="text-white/80 text-sm">Years Experience</p>
-                  </div>
-                </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
+              <div>
+                <div className="text-6xl font-bold text-foreground mb-6">130+</div>
+                <p className="text-xl font-medium text-foreground mb-3">Success Stories</p>
+                <p className="text-muted-foreground">Global partnerships delivered</p>
+              </div>
+              <div>
+                <div className="text-6xl font-bold text-foreground mb-6">39+</div>
+                <p className="text-xl font-medium text-foreground mb-3">Countries</p>
+                <p className="text-muted-foreground">Global reach and expertise</p>
+              </div>
+              <div>
+                <div className="text-6xl font-bold text-foreground mb-6">10</div>
+                <p className="text-xl font-medium text-foreground mb-3">Years Experience</p>
+                <p className="text-muted-foreground">Successful partnerships</p>
               </div>
             </div>
           </div>

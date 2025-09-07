@@ -6,21 +6,21 @@ const RetailEcommerce = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-navy via-turquoise to-navy py-16 lg:py-24">
+      <section className="py-24 lg:py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center text-navy-foreground">
-            <h1 className="text-4xl lg:text-6xl font-bold mb-6">
+          <div className="text-center">
+            <h1 className="text-5xl lg:text-7xl font-bold text-foreground mb-8 leading-tight">
               Retail & Ecommerce Software Development
             </h1>
-            <p className="text-xl mb-8 max-w-3xl mx-auto opacity-90">
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
               Deliver exceptional online and offline retail experiences with a dedicated team
             </p>
-            <div className="flex flex-wrap justify-center gap-4 mb-8">
-              <span className="bg-background text-foreground px-4 py-2 rounded-full text-sm font-medium">React</span>
-              <span className="bg-background text-foreground px-4 py-2 rounded-full text-sm font-medium">Node.js</span>
-              <span className="bg-background text-foreground px-4 py-2 rounded-full text-sm font-medium">Shopify</span>
-              <span className="bg-background text-foreground px-4 py-2 rounded-full text-sm font-medium">Magento</span>
-              <span className="bg-background text-foreground px-4 py-2 rounded-full text-sm font-medium">AWS</span>
+            <div className="flex flex-wrap justify-center gap-4">
+              <span className="bg-muted text-muted-foreground px-4 py-2 rounded-full text-sm font-medium">React</span>
+              <span className="bg-muted text-muted-foreground px-4 py-2 rounded-full text-sm font-medium">Node.js</span>
+              <span className="bg-muted text-muted-foreground px-4 py-2 rounded-full text-sm font-medium">Shopify</span>
+              <span className="bg-muted text-muted-foreground px-4 py-2 rounded-full text-sm font-medium">Magento</span>
+              <span className="bg-muted text-muted-foreground px-4 py-2 rounded-full text-sm font-medium">AWS</span>
             </div>
           </div>
         </div>
