@@ -114,7 +114,7 @@ const Index = () => {
               <div className="h6 tracking-wide mb-6">
                 THE SMARTER WAY
               </div>
-              <h2 className="h2 mb-8">
+              <h2>
                 Scale your tech team easily
               </h2>
               <p className="body-text text-lg mb-12">
@@ -367,7 +367,7 @@ const Index = () => {
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-12">
-            <h2 className="h2 mb-8">
+            <h2>
               We'll help you —
             </h2>
           </div>
@@ -428,7 +428,7 @@ const Index = () => {
             <div className="h6 font-semibold tracking-wide mb-4">
               FEATURED CASE STUDIES
             </div>
-            <h2 className="h2 mb-8">
+            <h2>
               We build the best teams
             </h2>
           </div>
@@ -578,7 +578,7 @@ const Index = () => {
               <div className="h6 font-semibold tracking-wide mb-4">
                 FROM 5 TO 100+ ENGINEERS
               </div>
-              <h2 className="h2 mb-8">
+              <h2>
                 Set up a world-class tech team in Bangalore
               </h2>
               

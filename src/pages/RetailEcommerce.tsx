@@ -28,7 +28,7 @@ const RetailEcommerce = () => {
       <section className="py-16 bg-turquoise">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="h2 mb-4">
+           <h2>
               Custom-built Retail engineering teams
             </h2>
           </div>
@@ -109,7 +109,7 @@ const RetailEcommerce = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-6">
+              <h2>
                 We build the best Retail talent hub
               </h2>
               <p className="text-lg text-muted-foreground mb-8">
@@ -155,7 +155,7 @@ const RetailEcommerce = () => {
       <section className="py-16 bg-turquoise">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-bold text-turquoise-foreground mb-4">
+            <h2>
               Your dedicated offshore team can help you with
             </h2>
           </div>

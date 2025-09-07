@@ -30,7 +30,7 @@ const Contact = () => {
             <div className="bg-yellow rounded-lg p-12 relative overflow-hidden">
               <div className="absolute bottom-0 right-0 w-32 h-32 bg-yellow-foreground/10 rounded-full transform translate-x-8 translate-y-8"></div>
               <div className="relative z-10">
-                <h2 className="h2 mb-8">
+                <h2>
                   Let's talk about your new team.
                 </h2>
                 <p className="body-text text-lg mb-8">
@@ -164,7 +164,7 @@ const Contact = () => {
       {/* Follow Us Section */}
       <section className="py-16 bg-muted/30">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="h2 mb-12">
+         <h2>
             Follow us to stay up to date
           </h2>
           <div className="flex justify-center space-x-8">
@@ -208,7 +208,7 @@ const Contact = () => {
       <section className="py-24 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="h2 mb-8 tracking-wider">
+            <h2>
               OUR LOCATIONS
             </h2>
           </div>

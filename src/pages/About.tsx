@@ -371,7 +371,7 @@ const About = () => {
               <div className="text-sm font-semibold text-navy-foreground/70 tracking-wide mb-4">
                 FROM 5 TO 100+ ENGINEERS
               </div>
-              <h2 className="text-4xl lg:text-5xl font-bold mb-8">
+             <h2>
                 Set up a world-class tech team in Bangalore
               </h2>
               
@@ -479,7 +479,7 @@ const About = () => {
       <section className="py-24 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-8">
+           <h2>
               Our locations
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
@@ -518,7 +518,7 @@ const About = () => {
       {/* CTA Section */}
       <section className="py-24 bg-panel-medium text-background">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl lg:text-5xl font-bold mb-8 leading-tight">
+          <h2>
             Ready to scale your team?
           </h2>
           <p className="text-xl mb-12 text-background/80 leading-relaxed">

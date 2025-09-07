@@ -81,7 +81,7 @@ const TeamExtension = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
-              <h2 className="h2 mb-8">
+              <h2>
                 The best talent for your extended team, on tap
               </h2>
             </div>
@@ -115,7 +115,7 @@ const TeamExtension = () => {
               <div className="text-sm font-medium text-muted-foreground mb-4 tracking-wider uppercase">
                 EXTENDED TEAM IN INDIA
               </div>
-              <h2 className="text-4xl lg:text-6xl font-bold text-foreground mb-8 leading-tight">
+              <h2>
                 World-class engineers in Bangalore
               </h2>
               <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
@@ -172,7 +172,7 @@ const TeamExtension = () => {
               <div className="text-sm font-medium text-muted-foreground mb-4 tracking-wider uppercase">
                 FULLY ALIGNED TEAM
               </div>
-              <h2 className="text-4xl lg:text-6xl font-bold text-foreground mb-8 leading-tight">
+              <h2>
                 Code in a cohesive culture
               </h2>
               <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
@@ -188,7 +188,7 @@ const TeamExtension = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
-              <h2 className="text-4xl lg:text-6xl font-bold text-foreground mb-8 leading-tight">
+              <h2>
                 To support your objectives, <span className="text-turquoise">we help you to...</span>
               </h2>
             </div>
@@ -225,7 +225,7 @@ const TeamExtension = () => {
             <div className="text-sm font-medium text-turquoise-foreground/80 mb-4 tracking-wider uppercase">
               360° COORDINATION
             </div>
-            <h2 className="text-4xl lg:text-6xl font-bold text-turquoise-foreground mb-8 leading-tight">
+            <h2>
               Work together in holistic alignment
             </h2>
           </div>
@@ -384,7 +384,7 @@ const TeamExtension = () => {
             <div className="text-sm font-medium text-muted-foreground mb-4 tracking-wider uppercase">
               TEAM EXTENSIONS OF ANY SIZE
             </div>
-            <h2 className="text-4xl lg:text-6xl font-bold text-foreground mb-8 leading-tight">
+            <h2>
               Augmentation done awesomely
             </h2>
           </div>
@@ -464,7 +464,7 @@ const TeamExtension = () => {
             <div className="text-sm font-medium text-muted-foreground mb-4 tracking-wider uppercase">
               COLLABORATE EASILY
             </div>
-            <h2 className="text-4xl lg:text-6xl font-bold text-foreground mb-8 leading-tight">
+            <h2>
               Seamless and secure team extension
             </h2>
           </div>
@@ -532,7 +532,7 @@ const TeamExtension = () => {
               <div className="text-sm font-semibold text-navy-foreground/70 tracking-wide mb-4">
                 FROM 5 TO 100+ ENGINEERS
               </div>
-              <h2 className="text-4xl lg:text-5xl font-bold mb-8">
+             <h2>
                 Extend your development team in Bangalore
               </h2>
               

@@ -164,7 +164,7 @@ const Blog = () => {
                       {featuredPost.date}
                     </span>
                   </div>
-                  <h2 className="h3 mb-4">
+                 <h2>
                     {featuredPost.title}
                   </h2>
                   <p className="body-text text-lg mb-6">
@@ -200,7 +200,7 @@ const Blog = () => {
       <section className="py-16 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-4">
+            <h2>
               Latest Articles
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -271,7 +271,7 @@ const Blog = () => {
       {/* Newsletter Signup */}
       <section className="py-16 bg-turquoise text-turquoise-foreground">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl lg:text-4xl font-bold mb-6">
+          <h2>
             Stay in the loop
           </h2>
           <p className="text-xl mb-8 text-turquoise-foreground/90">
@@ -297,7 +297,7 @@ const Blog = () => {
               <div className="text-sm font-semibold text-navy-foreground/70 tracking-wide mb-4">
                 FROM 5 TO 100+ ENGINEERS
               </div>
-              <h2 className="text-4xl lg:text-5xl font-bold mb-8">
+             <h2>
                 Set up a world-class tech team in Bangalore
               </h2>
               

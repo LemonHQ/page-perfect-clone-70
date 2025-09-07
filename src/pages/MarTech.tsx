@@ -70,7 +70,7 @@ const MarTech = () => {
             <div className="h6 mb-4 tracking-wider uppercase">
               SECTOR EXPERTISE
             </div>
-            <h2 className="h2 mb-8">
+            <h2>
               Custom-built MarTech engineering teams
             </h2>
           </div>
@@ -182,7 +182,7 @@ const MarTech = () => {
               <div className="text-sm font-medium text-muted-foreground mb-4 tracking-wider uppercase">
                 RICH TALENT POOL
               </div>
-              <h2 className="text-4xl lg:text-6xl font-bold text-foreground mb-8 leading-tight">
+              <h2>
                 Bangalore: MarTech talent hub
               </h2>
               <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
@@ -253,7 +253,7 @@ const MarTech = () => {
             <div className="text-sm font-medium text-muted-foreground mb-4 tracking-wider uppercase">
               WHY CHOOSE H2
             </div>
-            <h2 className="text-4xl lg:text-6xl font-bold text-foreground mb-8 leading-tight">
+            <h2>
               The smarter way to scale
             </h2>
             <p className="text-xl text-muted-foreground max-w-4xl mx-auto">
@@ -298,7 +298,7 @@ const MarTech = () => {
             <div className="text-sm font-medium text-turquoise-foreground/80 mb-4 tracking-wider uppercase">
               MARTECH SOFTWARE SOLUTIONS
             </div>
-            <h2 className="text-4xl lg:text-6xl font-bold text-turquoise-foreground mb-8 leading-tight">
+            <h2>
               Your dedicated offshore team can help you with
             </h2>
           </div>
@@ -394,7 +394,7 @@ const MarTech = () => {
             <div className="text-sm font-medium text-muted-foreground mb-4 tracking-wider uppercase">
               FEATURED CASE STUDIES
             </div>
-            <h2 className="text-4xl lg:text-6xl font-bold text-foreground mb-8 leading-tight">
+            <h2>
               We build the best MarTech teams
             </h2>
           </div>
@@ -431,7 +431,7 @@ const MarTech = () => {
               <div className="text-sm font-medium text-muted-foreground mb-4 tracking-wider uppercase">
                 WHY H2?
               </div>
-              <h2 className="text-4xl lg:text-6xl font-bold text-foreground mb-12 leading-tight">
+              <h2>
                 Your trusted partner for MarTech talent
               </h2>
 
@@ -506,7 +506,7 @@ const MarTech = () => {
               <div className="text-sm font-semibold text-foreground/70 tracking-wide mb-4">
                 FROM 5 TO 100+ ENGINEERS
               </div>
-              <h2 className="text-4xl lg:text-5xl font-bold mb-8">
+             <h2>
                 Set up a world-class MarTech team in Bangalore
               </h2>
               
@@ -591,7 +591,7 @@ const MarTech = () => {
       <section className="py-24 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-8">
+           <h2>
               Our locations
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">

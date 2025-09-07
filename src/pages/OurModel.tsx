@@ -110,7 +110,7 @@ const OurModel = () => {
             <div className="text-sm font-semibold text-muted-foreground tracking-wide mb-4">
               BENEFITS
             </div>
-            <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
+            <h2>
               The real value
             </h2>
           </div>
@@ -160,7 +160,7 @@ const OurModel = () => {
               <div className="text-sm font-semibold text-muted-foreground tracking-wide mb-4">
                 PROVEN APPROACH
               </div>
-              <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-8">
+             <h2>
                 The real results
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
@@ -197,7 +197,7 @@ const OurModel = () => {
             <div className="text-sm font-semibold text-muted-foreground tracking-wide mb-4">
               THE OFFSHORE DEVELOPMENT MODEL THAT WORKS
             </div>
-            <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
+            <h2>
               Scale smarter, stand apart
             </h2>
           </div>
@@ -475,7 +475,7 @@ const OurModel = () => {
               <div className="text-sm font-semibold text-navy-foreground/70 tracking-wide mb-4">
                 FROM 5 TO 100+ ENGINEERS
               </div>
-              <h2 className="text-4xl lg:text-5xl font-bold mb-8">
+             <h2>
                 Set up a world-class tech team in Bangalore
               </h2>
               

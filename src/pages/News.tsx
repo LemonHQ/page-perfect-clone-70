@@ -80,7 +80,7 @@ const News = () => {
       <section className="py-16 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="h3 mb-4">
+           <h2>
               FEATURED STORIES
             </h2>
           </div>
@@ -150,7 +150,7 @@ const News = () => {
       <section className="py-16 bg-turquoise">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="mb-12">
-            <h2 className="text-3xl lg:text-4xl font-bold text-turquoise-foreground mb-4">
+            <h2>
               MEDIA KIT
             </h2>
             <h3 className="text-2xl lg:text-3xl font-bold text-turquoise-foreground mb-6">
@@ -183,7 +183,7 @@ const News = () => {
       {/* CTA Section */}
       <section className="py-16 bg-panel-soft text-foreground">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl lg:text-4xl font-bold mb-6">
+          <h2>
             Set up a world-class tech team in Bangalore
           </h2>
           <p className="text-xl mb-8 text-foreground/80">
