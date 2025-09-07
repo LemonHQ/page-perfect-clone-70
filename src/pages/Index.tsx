@@ -14,10 +14,10 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
-              <h1 className="text-5xl lg:text-7xl font-bold text-black mb-8 leading-tight">
+              <h1 className="h1 mb-8">
                 130+ world-class tech teams built in Bangalore
               </h1>
-              <p className="text-xl text-black mb-12 leading-relaxed">
+              <p className="body-text text-lg mb-12">
                 Scale your software development with dedicated offshore teams
               </p>
               <div className="flex flex-col sm:flex-row gap-6">
@@ -40,59 +40,59 @@ const Index = () => {
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h3 className="text-sm font-medium text-black tracking-wide uppercase mb-12">
+            <h6 className="h6 tracking-wide uppercase mb-12">
               TRUSTED BY
-            </h3>
+            </h6>
           </div>
           <div className="overflow-hidden">
             <div className="flex items-center gap-16 animate-scroll whitespace-nowrap">
-              <div className="text-xl font-medium text-black hover:text-black transition-colors">
+              <div className="button-text hover:text-black transition-colors">
                 MICROSOFT
               </div>
-              <div className="text-xl font-medium text-black hover:text-black transition-colors">
+              <div className="button-text hover:text-black transition-colors">
                 FLIPKART
               </div>
-              <div className="text-xl font-medium text-black hover:text-black transition-colors">
+              <div className="button-text hover:text-black transition-colors">
                 OPTUM
               </div>
-              <div className="text-xl font-medium text-black hover:text-black transition-colors">
+              <div className="button-text hover:text-black transition-colors">
                 SWIGGY
               </div>
-              <div className="text-xl font-medium text-black hover:text-black transition-colors">
+              <div className="button-text hover:text-black transition-colors">
                 NASSCOM
               </div>
-              <div className="text-xl font-medium text-black hover:text-black transition-colors">
+              <div className="button-text hover:text-black transition-colors">
                 PREQIN
               </div>
-              <div className="text-xl font-medium text-black hover:text-black transition-colors">
+              <div className="button-text hover:text-black transition-colors">
                 NEXTPOINT
               </div>
-              <div className="text-xl font-medium text-black hover:text-black transition-colors">
+              <div className="button-text hover:text-black transition-colors">
                 YKONE
               </div>
               {/* Duplicate for seamless loop */}
-              <div className="text-xl font-medium text-black hover:text-black transition-colors">
+              <div className="button-text hover:text-black transition-colors">
                 MICROSOFT
               </div>
-              <div className="text-xl font-medium text-black hover:text-black transition-colors">
+              <div className="button-text hover:text-black transition-colors">
                 FLIPKART
               </div>
-              <div className="text-xl font-medium text-black hover:text-black transition-colors">
+              <div className="button-text hover:text-black transition-colors">
                 OPTUM
               </div>
-              <div className="text-xl font-medium text-black hover:text-black transition-colors">
+              <div className="button-text hover:text-black transition-colors">
                 SWIGGY
               </div>
-              <div className="text-xl font-medium text-black hover:text-black transition-colors">
+              <div className="button-text hover:text-black transition-colors">
                 NASSCOM
               </div>
-              <div className="text-xl font-medium text-black hover:text-black transition-colors">
+              <div className="button-text hover:text-black transition-colors">
                 PREQIN
               </div>
-              <div className="text-xl font-medium text-black hover:text-black transition-colors">
+              <div className="button-text hover:text-black transition-colors">
                 NEXTPOINT
               </div>
-              <div className="text-xl font-medium text-black hover:text-black transition-colors">
+              <div className="button-text hover:text-black transition-colors">
                 YKONE
               </div>
             </div>
@@ -111,13 +111,13 @@ const Index = () => {
               <img src={developersCoding} alt="Developers coding and collaborating" className="rounded-lg w-full h-full object-cover" />
             </div>
             <div>
-              <div className="text-sm font-medium text-black tracking-wide mb-6">
+              <div className="h6 tracking-wide mb-6">
                 THE SMARTER WAY
               </div>
-              <h2 className="text-4xl lg:text-5xl font-bold text-black mb-8 leading-tight">
+              <h2 className="h2 mb-8">
                 Scale your tech team easily
               </h2>
-              <p className="text-lg text-black mb-12 leading-relaxed">
+              <p className="body-text text-lg mb-12">
                 Leverage our proven approach to <strong>expand your software development capacity and deliver at speed</strong>. 
                 H2 is your partner on the ground that assembles your team, acquires and sets up your premises, 
                 and supports your mission in Bangalore.
@@ -136,18 +136,18 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
             <div>
               <div className="text-6xl font-bold text-black mb-6">130+</div>
-              <p className="text-xl font-medium text-black mb-3">Teams built</p>
-              <p className="text-black">World-class development teams delivered</p>
+              <p className="h5 mb-3">Teams built</p>
+              <p className="body-text">World-class development teams delivered</p>
             </div>
             <div>
               <div className="text-6xl font-bold text-black mb-6">39+</div>
-              <p className="text-xl font-medium text-black mb-3">Countries served</p>
-              <p className="text-black">Global reach and expertise</p>
+              <p className="h5 mb-3">Countries served</p>
+              <p className="body-text">Global reach and expertise</p>
             </div>
             <div>
               <div className="text-6xl font-bold text-black mb-6">3</div>
-              <p className="text-xl font-medium text-black mb-3">Months average</p>
-              <p className="text-black">Time to build your team</p>
+              <p className="h5 mb-3">Months average</p>
+              <p className="body-text">Time to build your team</p>
             </div>
           </div>
         </div>
@@ -170,8 +170,8 @@ const Index = () => {
                   </div>
                 </div>
               </div>
-              <h3 className="text-2xl font-bold text-black mb-4">We build your team</h3>
-              <p className="text-black mb-6">
+              <h3 className="h4 mb-4">We build your team</h3>
+              <p className="body-text mb-6">
                 We hire your developers from Bangalore's world-class talent pool using a comprehensive, multistage assessment process.
               </p>
               <Button variant="outline" className="rounded-full border-black text-black hover:bg-black hover:text-white" asChild>
@@ -192,8 +192,8 @@ const Index = () => {
                   </div>
                 </div>
               </div>
-              <h3 className="text-2xl font-bold text-black mb-4">We run your operations</h3>
-              <p className="text-black mb-6">
+              <h3 className="h4 mb-4">We run your operations</h3>
+              <p className="body-text mb-6">
                 We set up your dedicated workspace and take care of everything for you on the ground, freeing you to focus on your business.
               </p>
               <Button variant="outline" className="rounded-full border-black text-black hover:bg-black hover:text-white" asChild>
@@ -214,8 +214,8 @@ const Index = () => {
                   </div>
                 </div>
               </div>
-              <h3 className="text-2xl font-bold text-black mb-4">You scale without limits</h3>
-              <p className="text-black mb-6">
+              <h3 className="h4 mb-4">You scale without limits</h3>
+              <p className="body-text mb-6">
                 We instil your vision, values, and culture to ensure your team is engaged and fully aligned with your mission.
               </p>
               <Button variant="outline" className="rounded-full border-black text-black hover:bg-black hover:text-white" asChild>
@@ -231,7 +231,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-4xl lg:text-5xl font-bold text-black mb-6">
+              <h2 className="h2 mb-6">
                 Work with your offshore team in the same way as your one at home
               </h2>
             </div>
@@ -255,7 +255,7 @@ const Index = () => {
                   <span className="text-5xl font-bold text-black">5</span>
                 </div>
               </div>
-              <p className="text-lg text-black">global locations</p>
+              <p className="body-text text-lg">global locations</p>
             </div>
             <div className="text-center">
               <div className="relative inline-block mb-6">
@@ -263,8 +263,8 @@ const Index = () => {
                   <span className="text-4xl font-bold text-black">130+</span>
                 </div>
               </div>
-              <p className="text-lg text-black">teams built</p>
-              <p className="text-lg text-black">since 2014</p>
+              <p className="body-text text-lg">teams built</p>
+              <p className="body-text text-lg">since 2014</p>
             </div>
             <div className="text-center">
               <div className="relative inline-block mb-6">
@@ -272,8 +272,8 @@ const Index = () => {
                   <span className="text-5xl font-bold text-black">10</span>
                 </div>
               </div>
-              <p className="text-lg text-black">years of successful</p>
-              <p className="text-lg text-black">partnerships</p>
+              <p className="body-text text-lg">years of successful</p>
+              <p className="body-text text-lg">partnerships</p>
             </div>
           </div>
         </div>
@@ -284,13 +284,13 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <div className="text-sm font-semibold text-black tracking-wide mb-4">
+              <div className="h6 font-semibold tracking-wide mb-4">
                 SILICON VALLEY OF ASIA
               </div>
-              <h2 className="text-4xl lg:text-5xl font-bold text-black mb-6">
+              <h2 className="h2 mb-6">
                 Elite engineers in Bangalore
               </h2>
-              <p className="text-lg text-black mb-8">
+              <p className="body-text text-lg mb-8">
                 Home to the R&D centres of the <strong>world's leading tech companies</strong> including 
                 Google, Amazon, and Microsoft — we tap you into a pool of top talent.
               </p>
@@ -319,13 +319,13 @@ const Index = () => {
               </div>
             </div>
             <div>
-              <div className="text-sm font-semibold text-black tracking-wide mb-4">
+              <div className="h6 font-semibold tracking-wide mb-4">
                 MULTICULTURAL MANAGEMENT
               </div>
-              <h2 className="text-4xl lg:text-5xl font-bold text-black mb-6">
+              <h2 className="h2 mb-6">
                 European and Indian leadership
               </h2>
-              <p className="text-lg text-black mb-8">
+              <p className="body-text text-lg mb-8">
                 Our management structure combines <strong>European organisation and processes with world-class Indian engineering</strong> expertise to deliver a truly holistic solution.
               </p>
               <Button className="bg-black text-white hover:bg-gray-800 font-semibold px-8 py-3 rounded-full" asChild>
@@ -341,13 +341,13 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <div className="text-sm font-semibold text-black tracking-wide mb-4">
+              <div className="h6 font-semibold tracking-wide mb-4">
                 ABOUT US
               </div>
-              <h2 className="text-4xl lg:text-5xl font-bold text-black mb-6">
+              <h2 className="h2 mb-6">
                 Powered by people
               </h2>
-              <p className="text-lg text-black mb-4">
+              <p className="body-text text-lg mb-4">
                 People are at the heart of everything we do. We've refined our approach to give you <strong>the authentic cultural alignment</strong> your competition doesn't have.
               </p>
               <Button className="bg-black text-white hover:bg-gray-800 font-semibold px-8 py-3 rounded-full" asChild>
@@ -367,17 +367,17 @@ const Index = () => {
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-12">
-            <h2 className="text-4xl lg:text-5xl font-bold text-black mb-8">
+            <h2 className="h2 mb-8">
               We'll help you —
             </h2>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
             <Card className="p-8">
-              <h3 className="text-2xl font-bold text-black mb-4">
+              <h3 className="h4 mb-4">
                 Build a Dedicated Development Team
               </h3>
-              <p className="text-black mb-6">
+              <p className="body-text mb-6">
                 Set up your world-class <strong>in-house tech team based on your requirements</strong> that becomes an integrated part of your business.
               </p>
               <Button variant="ghost" className="text-black hover:bg-gray-100 p-0 h-auto font-semibold" asChild>
@@ -386,10 +386,10 @@ const Index = () => {
             </Card>
 
             <Card className="p-8">
-              <h3 className="text-2xl font-bold text-black mb-4">
+              <h3 className="h4 mb-4">
                 Extend your existing Development Team
               </h3>
-              <p className="text-black mb-6">
+              <p className="body-text mb-6">
                 Augment your existing team in Bangalore to create exciting customer offerings, and <strong>work with your new colleagues the same as your staff at home.</strong>
               </p>
               <Button variant="ghost" className="text-black hover:bg-gray-100 p-0 h-auto font-semibold" asChild>
@@ -398,10 +398,10 @@ const Index = () => {
             </Card>
 
             <Card className="p-8">
-              <h3 className="text-2xl font-bold text-black mb-4">
+              <h3 className="h4 mb-4">
                 Set up an ODC of 50+ engineers
               </h3>
-              <p className="text-black mb-6">
+              <p className="body-text mb-6">
                 Build your own offshore development centre of 50+ engineers, working on <strong>new products and services and driving innovation.</strong>
               </p>
               <Button variant="ghost" className="text-black hover:bg-gray-100 p-0 h-auto font-semibold" asChild>
@@ -411,7 +411,7 @@ const Index = () => {
           </div>
 
           <div className="text-center">
-            <p className="text-lg text-black mb-6">
+            <p className="body-text text-lg mb-6">
               If you have any other requirements, we can create a custom-built solution to meet your needs.
             </p>
             <Button className="bg-black text-white hover:bg-gray-800 font-semibold px-8 py-3 rounded-full" asChild>
@@ -425,10 +425,10 @@ const Index = () => {
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <div className="text-sm font-semibold text-black tracking-wide mb-4">
+            <div className="h6 font-semibold tracking-wide mb-4">
               FEATURED CASE STUDIES
             </div>
-            <h2 className="text-4xl lg:text-5xl font-bold text-black mb-8">
+            <h2 className="h2 mb-8">
               We build the best teams
             </h2>
           </div>
@@ -442,13 +442,13 @@ const Index = () => {
                 </div>
               </div>
               <div>
-                <div className="text-sm font-semibold text-black tracking-wide mb-4">
+                <div className="h6 font-semibold tracking-wide mb-4">
                   ECOMMERCE
                 </div>
-                <h3 className="text-3xl font-bold text-black mb-6">
+                <h3 className="h3 mb-6">
                   PartyLite moves faster with an integrated ecommerce team
                 </h3>
-                <p className="text-lg text-black mb-6">
+                <p className="body-text text-lg mb-6">
                   Read how <strong>an in-house development team</strong> helped PartyLite move away from third-party vendors, upgrade existing skills, and keep capability within the business.
                 </p>
                 <Button className="bg-black text-white hover:bg-gray-800 font-semibold px-6 py-2" asChild>
@@ -464,7 +464,7 @@ const Index = () => {
       <section className="py-16 text-black">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8">
-            <div className="text-sm font-semibold text-black tracking-wide mb-8">
+            <div className="h6 font-semibold tracking-wide mb-8">
               WHAT OUR PARTNERS SAY
             </div>
           </div>
@@ -477,7 +477,7 @@ const Index = () => {
               "
             </div>
             
-            <blockquote className="text-2xl lg:text-3xl font-medium text-center text-black mb-8 italic">
+            <blockquote className="h3 text-center italic mb-8">
               Building our engineering team with H2 has been a success, and I don't say that lightly!
             </blockquote>
             
@@ -486,8 +486,8 @@ const Index = () => {
                 <span className="text-black font-bold text-lg">DB</span>
               </div>
               <div>
-                <div className="font-bold text-black">Daniel Barnes</div>
-                <div className="text-black">EVP, Global Head of Operations, Preqin</div>
+                <div className="h6 font-bold">Daniel Barnes</div>
+                <div className="body-text">EVP, Global Head of Operations, Preqin</div>
               </div>
             </div>
           </div>
@@ -498,7 +498,7 @@ const Index = () => {
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <div className="text-sm font-semibold text-black tracking-wide mb-4">
+            <div className="h6 font-semibold tracking-wide mb-4">
               KNOWLEDGE BASE
             </div>
           </div>
@@ -513,10 +513,10 @@ const Index = () => {
                 </div>
               </div>
               <div className="p-6">
-                <div className="text-sm font-semibold text-black tracking-wide mb-2">
+                <div className="h6 font-semibold tracking-wide mb-2">
                   WHITEPAPER
                 </div>
-                <h3 className="text-xl font-bold text-black mb-4">
+                <h3 className="h5 mb-4">
                   The CTO's report on offshoring dev teams: Insights from 100 CTOs
                 </h3>
                 <Button variant="ghost" className="text-black hover:bg-gray-100 p-0 h-auto font-semibold" asChild>
@@ -534,10 +534,10 @@ const Index = () => {
                 </div>
               </div>
               <div className="p-6">
-                <div className="text-sm font-semibold text-black tracking-wide mb-2">
+                <div className="h6 font-semibold tracking-wide mb-2">
                   EBOOK
                 </div>
-                <h3 className="text-xl font-bold text-black mb-4">
+                <h3 className="h5 mb-4">
                   CTO guide: Go from outsourced help to long-term tech teams
                 </h3>
                 <Button variant="ghost" className="text-black hover:bg-gray-100 p-0 h-auto font-semibold" asChild>
@@ -555,10 +555,10 @@ const Index = () => {
                 </div>
               </div>
               <div className="p-6">
-                <div className="text-sm font-semibold text-black tracking-wide mb-2">
+                <div className="h6 font-semibold tracking-wide mb-2">
                   CASE STUDY
                 </div>
-                <h3 className="text-xl font-bold text-black mb-4">
+                <h3 className="h5 mb-4">
                   How Preqin gained a 450+ person global R&D centre
                 </h3>
                 <Button variant="ghost" className="text-black hover:bg-gray-100 p-0 h-auto font-semibold" asChild>
@@ -575,10 +575,10 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <div className="text-sm font-semibold text-black tracking-wide mb-4">
+              <div className="h6 font-semibold tracking-wide mb-4">
                 FROM 5 TO 100+ ENGINEERS
               </div>
-              <h2 className="text-4xl lg:text-5xl font-bold text-black mb-8">
+              <h2 className="h2 mb-8">
                 Set up a world-class tech team in Bangalore
               </h2>
               
@@ -588,8 +588,8 @@ const Index = () => {
                     <span className="text-black text-sm font-bold">1</span>
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold text-black mb-2">Tell us what you need</h3>
-                    <p className="text-black">Fill in your details — your data is 100% confidential and secure</p>
+                    <h3 className="h5 mb-2">Tell us what you need</h3>
+                    <p className="body-text">Fill in your details — your data is 100% confidential and secure</p>
                   </div>
                 </div>
                 
@@ -598,8 +598,8 @@ const Index = () => {
                     <span className="text-black text-sm font-bold">2</span>
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold text-black mb-2">Talk to our experts</h3>
-                    <p className="text-black">One of our team members will contact you promptly for a brief discovery call</p>
+                    <h3 className="h5 mb-2">Talk to our experts</h3>
+                    <p className="body-text">One of our team members will contact you promptly for a brief discovery call</p>
                   </div>
                 </div>
                 
@@ -608,8 +608,8 @@ const Index = () => {
                     <span className="text-black text-sm font-bold">3</span>
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold text-black mb-2">Get a tailored proposal</h3>
-                    <p className="text-black">We'll prepare a solution matched to your needs and timeline</p>
+                    <h3 className="h5 mb-2">Get a tailored proposal</h3>
+                    <p className="body-text">We'll prepare a solution matched to your needs and timeline</p>
                   </div>
                 </div>
               </div>
@@ -617,7 +617,7 @@ const Index = () => {
             
             <div className="bg-white rounded-lg p-8 border border-gray-200">
               <div className="mb-6">
-                <div className="text-black px-4 py-2 rounded-full inline-block font-semibold">
+                <div className="h6 font-semibold">
                   Let's talk
                 </div>
               </div>
@@ -635,7 +635,7 @@ const Index = () => {
                   SEND NOW →
                 </Button>
                 
-                <div className="flex items-center space-x-4 text-sm text-black">
+                <div className="caption flex items-center space-x-4">
                   <div className="flex items-center space-x-2">
                     <div className="w-5 h-5 rounded-full flex items-center justify-center">
                       <span className="text-black text-xs">✓</span>
@@ -650,7 +650,7 @@ const Index = () => {
                   </div>
                 </div>
                 
-                <p className="text-xs text-black">
+                <p className="caption">
                   To give you the content requested, we need to store and process your personal data. For information on how to unsubscribe, as well as our privacy practices and commitment to protecting your privacy, please review our Privacy Policy.
                 </p>
               </form>

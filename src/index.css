@@ -119,6 +119,71 @@
     line-height: 1.7;
   }
 
+  /* Typography Hierarchy - Noto Sans */
+  .h1 {
+    @apply text-5xl font-semibold leading-[1.2] text-black;
+    font-size: 48px;
+  }
+  
+  .h2 {
+    @apply text-4xl font-medium leading-[1.3] text-black;
+    font-size: 36px;
+  }
+  
+  .h3 {
+    @apply text-3xl font-medium leading-[1.3] text-black;
+    font-size: 28px;
+  }
+  
+  .h4 {
+    @apply text-2xl font-normal leading-[1.4] text-black;
+    font-size: 22px;
+  }
+  
+  .h5 {
+    @apply text-lg font-normal leading-[1.4] text-black;
+    font-size: 18px;
+  }
+  
+  .h6 {
+    @apply text-base font-medium leading-[1.4] text-black;
+    font-size: 16px;
+  }
+  
+  .body-text {
+    @apply text-base font-normal leading-[1.5] text-black;
+    font-size: 16px;
+  }
+  
+  .caption {
+    @apply text-sm font-normal leading-[1.4] text-black;
+    font-size: 12px;
+  }
+  
+  .button-text {
+    @apply text-sm font-medium leading-[1.4] text-black;
+    font-size: 14px;
+  }
+  
+  .text-muted {
+    color: #666666;
+  }
+
+  /* Responsive Typography - Mobile */
+  @media (max-width: 768px) {
+    .h1 {
+      font-size: 40px; /* ~15% smaller */
+    }
+    
+    .h2 {
+      font-size: 28px; /* ~22% smaller */
+    }
+    
+    .h3 {
+      font-size: 24px; /* ~14% smaller */
+    }
+  }
+
   /* Auto-scroll animation for image carousel */
   @keyframes scroll-horizontal {
     0%, 30% {
