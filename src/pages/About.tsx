@@ -10,10 +10,10 @@ const About = () => {
       <section className="py-24 lg:py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-5xl lg:text-7xl font-bold text-foreground mb-8 leading-tight">
+            <h1 className="h1 mb-8">
               About Us
             </h1>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+            <p className="body-text text-lg max-w-2xl mx-auto">
               We're disruptors of the offshore industry
             </p>
           </div>
@@ -25,13 +25,13 @@ const About = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
-              <h2 className="text-5xl lg:text-6xl font-bold text-navy mb-8 leading-tight">
+              <h2 className="h1 mb-8">
                 Hello, नमस्कार,<br/>
                 Cześć, Bonjour.<br/>
                 We are The<br/>
                 Scalers!
               </h2>
-              <p className="text-xl text-navy/80 leading-relaxed">
+              <p className="body-text text-lg">
                 We work with companies worldwide to build scalable, results-driven software development teams in Bangalore.
               </p>
             </div>
@@ -54,21 +54,21 @@ const About = () => {
               <div className="w-48 h-32 bg-yellow rounded-[3rem] mx-auto mb-8 flex items-center justify-center relative overflow-hidden">
                 <span className="text-6xl font-bold text-navy">5</span>
               </div>
-              <p className="text-2xl font-medium text-foreground">global locations</p>
+              <p className="h4">global locations</p>
             </div>
             <div className="relative">
               <div className="w-48 h-32 bg-turquoise-light rounded-[3rem] mx-auto mb-8 flex items-center justify-center relative overflow-hidden">
                 <span className="text-5xl font-bold text-navy">130+</span>
               </div>
-              <p className="text-2xl font-medium text-foreground">teams built</p>
-              <p className="text-2xl font-medium text-foreground">since 2014</p>
+              <p className="h4">teams built</p>
+              <p className="h4">since 2014</p>
             </div>
             <div className="relative">
               <div className="w-48 h-32 bg-turquoise rounded-[3rem] mx-auto mb-8 flex items-center justify-center relative overflow-hidden">
                 <span className="text-6xl font-bold text-white">10</span>
               </div>
-              <p className="text-2xl font-medium text-foreground">years of successful</p>
-              <p className="text-2xl font-medium text-foreground">partnerships</p>
+              <p className="h4">years of successful</p>
+              <p className="h4">partnerships</p>
             </div>
           </div>
         </div>
@@ -81,7 +81,7 @@ const About = () => {
         </div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="max-w-4xl">
-            <h2 className="text-5xl lg:text-7xl font-bold text-navy mb-8 leading-tight">
+            <h2 className="h1 mb-8">
               We don't build software, we build teams who build software
             </h2>
           </div>
@@ -100,14 +100,14 @@ const About = () => {
               />
             </div>
             <div>
-              <div className="text-sm font-medium text-navy/70 mb-4 tracking-wider uppercase">
+              <div className="h6 mb-4 tracking-wider uppercase">
                 HOW IT STARTED
               </div>
-              <h2 className="text-5xl lg:text-6xl font-bold text-navy mb-8 leading-tight">
+              <h2 className="h1 mb-8">
                 Why we're here
               </h2>
-              <p className="text-xl text-navy/80 mb-8 leading-relaxed">
-                Our founder Emilien Coquard came to India in 2011, where he was managing a development centre of a French company. On the one hand, he was impressed to see the level of talent people had, and on the other he was frustrated to see how poor the environment was for Indian engineers working in services companies. So, he decided to create <span className="font-bold text-navy">a company where the engineers would be in the centre of everything.</span> That's how H2 was born.
+              <p className="body-text text-lg mb-8">
+                Our founder Emilien Coquard came to India in 2011, where he was managing a development centre of a French company. On the one hand, he was impressed to see the level of talent people had, and on the other he was frustrated to see how poor the environment was for Indian engineers working in services companies. So, he decided to create <span className="font-bold">a company where the engineers would be in the centre of everything.</span> That's how H2 was born.
               </p>
             </div>
           </div>
@@ -126,16 +126,16 @@ const About = () => {
               />
             </div>
             <div>
-              <div className="text-sm font-medium text-white/70 mb-4 tracking-wider uppercase">
+              <div className="h6 mb-4 tracking-wider uppercase">
                 OUR ETHOS
               </div>
-              <h2 className="text-5xl lg:text-6xl font-bold text-white mb-8 leading-tight">
+              <h2 className="h1 mb-8">
                 We're people people
               </h2>
-              <p className="text-xl text-white/90 mb-8 leading-relaxed">
-                Our partners don't call their teams "offshore" anymore. They treat them <span className="font-bold text-white">as an integral part of their team, genuine colleagues, not outsourced help.</span>
+              <p className="body-text text-lg mb-8">
+                Our partners don't call their teams "offshore" anymore. They treat them <span className="font-bold">as an integral part of their team, genuine colleagues, not outsourced help.</span>
               </p>
-              <p className="text-xl text-white/90 leading-relaxed">
+              <p className="body-text text-lg">
                 It's all about people and enabling their personal growth — scaling them up in the same way we do our teams.
               </p>
             </div>

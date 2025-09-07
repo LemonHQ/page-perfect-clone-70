@@ -12,10 +12,10 @@ const Contact = () => {
       <section className="py-24 lg:py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-5xl lg:text-7xl font-bold text-foreground mb-8 leading-tight">
+            <h1 className="h1 mb-8">
               Contact
             </h1>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+            <p className="body-text text-lg max-w-2xl mx-auto">
               Want to get in touch? You're in the right place
             </p>
           </div>
@@ -30,27 +30,27 @@ const Contact = () => {
             <div className="bg-yellow rounded-lg p-12 relative overflow-hidden">
               <div className="absolute bottom-0 right-0 w-32 h-32 bg-yellow-foreground/10 rounded-full transform translate-x-8 translate-y-8"></div>
               <div className="relative z-10">
-                <h2 className="text-4xl lg:text-5xl font-bold text-navy mb-8 leading-tight">
+                <h2 className="h2 mb-8">
                   Let's talk about your new team.
                 </h2>
-                <p className="text-lg text-navy/80 mb-8 leading-relaxed">
+                <p className="body-text text-lg mb-8">
                   Please fill in the form so we can get to know you better. You can also get in touch with us directly via phone{" "}
-                  <a href="tel:+442038687491" className="font-bold text-navy underline hover:no-underline">
+                  <a href="tel:+442038687491" className="font-bold underline hover:no-underline">
                     +44 20 3868 7491
                   </a>
                 </p>
                 <div className="space-y-4">
                   <div className="flex items-center space-x-3">
                     <Phone className="w-5 h-5 text-navy" />
-                    <span className="text-navy font-medium">+44 20 3868 7491</span>
+                    <span className="h6">+44 20 3868 7491</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <Mail className="w-5 h-5 text-navy" />
-                    <span className="text-navy font-medium">hello@thescalers.com</span>
+                    <span className="h6">hello@thescalers.com</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <MapPin className="w-5 h-5 text-navy" />
-                    <span className="text-navy font-medium">Bangalore, Dublin, London, Sydney</span>
+                    <span className="h6">Bangalore, Dublin, London, Sydney</span>
                   </div>
                 </div>
               </div>
@@ -150,9 +150,9 @@ const Contact = () => {
                     SUBMIT →
                   </Button>
 
-                  <p className="text-xs text-muted-foreground leading-relaxed">
+                  <p className="caption leading-relaxed">
                     To give you the content requested, we need to store and process your personal data. For information on how to unsubscribe, as well as our privacy practices and commitment to protecting your privacy, please review our{" "}
-                    <a href="/privacy-policy" className="text-navy hover:underline">Privacy Policy</a>.
+                    <a href="/privacy-policy" className="hover:underline">Privacy Policy</a>.
                   </p>
                 </div>
               </form>
@@ -164,7 +164,7 @@ const Contact = () => {
       {/* Follow Us Section */}
       <section className="py-16 bg-muted/30">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-12">
+          <h2 className="h2 mb-12">
             Follow us to stay up to date
           </h2>
           <div className="flex justify-center space-x-8">
@@ -208,41 +208,41 @@ const Contact = () => {
       <section className="py-24 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-8 tracking-wider">
+            <h2 className="h2 mb-8 tracking-wider">
               OUR LOCATIONS
             </h2>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
             <div className="text-center">
-              <h3 className="text-2xl font-bold text-foreground mb-6">INDIA</h3>
+              <h3 className="h4 mb-6">INDIA</h3>
               <div className="space-y-2">
-                <p className="text-lg font-medium text-foreground">43 Residency Road</p>
-                <p className="text-lg font-medium text-foreground">Bangalore, 560025</p>
+                <p className="h5">43 Residency Road</p>
+                <p className="h5">Bangalore, 560025</p>
               </div>
             </div>
 
             <div className="text-center">
-              <h3 className="text-2xl font-bold text-foreground mb-6">IRELAND</h3>
+              <h3 className="h4 mb-6">IRELAND</h3>
               <div className="space-y-2">
-                <p className="text-lg font-medium text-foreground">13 Adelaide Road</p>
-                <p className="text-lg font-medium text-foreground">Dublin 2, D02 P950</p>
+                <p className="h5">13 Adelaide Road</p>
+                <p className="h5">Dublin 2, D02 P950</p>
               </div>
             </div>
 
             <div className="text-center">
-              <h3 className="text-2xl font-bold text-foreground mb-6">UK</h3>
+              <h3 className="h4 mb-6">UK</h3>
               <div className="space-y-2">
-                <p className="text-lg font-medium text-foreground">127 Cheapside</p>
-                <p className="text-lg font-medium text-foreground">London, EC2V 6BT</p>
+                <p className="h5">127 Cheapside</p>
+                <p className="h5">London, EC2V 6BT</p>
               </div>
             </div>
 
             <div className="text-center">
-              <h3 className="text-2xl font-bold text-foreground mb-6">AUSTRALIA</h3>
+              <h3 className="h4 mb-6">AUSTRALIA</h3>
               <div className="space-y-2">
-                <p className="text-lg font-medium text-foreground">383 George St</p>
-                <p className="text-lg font-medium text-foreground">Sydney, NSW 2000</p>
+                <p className="h5">383 George St</p>
+                <p className="h5">Sydney, NSW 2000</p>
               </div>
             </div>
           </div>
@@ -266,10 +266,10 @@ const Contact = () => {
       {/* CTA Section */}
       <section className="py-16 bg-turquoise text-turquoise-foreground">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl lg:text-4xl font-bold mb-6">
+          <h2 className="h2 mb-6">
             Ready to build your dream team?
           </h2>
-          <p className="text-xl mb-8 text-turquoise-foreground/90">
+          <p className="body-text text-lg mb-8">
             Let's discuss your project requirements and find the perfect solution for your business needs.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

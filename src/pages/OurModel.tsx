@@ -9,10 +9,10 @@ const OurModel = () => {
       {/* Hero Section */}
       <section className="py-24 lg:py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-5xl lg:text-7xl font-bold text-foreground mb-8 leading-tight">
+          <h1 className="h1 mb-8">
             Our Model
           </h1>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+          <p className="body-text text-lg max-w-3xl mx-auto">
             We help you build, scale and team up with global engineering talent from Bangalore
           </p>
         </div>
@@ -22,7 +22,7 @@ const OurModel = () => {
       <section className="py-24 bg-muted/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
+            <h2 className="h2 mb-6">
               See how we scale your software development operations in Bangalore
             </h2>
           </div>
@@ -35,9 +35,9 @@ const OurModel = () => {
                   <div className="w-12 h-12 bg-foreground rounded-full flex items-center justify-center mr-6">
                     <span className="text-xl font-bold text-background">1</span>
                   </div>
-                  <h3 className="text-2xl font-bold text-foreground">We build your team</h3>
+                  <h3 className="h4">We build your team</h3>
                 </div>
-                <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
+                <p className="body-text text-lg mb-8">
                   Our experienced recruiters and technical experts carefully select engineers from 
                   Bangalore's top talent pool, ensuring they match your specific technology needs and cultural fit.
                 </p>
@@ -59,9 +59,9 @@ const OurModel = () => {
                   <div className="w-12 h-12 bg-foreground rounded-full flex items-center justify-center mr-6">
                     <span className="text-xl font-bold text-background">2</span>
                   </div>
-                  <h3 className="text-2xl font-bold text-foreground">We run your operations</h3>
+                  <h3 className="h4">We run your operations</h3>
                 </div>
-                <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
+                <p className="body-text text-lg mb-8">
                   From infrastructure setup to HR management and operational support, we handle everything 
                   so you can focus on what matters most - building great products.
                 </p>
@@ -83,9 +83,9 @@ const OurModel = () => {
                   <div className="w-12 h-12 bg-foreground rounded-full flex items-center justify-center mr-6">
                     <span className="text-xl font-bold text-background">3</span>
                   </div>
-                  <h3 className="text-2xl font-bold text-foreground">You scale without limits</h3>
+                  <h3 className="h4">You scale without limits</h3>
                 </div>
-                <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
+                <p className="body-text text-lg mb-8">
                   With our established infrastructure and talent pipeline, scaling your team up or down 
                   becomes seamless, giving you the flexibility to respond to market demands.
                 </p>

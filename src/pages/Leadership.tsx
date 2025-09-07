@@ -48,10 +48,10 @@ const Leadership = () => {
       <section className="py-24 lg:py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-5xl lg:text-7xl font-bold text-foreground mb-8 leading-tight">
+            <h1 className="h1 mb-8">
               Leadership
             </h1>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+            <p className="body-text text-lg max-w-2xl mx-auto">
               Meet the team that steers H2
             </p>
           </div>
@@ -65,7 +65,7 @@ const Leadership = () => {
         
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="text-center mb-16">
-            <h2 className="text-5xl lg:text-7xl font-bold text-navy mb-8 leading-tight">
+            <h2 className="h1 mb-8">
               Come and say hello
             </h2>
           </div>
@@ -79,11 +79,11 @@ const Leadership = () => {
               />
             </div>
             <div>
-              <p className="text-xl text-navy mb-8 leading-relaxed">
-                Meet the <span className="font-bold text-navy">cross-cultural team of IT and offshoring experts who ensure the success of your operations.</span> We don't do things by halves — when we say we're committed to making the tech industry a more diverse place, we really mean it.
+              <p className="body-text text-lg mb-8">
+                Meet the <span className="font-bold">cross-cultural team of IT and offshoring experts who ensure the success of your operations.</span> We don't do things by halves — when we say we're committed to making the tech industry a more diverse place, we really mean it.
               </p>
-              <p className="text-xl text-navy leading-relaxed">
-                With <span className="font-bold text-navy">leadership from France, India, Ireland, Poland</span> — we've created the ideal environment for cross-cultural collaboration and creative thinking.
+              <p className="body-text text-lg">
+                With <span className="font-bold">leadership from France, India, Ireland, Poland</span> — we've created the ideal environment for cross-cultural collaboration and creative thinking.
               </p>
             </div>
           </div>

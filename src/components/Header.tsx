@@ -70,7 +70,7 @@ const Header = () => {
         <div className="flex justify-between items-center py-6">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="text-2xl font-bold text-foreground">
+            <div className="h3 font-bold">
               H2
             </div>
           </Link>
@@ -81,7 +81,7 @@ const Header = () => {
               <div key={item.name} className="relative group">
                 <Link
                   to={item.href}
-                  className={`text-sm font-medium transition-colors hover:text-foreground ${
+                  className={`button-text transition-colors hover:text-foreground ${
                     location.pathname === item.href ? 'text-foreground' : 'text-muted-foreground'
                   }`}
                 >
@@ -92,7 +92,7 @@ const Header = () => {
                     <div className="grid grid-cols-2 gap-0">
                       {/* Left Column - By Business Need */}
                       <div className="p-6 border-r border-border">
-                        <div className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-4">
+                        <div className="h6 uppercase tracking-wider mb-4">
                           BY BUSINESS NEED
                         </div>
                         <div className="space-y-1">
@@ -106,10 +106,10 @@ const Header = () => {
                                 <span className="text-sm">{subitem.icon}</span>
                               </div>
                               <div className="flex-1 min-w-0">
-                                <div className="text-sm font-medium text-foreground group-hover/item:text-turquoise transition-colors">
+                                <div className="button-text group-hover/item:text-turquoise transition-colors">
                                   {subitem.name}
                                 </div>
-                                <div className="text-xs text-muted-foreground mt-1 leading-relaxed">
+                                <div className="caption mt-1 leading-relaxed">
                                   {subitem.description}
                                 </div>
                               </div>
@@ -120,7 +120,7 @@ const Header = () => {
                       
                       {/* Right Column - By Industry */}
                       <div className="p-6">
-                        <div className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-4">
+                        <div className="h6 uppercase tracking-wider mb-4">
                           BY INDUSTRY
                         </div>
                         <div className="space-y-1">
@@ -134,10 +134,10 @@ const Header = () => {
                                 <span className="text-sm">{subitem.icon}</span>
                               </div>
                               <div className="flex-1 min-w-0">
-                                <div className="text-sm font-medium text-foreground group-hover/item:text-yellow-foreground transition-colors">
+                                <div className="button-text group-hover/item:text-yellow-foreground transition-colors">
                                   {subitem.name}
                                 </div>
-                                <div className="text-xs text-muted-foreground mt-1 leading-relaxed">
+                                <div className="caption mt-1 leading-relaxed">
                                   {subitem.description}
                                 </div>
                               </div>
@@ -155,7 +155,7 @@ const Header = () => {
                         <Link
                           key={subitem.name}
                           to={subitem.href}
-                          className="block px-4 py-3 text-sm text-muted-foreground hover:bg-muted hover:text-foreground transition-colors"
+                          className="block px-4 py-3 button-text hover:bg-muted hover:text-foreground transition-colors"
                         >
                           {subitem.name}
                         </Link>

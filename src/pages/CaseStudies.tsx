@@ -76,27 +76,27 @@ const CaseStudies = () => {
       <section className="py-24 lg:py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-5xl lg:text-7xl font-bold text-foreground mb-8 leading-tight">
+            <h1 className="h1 mb-8">
               Case Studies
             </h1>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-12">
+            <p className="body-text text-lg max-w-3xl mx-auto mb-12">
               Real stories of transformation. See how global companies have scaled their development teams and achieved remarkable results with H2.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
               <div>
-                <div className="text-6xl font-bold text-foreground mb-6">130+</div>
-                <p className="text-xl font-medium text-foreground mb-3">Success Stories</p>
-                <p className="text-muted-foreground">Global partnerships delivered</p>
+                <div className="text-6xl font-bold mb-6">130+</div>
+                <p className="h5 mb-3">Success Stories</p>
+                <p className="body-text">Global partnerships delivered</p>
               </div>
               <div>
-                <div className="text-6xl font-bold text-foreground mb-6">39+</div>
-                <p className="text-xl font-medium text-foreground mb-3">Countries</p>
-                <p className="text-muted-foreground">Global reach and expertise</p>
+                <div className="text-6xl font-bold mb-6">39+</div>
+                <p className="h5 mb-3">Countries</p>
+                <p className="body-text">Global reach and expertise</p>
               </div>
               <div>
-                <div className="text-6xl font-bold text-foreground mb-6">10</div>
-                <p className="text-xl font-medium text-foreground mb-3">Years Experience</p>
-                <p className="text-muted-foreground">Successful partnerships</p>
+                <div className="text-6xl font-bold mb-6">10</div>
+                <p className="h5 mb-3">Years Experience</p>
+                <p className="body-text">Successful partnerships</p>
               </div>
             </div>
           </div>

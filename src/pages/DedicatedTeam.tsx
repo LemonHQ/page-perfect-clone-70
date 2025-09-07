@@ -10,13 +10,13 @@ const DedicatedTeam = () => {
       <section className="py-24 lg:py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-5xl lg:text-7xl font-bold text-foreground mb-8 leading-tight">
+            <h1 className="h1 mb-8">
               Dedicated Development Team
             </h1>
-            <p className="text-xl text-muted-foreground mb-4 max-w-2xl mx-auto">
+            <p className="body-text text-lg mb-4 max-w-2xl mx-auto">
               Does the talent you need feel out of reach?
             </p>
-            <p className="text-2xl lg:text-3xl font-bold text-foreground">
+            <p className="h4">
               Build your tech team in Bangalore
             </p>
           </div>
@@ -31,8 +31,8 @@ const DedicatedTeam = () => {
               <div className="w-24 h-24 bg-turquoise/20 rounded-full flex items-center justify-center mx-auto mb-6">
                 <ArrowUp className="w-12 h-12 text-turquoise" />
               </div>
-              <h3 className="text-2xl font-bold mb-4">Simple scaling</h3>
-              <p className="text-muted-foreground">
+              <h3 className="h4 mb-4">Simple scaling</h3>
+              <p className="body-text">
                 Scale your development capacity without spending time on hiring or onboarding.
               </p>
             </div>
@@ -41,9 +41,9 @@ const DedicatedTeam = () => {
               <div className="w-24 h-24 bg-yellow/20 rounded-full flex items-center justify-center mx-auto mb-6">
                 <Handshake className="w-12 h-12 text-yellow-foreground" />
               </div>
-              <h3 className="text-2xl font-bold mb-4">Managed Operations</h3>
-              <p className="text-muted-foreground">
-                It's your dedicated team in Bangalore, so you're in charge of the output. We're there to help with <span className="font-semibold text-foreground">all the heavy lifting.</span>
+              <h3 className="h4 mb-4">Managed Operations</h3>
+              <p className="body-text">
+                It's your dedicated team in Bangalore, so you're in charge of the output. We're there to help with <span className="font-semibold">all the heavy lifting.</span>
               </p>
             </div>
 
@@ -51,9 +51,9 @@ const DedicatedTeam = () => {
               <div className="w-24 h-24 bg-turquoise/20 rounded-full flex items-center justify-center mx-auto mb-6">
                 <Users className="w-12 h-12 text-turquoise" />
               </div>
-              <h3 className="text-2xl font-bold mb-4">Employee engagement</h3>
-              <p className="text-muted-foreground">
-                Your developers are an integral part of your team and we make sure <span className="font-semibold text-foreground">they're aligned and engaged.</span>
+              <h3 className="h4 mb-4">Employee engagement</h3>
+              <p className="body-text">
+                Your developers are an integral part of your team and we make sure <span className="font-semibold">they're aligned and engaged.</span>
               </p>
             </div>
 
@@ -61,9 +61,9 @@ const DedicatedTeam = () => {
               <div className="w-24 h-24 bg-panel-light rounded-full flex items-center justify-center mx-auto mb-6">
                 <MessageCircle className="w-12 h-12 text-navy" />
               </div>
-              <h3 className="text-2xl font-bold mb-4">Easy communication</h3>
-              <p className="text-muted-foreground">
-                English is the <span className="font-semibold text-foreground">language of the development industry in India</span>, facilitating easy communication.
+              <h3 className="h4 mb-4">Easy communication</h3>
+              <p className="body-text">
+                English is the <span className="font-semibold">language of the development industry in India</span>, facilitating easy communication.
               </p>
             </div>
           </div>
@@ -75,7 +75,7 @@ const DedicatedTeam = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
-              <h2 className="text-4xl lg:text-6xl font-bold text-yellow-foreground mb-8 leading-tight">
+              <h2 className="h2 mb-8">
                 Spend less time on screening, and more time on scaling
               </h2>
             </div>
