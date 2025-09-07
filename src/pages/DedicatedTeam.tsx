@@ -10,7 +10,7 @@ const DedicatedTeam = () => {
       <section className="py-24 lg:py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="h1 mb-8">
+            <h1>
               Dedicated Development Team
             </h1>
             <p className="body-text text-lg mb-4 max-w-2xl mx-auto">
@@ -75,7 +75,7 @@ const DedicatedTeam = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
-              <h2 className="h2 mb-8">
+              <h2>
                 Spend less time on screening, and more time on scaling
               </h2>
             </div>
@@ -110,7 +110,7 @@ const DedicatedTeam = () => {
               <div className="h6 mb-4 tracking-wider uppercase">
                 ASIA'S SILICON VALLEY
               </div>
-              <h2 className="h2 mb-8">
+              <h2>
                 Bangalore's got talent
               </h2>
               <p className="body-text text-lg mb-8">
@@ -129,7 +129,7 @@ const DedicatedTeam = () => {
               <div className="h6 mb-4 tracking-wider uppercase">
                 YOU'RE IN GOOD COMPANY
               </div>
-              <h2 className="h2 mb-8">
+              <h2>
                 It's a place that you can call home
               </h2>
               <p className="body-text text-lg mb-8">
@@ -197,7 +197,7 @@ const DedicatedTeam = () => {
               <div className="h6 mb-4 tracking-wider uppercase">
                 CULTURE
               </div>
-              <h2 className="h2 mb-8">
+              <h2>
                 A people-first approach
               </h2>
               <p className="body-text text-lg mb-8">
@@ -242,7 +242,7 @@ const DedicatedTeam = () => {
               <div className="h6 mb-4 tracking-wider uppercase">
                 YOUR BRANDED WORKSPACE
               </div>
-              <h2 className="h2 mb-8">
+              <h2>
                 Enjoy a modern office space
               </h2>
               <p className="body-text text-lg mb-8">
@@ -281,7 +281,7 @@ const DedicatedTeam = () => {
             <div className="text-sm font-medium text-muted-foreground mb-4 tracking-wider uppercase">
               OFFSHORE DEVELOPMENT MODEL
             </div>
-              <h2 className="h2 mb-8">
+              <h2>
                 The right talent, the right place, the right model
               </h2>
           </div>
