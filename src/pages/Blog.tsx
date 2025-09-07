@@ -3,114 +3,101 @@ import { Card } from "@/components/ui/card";
 import { Link } from "react-router-dom";
 import { Calendar, Clock, User, ArrowRight, Search } from "lucide-react";
 import { Input } from "@/components/ui/input";
-
 const Blog = () => {
-  const blogPosts = [
-    {
-      id: 1,
-      title: "From Outsourcing to Offshoring — Building Resilient Tech Teams",
-      excerpt: "A comprehensive guide on transitioning from traditional outsourcing to building dedicated offshore teams that become true extensions of your organization.",
-      author: "Emilien Coquard",
-      authorRole: "CEO & Co-Founder",
-      date: "March 15, 2024",
-      readTime: "8 min read",
-      image: "/placeholder.svg",
-      category: "Strategy",
-      tags: ["Outsourcing", "Offshoring", "Team Building"],
-      featured: true
-    },
-    {
-      id: 2,
-      title: "5 Problems with Outsourcing and How You Can Overcome Them All",
-      excerpt: "Learn about the most common challenges companies face with traditional outsourcing and discover proven strategies to build more effective offshore partnerships.",
-      author: "Monica Antanacci",
-      authorRole: "VP People & Culture",
-      date: "March 10, 2024",
-      readTime: "10 min read",
-      image: "/placeholder.svg",
-      category: "Strategy",
-      tags: ["Outsourcing", "Problem Solving", "Best Practices"]
-    },
-    {
-      id: 3,
-      title: "Offshore Software Development: Your Must-Know Guide",
-      excerpt: "Everything you need to know about offshore software development - from selecting the right partner to managing distributed teams effectively.",
-      author: "Deepak Ramakrishnan",
-      authorRole: "CTO & Co-Founder",
-      date: "March 5, 2024",
-      readTime: "12 min read",
-      image: "/placeholder.svg",
-      category: "Development",
-      tags: ["Offshore Development", "Software", "Guide"]
-    },
-    {
-      id: 4,
-      title: "Benefits of Offshoring vs Outsourcing vs In-House Development",
-      excerpt: "A detailed comparison of the three main approaches to building software teams - helping you choose the right model for your organization.",
-      author: "Balasundar Pulnintasamy",
-      authorRole: "VP Engineering",
-      date: "February 28, 2024",
-      readTime: "9 min read",
-      image: "/placeholder.svg",
-      category: "Strategy",
-      tags: ["Comparison", "Development Models", "Strategy"]
-    },
-    {
-      id: 5,
-      title: "Go from Outsourced Help to Long-Term Tech Teams",
-      excerpt: "CTO guide on setting up top tech teams to support your business's long-term growth and how to transition from temporary help to permanent partnerships.",
-      author: "Ryan Choon",
-      authorRole: "VP Operations",
-      date: "February 20, 2024",
-      readTime: "11 min read",
-      image: "/placeholder.svg",
-      category: "Leadership",
-      tags: ["CTO Guide", "Long-term Strategy", "Growth"]
-    },
-    {
-      id: 6,
-      title: "Building Cross-Cultural Teams: Lessons from 130+ Partnerships",
-      excerpt: "Key strategies for creating effective cross-cultural development teams that deliver exceptional results across different time zones and cultures.",
-      author: "Adithi Kiran",
-      authorRole: "VP Talent Acquisition",
-      date: "February 15, 2024",
-      readTime: "7 min read",
-      image: "/placeholder.svg",
-      category: "Culture",
-      tags: ["Cross-Cultural", "Team Management", "Communication"]
-    },
-    {
-      id: 7,
-      title: "Bangalore: The Silicon Valley of Asia - Why Location Matters",
-      excerpt: "Discover why Bangalore has become the world's premier destination for offshore development and what makes it the ideal hub for scaling tech teams.",
-      author: "Deepak Ramakrishnan",
-      authorRole: "CTO & Co-Founder",
-      date: "February 10, 2024",
-      readTime: "6 min read",
-      image: "/placeholder.svg",
-      category: "Location",
-      tags: ["Bangalore", "India", "Tech Hub"]
-    },
-    {
-      id: 8,
-      title: "Talent Acquisition in India: Finding the Top 1% of Engineers",
-      excerpt: "Our proven methodology for identifying and recruiting elite engineering talent from India's vast pool of over 2 million developers.",
-      author: "Adithi Kiran",
-      authorRole: "VP Talent Acquisition",
-      date: "February 5, 2024",
-      readTime: "8 min read",
-      image: "/placeholder.svg",
-      category: "Recruitment",
-      tags: ["Talent Acquisition", "India", "Engineering Talent"]
-    }
-  ];
-
+  const blogPosts = [{
+    id: 1,
+    title: "From Outsourcing to Offshoring — Building Resilient Tech Teams",
+    excerpt: "A comprehensive guide on transitioning from traditional outsourcing to building dedicated offshore teams that become true extensions of your organization.",
+    author: "Emilien Coquard",
+    authorRole: "CEO & Co-Founder",
+    date: "March 15, 2024",
+    readTime: "8 min read",
+    image: "/placeholder.svg",
+    category: "Strategy",
+    tags: ["Outsourcing", "Offshoring", "Team Building"],
+    featured: true
+  }, {
+    id: 2,
+    title: "5 Problems with Outsourcing and How You Can Overcome Them All",
+    excerpt: "Learn about the most common challenges companies face with traditional outsourcing and discover proven strategies to build more effective offshore partnerships.",
+    author: "Monica Antanacci",
+    authorRole: "VP People & Culture",
+    date: "March 10, 2024",
+    readTime: "10 min read",
+    image: "/placeholder.svg",
+    category: "Strategy",
+    tags: ["Outsourcing", "Problem Solving", "Best Practices"]
+  }, {
+    id: 3,
+    title: "Offshore Software Development: Your Must-Know Guide",
+    excerpt: "Everything you need to know about offshore software development - from selecting the right partner to managing distributed teams effectively.",
+    author: "Deepak Ramakrishnan",
+    authorRole: "CTO & Co-Founder",
+    date: "March 5, 2024",
+    readTime: "12 min read",
+    image: "/placeholder.svg",
+    category: "Development",
+    tags: ["Offshore Development", "Software", "Guide"]
+  }, {
+    id: 4,
+    title: "Benefits of Offshoring vs Outsourcing vs In-House Development",
+    excerpt: "A detailed comparison of the three main approaches to building software teams - helping you choose the right model for your organization.",
+    author: "Balasundar Pulnintasamy",
+    authorRole: "VP Engineering",
+    date: "February 28, 2024",
+    readTime: "9 min read",
+    image: "/placeholder.svg",
+    category: "Strategy",
+    tags: ["Comparison", "Development Models", "Strategy"]
+  }, {
+    id: 5,
+    title: "Go from Outsourced Help to Long-Term Tech Teams",
+    excerpt: "CTO guide on setting up top tech teams to support your business's long-term growth and how to transition from temporary help to permanent partnerships.",
+    author: "Ryan Choon",
+    authorRole: "VP Operations",
+    date: "February 20, 2024",
+    readTime: "11 min read",
+    image: "/placeholder.svg",
+    category: "Leadership",
+    tags: ["CTO Guide", "Long-term Strategy", "Growth"]
+  }, {
+    id: 6,
+    title: "Building Cross-Cultural Teams: Lessons from 130+ Partnerships",
+    excerpt: "Key strategies for creating effective cross-cultural development teams that deliver exceptional results across different time zones and cultures.",
+    author: "Adithi Kiran",
+    authorRole: "VP Talent Acquisition",
+    date: "February 15, 2024",
+    readTime: "7 min read",
+    image: "/placeholder.svg",
+    category: "Culture",
+    tags: ["Cross-Cultural", "Team Management", "Communication"]
+  }, {
+    id: 7,
+    title: "Bangalore: The Silicon Valley of Asia - Why Location Matters",
+    excerpt: "Discover why Bangalore has become the world's premier destination for offshore development and what makes it the ideal hub for scaling tech teams.",
+    author: "Deepak Ramakrishnan",
+    authorRole: "CTO & Co-Founder",
+    date: "February 10, 2024",
+    readTime: "6 min read",
+    image: "/placeholder.svg",
+    category: "Location",
+    tags: ["Bangalore", "India", "Tech Hub"]
+  }, {
+    id: 8,
+    title: "Talent Acquisition in India: Finding the Top 1% of Engineers",
+    excerpt: "Our proven methodology for identifying and recruiting elite engineering talent from India's vast pool of over 2 million developers.",
+    author: "Adithi Kiran",
+    authorRole: "VP Talent Acquisition",
+    date: "February 5, 2024",
+    readTime: "8 min read",
+    image: "/placeholder.svg",
+    category: "Recruitment",
+    tags: ["Talent Acquisition", "India", "Engineering Talent"]
+  }];
   const categories = ["All", "Strategy", "Development", "Leadership", "Culture", "Location", "Recruitment"];
   const featuredPost = blogPosts.find(post => post.featured);
   const regularPosts = blogPosts.filter(post => !post.featured);
-
-  return (
-    <div className="min-h-screen">
+  return <div className="min-h-screen">
       {/* Hero Section */}
       <section className="py-24 lg:py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -122,11 +109,7 @@ const Blog = () => {
               Insights, trends, and best practices in offshore development, team building, and scaling technology organizations globally.
             </p>
             <div className="max-w-md mx-auto relative">
-              <Input 
-                type="text" 
-                placeholder="Search articles..." 
-                className="pl-12 pr-4 py-3 border-input"
-              />
+              <Input type="text" placeholder="Search articles..." className="pl-12 pr-4 py-3 border-input" />
               <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 w-5 h-5 text-muted-foreground" />
             </div>
           </div>
@@ -137,22 +120,15 @@ const Blog = () => {
       <section className="py-12 bg-background border-b border-border">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-wrap gap-4 justify-center">
-            {categories.map((category) => (
-              <Button
-                key={category}
-                variant={category === "All" ? "default" : "outline"}
-                className={category === "All" ? "bg-turquoise text-turquoise-foreground hover:bg-turquoise/90" : "border-muted-foreground text-muted-foreground hover:bg-muted hover:text-foreground"}
-              >
+            {categories.map(category => <Button key={category} variant={category === "All" ? "default" : "outline"} className={category === "All" ? "bg-turquoise text-turquoise-foreground hover:bg-turquoise/90" : "border-muted-foreground text-muted-foreground hover:bg-muted hover:text-foreground"}>
                 {category}
-              </Button>
-            ))}
+              </Button>)}
           </div>
         </div>
       </section>
 
       {/* Featured Article */}
-      {featuredPost && (
-        <section className="py-16 bg-muted/30">
+      {featuredPost && <section className="py-16 bg-muted/30">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="mb-8">
               <span className="text-sm font-medium text-turquoise bg-turquoise/10 px-3 py-1 rounded-full">
@@ -163,11 +139,7 @@ const Blog = () => {
             <Card className="overflow-hidden">
               <div className="grid grid-cols-1 lg:grid-cols-2">
                 <div className="relative h-64 lg:h-full">
-                  <img 
-                    src={featuredPost.image}
-                    alt={featuredPost.title}
-                    className="w-full h-full object-cover"
-                  />
+                  <img src={featuredPost.image} alt={featuredPost.title} className="w-full h-full object-cover" />
                   <div className="absolute inset-0 bg-gradient-to-r from-navy/20 to-transparent" />
                   <div className="absolute top-4 left-4">
                     <span className="bg-turquoise text-turquoise-foreground px-3 py-1 rounded-full text-sm font-medium">
@@ -210,11 +182,9 @@ const Blog = () => {
                     </div>
                   </div>
                   <div className="flex flex-wrap gap-2 mb-8">
-                    {featuredPost.tags.map((tag) => (
-                      <span key={tag} className="bg-muted text-muted-foreground px-3 py-1 rounded-full text-sm">
+                    {featuredPost.tags.map(tag => <span key={tag} className="bg-muted text-muted-foreground px-3 py-1 rounded-full text-sm">
                         {tag}
-                      </span>
-                    ))}
+                      </span>)}
                   </div>
                   <Button className="bg-turquoise text-turquoise-foreground hover:bg-turquoise/90 group">
                     Read Full Article
@@ -224,8 +194,7 @@ const Blog = () => {
               </div>
             </Card>
           </div>
-        </section>
-      )}
+        </section>}
 
       {/* Latest Articles */}
       <section className="py-16 bg-background">
@@ -240,14 +209,9 @@ const Blog = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {regularPosts.map((post) => (
-              <Card key={post.id} className="overflow-hidden hover:shadow-lg transition-shadow group">
+            {regularPosts.map(post => <Card key={post.id} className="overflow-hidden hover:shadow-lg transition-shadow group">
                 <div className="relative h-48">
-                  <img 
-                    src={post.image}
-                    alt={post.title}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                  />
+                  <img src={post.image} alt={post.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
                   <div className="absolute top-4 left-4">
                     <span className="bg-background/90 text-foreground px-2 py-1 rounded text-sm font-medium">
@@ -284,18 +248,15 @@ const Blog = () => {
                     </div>
                   </div>
                   <div className="flex flex-wrap gap-2 mb-4">
-                    {post.tags.slice(0, 2).map((tag) => (
-                      <span key={tag} className="bg-muted text-muted-foreground px-2 py-1 rounded-full text-xs">
+                    {post.tags.slice(0, 2).map(tag => <span key={tag} className="bg-muted text-muted-foreground px-2 py-1 rounded-full text-xs">
                         {tag}
-                      </span>
-                    ))}
+                      </span>)}
                   </div>
                   <Button variant="outline" className="w-full group-hover:bg-turquoise group-hover:text-turquoise-foreground group-hover:border-turquoise transition-all">
                     Read Article
                   </Button>
                 </div>
-              </Card>
-            ))}
+              </Card>)}
           </div>
 
           {/* Load More Button */}
@@ -317,15 +278,8 @@ const Blog = () => {
             Get the latest insights on offshore development, team building, and technology trends delivered to your inbox.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
-            <Input 
-              type="email" 
-              placeholder="Enter your email" 
-              className="flex-1 bg-white text-foreground border-white"
-            />
-            <Button 
-              size="lg"
-              className="bg-navy text-navy-foreground hover:bg-navy/90 font-semibold"
-            >
+            <Input type="email" placeholder="Enter your email" className="flex-1 bg-white text-foreground border-white" />
+            <Button size="lg" className="bg-navy text-navy-foreground hover:bg-navy/90 font-semibold">
               Subscribe
             </Button>
           </div>
@@ -388,38 +342,15 @@ const Blog = () => {
               </div>
               
               <form className="space-y-4">
-                <input 
-                  type="text" 
-                  placeholder="Full name*" 
-                  className="w-full p-3 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-turquoise"
-                />
+                <input type="text" placeholder="Full name*" className="w-full p-3 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-turquoise" />
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                  <input 
-                    type="email" 
-                    placeholder="Business email*" 
-                    className="w-full p-3 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-turquoise"
-                  />
-                  <input 
-                    type="tel" 
-                    placeholder="Phone number*" 
-                    className="w-full p-3 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-turquoise"
-                  />
+                  <input type="email" placeholder="Business email*" className="w-full p-3 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-turquoise" />
+                  <input type="tel" placeholder="Phone number*" className="w-full p-3 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-turquoise" />
                 </div>
-                <input 
-                  type="text" 
-                  placeholder="Company name*" 
-                  className="w-full p-3 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-turquoise"
-                />
-                <textarea 
-                  placeholder="Message*" 
-                  rows={4}
-                  className="w-full p-3 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-turquoise"
-                ></textarea>
+                <input type="text" placeholder="Company name*" className="w-full p-3 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-turquoise" />
+                <textarea placeholder="Message*" rows={4} className="w-full p-3 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-turquoise"></textarea>
                 
-                <Button 
-                  type="submit"
-                  className="w-full bg-foreground text-background hover:bg-foreground/90 font-semibold py-3 rounded-full"
-                >
+                <Button type="submit" className="w-full bg-foreground text-background hover:bg-foreground/90 font-semibold py-3 rounded-full">
                   SEND NOW →
                 </Button>
                 
@@ -448,25 +379,7 @@ const Blog = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-background">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-foreground">
-            Ready to scale your development team?
-          </h2>
-          <p className="text-xl text-muted-foreground mb-8">
-            Let's discuss how The Scalers can help you build a world-class offshore development team
-          </p>
-          <Button 
-            size="lg"
-            className="bg-turquoise text-turquoise-foreground hover:bg-turquoise/90 font-semibold px-8 py-4"
-            asChild
-          >
-            <Link to="/contact">START A CONVERSATION</Link>
-          </Button>
-        </div>
-      </section>
-    </div>
-  );
+      
+    </div>;
 };
-
 export default Blog;
