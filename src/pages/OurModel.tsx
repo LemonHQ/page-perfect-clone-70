@@ -208,75 +208,139 @@ const OurModel = () => {
         </div>
       </section>
 
-      {/* Scale smarter */}
+      {/* Scale smarter - Comparison Table */}
       <section className="py-24 bg-muted/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
+            <div className="text-sm font-semibold text-muted-foreground tracking-wide mb-4">
+              THE OFFSHORE DEVELOPMENT MODEL THAT WORKS
+            </div>
             <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
               Scale smarter, stand apart
             </h2>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-            <div className="space-y-6">
-              <h3 className="text-xl font-semibold text-foreground">Traditional Approach</h3>
-              <div className="space-y-4">
-                <div className="flex items-center text-muted-foreground">
-                  <span className="w-6 h-6 bg-destructive rounded-full flex items-center justify-center mr-4">
-                    <span className="text-destructive-foreground text-xs">✗</span>
-                  </span>
-                  Limited talent pool
-                </div>
-                <div className="flex items-center text-muted-foreground">
-                  <span className="w-6 h-6 bg-destructive rounded-full flex items-center justify-center mr-4">
-                    <span className="text-destructive-foreground text-xs">✗</span>
-                  </span>
-                  High recruitment costs
-                </div>
-                <div className="flex items-center text-muted-foreground">
-                  <span className="w-6 h-6 bg-destructive rounded-full flex items-center justify-center mr-4">
-                    <span className="text-destructive-foreground text-xs">✗</span>
-                  </span>
-                  Long hiring timelines
-                </div>
-                <div className="flex items-center text-muted-foreground">
-                  <span className="w-6 h-6 bg-destructive rounded-full flex items-center justify-center mr-4">
-                    <span className="text-destructive-foreground text-xs">✗</span>
-                  </span>
-                  Scalability challenges
-                </div>
-              </div>
-            </div>
-
-            <div className="space-y-6">
-              <h3 className="text-xl font-semibold text-foreground">The Scalers Way</h3>
-              <div className="space-y-4">
-                <div className="flex items-center text-foreground">
-                  <span className="w-6 h-6 bg-foreground rounded-full flex items-center justify-center mr-4">
-                    <span className="text-background text-xs">✓</span>
-                  </span>
-                  Access to 30K+ engineers
-                </div>
-                <div className="flex items-center text-foreground">
-                  <span className="w-6 h-6 bg-foreground rounded-full flex items-center justify-center mr-4">
-                    <span className="text-background text-xs">✓</span>
-                  </span>
-                  Zero upfront costs
-                </div>
-                <div className="flex items-center text-foreground">
-                  <span className="w-6 h-6 bg-foreground rounded-full flex items-center justify-center mr-4">
-                    <span className="text-background text-xs">✓</span>
-                  </span>
-                  Teams ready in 3 months
-                </div>
-                <div className="flex items-center text-foreground">
-                  <span className="w-6 h-6 bg-foreground rounded-full flex items-center justify-center mr-4">
-                    <span className="text-background text-xs">✓</span>
-                  </span>
-                  Unlimited scalability
-                </div>
-              </div>
-            </div>
+          <div className="bg-background rounded-2xl p-8 overflow-x-auto">
+            <table className="w-full">
+              <thead>
+                <tr className="border-b border-muted">
+                  <th className="text-left py-6 px-4 font-medium text-foreground"></th>
+                  <th className="text-center py-6 px-4 font-semibold text-foreground">Hiring locally</th>
+                  <th className="text-center py-6 px-4 font-semibold text-foreground">Traditional Offshoring</th>
+                  <th className="text-center py-6 px-4 font-semibold text-foreground">The Scalers' Model</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-muted/50">
+                  <td className="py-6 px-4 font-medium text-foreground">World-class developers</td>
+                  <td className="text-center py-6 px-4">
+                    <div className="w-8 h-8 bg-muted/60 rounded-full flex items-center justify-center mx-auto">
+                      <span className="text-muted-foreground text-lg">✓</span>
+                    </div>
+                  </td>
+                  <td className="text-center py-6 px-4">
+                    <div className="w-8 h-8 bg-muted/60 rounded-full flex items-center justify-center mx-auto">
+                      <span className="text-muted-foreground text-lg">✗</span>
+                    </div>
+                  </td>
+                  <td className="text-center py-6 px-4">
+                    <div className="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center mx-auto">
+                      <span className="text-white text-lg">✓</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr className="border-b border-muted/50">
+                  <td className="py-6 px-4 font-medium text-foreground">Fast to hire</td>
+                  <td className="text-center py-6 px-4">
+                    <div className="w-8 h-8 bg-muted/60 rounded-full flex items-center justify-center mx-auto">
+                      <span className="text-muted-foreground text-lg">✗</span>
+                    </div>
+                  </td>
+                  <td className="text-center py-6 px-4">
+                    <div className="w-8 h-8 bg-muted/60 rounded-full flex items-center justify-center mx-auto">
+                      <span className="text-muted-foreground text-lg">✓</span>
+                    </div>
+                  </td>
+                  <td className="text-center py-6 px-4">
+                    <div className="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center mx-auto">
+                      <span className="text-white text-lg">✓</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr className="border-b border-muted/50">
+                  <td className="py-6 px-4 font-medium text-foreground">Scalable at speed</td>
+                  <td className="text-center py-6 px-4">
+                    <div className="w-8 h-8 bg-muted/60 rounded-full flex items-center justify-center mx-auto">
+                      <span className="text-muted-foreground text-lg">✗</span>
+                    </div>
+                  </td>
+                  <td className="text-center py-6 px-4">
+                    <div className="w-8 h-8 bg-muted/60 rounded-full flex items-center justify-center mx-auto">
+                      <span className="text-muted-foreground text-lg">✓</span>
+                    </div>
+                  </td>
+                  <td className="text-center py-6 px-4">
+                    <div className="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center mx-auto">
+                      <span className="text-white text-lg">✓</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr className="border-b border-muted/50">
+                  <td className="py-6 px-4 font-medium text-foreground">Cost optimal</td>
+                  <td className="text-center py-6 px-4">
+                    <div className="w-8 h-8 bg-muted/60 rounded-full flex items-center justify-center mx-auto">
+                      <span className="text-muted-foreground text-lg">✗</span>
+                    </div>
+                  </td>
+                  <td className="text-center py-6 px-4">
+                    <div className="w-8 h-8 bg-muted/60 rounded-full flex items-center justify-center mx-auto">
+                      <span className="text-muted-foreground text-lg">✓</span>
+                    </div>
+                  </td>
+                  <td className="text-center py-6 px-4">
+                    <div className="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center mx-auto">
+                      <span className="text-white text-lg">✓</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr className="border-b border-muted/50">
+                  <td className="py-6 px-4 font-medium text-foreground">Strategic alignment</td>
+                  <td className="text-center py-6 px-4">
+                    <div className="w-8 h-8 bg-muted/60 rounded-full flex items-center justify-center mx-auto">
+                      <span className="text-muted-foreground text-lg">✓</span>
+                    </div>
+                  </td>
+                  <td className="text-center py-6 px-4">
+                    <div className="w-8 h-8 bg-muted/60 rounded-full flex items-center justify-center mx-auto">
+                      <span className="text-muted-foreground text-lg">✗</span>
+                    </div>
+                  </td>
+                  <td className="text-center py-6 px-4">
+                    <div className="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center mx-auto">
+                      <span className="text-white text-lg">✓</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td className="py-6 px-4 font-medium text-foreground">Security and data protection</td>
+                  <td className="text-center py-6 px-4">
+                    <div className="w-8 h-8 bg-muted/60 rounded-full flex items-center justify-center mx-auto">
+                      <span className="text-muted-foreground text-lg">✓</span>
+                    </div>
+                  </td>
+                  <td className="text-center py-6 px-4">
+                    <div className="w-8 h-8 bg-muted/60 rounded-full flex items-center justify-center mx-auto">
+                      <span className="text-muted-foreground text-lg">✗</span>
+                    </div>
+                  </td>
+                  <td className="text-center py-6 px-4">
+                    <div className="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center mx-auto">
+                      <span className="text-white text-lg">✓</span>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
       </section>
