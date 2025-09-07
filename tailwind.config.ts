@@ -57,6 +57,21 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // Brand Colors
+        navy: {
+          DEFAULT: "hsl(var(--navy))",
+          foreground: "hsl(var(--navy-foreground))",
+        },
+        turquoise: {
+          DEFAULT: "hsl(var(--turquoise))",
+          light: "hsl(var(--turquoise-light))",
+          foreground: "hsl(var(--turquoise-foreground))",
+        },
+        yellow: {
+          DEFAULT: "hsl(var(--yellow))",
+          light: "hsl(var(--yellow-light))",
+          foreground: "hsl(var(--yellow-foreground))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
