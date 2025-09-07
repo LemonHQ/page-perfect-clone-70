@@ -48,6 +48,13 @@
 
     --radius: 0.5rem;
 
+    /* Panel Background Colors - Warm Neutral Palette */
+    --panel-cream: 60 9% 92%;      /* #EDEDE9 */
+    --panel-warm: 30 20% 82%;      /* #D6CCC2 */
+    --panel-light: 30 43% 92%;     /* #F5EBE0 */
+    --panel-soft: 30 29% 85%;      /* #E3D5CA */
+    --panel-medium: 30 32% 76%;    /* #D5BDAF */
+
     /* Simplified Effects */
     --transition-smooth: all 0.2s ease;
   }
@@ -80,6 +87,13 @@
     --yellow: 45 93% 47%;
     --yellow-light: 45 86% 95%;
     --yellow-foreground: 0 0% 9%;
+
+    /* Panel Background Colors - Warm Neutral Palette (Dark Mode) */
+    --panel-cream: 60 9% 92%;      /* #EDEDE9 */
+    --panel-warm: 30 20% 82%;      /* #D6CCC2 */
+    --panel-light: 30 43% 92%;     /* #F5EBE0 */
+    --panel-soft: 30 29% 85%;      /* #E3D5CA */
+    --panel-medium: 30 32% 76%;    /* #D5BDAF */
   }
 }
 

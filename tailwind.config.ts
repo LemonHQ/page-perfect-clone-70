@@ -102,6 +102,14 @@ export default {
           light: "hsl(var(--yellow-light))",
           foreground: "hsl(var(--yellow-foreground))",
         },
+        // Panel Background Colors - Warm Neutral Palette
+        panel: {
+          cream: "hsl(var(--panel-cream))",
+          warm: "hsl(var(--panel-warm))",
+          light: "hsl(var(--panel-light))",
+          soft: "hsl(var(--panel-soft))",
+          medium: "hsl(var(--panel-medium))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
