@@ -48,7 +48,7 @@ const Leadership = () => {
       <section className="py-24 lg:py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1>
+            <h1 className="h1 mb-8">
               Leadership
             </h1>
             <p className="body-text text-lg max-w-2xl mx-auto">
@@ -65,7 +65,7 @@ const Leadership = () => {
         
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="text-center mb-16">
-            <h2>
+            <h2 className="h1 mb-8">
               Come and say hello
             </h2>
           </div>

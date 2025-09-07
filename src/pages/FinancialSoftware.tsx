@@ -7,7 +7,7 @@ const FinancialSoftware = () => {
       <section className="py-24 lg:py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1>
+            <h1 className="h1 mb-8">
               Financial Software Development
             </h1>
             <p className="body-text text-lg max-w-3xl mx-auto mb-8">
@@ -88,7 +88,7 @@ const FinancialSoftware = () => {
               </div>
             </div>
             <div>
-              <h2>
+              <h2 className="h2 mb-6">
                 Scaling Financial Innovation: Security first
               </h2>
               <p className="body-text text-lg mb-8">

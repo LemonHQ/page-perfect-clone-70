@@ -12,7 +12,7 @@ const Contact = () => {
       <section className="py-24 lg:py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1>
+            <h1 className="h1 mb-8">
               Contact
             </h1>
             <p className="body-text text-lg max-w-2xl mx-auto">
@@ -266,7 +266,7 @@ const Contact = () => {
       {/* CTA Section */}
       <section className="py-16 bg-turquoise text-turquoise-foreground">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2>
+          <h2 className="h2 mb-6">
             Ready to build your dream team?
           </h2>
           <p className="body-text text-lg mb-8">

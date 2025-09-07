@@ -9,7 +9,7 @@ const OurModel = () => {
       {/* Hero Section */}
       <section className="py-24 lg:py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1>
+          <h1 className="h1 mb-8">
             Our Model
           </h1>
           <p className="body-text text-lg max-w-3xl mx-auto">
@@ -22,7 +22,7 @@ const OurModel = () => {
       <section className="py-24 bg-muted/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2>
+            <h2 className="h2 mb-6">
               See how we scale your software development operations in Bangalore
             </h2>
           </div>

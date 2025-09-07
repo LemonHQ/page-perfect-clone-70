@@ -8,7 +8,7 @@ const OffshoreCenter = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
-            <h1>
+            <h1 className="h1 mb-8">
               Offshore Development Centre
             </h1>
             <p className="body-text text-lg mb-12">
@@ -71,7 +71,7 @@ const OffshoreCenter = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2>
+              <h2 className="h2 mb-6">
                 More goodbye to the corporate overload and hello to business growth
               </h2>
               <p className="body-text text-lg mb-8">
