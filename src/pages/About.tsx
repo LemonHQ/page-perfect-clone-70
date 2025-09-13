@@ -482,6 +482,46 @@ const About = () => {
           </Button>
         </div>
       </section>
+
+      {/* Our Locations */}
+      <section className="py-24 bg-turquoise-light">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <div className="h6 mb-4 tracking-wider uppercase">
+              OUR LOCATIONS
+            </div>
+            <h2 className="h2 mb-8">
+              Where you'll find us
+            </h2>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="text-center">
+              <div className="w-32 h-32 bg-white rounded-full mx-auto mb-6 flex items-center justify-center">
+                <span className="text-4xl">🇮🇳</span>
+              </div>
+              <h3 className="h4 mb-4">Bangalore, India</h3>
+              <p className="body-text">Our main development hub</p>
+            </div>
+            
+            <div className="text-center">
+              <div className="w-32 h-32 bg-white rounded-full mx-auto mb-6 flex items-center justify-center">
+                <span className="text-4xl">🇬🇧</span>
+              </div>
+              <h3 className="h4 mb-4">London, UK</h3>
+              <p className="body-text">European operations center</p>
+            </div>
+            
+            <div className="text-center">
+              <div className="w-32 h-32 bg-white rounded-full mx-auto mb-6 flex items-center justify-center">
+                <span className="text-4xl">🇺🇸</span>
+              </div>
+              <h3 className="h4 mb-4">New York, USA</h3>
+              <p className="body-text">North American headquarters</p>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>;
 };
 export default About;
