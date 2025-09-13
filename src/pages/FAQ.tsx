@@ -116,125 +116,145 @@ const FAQ = () => {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="py-16 bg-panel-soft text-foreground">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl lg:text-4xl font-bold mb-6">
-            Set up a world-class tech team in Bangalore
-          </h2>
-          <div className="space-y-4 mb-8">
-            <div className="flex items-center justify-center space-x-2">
-              <div className="w-6 h-6 bg-turquoise rounded-full flex items-center justify-center">
-                <span className="text-turquoise-foreground text-sm font-bold">1</span>
+      {/* Let's Talk Section */}
+      <section className="py-16 text-black">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <div className="h6 font-semibold tracking-wide mb-4">
+                FROM 5 TO 100+ ENGINEERS
               </div>
-              <span>Tell us what you need</span>
-              <p className="text-navy-foreground/60 text-sm ml-4">Fill in your details - no fluff & 100% confidential and secure</p>
-            </div>
-            <div className="flex items-center justify-center space-x-2">
-              <div className="w-6 h-6 bg-turquoise rounded-full flex items-center justify-center">
-                <span className="text-turquoise-foreground text-sm font-bold">2</span>
-              </div>
-              <span>Talk to our experts</span>
-              <div className="flex ml-4">
-                <div className="w-8 h-8 rounded-full bg-turquoise border-2 border-navy"></div>
-                <div className="w-8 h-8 rounded-full bg-yellow border-2 border-navy -ml-2"></div>
-                <div className="w-8 h-8 rounded-full bg-turquoise-light border-2 border-navy -ml-2"></div>
-              </div>
-              <p className="text-navy-foreground/60 text-sm ml-2">One of our team members will contact you promptly for a brief discovery call</p>
-            </div>
-            <div className="flex items-center justify-center space-x-2">
-              <div className="w-6 h-6 bg-turquoise rounded-full flex items-center justify-center">
-                <span className="text-turquoise-foreground text-sm font-bold">3</span>
-              </div>
-              <span>Get a tailored proposal</span>
-              <p className="text-navy-foreground/60 text-sm ml-4">We'll prepare a solution matched to your needs and timeline</p>
-            </div>
-          </div>
-
-          {/* Contact Form Preview */}
-          <div className="bg-background rounded-lg p-6 max-w-md mx-auto mb-8">
-            <div className="space-y-4">
-              <div className="flex space-x-2">
-                <input 
-                  type="text" 
-                  placeholder="Full name*" 
-                  className="flex-1 p-3 border border-input rounded-md text-foreground"
-                />
-                <input 
-                  type="email" 
-                  placeholder="Business email*" 
-                  className="flex-1 p-3 border border-input rounded-md text-foreground"
-                />
-              </div>
-              <input 
-                type="text" 
-                placeholder="Phone number*" 
-                className="w-full p-3 border border-input rounded-md text-foreground"
-              />
-              <input 
-                type="text" 
-                placeholder="Company name*" 
-                className="w-full p-3 border border-input rounded-md text-foreground"
-              />
-              <textarea 
-                placeholder="Message*" 
-                rows={4}
-                className="w-full p-3 border border-input rounded-md text-foreground"
-              ></textarea>
-              <Button 
-                size="lg"
-                className="w-full bg-panel-medium text-background hover:bg-panel-medium/90 font-semibold"
-              >
-                SEND NOW ➤
-              </Button>
-            </div>
-            <div className="flex items-center justify-center mt-4 text-xs text-muted-foreground">
-              <span className="w-4 h-4 bg-turquoise rounded-full mr-2"></span>
-              <span>100% confidential</span>
-              <span className="w-4 h-4 bg-turquoise rounded-full mx-2"></span>
-              <span>We sign NDAs</span>
-            </div>
-          </div>
-
-          {/* Location indicators */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
-            <div className="flex items-center justify-center space-x-2">
-              <div className="w-12 h-8 bg-turquoise rounded overflow-hidden flex items-center justify-center">
-                <span className="text-xs font-bold text-turquoise-foreground">IN</span>
-              </div>
-              <div className="text-left">
-                <div className="font-semibold">INDIA</div>
-                <div className="text-navy-foreground/60 text-xs">Bangalore</div>
+              <h2 className="h2 mb-8">
+                Set up a world-class tech team in Bangalore
+              </h2>
+              
+              <div className="space-y-6 mb-8">
+                <div className="flex items-start space-x-4">
+                  <div className="w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                    <span className="text-black text-sm font-bold">1</span>
+                  </div>
+                  <div>
+                    <h3 className="h5 mb-2">Tell us what you need</h3>
+                    <p className="body-text">Fill in your details — your data is 100% confidential and secure</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start space-x-4">
+                  <div className="w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                    <span className="text-black text-sm font-bold">2</span>
+                  </div>
+                  <div>
+                    <h3 className="h5 mb-2">Talk to our experts</h3>
+                    <p className="body-text">One of our team members will contact you promptly for a brief discovery call</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start space-x-4">
+                  <div className="w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                    <span className="text-black text-sm font-bold">3</span>
+                  </div>
+                  <div>
+                    <h3 className="h5 mb-2">Get a tailored proposal</h3>
+                    <p className="body-text">We'll prepare a solution matched to your needs and timeline</p>
+                  </div>
+                </div>
               </div>
             </div>
             
-            <div className="flex items-center justify-center space-x-2">
-              <div className="w-12 h-8 bg-turquoise rounded overflow-hidden flex items-center justify-center">
-                <span className="text-xs font-bold text-turquoise-foreground">IE</span>
+            <div className="bg-white rounded-lg p-8 border border-gray-200">
+              <div className="mb-6">
+                <div className="h6 font-semibold">
+                  Let's talk
+                </div>
               </div>
-              <div className="text-left">
-                <div className="font-semibold">IRELAND</div>
-                <div className="text-navy-foreground/60 text-xs">Dublin</div>
+              
+              <form className="space-y-4">
+                <input type="text" placeholder="Full name*" className="w-full p-3 border border-gray-300 text-black rounded-lg focus:outline-none focus:ring-2 focus:ring-black" />
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  <input type="email" placeholder="Business email*" className="w-full p-3 border border-gray-300 text-black rounded-lg focus:outline-none focus:ring-2 focus:ring-black" />
+                  <input type="tel" placeholder="Phone number*" className="w-full p-3 border border-gray-300 text-black rounded-lg focus:outline-none focus:ring-2 focus:ring-black" />
+                </div>
+                <input type="text" placeholder="Company name*" className="w-full p-3 border border-gray-300 text-black rounded-lg focus:outline-none focus:ring-2 focus:ring-black" />
+                <textarea placeholder="Message*" rows={4} className="w-full p-3 border border-gray-300 text-black rounded-lg focus:outline-none focus:ring-2 focus:ring-black"></textarea>
+                
+                <Button type="submit" className="w-full bg-black text-white hover:bg-gray-800 font-semibold py-3 rounded-full">
+                  SEND NOW →
+                </Button>
+                
+                <div className="caption flex items-center space-x-4">
+                  <div className="flex items-center space-x-2">
+                    <div className="w-5 h-5 rounded-full flex items-center justify-center">
+                      <span className="text-black text-xs">✓</span>
+                    </div>
+                    <span>100% confidential</span>
+                  </div>
+                  <div className="flex items-center space-x-2">
+                    <div className="w-5 h-5 rounded-full flex items-center justify-center">
+                      <span className="text-black text-xs">✓</span>
+                    </div>
+                    <span>We sign NDAs</span>
+                  </div>
+                </div>
+                
+                <p className="caption">
+                  To give you the content requested, we need to store and process your personal data. For information on how to unsubscribe, as well as our privacy practices and commitment to protecting your privacy, please review our Privacy Policy.
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Our Locations Section */}
+      <section className="py-16 bg-panel-soft">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="h3 mb-4">
+              Our Locations
+            </h2>
+            <p className="body-text text-lg">
+              Global presence with local expertise
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 justify-items-center">
+            <div className="flex flex-col items-center space-y-3">
+              <div className="w-16 h-12 bg-turquoise rounded-lg overflow-hidden flex items-center justify-center">
+                <span className="text-sm font-bold text-turquoise-foreground">IN</span>
+              </div>
+              <div className="text-center">
+                <div className="font-semibold text-foreground">INDIA</div>
+                <div className="text-muted-foreground text-sm">Bangalore</div>
+              </div>
+            </div>
+            
+            <div className="flex flex-col items-center space-y-3">
+              <div className="w-16 h-12 bg-turquoise rounded-lg overflow-hidden flex items-center justify-center">
+                <span className="text-sm font-bold text-turquoise-foreground">IE</span>
+              </div>
+              <div className="text-center">
+                <div className="font-semibold text-foreground">IRELAND</div>
+                <div className="text-muted-foreground text-sm">Dublin</div>
               </div>
             </div>
 
-            <div className="flex items-center justify-center space-x-2">
-              <div className="w-12 h-8 bg-turquoise rounded overflow-hidden flex items-center justify-center">
-                <span className="text-xs font-bold text-turquoise-foreground">UK</span>
+            <div className="flex flex-col items-center space-y-3">
+              <div className="w-16 h-12 bg-turquoise rounded-lg overflow-hidden flex items-center justify-center">
+                <span className="text-sm font-bold text-turquoise-foreground">GB</span>
               </div>
-              <div className="text-left">
-                <div className="font-semibold">UK</div>
-                <div className="text-navy-foreground/60 text-xs">London</div>
+              <div className="text-center">
+                <div className="font-semibold text-foreground">UK</div>
+                <div className="text-muted-foreground text-sm">London</div>
               </div>
             </div>
 
-            <div className="flex items-center justify-center space-x-2">
-              <div className="w-12 h-8 bg-turquoise rounded overflow-hidden flex items-center justify-center">
-                <span className="text-xs font-bold text-turquoise-foreground">AU</span>
+            <div className="flex flex-col items-center space-y-3">
+              <div className="w-16 h-12 bg-turquoise rounded-lg overflow-hidden flex items-center justify-center">
+                <span className="text-sm font-bold text-turquoise-foreground">AU</span>
               </div>
-              <div className="text-left">
-                <div className="font-semibold">AUSTRALIA</div>
-                <div className="text-navy-foreground/60 text-xs">Sydney</div>
+              <div className="text-center">
+                <div className="font-semibold text-foreground">AUSTRALIA</div>
+                <div className="text-muted-foreground text-sm">Sydney</div>
               </div>
             </div>
           </div>
