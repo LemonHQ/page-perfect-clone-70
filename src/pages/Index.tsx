@@ -15,7 +15,7 @@ const Index = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
               <h1 className="h1 mb-8">
-                130+ world-class tech teams built in Bangalore
+                10+ world-class tech teams built in Bangalore
               </h1>
               <p className="body-text text-lg mb-12">
                 Scale your software development with dedicated offshore teams
