@@ -156,12 +156,12 @@ const DigitalTransformationArticle = () => {
               After leading and observing dozens of digital transformation initiatives across various industries, I've identified five critical warning signs that indicate a transformation program needs immediate attention. More importantly, I'll share actionable strategies for addressing each of these challenges before they derail your entire initiative.
             </p>
 
-            <h2>1. Technology Leading Strategy Instead of Following It</h2>
+            <h2 className="mt-8 mb-4">1. Technology Leading Strategy Instead of Following It</h2>
           <p>
             One of the most common mistakes in digital transformation is allowing technology decisions to drive business strategy rather than the other way around. This typically manifests when organizations become enamored with specific technologies—cloud platforms, artificial intelligence, or automation tools—without clearly articulating how these technologies will create value for customers or competitive advantage.
           </p>
 
-          <h3>The Warning Signs</h3>
+          <h3 className="mt-6 mb-3">The Warning Signs</h3>
           <p>
             You'll know you're experiencing this problem when technology teams are making decisions about platforms and architectures without input from business stakeholders. Conversations focus more on technical capabilities than business outcomes. Project timelines are driven by technology implementation schedules rather than market opportunities or customer needs.
           </p>
@@ -170,7 +170,7 @@ const DigitalTransformationArticle = () => {
             Another red flag is when your transformation roadmap looks remarkably similar to a vendor's product roadmap. While vendor partnerships are important, they shouldn't be the primary driver of your transformation strategy. If your initiative could be described as "implementing vendor X's solution," you're likely experiencing technology-driven transformation.
           </p>
 
-          <h3>The Course Correction</h3>
+          <h3 className="mt-6 mb-3">The Course Correction</h3>
           <p>
             To address this challenge, start by revisiting your business strategy and clearly articulating the specific outcomes your transformation is intended to achieve. These might include improved customer experience, reduced operational costs, new revenue streams, or enhanced competitive positioning. Once these outcomes are clearly defined, technology choices should be evaluated based on their ability to enable these outcomes.
           </p>
@@ -179,12 +179,12 @@ const DigitalTransformationArticle = () => {
             Establish cross-functional governance structures that ensure business leaders have equal voice in technology decisions. Create regular checkpoints where the business case for specific technology investments is reviewed and validated. Most importantly, be prepared to change technology choices if they're not delivering the expected business value.
           </p>
 
-          <h2>2. Lack of Clear Success Metrics and Progress Tracking</h2>
+          <h2 className="mt-8 mb-4">2. Lack of Clear Success Metrics and Progress Tracking</h2>
           <p>
             Many digital transformation initiatives suffer from measurement problems. Either they lack clear success metrics entirely, or they focus on the wrong types of metrics. This creates a situation where it's impossible to determine whether the transformation is succeeding or failing until it's too late to make adjustments.
           </p>
 
-          <h3>The Warning Signs</h3>
+          <h3 className="mt-6 mb-3">The Warning Signs</h3>
           <p>
             The most obvious warning sign is the inability to answer the question: "How will we know when this transformation is successful?" If stakeholders provide vague answers about "improved efficiency" or "better customer experience" without specific, measurable targets, you have a metrics problem.
           </p>
@@ -197,7 +197,7 @@ const DigitalTransformationArticle = () => {
             You should also be concerned if you're not regularly tracking leading indicators of success. Waiting to measure success until the transformation is "complete" is like trying to steer a ship by looking only at where you've been rather than where you're going.
           </p>
 
-          <h3>The Course Correction</h3>
+          <h3 className="mt-6 mb-3">The Course Correction</h3>
           <p>
             Establish a balanced scorecard approach that includes both leading and lagging indicators of success. Leading indicators might include employee engagement scores, customer feedback on new digital touchpoints, or the speed of new product development cycles. Lagging indicators should directly tie to business outcomes like revenue growth, cost reduction, or market share gains.
           </p>
@@ -210,12 +210,12 @@ const DigitalTransformationArticle = () => {
             Most importantly, make metrics transparent and accessible to all stakeholders. When everyone can see progress (or lack thereof) in real-time, it creates accountability and enables faster decision-making when problems arise.
           </p>
 
-          <h2>3. Insufficient Change Management and Employee Adoption</h2>
+          <h2 className="mt-8 mb-4">3. Insufficient Change Management and Employee Adoption</h2>
           <p>
             Technical implementation is often the easier part of digital transformation. The harder challenge is helping people adapt to new ways of working. When organizations underestimate the change management requirements, they often find that their new systems and processes aren't being adopted, regardless of their technical sophistication.
           </p>
 
-          <h3>The Warning Signs</h3>
+          <h3 className="mt-6 mb-3">The Warning Signs</h3>
           <p>
             Low adoption rates of new systems or processes are the most obvious indicator of change management problems. But you should also look for more subtle signs: employees finding workarounds to avoid new processes, complaints about new systems being "too complicated," or decreased productivity following the implementation of new tools.
           </p>
@@ -228,7 +228,7 @@ const DigitalTransformationArticle = () => {
             You should be particularly concerned if resistance is coming from middle management. These individuals often bear the burden of implementing new processes while maintaining operational performance, and their resistance can effectively kill transformation initiatives even when senior leadership remains supportive.
           </p>
 
-          <h3>The Course Correction</h3>
+          <h3 className="mt-6 mb-3">The Course Correction</h3>
           <p>
             Start by conducting honest assessments of organizational readiness for change. This includes evaluating not just technical readiness but also cultural readiness. Some organizations may need to invest in foundational culture change before they can successfully implement digital transformation.
           </p>
@@ -241,12 +241,12 @@ const DigitalTransformationArticle = () => {
             Create opportunities for employees to participate in designing new processes and systems. When people have input into how change affects their work, they're more likely to support and adopt new approaches. This participatory approach also often leads to better solutions because it incorporates the practical insights of people who will use the systems daily.
           </p>
 
-          <h2>4. Siloed Implementation Without Cross-Functional Integration</h2>
+          <h2 className="mt-8 mb-4">4. Siloed Implementation Without Cross-Functional Integration</h2>
           <p>
             Digital transformation, by definition, should transform how different parts of the organization work together. When initiatives are implemented in silos, they often create new inefficiencies rather than eliminating existing ones. This silo problem is particularly common in large organizations where different departments have separate budgets and priorities.
           </p>
 
-          <h3>The Warning Signs</h3>
+          <h3 className="mt-6 mb-3">The Warning Signs</h3>
           <p>
             The clearest indicator of siloed implementation is when different departments are implementing conflicting or incompatible solutions. For example, marketing might implement one customer relationship management system while sales implements another, creating data integration challenges and customer experience problems.
           </p>
@@ -259,7 +259,7 @@ const DigitalTransformationArticle = () => {
             Another warning sign is the absence of cross-functional teams in transformation governance. If transformation decisions are being made within departmental boundaries rather than through cross-functional collaboration, integration problems are inevitable.
           </p>
 
-          <h3>The Course Correction</h3>
+          <h3 className="mt-6 mb-3">The Course Correction</h3>
           <p>
             Establish cross-functional governance structures with clear accountability for integration outcomes. This might include creating roles like "integration owners" who are specifically responsible for ensuring different workstreams work together effectively.
           </p>
@@ -272,12 +272,12 @@ const DigitalTransformationArticle = () => {
             Create incentive structures that reward cross-functional collaboration. When departmental metrics don't align with transformation goals, departments will naturally optimize for their local objectives rather than overall transformation success.
           </p>
 
-          <h2>5. Unrealistic Timelines and Resource Constraints</h2>
+          <h2 className="mt-8 mb-4">5. Unrealistic Timelines and Resource Constraints</h2>
           <p>
             Digital transformation is complex work that requires sustained effort over extended periods. When organizations set unrealistic expectations for timeline or resource requirements, they create conditions that virtually guarantee failure. This problem is often compounded by the pressure to show quick returns on transformation investments.
           </p>
 
-          <h3>The Warning Signs</h3>
+          <h3 className="mt-6 mb-3">The Warning Signs</h3>
           <p>
             The most obvious indicator is when transformation timelines don't account for the complexity of change management and integration work. Technical implementations might be estimated reasonably, but if there's insufficient time allocated for testing, training, and adjustment, the timeline is unrealistic.
           </p>
@@ -290,7 +290,7 @@ const DigitalTransformationArticle = () => {
             Another warning sign is when transformation plans don't include buffer time for inevitable setbacks and course corrections. Transformations that look great on paper but have no slack for adjustments are setting themselves up for failure when reality doesn't match the plan.
           </p>
 
-          <h3>The Course Correction</h3>
+          <h3 className="mt-6 mb-3">The Course Correction</h3>
           <p>
             Conduct realistic assessments of transformation scope and complexity. This might require bringing in external expertise to provide objective estimates of time and resource requirements. It's better to have difficult conversations about resource needs early than to fail to deliver on unrealistic commitments.
           </p>
@@ -303,7 +303,7 @@ const DigitalTransformationArticle = () => {
             Most importantly, secure dedicated resources for transformation work. This might require making difficult decisions about other priorities, but trying to do transformation "on the side" while maintaining all existing commitments is a recipe for failure.
           </p>
 
-          <h2>Proactive Monitoring and Continuous Adjustment</h2>
+          <h2 className="mt-8 mb-4">Proactive Monitoring and Continuous Adjustment</h2>
           <p>
             The key to successful digital transformation isn't avoiding all problems—it's identifying and addressing problems quickly when they arise. This requires creating systems and processes for ongoing monitoring and adjustment.
           </p>
@@ -316,7 +316,7 @@ const DigitalTransformationArticle = () => {
             Create feedback loops that capture insights from all stakeholder groups, including customers, employees, and partners. Often, the people closest to the work have the best insights about what's working and what isn't, but they need explicit opportunities to share this feedback.
           </p>
 
-          <h2>Conclusion</h2>
+          <h2 className="mt-8 mb-4">Conclusion</h2>
           <p>
             Digital transformation is challenging work, and setbacks are normal. The organizations that succeed aren't those that avoid all problems, but those that identify and address problems quickly and effectively. By watching for these five warning signs and having plans for addressing them, you can significantly increase your chances of transformation success.
           </p>
@@ -330,7 +330,7 @@ const DigitalTransformationArticle = () => {
             </p>
 
             <div className="mt-12 p-8 bg-muted/30 rounded-lg">
-              <h3>About the Author</h3>
+              <h3 className="mt-6 mb-3">About the Author</h3>
               <div className="flex items-center gap-4 mt-4">
                 <div className="w-16 h-16 bg-muted rounded-full flex items-center justify-center">
                   <User className="w-8 h-8" />

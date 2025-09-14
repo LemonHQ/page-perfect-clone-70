@@ -119,12 +119,12 @@ const TeamPerformance = () => {
             High-performance teams aren't created by accident or through the simple adoption of agile frameworks. They emerge from deliberate actions, thoughtful design decisions, and sustained commitment to continuous improvement. The lessons I'll share have been validated across multiple contexts and can be applied regardless of your industry or organizational size.
           </p>
 
-          <h2>The Foundation: Psychological Safety as a Prerequisite</h2>
+          <h2 className="mt-8 mb-4">The Foundation: Psychological Safety as a Prerequisite</h2>
           <p>
             Before diving into specific practices and techniques, it's crucial to understand that all high-performance team behaviors rest on a foundation of psychological safety. This concept, popularized by Harvard Business School professor Amy Edmondson, refers to a shared belief that the team is safe for interpersonal risk-taking.
           </p>
 
-          <h3>What Psychological Safety Looks Like in Practice</h3>
+          <h3 className="mt-6 mb-3">What Psychological Safety Looks Like in Practice</h3>
           <p>
             In psychologically safe teams, members feel comfortable admitting mistakes, asking questions, and proposing ideas without fear of negative consequences. They can challenge decisions respectfully, discuss failures openly, and seek help when needed. This safety doesn't mean lowering standards or avoiding accountability—rather, it creates an environment where people can perform at their best because they're not wasting energy on self-protection.
           </p>
@@ -133,7 +133,7 @@ const TeamPerformance = () => {
             During my work with high-performing teams, I've consistently observed specific behaviors that indicate strong psychological safety. Team members interrupt each other constructively during meetings, building on ideas rather than shutting them down. They openly discuss what didn't work in past iterations and what they learned from failures. Most importantly, they demonstrate curiosity about different perspectives rather than defensiveness when their ideas are questioned.
           </p>
 
-          <h3>Building Psychological Safety</h3>
+          <h3 className="mt-6 mb-3">Building Psychological Safety</h3>
           <p>
             Creating psychological safety requires intentional leadership behaviors and team practices. Leaders must model vulnerability by admitting their own mistakes and uncertainties. They need to ask for feedback actively and respond to it constructively, even when it's critical.
           </p>
@@ -142,7 +142,7 @@ const TeamPerformance = () => {
             Team members also play a crucial role in building and maintaining psychological safety. This includes giving colleagues the benefit of the doubt, focusing on problems rather than personalities when issues arise, and actively seeking to understand different viewpoints before advocating for their own positions.
           </p>
 
-          <h2>Lesson 1: Purpose-Driven Alignment Creates Unstoppable Momentum</h2>
+          <h2 className="mt-8 mb-4">Lesson 1: Purpose-Driven Alignment Creates Unstoppable Momentum</h2>
           <p>
             The highest-performing teams I've worked with share a common characteristic: they have crystal-clear alignment on their purpose and how their work contributes to larger organizational goals. This goes beyond simply understanding their product backlog or sprint goals—they understand the "why" behind their work at a deep level.
           </p>
@@ -336,7 +336,7 @@ const TeamPerformance = () => {
             Develop measurement systems that track learning and improvement outcomes, not just delivery outcomes. Celebrate and recognize teams that demonstrate strong learning behaviors, even when specific experiments don't succeed.
           </p>
 
-          <h2>Conclusion: The Journey to High Performance</h2>
+          <h2 className="mt-8 mb-4">Conclusion: The Journey to High Performance</h2>
           <p>
             Building high-performance teams is not a destination but a continuous journey of learning, adaptation, and growth. The lessons shared here provide a roadmap, but each team must find their own path based on their specific context, challenges, and opportunities.
           </p>
@@ -354,7 +354,7 @@ const TeamPerformance = () => {
             </p>
 
             <div className="mt-12 p-8 bg-muted/30 rounded-lg">
-              <h3>About the Author</h3>
+              <h3 className="mt-6 mb-3">About the Author</h3>
               <div className="flex items-center gap-4 mt-4">
                 <div className="w-16 h-16 bg-muted rounded-full flex items-center justify-center">
                   <User className="w-8 h-8" />

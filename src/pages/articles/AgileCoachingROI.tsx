@@ -115,7 +115,7 @@ const AgileCoachingROI = () => {
               Organizations investing in agile coaching often struggle to demonstrate clear return on investment. While velocity and sprint burndown charts provide team-level insights, they fail to capture the broader business impact that effective coaching creates. This comprehensive guide explores metrics and methodologies that reveal the true value of agile coaching initiatives.
             </p>
 
-            <h2>Beyond Traditional Metrics: The Challenge of Measuring Coaching ROI</h2>
+            <h2 className="mt-8 mb-4">Beyond Traditional Metrics: The Challenge of Measuring Coaching ROI</h2>
             <p>
               Traditional agile metrics focus on team output and process adherence, but agile coaching's most significant benefits often manifest in areas that are harder to quantify. Improved collaboration, enhanced problem-solving capabilities, and increased organizational adaptability create substantial value that extends far beyond individual team performance.
             </p>
@@ -124,12 +124,12 @@ const AgileCoachingROI = () => {
               The challenge lies in establishing measurement frameworks that capture this broader impact while remaining practical for organizational decision-makers. Successful ROI measurement requires a balanced approach that combines quantitative business metrics with qualitative indicators of organizational health and capability development.
             </p>
 
-            <h2>Business Impact Metrics: Connecting Coaching to Outcomes</h2>
+            <h2 className="mt-8 mb-4">Business Impact Metrics: Connecting Coaching to Outcomes</h2>
             <p>
               The most compelling ROI demonstrations link coaching investments directly to business outcomes. Key metrics include:
             </p>
 
-            <h3>Time-to-Market Improvements</h3>
+            <h3 className="mt-6 mb-3">Time-to-Market Improvements</h3>
             <p>
               Effective agile coaching typically reduces the time required to deliver new features and products to market. Organizations should track delivery cycle times before and after coaching interventions, accounting for factors like feature complexity and market conditions that might influence these measurements.
             </p>
@@ -138,7 +138,7 @@ const AgileCoachingROI = () => {
               Beyond raw speed improvements, consider measuring the consistency of delivery predictions. Teams that receive quality coaching often become more reliable in their estimates and commitments, reducing planning uncertainty and enabling better business decision-making.
             </p>
 
-            <h3>Quality and Customer Satisfaction</h3>
+            <h3 className="mt-6 mb-3">Quality and Customer Satisfaction</h3>
             <p>
               Coaching investments often yield improvements in product quality and customer satisfaction that translate directly to business value. Track defect rates, customer support ticket volumes, and customer satisfaction scores over time, correlating improvements with coaching initiatives.
             </p>
@@ -147,12 +147,12 @@ const AgileCoachingROI = () => {
               Customer retention and Net Promoter Scores provide additional insights into how coaching-driven improvements affect customer relationships and business sustainability.
             </p>
 
-            <h2>Organizational Capability Metrics</h2>
+            <h2 className="mt-8 mb-4">Organizational Capability Metrics</h2>
             <p>
               Some of the most significant coaching benefits emerge at the organizational level, creating capabilities that generate value across multiple teams and initiatives.
             </p>
 
-            <h3>Employee Engagement and Retention</h3>
+            <h3 className="mt-6 mb-3">Employee Engagement and Retention</h3>
             <p>
               Quality agile coaching often improves job satisfaction, team dynamics, and career development opportunities. Monitor employee engagement scores, turnover rates, and internal mobility patterns to understand coaching's impact on human capital.
             </p>
@@ -161,7 +161,7 @@ const AgileCoachingROI = () => {
               Calculate the cost savings from improved retention, considering recruitment, onboarding, and productivity ramp-up costs for replacement personnel. These savings often represent substantial coaching ROI that extends beyond immediate project outcomes.
             </p>
 
-            <h3>Innovation and Experimentation Rates</h3>
+            <h3 className="mt-6 mb-3">Innovation and Experimentation Rates</h3>
             <p>
               Effective coaching creates cultures where teams feel empowered to experiment and innovate. Track the number of improvement experiments conducted, their success rates, and the business value generated from successful innovations.
             </p>
@@ -170,12 +170,12 @@ const AgileCoachingROI = () => {
               This metric becomes particularly valuable for organizations competing in dynamic markets where adaptation speed provides competitive advantage.
             </p>
 
-            <h2>Leading Indicators: Predicting Future Success</h2>
+            <h2 className="mt-8 mb-4">Leading Indicators: Predicting Future Success</h2>
             <p>
               While business outcome metrics provide definitive ROI evidence, leading indicators help organizations understand whether their coaching investments are likely to generate future returns.
             </p>
 
-            <h3>Collaboration and Communication Quality</h3>
+            <h3 className="mt-6 mb-3">Collaboration and Communication Quality</h3>
             <p>
               Measure cross-functional collaboration frequency, meeting effectiveness, and information sharing patterns. These behavioral changes often precede improvements in delivery performance and business outcomes.
             </p>
@@ -184,17 +184,17 @@ const AgileCoachingROI = () => {
               Survey tools and communication analytics can provide quantitative data about collaboration improvements, while regular pulse surveys capture qualitative feedback about team dynamics and communication effectiveness.
             </p>
 
-            <h3>Learning and Adaptation Rates</h3>
+            <h3 className="mt-6 mb-3">Learning and Adaptation Rates</h3>
             <p>
               Track how quickly teams identify and respond to problems, implement improvements, and adapt to changing requirements. These capability improvements often predict future performance gains even before they appear in business metrics.
             </p>
 
-            <h2>Implementation Framework: Measuring What Matters</h2>
+            <h2 className="mt-8 mb-4">Implementation Framework: Measuring What Matters</h2>
             <p>
               Successful ROI measurement requires systematic approaches that balance comprehensive insight with practical implementation constraints.
             </p>
 
-            <h3>Baseline Establishment</h3>
+            <h3 className="mt-6 mb-3">Baseline Establishment</h3>
             <p>
               Establish clear baselines before coaching interventions begin. This includes both quantitative metrics and qualitative assessments of team capabilities, organizational culture, and business performance.
             </p>
@@ -203,7 +203,7 @@ const AgileCoachingROI = () => {
               Document contextual factors that might influence results, ensuring that coaching impact can be distinguished from other organizational changes or market conditions.
             </p>
 
-            <h3>Regular Assessment Rhythms</h3>
+            <h3 className="mt-6 mb-3">Regular Assessment Rhythms</h3>
             <p>
               Create regular measurement rhythms that capture both short-term progress indicators and long-term outcome metrics. Monthly pulse surveys, quarterly business reviews, and annual comprehensive assessments provide different perspectives on coaching effectiveness.
             </p>
@@ -212,7 +212,7 @@ const AgileCoachingROI = () => {
               Ensure measurement activities themselves don't become burdensome overhead that reduces coaching effectiveness or team productivity.
             </p>
 
-            <h3>Stakeholder Communication</h3>
+            <h3 className="mt-6 mb-3">Stakeholder Communication</h3>
             <p>
               Develop communication strategies that present ROI evidence in formats that resonate with different stakeholder groups. Technical leaders might focus on delivery metrics, while business executives prioritize revenue and cost impacts.
             </p>
@@ -221,27 +221,27 @@ const AgileCoachingROI = () => {
               Create dashboards and reports that tell compelling stories about coaching value, using both quantitative data and qualitative narratives to build stakeholder confidence in coaching investments.
             </p>
 
-            <h2>Common Pitfalls and How to Avoid Them</h2>
+            <h2 className="mt-8 mb-4">Common Pitfalls and How to Avoid Them</h2>
             <p>
               Many organizations struggle with coaching ROI measurement due to predictable pitfalls that can be avoided with proper planning and execution.
             </p>
 
-            <h3>Over-Reliance on Lagging Indicators</h3>
+            <h3 className="mt-6 mb-3">Over-Reliance on Lagging Indicators</h3>
             <p>
               Focusing exclusively on final business outcomes can lead to premature conclusions about coaching effectiveness. Balance outcome metrics with leading indicators that provide earlier signals about coaching impact.
             </p>
 
-            <h3>Attribution Challenges</h3>
+            <h3 className="mt-6 mb-3">Attribution Challenges</h3>
             <p>
               Distinguishing coaching impact from other organizational changes requires careful experimental design and statistical analysis. Consider control groups, time-series analysis, and statistical techniques that account for confounding variables.
             </p>
 
-            <h3>Short-Term Focus</h3>
+            <h3 className="mt-6 mb-3">Short-Term Focus</h3>
             <p>
               Some coaching benefits take time to materialize, particularly cultural and capability improvements. Establish measurement timeframes that capture both immediate improvements and longer-term capability development.
             </p>
 
-            <h2>Building the Business Case for Continued Investment</h2>
+            <h2 className="mt-8 mb-4">Building the Business Case for Continued Investment</h2>
             <p>
               Effective ROI measurement serves not just to justify past coaching investments but to build compelling cases for continued and expanded coaching initiatives.
             </p>
@@ -254,7 +254,7 @@ const AgileCoachingROI = () => {
               Share success stories and lessons learned across the organization, building coaching capability and creating demand for coaching services that generates additional returns on initial investments.
             </p>
 
-            <h2>Conclusion: Sustainable Value Creation Through Measurement</h2>
+            <h2 className="mt-8 mb-4">Conclusion: Sustainable Value Creation Through Measurement</h2>
             <p>
               Measuring agile coaching ROI requires sophisticated approaches that go beyond traditional agile metrics to capture the full spectrum of value that effective coaching creates. By implementing comprehensive measurement frameworks that balance quantitative business outcomes with qualitative capability indicators, organizations can demonstrate coaching value while simultaneously improving coaching effectiveness.
             </p>
@@ -268,7 +268,7 @@ const AgileCoachingROI = () => {
             </p>
 
             <div className="mt-12 p-8 bg-muted/30 rounded-lg">
-              <h3>About the Author</h3>
+              <h3 className="mt-6 mb-3">About the Author</h3>
               <div className="flex items-center gap-4 mt-4">
                 <div className="w-16 h-16 bg-muted rounded-full flex items-center justify-center">
                   <User className="w-8 h-8" />

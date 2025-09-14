@@ -114,7 +114,7 @@ const PortfolioManagement = () => {
               Traditional portfolio management approaches, designed for predictable environments, are struggling to cope with today's pace of change. Organizations need new frameworks that balance strategic vision with tactical agility, enabling rapid response to market shifts while maintaining long-term value creation.
             </p>
 
-          <h2>The New Reality of Portfolio Management</h2>
+          <h2 className="mt-8 mb-4">The New Reality of Portfolio Management</h2>
           <p>
             The business environment has fundamentally changed. Market conditions shift rapidly, customer expectations evolve continuously, and competitive threats emerge from unexpected directions. In this context, traditional portfolio management approaches—with their emphasis on detailed long-term planning and rigid governance structures—are not just inadequate but potentially harmful.
           </p>
@@ -123,7 +123,7 @@ const PortfolioManagement = () => {
             Modern portfolio management must embrace uncertainty as a constant rather than an exception. This requires new approaches to planning, resource allocation, and performance measurement that enable organizations to adapt quickly while maintaining strategic coherence.
           </p>
 
-          <h2>Dynamic Resource Allocation</h2>
+          <h2 className="mt-8 mb-4">Dynamic Resource Allocation</h2>
           <p>
             Instead of annual planning cycles that lock in resource commitments for extended periods, successful organizations are adopting dynamic allocation approaches. These systems enable rapid reallocation of resources based on changing priorities and market conditions.
           </p>
@@ -132,7 +132,7 @@ const PortfolioManagement = () => {
             Key practices include shorter planning horizons, flexible team structures, and outcome-based funding models that allow resources to flow toward the highest-value opportunities regardless of traditional organizational boundaries.
           </p>
 
-          <h2>Measuring Value in Uncertain Environments</h2>
+          <h2 className="mt-8 mb-4">Measuring Value in Uncertain Environments</h2>
           <p>
             Traditional ROI calculations lose relevance when business conditions change rapidly. Modern portfolio management requires new metrics that capture both current performance and future optionality.
           </p>
@@ -142,7 +142,7 @@ const PortfolioManagement = () => {
             </p>
 
             <div className="mt-12 p-8 bg-muted/30 rounded-lg">
-              <h3>About the Author</h3>
+              <h3 className="mt-6 mb-3">About the Author</h3>
               <div className="flex items-center gap-4 mt-4">
                 <div className="w-16 h-16 bg-muted rounded-full flex items-center justify-center">
                   <User className="w-8 h-8" />
