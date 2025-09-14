@@ -11,7 +11,7 @@ import {
 import devopsIntegrationImage from "@/assets/articles/devops-integration.jpg";
 import ContactSection from "@/components/ContactSection";
 
-const DevOpsIntegrationArticle = () => {
+const DevOpsIntegration = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section with Split Layout */}
@@ -353,4 +353,4 @@ const DevOpsIntegrationArticle = () => {
   );
 };
 
-export default DevOpsIntegrationArticle;
+export default DevOpsIntegration;

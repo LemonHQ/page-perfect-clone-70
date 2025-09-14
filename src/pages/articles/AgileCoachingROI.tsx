@@ -11,7 +11,7 @@ import {
 import agileCoachingImage from "@/assets/articles/agile-coaching.jpg";
 import ContactSection from "@/components/ContactSection";
 
-const AgileCoachingROIArticle = () => {
+const AgileCoachingROI = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section with Split Layout */}
@@ -290,4 +290,4 @@ const AgileCoachingROIArticle = () => {
   );
 };
 
-export default AgileCoachingROIArticle;
+export default AgileCoachingROI;

@@ -26,12 +26,12 @@ import AgileCoaching from "./pages/AgileCoaching";
 import ProductRecovery from "./pages/ProductRecovery";
 import OurApproach from "./pages/OurApproach";
 import Insights from "./pages/Insights";
-import AgileTransformationArticle from "./pages/articles/AgileTransformationArticle";
+import AgileTransformation from "./pages/articles/AgileTransformation";
 import DigitalTransformationArticle from "./pages/articles/DigitalTransformationArticle";
-import TeamPerformanceArticle from "./pages/articles/TeamPerformanceArticle";
-import PortfolioManagementArticle from "./pages/articles/PortfolioManagementArticle";
-import AgileCoachingROIArticle from "./pages/articles/AgileCoachingROIArticle";
-import DevOpsIntegrationArticle from "./pages/articles/DevOpsIntegrationArticle";
+import TeamPerformance from "./pages/articles/TeamPerformance";
+import PortfolioManagement from "./pages/articles/PortfolioManagement";
+import AgileCoachingROI from "./pages/articles/AgileCoachingROI";
+import DevOpsIntegration from "./pages/articles/DevOpsIntegration";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -66,12 +66,12 @@ const App = () => (
             <Route path="/product-recovery" element={<ProductRecovery />} />
             <Route path="/our-approach" element={<OurApproach />} />
             <Route path="/insights" element={<Insights />} />
-            <Route path="/insights/agile-transformation" element={<AgileTransformationArticle />} />
+            <Route path="/insights/agile-transformation" element={<AgileTransformation />} />
             <Route path="/insights/digital-transformation-signs" element={<DigitalTransformationArticle />} />
-            <Route path="/insights/building-high-performance-teams" element={<TeamPerformanceArticle />} />
-            <Route path="/insights/portfolio-management-rapid-change" element={<PortfolioManagementArticle />} />
-            <Route path="/insights/agile-coaching-roi" element={<AgileCoachingROIArticle />} />
-            <Route path="/insights/devops-integration-strategies" element={<DevOpsIntegrationArticle />} />
+            <Route path="/insights/building-high-performance-teams" element={<TeamPerformance />} />
+            <Route path="/insights/portfolio-management-rapid-change" element={<PortfolioManagement />} />
+            <Route path="/insights/agile-coaching-roi" element={<AgileCoachingROI />} />
+            <Route path="/insights/devops-integration-strategies" element={<DevOpsIntegration />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

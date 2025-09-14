@@ -11,7 +11,7 @@ import {
 import teamCollaborationImage from "@/assets/articles/team-collaboration.jpg";
 import ContactSection from "@/components/ContactSection";
 
-const TeamPerformanceArticle = () => {
+const TeamPerformance = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section with Split Layout */}
@@ -376,4 +376,4 @@ const TeamPerformanceArticle = () => {
   );
 };
 
-export default TeamPerformanceArticle;
+export default TeamPerformance;

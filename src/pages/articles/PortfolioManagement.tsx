@@ -11,7 +11,7 @@ import {
 import portfolioManagementImage from "@/assets/articles/portfolio-management.jpg";
 import ContactSection from "@/components/ContactSection";
 
-const PortfolioManagementArticle = () => {
+const PortfolioManagement = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section with Split Layout */}
@@ -164,4 +164,4 @@ const PortfolioManagementArticle = () => {
   );
 };
 
-export default PortfolioManagementArticle;
+export default PortfolioManagement;

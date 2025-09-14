@@ -11,7 +11,7 @@ import {
 import agileTransformationImage from "@/assets/articles/agile-transformation-team.jpg";
 import ContactSection from "@/components/ContactSection";
 
-const AgileTransformationArticle = () => {
+const AgileTransformation = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section with Split Layout */}
@@ -262,4 +262,4 @@ const AgileTransformationArticle = () => {
   );
 };
 
-export default AgileTransformationArticle;
+export default AgileTransformation;
