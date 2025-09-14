@@ -33,6 +33,9 @@
     --yellow-light: 45 86% 95%;
     --yellow-foreground: 0 0% 9%;
 
+    --purple: 274 86% 53%;
+    --purple-foreground: 0 0% 98%;
+
     --muted: 0 0% 96%;
     --muted-foreground: 0 0% 45%;
 
@@ -87,6 +90,8 @@
     --yellow: 45 93% 47%;
     --yellow-light: 45 86% 95%;
     --yellow-foreground: 0 0% 9%;
+    --purple: 274 86% 53%;
+    --purple-foreground: 0 0% 98%;
 
     /* Panel Background Colors - Warm Neutral Palette (Dark Mode) */
     --panel-cream: 60 9% 92%;      /* #EDEDE9 */
@@ -117,18 +122,21 @@
   }
   
   h2 {
-    @apply text-4xl font-medium leading-[1.3] text-black;
+    @apply text-4xl font-medium leading-[1.3];
     font-size: 36px;
+    color: hsl(var(--purple));
   }
   
   h3 {
-    @apply text-3xl font-medium leading-[1.3] text-black;
+    @apply text-3xl font-medium leading-[1.3];
     font-size: 28px;
+    color: hsl(var(--purple));
   }
   
   h4 {
-    @apply text-2xl font-normal leading-[1.4] text-black;
+    @apply text-2xl font-normal leading-[1.4];
     font-size: 22px;
+    color: hsl(var(--purple));
   }
   
   h5 {
@@ -152,18 +160,21 @@
   }
   
   .h2 {
-    @apply text-4xl font-medium leading-[1.3] text-black;
+    @apply text-4xl font-medium leading-[1.3];
     font-size: 36px;
+    color: hsl(var(--purple));
   }
   
   .h3 {
-    @apply text-3xl font-medium leading-[1.3] text-black;
+    @apply text-3xl font-medium leading-[1.3];
     font-size: 28px;
+    color: hsl(var(--purple));
   }
   
   .h4 {
-    @apply text-2xl font-normal leading-[1.4] text-black;
+    @apply text-2xl font-normal leading-[1.4];
     font-size: 22px;
+    color: hsl(var(--purple));
   }
   
   .h5 {
