@@ -45,31 +45,31 @@ const Index = () => {
             <p className="body-text text-lg max-w-3xl mx-auto">Whether you're preparing to launch or navigating the path to business-as-usual (BAU), we provide the strategic guidance and hands-on support needed to build momentum, create structure, and drive success.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <Card className="p-8 text-center">
+            <Card className="p-8 text-center flex flex-col">
               <h3 className="h4 mb-4">Portfolio Development</h3>
-              <p className="body-text mb-6">Successfully develop and execute your change or transformation roadmap and delivery plan with Agile practices</p>
-              <Button variant="outline" className="border-black text-black hover:bg-black hover:text-white" asChild>
+              <p className="body-text mb-6 flex-1">Successfully develop and execute your change or transformation roadmap and delivery plan with Agile practices</p>
+              <Button variant="outline" className="border-black text-black hover:bg-black hover:text-white mt-auto" asChild>
                 <Link to="/portfolio-development">Learn More</Link>
               </Button>
             </Card>
-            <Card className="p-8 text-center">
+            <Card className="p-8 text-center flex flex-col">
               <h3 className="h4 mb-4">Product Recovery</h3>
-              <p className="body-text mb-6">Turn around struggling initiatives and get your products back on track.</p>
-              <Button variant="outline" className="border-black text-black hover:bg-black hover:text-white" asChild>
+              <p className="body-text mb-6 flex-1">Turn around struggling initiatives and get your products back on track.</p>
+              <Button variant="outline" className="border-black text-black hover:bg-black hover:text-white mt-auto" asChild>
                 <Link to="/product-recovery">Learn More</Link>
               </Button>
             </Card>
-            <Card className="p-8 text-center">
+            <Card className="p-8 text-center flex flex-col">
               <h3 className="h4 mb-4">Agile Coaching</h3>
-              <p className="body-text mb-6">Build sustainable agile practices and high-performing teams that continue to deliver sustainable value.</p>
-              <Button variant="outline" className="border-black text-black hover:bg-black hover:text-white" asChild>
+              <p className="body-text mb-6 flex-1">Build sustainable agile practices and high-performing teams that continue to deliver sustainable value.</p>
+              <Button variant="outline" className="border-black text-black hover:bg-black hover:text-white mt-auto" asChild>
                 <Link to="/agile-coaching">Learn More</Link>
               </Button>
             </Card>
-            <Card className="p-8 text-center">
+            <Card className="p-8 text-center flex flex-col">
               <h3 className="h4 mb-4">Portfolio Operations</h3>
-              <p className="body-text mb-6">Streamline workflows, initiatives delivery, and implement scalable processes—ensuring teams have the right tools, insights, and frameworks to drive efficiency and growth.</p>
-              <Button variant="outline" className="border-black text-black hover:bg-black hover:text-white" asChild>
+              <p className="body-text mb-6 flex-1">Streamline workflows, initiatives delivery, and implement scalable processes—ensuring teams have the right tools, insights, and frameworks to drive efficiency and growth.</p>
+              <Button variant="outline" className="border-black text-black hover:bg-black hover:text-white mt-auto" asChild>
                 <Link to="/portfolio-operations">Learn More</Link>
               </Button>
             </Card>
