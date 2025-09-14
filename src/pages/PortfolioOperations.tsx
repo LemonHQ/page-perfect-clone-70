@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Link } from "react-router-dom";
+import ContactSection from "@/components/ContactSection";
 import heroTeam from "@/assets/hero-team.jpg";
 import officeWorkspace from "@/assets/office-workspace.jpg";
 import teamCollaboration from "@/assets/team-collaboration.jpg";
@@ -178,6 +179,8 @@ const PortfolioOperations = () => {
           </div>
         </div>
       </section>
+
+      <ContactSection />
     </div>
   );
 };
