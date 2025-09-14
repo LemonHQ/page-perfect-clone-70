@@ -41,19 +41,27 @@ const routesToPrerender = [
 
 ;(async () => {
   for (const url of routesToPrerender) {
-    const appHtml = render(url);
-    const html = template.replace(`<!--app-html-->`, appHtml)
+    try {
+      const appHtml = render(url);
+      const html = template.replace(`<!--app-html-->`, appHtml)
 
-    const filePath = `dist${url === '/' ? '/index' : url}.html`
-    const fullPath = toAbsolute(filePath)
-    
-    // Ensure directory exists
-    const dir = path.dirname(fullPath)
-    if (!fs.existsSync(dir)) {
-      fs.mkdirSync(dir, { recursive: true })
+      // Generate file path that matches the route structure
+      const filePath = url === '/' ? 'dist/index.html' : `dist${url}.html`
+      const fullPath = toAbsolute(filePath)
+      
+      // Ensure all necessary directories exist (including nested ones)
+      const dir = path.dirname(fullPath)
+      if (!fs.existsSync(dir)) {
+        fs.mkdirSync(dir, { recursive: true })
+        console.log('created directory:', dir)
+      }
+      
+      // Write the HTML file
+      fs.writeFileSync(fullPath, html)
+      console.log('pre-rendered:', filePath)
+    } catch (error) {
+      console.error(`Failed to prerender ${url}:`, error)
     }
-    
-    fs.writeFileSync(fullPath, html)
-    console.log('pre-rendered:', filePath)
   }
+  console.log(`Successfully pre-rendered ${routesToPrerender.length} routes`)
 })()
