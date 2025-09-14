@@ -33,6 +33,7 @@ import PortfolioManagement from "./pages/articles/PortfolioManagement";
 import AgileCoachingROI from "./pages/articles/AgileCoachingROI";
 import DevOpsIntegration from "./pages/articles/DevOpsIntegration";
 import NotFound from "./pages/NotFound";
+import Forbidden from "./pages/Forbidden";
 
 const queryClient = new QueryClient();
 
@@ -72,6 +73,7 @@ const App = () => (
             <Route path="/insights/portfolio-management-rapid-change" element={<PortfolioManagement />} />
             <Route path="/insights/agile-coaching-roi" element={<AgileCoachingROI />} />
             <Route path="/insights/devops-integration-strategies" element={<DevOpsIntegration />} />
+            <Route path="/403" element={<Forbidden />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
