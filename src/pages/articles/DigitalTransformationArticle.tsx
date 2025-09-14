@@ -8,72 +8,86 @@ import ContactSection from "@/components/ContactSection";
 const DigitalTransformationArticle = () => {
   return (
     <div className="min-h-screen">
-      {/* Article Header */}
-      <section className="py-12 border-b bg-muted/20">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <Link to="/insights" className="inline-flex items-center text-sm text-muted-foreground hover:text-foreground mb-6">
-            <ArrowLeft className="w-4 h-4 mr-2" />
-            Back to Insights
-          </Link>
-          
-          <div className="flex items-center gap-4 mb-6">
-            <Badge variant="outline">Digital Transformation</Badge>
-            <div className="flex items-center gap-4 text-sm text-muted-foreground">
-              <div className="flex items-center gap-1">
-                <Calendar className="w-4 h-4" />
-                March 10, 2024
+      {/* Hero Section with Split Layout */}
+      <section className="relative">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 min-h-[60vh]">
+            {/* Left Side - Content */}
+            <div className="flex flex-col justify-center px-4 sm:px-6 lg:px-8 py-16 lg:py-24">
+              <Link to="/insights" className="inline-flex items-center text-sm text-muted-foreground hover:text-foreground mb-6">
+                <ArrowLeft className="w-4 h-4 mr-2" />
+                Back to Insights
+              </Link>
+              
+              <div className="mb-6">
+                <Badge variant="secondary" className="mb-4 text-xs font-medium">INSIGHTS</Badge>
               </div>
-              <div className="flex items-center gap-1">
-                <Clock className="w-4 h-4" />
-                6 min read
-              </div>
-            </div>
-          </div>
-          
-          <h1 className="mb-6">5 Signs Your Digital Transformation Initiative Needs Course Correction</h1>
-          
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-3">
-              <div className="w-10 h-10 bg-muted rounded-full flex items-center justify-center">
-                <User className="w-5 h-5" />
-              </div>
-              <div>
-                <p className="font-medium">Michael Rodriguez</p>
-                <p className="text-sm text-muted-foreground">Digital Transformation Director</p>
+              
+              <h1 className="text-4xl lg:text-5xl font-bold mb-6 leading-tight">
+                5 Signs Your Digital Transformation Initiative Needs Course Correction
+              </h1>
+              
+              <div className="flex items-center gap-6 text-sm text-muted-foreground mb-8">
+                <div className="flex items-center gap-1">
+                  <Clock className="w-4 h-4" />
+                  6 min read
+                </div>
+                <div className="flex items-center gap-1">
+                  <Calendar className="w-4 h-4" />
+                  March 10, 2024
+                </div>
               </div>
             </div>
             
-            <Button variant="outline" size="sm">
-              <Share2 className="w-4 h-4 mr-2" />
-              Share
-            </Button>
+            {/* Right Side - Hero Image with Geometric Overlay */}
+            <div className="relative">
+              <img 
+                src={digitalTransformationImage} 
+                alt="Digital transformation initiative planning" 
+                className="w-full h-full object-cover"
+              />
+              {/* Geometric Overlay Elements */}
+              <div className="absolute bottom-0 left-0 w-24 h-24 bg-gradient-to-r from-red-500 to-pink-500 opacity-90"></div>
+              <div className="absolute bottom-0 left-16 w-16 h-16 bg-gradient-to-r from-purple-500 to-indigo-500 opacity-90"></div>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Featured Image */}
-      <section className="py-0">
-        <div className="max-w-6xl mx-auto">
-          <img 
-            src={digitalTransformationImage} 
-            alt="Digital transformation initiative planning" 
-            className="w-full h-96 object-cover"
-          />
+      {/* Author Section */}
+      <section className="py-12 border-b bg-background">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center gap-6">
+            <div className="w-16 h-16 bg-muted rounded-full flex items-center justify-center overflow-hidden">
+              <User className="w-8 h-8" />
+            </div>
+            <div>
+              <h3 className="text-xl font-semibold">Michael Rodriguez</h3>
+              <p className="text-muted-foreground">Digital Transformation Director</p>
+            </div>
+            <div className="ml-auto">
+              <Button variant="outline" size="sm">
+                <Share2 className="w-4 h-4 mr-2" />
+                Share
+              </Button>
+            </div>
+          </div>
         </div>
       </section>
 
       {/* Article Content */}
-      <article className="py-16">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 prose prose-lg max-w-none">
-          <p className="lead text-xl mb-8">
-            Digital transformation initiatives represent some of the largest investments organizations make, often consuming millions of dollars and spanning multiple years. Yet despite their strategic importance, many of these initiatives struggle to deliver the promised value. Recognizing warning signs early can mean the difference between course correction and complete failure.
-          </p>
+      <article className="py-16 bg-background">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="prose prose-lg max-w-none">
+            <p className="text-xl leading-relaxed mb-8 text-muted-foreground">
+              Digital transformation initiatives represent some of the largest investments organizations make, often consuming millions of dollars and spanning multiple years. Yet despite their strategic importance, many of these initiatives struggle to deliver the promised value. Recognizing warning signs early can mean the difference between course correction and complete failure.
+            </p>
 
-          <p>
-            After leading and observing dozens of digital transformation initiatives across various industries, I've identified five critical warning signs that indicate a transformation program needs immediate attention. More importantly, I'll share actionable strategies for addressing each of these challenges before they derail your entire initiative.
-          </p>
+            <p className="mb-8">
+              After leading and observing dozens of digital transformation initiatives across various industries, I've identified five critical warning signs that indicate a transformation program needs immediate attention. More importantly, I'll share actionable strategies for addressing each of these challenges before they derail your entire initiative.
+            </p>
 
-          <h2>1. Technology Leading Strategy Instead of Following It</h2>
+            <h2>1. Technology Leading Strategy Instead of Following It</h2>
           <p>
             One of the most common mistakes in digital transformation is allowing technology decisions to drive business strategy rather than the other way around. This typically manifests when organizations become enamored with specific technologies—cloud platforms, artificial intelligence, or automation tools—without clearly articulating how these technologies will create value for customers or competitive advantage.
           </p>
@@ -242,21 +256,22 @@ const DigitalTransformationArticle = () => {
             Remember that course correction isn't a sign of failure—it's a sign of good management. The business environment is constantly changing, and your transformation approach should evolve accordingly. Stay focused on business outcomes, maintain open communication with all stakeholders, and be prepared to adapt your approach based on what you learn along the way.
           </p>
 
-          <p>
-            The most successful digital transformations are those that embrace learning and adjustment as core capabilities. By building these capabilities into your transformation approach from the beginning, you'll be better positioned to navigate the inevitable challenges and ultimately achieve your transformation goals.
-          </p>
+            <p>
+              The most successful digital transformations are those that embrace learning and adjustment as core capabilities. By building these capabilities into your transformation approach from the beginning, you'll be better positioned to navigate the inevitable challenges and ultimately achieve your transformation goals.
+            </p>
 
-          <div className="mt-12 p-6 bg-muted/30 rounded-lg">
-            <h3>About the Author</h3>
-            <div className="flex items-center gap-4 mt-4">
-              <div className="w-16 h-16 bg-muted rounded-full flex items-center justify-center">
-                <User className="w-8 h-8" />
-              </div>
-              <div>
-                <p className="font-semibold">Michael Rodriguez</p>
-                <p className="text-sm text-muted-foreground">
-                  Michael is a Digital Transformation Director with 12+ years of experience leading large-scale technology initiatives across retail, manufacturing, and financial services. He specializes in organizational change management and has a track record of delivering measurable business outcomes through strategic technology adoption.
-                </p>
+            <div className="mt-12 p-8 bg-muted/30 rounded-lg">
+              <h3>About the Author</h3>
+              <div className="flex items-center gap-4 mt-4">
+                <div className="w-16 h-16 bg-muted rounded-full flex items-center justify-center">
+                  <User className="w-8 h-8" />
+                </div>
+                <div>
+                  <p className="font-semibold">Michael Rodriguez</p>
+                  <p className="text-sm text-muted-foreground">
+                    Michael is a Digital Transformation Director with 12+ years of experience leading large-scale technology initiatives across retail, manufacturing, and financial services. He specializes in organizational change management and has a track record of delivering measurable business outcomes through strategic technology adoption.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
