@@ -1,0 +1,230 @@
+# Query: <h2 
+# ContextLines: 1
+
+53 results - 14 files
+
+src/pages/About.tsx:
+  373                </div>
+  374:               <h2 className="text-4xl lg:text-5xl font-bold mb-8">
+  375                  Set up a world-class tech team in Bangalore
+
+  481            <div className="text-center mb-16">
+  482:             <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-8">
+  483                Our locations
+
+  520          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+  521:           <h2 className="text-4xl lg:text-5xl font-bold mb-8 leading-tight">
+  522              Ready to scale your team?
+
+src/pages/Blog.tsx:
+  166                    </div>
+  167:                   <h2 className="h3 mb-4">
+  168                      {featuredPost.title}
+
+  202            <div className="text-center mb-12">
+  203:             <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-4">
+  204                Latest Articles
+
+  273          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+  274:           <h2 className="text-3xl lg:text-4xl font-bold mb-6">
+  275              Stay in the loop
+
+  299                </div>
+  300:               <h2 className="text-4xl lg:text-5xl font-bold mb-8">
+  301                  Set up a world-class tech team in Bangalore
+
+src/pages/CaseStudies.tsx:
+  145                  </div>
+  146:                 <h2 className="text-3xl font-bold text-foreground mb-4">
+  147                    {caseStudies[0].title}
+
+  174            <div className="text-center mb-12">
+  175:             <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-4">
+  176                All Case Studies
+
+  240                </div>
+  241:               <h2 className="text-4xl lg:text-5xl font-bold mb-8">
+  242                  Set up a world-class tech team in Bangalore
+
+src/pages/Contact.tsx:
+   32                <div className="relative z-10">
+   33:                 <h2 className="h2 mb-8">
+   34                    Let's talk about your new team.
+
+  166          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+  167:           <h2 className="h2 mb-12">
+  168              Follow us to stay up to date
+
+  210            <div className="text-center mb-16">
+  211:             <h2 className="h2 mb-8 tracking-wider">
+  212                OUR LOCATIONS
+
+src/pages/FAQ.tsx:
+  121          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+  122:           <h2 className="text-3xl lg:text-4xl font-bold mb-6">
+  123              Set up a world-class tech team in Bangalore
+
+src/pages/FinancialSoftware.tsx:
+   30            <div className="text-center mb-12">
+   31:             <h2 className="h2 mb-4">
+   32                Custom-built FinTech engineering teams
+
+  157            <div className="text-center mb-12">
+  158:             <h2 className="text-3xl lg:text-4xl font-bold text-turquoise-foreground mb-4">
+  159                Your dedicated offshore team can help you with
+
+src/pages/Index.tsx:
+  116                </div>
+  117:               <h2 className="h2 mb-8">
+  118                  Scale your tech team easily
+
+  369            <div className="mb-12">
+  370:             <h2 className="h2 mb-8">
+  371                We'll help you —
+
+  430              </div>
+  431:             <h2 className="h2 mb-8">
+  432                We build the best teams
+
+  580                </div>
+  581:               <h2 className="h2 mb-8">
+  582                  Set up a world-class tech team in Bangalore
+
+src/pages/Leadership.tsx:
+  124            <div className="text-center mb-12">
+  125:             <h2 className="h2 mb-4">
+  126                The people that propel us forward
+
+  267                </div>
+  268:               <h2 className="text-4xl lg:text-5xl font-bold mb-8">
+  269                  Set up a world-class tech team in Bangalore
+
+  375            <div className="text-center mb-16">
+  376:             <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-8">
+  377                Our locations
+
+  414          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+  415:           <h2 className="text-3xl lg:text-4xl font-bold mb-6">
+  416              Ready to meet the team?
+
+src/pages/MarTech.tsx:
+   72              </div>
+   73:             <h2 className="h2 mb-8">
+   74                Custom-built MarTech engineering teams
+
+  184                </div>
+  185:               <h2 className="text-4xl lg:text-6xl font-bold text-foreground mb-8 leading-tight">
+  186                  Bangalore: MarTech talent hub
+
+  255              </div>
+  256:             <h2 className="text-4xl lg:text-6xl font-bold text-foreground mb-8 leading-tight">
+  257                The smarter way to scale
+
+  300              </div>
+  301:             <h2 className="text-4xl lg:text-6xl font-bold text-turquoise-foreground mb-8 leading-tight">
+  302                Your dedicated offshore team can help you with
+
+  396              </div>
+  397:             <h2 className="text-4xl lg:text-6xl font-bold text-foreground mb-8 leading-tight">
+  398                We build the best MarTech teams
+
+  433                </div>
+  434:               <h2 className="text-4xl lg:text-6xl font-bold text-foreground mb-12 leading-tight">
+  435                  Your trusted partner for MarTech talent
+
+  508                </div>
+  509:               <h2 className="text-4xl lg:text-5xl font-bold mb-8">
+  510                  Set up a world-class MarTech team in Bangalore
+
+  593            <div className="text-center mb-16">
+  594:             <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-8">
+  595                Our locations
+
+src/pages/News.tsx:
+   82            <div className="text-center mb-12">
+   83:             <h2 className="h3 mb-4">
+   84                FEATURED STORIES
+
+  152            <div className="mb-12">
+  153:             <h2 className="text-3xl lg:text-4xl font-bold text-turquoise-foreground mb-4">
+  154                MEDIA KIT
+
+  185          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+  186:           <h2 className="text-3xl lg:text-4xl font-bold mb-6">
+  187              Set up a world-class tech team in Bangalore
+
+src/pages/OffshoreCenter.tsx:
+   94            <div className="text-center mb-12">
+   95:             <h2 className="h2 mb-4">
+   96                You're in good company
+
+  129              <div>
+  130:               <h2 className="text-3xl lg:text-4xl font-bold text-turquoise-foreground mb-6">
+  131                  A quiet place in a buzzing city
+
+  148            <div className="text-center mb-12">
+  149:             <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-4">
+  150                Powering your development operations
+
+  192              <div>
+  193:               <h2 className="text-3xl lg:text-4xl font-bold text-turquoise-foreground mb-6">
+  194                  Bring new ideas to life in an offshore R&D centre
+
+src/pages/OurModel.tsx:
+  162                </div>
+  163:               <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-8">
+  164                  The real results
+
+  334              <div>
+  335:               <h2 className="text-4xl lg:text-5xl font-bold text-yellow-foreground mb-8 leading-tight">
+  336                  Your developers work only for your business and add long-term value to your organisation
+
+  366                </div>
+  367:               <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-12">
+  368                  Think beyond traditional offshoring
+
+  477                </div>
+  478:               <h2 className="text-4xl lg:text-5xl font-bold mb-8">
+  479                  Set up a world-class tech team in Bangalore
+
+src/pages/RetailEcommerce.tsx:
+   30            <div className="text-center mb-12">
+   31:             <h2 className="h2 mb-4">
+   32                Custom-built Retail engineering teams
+
+  157            <div className="text-center mb-12">
+  158:             <h2 className="text-3xl lg:text-4xl font-bold text-turquoise-foreground mb-4">
+  159                Your dedicated offshore team can help you with
+
+src/pages/TeamExtension.tsx:
+   83              <div>
+   84:               <h2 className="h2 mb-8">
+   85                  The best talent for your extended team, on tap
+
+  117                </div>
+  118:               <h2 className="text-4xl lg:text-6xl font-bold text-foreground mb-8 leading-tight">
+  119                  World-class engineers in Bangalore
+
+  174                </div>
+  175:               <h2 className="text-4xl lg:text-6xl font-bold text-foreground mb-8 leading-tight">
+  176                  Code in a cohesive culture
+
+  190              <div>
+  191:               <h2 className="text-4xl lg:text-6xl font-bold text-foreground mb-8 leading-tight">
+  192                  To support your objectives, <span className="text-turquoise">we help you to...</span>
+
+  227              </div>
+  228:             <h2 className="text-4xl lg:text-6xl font-bold text-turquoise-foreground mb-8 leading-tight">
+  229                Work together in holistic alignment
+
+  386              </div>
+  387:             <h2 className="text-4xl lg:text-6xl font-bold text-foreground mb-8 leading-tight">
+  388                Augmentation done awesomely
+
+  466              </div>
+  467:             <h2 className="text-4xl lg:text-6xl font-bold text-foreground mb-8 leading-tight">
+  468                Seamless and secure team extension
+
+  534                </div>
+  535:               <h2 className="text-4xl lg:text-5xl font-bold mb-8">
+  536                  Extend your development team in Bangalore
