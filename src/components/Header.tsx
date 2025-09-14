@@ -30,6 +30,7 @@ const Header = () => {
             <img 
               src={H2Logo} 
               alt="H2 Think next" 
+              className="h-12 w-auto"
             />
           </Link>
 
