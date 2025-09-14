@@ -22,6 +22,7 @@ import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
 import PortfolioDevelopment from "./pages/PortfolioDevelopment";
 import PortfolioOperations from "./pages/PortfolioOperations";
+import AgileCoaching from "./pages/AgileCoaching";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -52,6 +53,7 @@ const App = () => (
             <Route path="/faq" element={<FAQ />} />
             <Route path="/portfolio-development" element={<PortfolioDevelopment />} />
             <Route path="/portfolio-operations" element={<PortfolioOperations />} />
+            <Route path="/agile-coaching" element={<AgileCoaching />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
