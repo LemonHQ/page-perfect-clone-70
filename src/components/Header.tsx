@@ -65,13 +65,13 @@ const Header = () => {
           </nav>
 
           {/* CTA Button */}
-          <Button 
+          {/* <Button 
             variant="default"
             className="bg-panel-medium text-background hover:bg-panel-medium/90 font-medium"
             asChild
           >
             <Link to="/contact">CONTACT US</Link>
-          </Button>
+          </Button> */}
         </div>
       </div>
     </header>
