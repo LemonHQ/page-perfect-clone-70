@@ -1,10 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Link } from "react-router-dom";
-
 const OurApproach = () => {
-  return (
-    <div className="min-h-screen bg-background">
+  return <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="pt-32 pb-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
@@ -216,18 +214,9 @@ const OurApproach = () => {
             to thrive in the digital age.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-6 justify-center">
-            <Button size="lg" className="px-8 py-4 text-base" asChild>
-              <Link to="/contact">GET STARTED</Link>
-            </Button>
-            <Button variant="outline" size="lg" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground px-8 py-4 text-base" asChild>
-              <Link to="/case-studies">VIEW SUCCESS STORIES</Link>
-            </Button>
-          </div>
+          
         </div>
       </section>
-    </div>
-  );
+    </div>;
 };
-
 export default OurApproach;
