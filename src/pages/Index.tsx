@@ -130,7 +130,7 @@ const Index = () => {
       </section>
 
       {/* Statistics */}
-      <section className="py-24">
+      {/* <section className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
             <div>
@@ -150,7 +150,7 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* How We Work */}
       {/* <section className="py-16">
@@ -421,7 +421,7 @@ const Index = () => {
       </section> */}
 
       {/* Case Studies */}
-      <section className="py-16">
+      {/* <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <div className="h6 font-semibold tracking-wide mb-4">
@@ -457,7 +457,7 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Testimonial */}
       {/* <section className="py-16 text-black">
