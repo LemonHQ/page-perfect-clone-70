@@ -38,68 +38,7 @@ We help firms beat the odds, accelerate initiatives delivery across their produc
       </section>
 
       {/* Company Logos */}
-      <section className="py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h6 className="h6 tracking-wide uppercase mb-12">
-              TRUSTED BY
-            </h6>
-          </div>
-          <div className="overflow-hidden">
-            <div className="flex items-center gap-16 animate-scroll whitespace-nowrap">
-              <div className="button-text hover:text-black transition-colors">
-                MICROSOFT
-              </div>
-              <div className="button-text hover:text-black transition-colors">
-                FLIPKART
-              </div>
-              <div className="button-text hover:text-black transition-colors">
-                OPTUM
-              </div>
-              <div className="button-text hover:text-black transition-colors">
-                SWIGGY
-              </div>
-              <div className="button-text hover:text-black transition-colors">
-                NASSCOM
-              </div>
-              <div className="button-text hover:text-black transition-colors">
-                PREQIN
-              </div>
-              <div className="button-text hover:text-black transition-colors">
-                NEXTPOINT
-              </div>
-              <div className="button-text hover:text-black transition-colors">
-                YKONE
-              </div>
-              {/* Duplicate for seamless loop */}
-              <div className="button-text hover:text-black transition-colors">
-                MICROSOFT
-              </div>
-              <div className="button-text hover:text-black transition-colors">
-                FLIPKART
-              </div>
-              <div className="button-text hover:text-black transition-colors">
-                OPTUM
-              </div>
-              <div className="button-text hover:text-black transition-colors">
-                SWIGGY
-              </div>
-              <div className="button-text hover:text-black transition-colors">
-                NASSCOM
-              </div>
-              <div className="button-text hover:text-black transition-colors">
-                PREQIN
-              </div>
-              <div className="button-text hover:text-black transition-colors">
-                NEXTPOINT
-              </div>
-              <div className="button-text hover:text-black transition-colors">
-                YKONE
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      
 
       {/* Our Offerings Section */}
       <section className="py-24">
@@ -110,8 +49,8 @@ We help firms beat the odds, accelerate initiatives delivery across their produc
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <Card className="p-8 text-center">
-              <h3 className="h4 mb-4">Portfolio Acceleration</h3>
-              <p className="body-text">Accelerate your portfolio delivery with proven methodologies and expert guidance.</p>
+              <h3 className="h4 mb-4">Portfolio Development</h3>
+              <p className="body-text">Successfully develop and execute your change or transformation roadmap and delivery plan with Agile practices</p>
             </Card>
             <Card className="p-8 text-center">
               <h3 className="h4 mb-4">Product Recovery</h3>
@@ -119,11 +58,11 @@ We help firms beat the odds, accelerate initiatives delivery across their produc
             </Card>
             <Card className="p-8 text-center">
               <h3 className="h4 mb-4">Agile Coaching</h3>
-              <p className="body-text">Build sustainable agile practices and high-performing teams that deliver continuous value.</p>
+              <p className="body-text">Build sustainable agile practices and high-performing teams that continue to deliver sustainable value.</p>
             </Card>
             <Card className="p-8 text-center">
               <h3 className="h4 mb-4">Portfolio Operations</h3>
-              <p className="body-text">Optimize and streamline your portfolio operations for maximum efficiency and effectiveness.</p>
+              <p className="body-text">Streamline workflows, initiatives delivery, and implement scalable processes—ensuring teams have the right tools, insights, and frameworks to drive efficiency and growth.</p>
             </Card>
           </div>
         </div>
