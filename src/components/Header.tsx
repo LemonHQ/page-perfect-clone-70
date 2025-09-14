@@ -17,6 +17,7 @@ const Header = () => {
         { name: "Agile Coaching", href: "/agile-coaching" }
       ]
     },
+    { name: "Our Approach", href: "/our-approach" },
     { name: "About Us", href: "/about" },
     { name: "Contact Us", href: "/contact" },
   ];
