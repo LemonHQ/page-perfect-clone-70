@@ -8,7 +8,7 @@ const toAbsolute = (p) => path.resolve(__dirname, p)
 const template = fs.readFileSync(toAbsolute('dist/index.html'), 'utf-8')
 const { render } = await import('./dist/server/entry-server.js')
 
-// Routes defined in App.tsx
+// Routes extracted from App.tsx - keep in sync with routing configuration
 const routesToPrerender = [
   '/',
   '/about',
