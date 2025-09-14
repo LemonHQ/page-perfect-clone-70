@@ -22,7 +22,7 @@ const PortfolioOperations = () => {
                   <Link to="/contact">GET STARTED</Link>
                 </Button>
                 <Button variant="outline" size="lg" className="border-black text-black hover:bg-black hover:text-white px-8 py-4 text-base" asChild>
-                  <Link to="/our-model">OUR APPROACH</Link>
+                  <Link to="/our-approach">OUR APPROACH</Link>
                 </Button>
               </div>
             </div>

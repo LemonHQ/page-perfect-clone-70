@@ -28,7 +28,8 @@ const routesToPrerender = [
   '/portfolio-development',
   '/portfolio-operations',
   '/agile-coaching',
-  '/product-recovery'
+  '/product-recovery',
+  '/our-approach'
 ]
 
 ;(async () => {

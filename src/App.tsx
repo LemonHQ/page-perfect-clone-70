@@ -24,6 +24,7 @@ import PortfolioDevelopment from "./pages/PortfolioDevelopment";
 import PortfolioOperations from "./pages/PortfolioOperations";
 import AgileCoaching from "./pages/AgileCoaching";
 import ProductRecovery from "./pages/ProductRecovery";
+import OurApproach from "./pages/OurApproach";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -56,6 +57,7 @@ const App = () => (
             <Route path="/portfolio-operations" element={<PortfolioOperations />} />
             <Route path="/agile-coaching" element={<AgileCoaching />} />
             <Route path="/product-recovery" element={<ProductRecovery />} />
+            <Route path="/our-approach" element={<OurApproach />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
