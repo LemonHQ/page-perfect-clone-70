@@ -1,11 +1,54 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Link } from "react-router-dom";
-import { Calendar, Clock, ArrowLeft, User, Share2 } from "lucide-react";
+import { Calendar, Clock, ArrowLeft, User, Share2, Twitter, Linkedin, Facebook, Mail, Copy, Check } from "lucide-react";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+import { useState } from "react";
+import { useToast } from "@/hooks/use-toast";
 import digitalTransformationImage from "@/assets/articles/digital-transformation.jpg";
 import ContactSection from "@/components/ContactSection";
 
 const DigitalTransformationArticle = () => {
+  const { toast } = useToast();
+  const [copied, setCopied] = useState(false);
+  
+  const articleUrl = window.location.href;
+  const articleTitle = "5 Signs Your Digital Transformation Initiative Needs Course Correction";
+  const articleDescription = "Learn to identify early warning signals that indicate your transformation program may be heading off track and how to address them proactively.";
+  
+  const shareUrls = {
+    twitter: `https://twitter.com/intent/tweet?text=${encodeURIComponent(articleTitle)}&url=${encodeURIComponent(articleUrl)}`,
+    linkedin: `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(articleUrl)}`,
+    facebook: `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(articleUrl)}`,
+    email: `mailto:?subject=${encodeURIComponent(articleTitle)}&body=${encodeURIComponent(articleDescription + '\n\n' + articleUrl)}`
+  };
+  
+  const handleCopyLink = async () => {
+    try {
+      await navigator.clipboard.writeText(articleUrl);
+      setCopied(true);
+      toast({
+        title: "Link copied!",
+        description: "Article link has been copied to your clipboard.",
+      });
+      setTimeout(() => setCopied(false), 2000);
+    } catch (err) {
+      toast({
+        title: "Failed to copy",
+        description: "Please copy the link manually from your browser.",
+        variant: "destructive",
+      });
+    }
+  };
+  
+  const handleSocialShare = (platform: string) => {
+    window.open(shareUrls[platform as keyof typeof shareUrls], '_blank', 'noopener,noreferrer');
+  };
   return (
     <div className="min-h-screen">
       {/* Hero Section with Split Layout */}
@@ -66,10 +109,36 @@ const DigitalTransformationArticle = () => {
               <p className="text-muted-foreground">Digital Transformation Director</p>
             </div>
             <div className="ml-auto">
-              <Button variant="outline" size="sm">
-                <Share2 className="w-4 h-4 mr-2" />
-                Share
-              </Button>
+              <DropdownMenu>
+                <DropdownMenuTrigger asChild>
+                  <Button variant="outline" size="sm">
+                    <Share2 className="w-4 h-4 mr-2" />
+                    Share
+                  </Button>
+                </DropdownMenuTrigger>
+                <DropdownMenuContent align="end" className="w-48">
+                  <DropdownMenuItem onClick={() => handleSocialShare('twitter')} className="cursor-pointer">
+                    <Twitter className="w-4 h-4 mr-2" />
+                    Share on Twitter
+                  </DropdownMenuItem>
+                  <DropdownMenuItem onClick={() => handleSocialShare('linkedin')} className="cursor-pointer">
+                    <Linkedin className="w-4 h-4 mr-2" />
+                    Share on LinkedIn
+                  </DropdownMenuItem>
+                  <DropdownMenuItem onClick={() => handleSocialShare('facebook')} className="cursor-pointer">
+                    <Facebook className="w-4 h-4 mr-2" />
+                    Share on Facebook
+                  </DropdownMenuItem>
+                  <DropdownMenuItem onClick={() => handleSocialShare('email')} className="cursor-pointer">
+                    <Mail className="w-4 h-4 mr-2" />
+                    Share via Email
+                  </DropdownMenuItem>
+                  <DropdownMenuItem onClick={handleCopyLink} className="cursor-pointer">
+                    {copied ? <Check className="w-4 h-4 mr-2" /> : <Copy className="w-4 h-4 mr-2" />}
+                    {copied ? 'Link Copied!' : 'Copy Link'}
+                  </DropdownMenuItem>
+                </DropdownMenuContent>
+              </DropdownMenu>
             </div>
           </div>
         </div>
