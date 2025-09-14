@@ -111,10 +111,10 @@ const ContactSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <div className="h6 font-semibold tracking-wide mb-4">
-              FROM 5 TO 100+ ENGINEERS
+              FROM Siloed teams to co-ordinated impact
             </div>
             <h2 className="h2 mb-8">
-              Set up a world-class tech team in Bangalore
+             Agile for change and transformation programs
             </h2>
             
             <div className="space-y-6 mb-8">
