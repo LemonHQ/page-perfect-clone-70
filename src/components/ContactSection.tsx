@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Checkbox } from "@/components/ui/checkbox";
-import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
+import { Mail, Calendar } from "lucide-react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
@@ -31,7 +31,6 @@ type ContactFormData = z.infer<typeof contactSchema>;
 const ContactSection = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
-  const [isCalendarOpen, setIsCalendarOpen] = useState(false);
   const { toast } = useToast();
 
   const {
@@ -157,7 +156,7 @@ const ContactSection = () => {
               <div className="space-y-4">
                 <div className="flex items-center space-x-3">
                   <div className="w-10 h-10 bg-black rounded-full flex items-center justify-center">
-                    <span className="text-white text-sm">✉</span>
+                    <Mail className="text-white" size={20} />
                   </div>
                   <div>
                     <p className="body-text font-medium">Email us</p>
@@ -172,29 +171,18 @@ const ContactSection = () => {
                 
                 <div className="flex items-center space-x-3">
                   <div className="w-10 h-10 bg-black rounded-full flex items-center justify-center">
-                    <span className="text-white text-sm">📅</span>
+                    <Calendar className="text-white" size={20} />
                   </div>
                   <div>
                     <p className="body-text font-medium">Schedule a call</p>
-                    <Dialog open={isCalendarOpen} onOpenChange={setIsCalendarOpen}>
-                      <DialogTrigger asChild>
-                        <button className="text-blue-600 hover:text-blue-800 transition-colors text-left">
-                          Schedule a one to one connect
-                        </button>
-                      </DialogTrigger>
-                      <DialogContent className="max-w-4xl h-[80vh]">
-                        <DialogHeader>
-                          <DialogTitle>Schedule Your Meeting</DialogTitle>
-                        </DialogHeader>
-                        <div className="flex-1 overflow-hidden">
-                          <iframe
-                            src="https://calendar.app.google/sbU4h96w4Ub6PiYQ7"
-                            className="w-full h-full border-0 rounded-lg"
-                            title="Schedule Meeting"
-                          />
-                        </div>
-                      </DialogContent>
-                    </Dialog>
+                    <a 
+                      href="https://calendar.app.google/sbU4h96w4Ub6PiYQ7"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-600 hover:text-blue-800 transition-colors"
+                    >
+                      Schedule a one to one connect
+                    </a>
                   </div>
                 </div>
               </div>
