@@ -155,6 +155,39 @@ export type Database = {
         }
         Relationships: []
       }
+      h2contact_submissions: {
+        Row: {
+          company: string
+          created_at: string
+          email: string
+          id: string
+          marketing_consent: boolean | null
+          message: string
+          name: string
+          phone: string | null
+        }
+        Insert: {
+          company: string
+          created_at?: string
+          email: string
+          id?: string
+          marketing_consent?: boolean | null
+          message: string
+          name: string
+          phone?: string | null
+        }
+        Update: {
+          company?: string
+          created_at?: string
+          email?: string
+          id?: string
+          marketing_consent?: boolean | null
+          message?: string
+          name?: string
+          phone?: string | null
+        }
+        Relationships: []
+      }
       lead_qualifications: {
         Row: {
           brands: string
