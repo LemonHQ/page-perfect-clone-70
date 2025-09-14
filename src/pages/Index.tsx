@@ -20,7 +20,7 @@ const Index = () => {
                 <br /><br />We help firms beat the odds, accelerate initiatives delivery across their product and market portfolios, recover struggling projects, and build teams that deliver sustainable value, so your success continues long after we're gone.</p>
               <div className="flex flex-col sm:flex-row gap-6">
                 <Button size="lg" className="bg-black text-white hover:bg-gray-800 font-medium px-8 py-4 text-base" asChild>
-                  <Link to="/our-model">OUR APPROACH</Link>
+                  <Link to="/our-approach">OUR APPROACH</Link>
                 </Button>
                 <Button variant="outline" size="lg" className="border-black text-black hover:bg-black hover:text-white px-8 py-4 text-base" asChild>
                   <Link to="/contact">LET'S TALK</Link>
