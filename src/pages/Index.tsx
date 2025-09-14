@@ -15,13 +15,10 @@ const Index = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
               <h1 className="h1 mb-8">Proven Agile Acceleration and Delivery</h1>
-              <p className="body-text text-lg mb-12">For CTOS, CDOS, Product portfolio owners & PMOS under pressure to perform. 
+              <p className="body-text text-lg mb-12">For CTOS, CDOS, Product portfolio owners & PMOS under pressure to perform and deliver a portfolio of initiatives.
 
 
- CGI helps clients adopt agile operating models to drive digital transformation. We manage agile transformation projects and offer coaching and training on agile practices, empowering clients to enhance their competitiveness.
-
-
-            </p>
+We help firms beat the odds, accelerate initiatives delivery across their product and market portfolios, recover struggling initiatives, and build teams that deliver sustainable value, so your success continues long after we’re gone.</p>
               <div className="flex flex-col sm:flex-row gap-6">
                 <Button size="lg" className="bg-black text-white hover:bg-gray-800 font-medium px-8 py-4 text-base" asChild>
                   <Link to="/our-model">OUR MODEL</Link>
