@@ -15,7 +15,7 @@ const Index = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
               <h1 className="h1 mb-8">Proven Agile Acceleration and Delivery</h1>
-              <p className="body-text text-lg mb-12">For CTOS, CDOS, Product portfolio owners & PMOS under pressure to perform and deliver a portfolio of initiatives.
+              <p className="body-text text-lg mb-12">For CTOS, CDOS, Product portfolio owners & PMOS under pressure to perform and deliver a portfolio of initiatives. 
 
 
 We help firms beat the odds, accelerate initiatives delivery across their product and market portfolios, recover struggling initiatives, and build teams that deliver sustainable value, so your success continues long after we’re gone.</p>
