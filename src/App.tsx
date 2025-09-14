@@ -7,19 +7,7 @@ import { HelmetProvider } from "react-helmet-async";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Index from "./pages/Index";
-import OurModel from "./pages/OurModel";
-import DedicatedTeam from "./pages/DedicatedTeam";
-import TeamExtension from "./pages/TeamExtension";
-import OffshoreCenter from "./pages/OffshoreCenter";
 import About from "./pages/About";
-import Leadership from "./pages/Leadership";
-import MarTech from "./pages/MarTech";
-import FinancialSoftware from "./pages/FinancialSoftware";
-import RetailEcommerce from "./pages/RetailEcommerce";
-import News from "./pages/News";
-import FAQ from "./pages/FAQ";
-import CaseStudies from "./pages/CaseStudies";
-import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
 import PortfolioDevelopment from "./pages/PortfolioDevelopment";
 import PortfolioOperations from "./pages/PortfolioOperations";
@@ -48,20 +36,8 @@ const App = () => (
           <main className="flex-1">
           <Routes>
             <Route path="/" element={<Index />} />
-            <Route path="/our-model" element={<OurModel />} />
-            <Route path="/dedicated-team" element={<DedicatedTeam />} />
-            <Route path="/team-extension" element={<TeamExtension />} />
-            <Route path="/offshore-centre" element={<OffshoreCenter />} />
             <Route path="/about" element={<About />} />
-            <Route path="/leadership" element={<Leadership />} />
-            <Route path="/martech" element={<MarTech />} />
-            <Route path="/financial-software" element={<FinancialSoftware />} />
-            <Route path="/retail-ecommerce" element={<RetailEcommerce />} />
-            <Route path="/case-studies" element={<CaseStudies />} />
-            <Route path="/blog" element={<Blog />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/news" element={<News />} />
-            <Route path="/faq" element={<FAQ />} />
             <Route path="/portfolio-development" element={<PortfolioDevelopment />} />
             <Route path="/portfolio-operations" element={<PortfolioOperations />} />
             <Route path="/agile-coaching" element={<AgileCoaching />} />
