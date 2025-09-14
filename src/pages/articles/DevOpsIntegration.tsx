@@ -64,13 +64,13 @@ const DevOpsIntegration = () => {
       <section className="py-12 border-b bg-background">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-6">
-            <div className="w-16 h-16 bg-muted rounded-full flex items-center justify-center overflow-hidden">
+            {/* <div className="w-16 h-16 bg-muted rounded-full flex items-center justify-center overflow-hidden">
               <User className="w-8 h-8" />
             </div>
             <div>
               <h3 className="text-xl font-semibold">James Wilson</h3>
               <p className="text-muted-foreground">Enterprise DevOps Integration Architect</p>
-            </div>
+            </div> */}
             <div className="ml-auto">
               <DropdownMenu>
                 <DropdownMenuTrigger asChild>
