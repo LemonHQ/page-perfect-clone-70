@@ -42,8 +42,8 @@ const Header = () => {
               <div key={item.name} className="relative group">
                 <Link
                   to={item.href}
-                  className={`button-text transition-colors hover:text-foreground ${
-                    location.pathname === item.href ? 'text-foreground' : 'text-muted-foreground'
+                  className={`button-text transition-colors hover:text-purple ${
+                    location.pathname === item.href ? 'text-purple' : 'text-muted-foreground'
                   }`}
                 >
                   {item.name}
@@ -55,7 +55,7 @@ const Header = () => {
                         <Link
                           key={subitem.name}
                           to={subitem.href}
-                          className="block px-4 py-3 button-text hover:bg-muted hover:text-foreground transition-colors"
+                          className="block px-4 py-3 button-text hover:bg-muted hover:text-purple transition-colors"
                         >
                           {subitem.name}
                         </Link>
