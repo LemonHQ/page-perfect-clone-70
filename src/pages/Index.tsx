@@ -78,13 +78,13 @@ const Index = () => {
               <div className="h6 tracking-wide mb-6">
                 THE SMARTER WAY
               </div>
-              <h2 className="h2 mb-8">
-
-Innovative and comprehensive agile transformation consulting and services</h2>
+              <h2>Innovative and comprehensive agile transformation consulting and services</h2>
               <p className="body-text text-lg mb-12">
-                Leverage our proven approach to <strong>expand your software development capacity and deliver at speed</strong>. 
-                H2 is your partner on the ground that assembles your team, acquires and sets up your premises, 
-                and supports your mission in Bangalore.
+                Our agile experts help assess your readiness and maturity to develop innovative, comprehensive agile strategies and roadmaps. 
+                <br /><br />
+                We provide continuous coaching and support to enhance the capabilities of your agile teams, leveraging our experienced and certified agile practitioners.
+                <br /><br />
+                We collaborate with clients to strategically plan and implement long-term agile  programs. Additionally, we utilize a proven agile delivery model for numerous application development projects.
               </p>
               <Button className="bg-black text-white hover:bg-gray-800 font-medium px-8 py-4" asChild>
                 <Link to="/our-model">LEARN MORE</Link>
