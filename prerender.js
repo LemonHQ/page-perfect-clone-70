@@ -29,7 +29,14 @@ const routesToPrerender = [
   '/portfolio-operations',
   '/agile-coaching',
   '/product-recovery',
-  '/our-approach'
+  '/our-approach',
+  '/insights',
+  '/insights/agile-transformation',
+  '/insights/digital-transformation-signs',
+  '/insights/building-high-performance-teams',
+  '/insights/portfolio-management-rapid-change',
+  '/insights/agile-coaching-roi',
+  '/insights/devops-integration-strategies'
 ]
 
 ;(async () => {
