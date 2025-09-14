@@ -6,7 +6,7 @@ const Footer = () => {
         {/* Locations Section */}
         
 
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-12 py-12">
           {/* Company Info */}
           <div className="col-span-1">
             <div className="mb-6">
