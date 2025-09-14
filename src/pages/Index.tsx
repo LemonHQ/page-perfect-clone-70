@@ -54,10 +54,16 @@ const Index = () => {
             <Card className="p-8 text-center">
               <h3 className="h4 mb-4">Product Recovery</h3>
               <p className="body-text">Turn around struggling initiatives and get your products back on track.</p>
+              <Button variant="link" className="mt-4 p-0 h-auto text-primary" asChild>
+                <Link to="/product-recovery">Learn More →</Link>
+              </Button>
             </Card>
             <Card className="p-8 text-center">
               <h3 className="h4 mb-4">Agile Coaching</h3>
               <p className="body-text">Build sustainable agile practices and high-performing teams that continue to deliver sustainable value.</p>
+              <Button variant="link" className="mt-4 p-0 h-auto text-primary" asChild>
+                <Link to="/agile-coaching">Learn More →</Link>
+              </Button>
             </Card>
             <Card className="p-8 text-center">
               <h3 className="h4 mb-4">Portfolio Operations</h3>
