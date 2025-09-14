@@ -83,8 +83,8 @@ We help firms beat the odds, accelerate initiatives delivery across their produc
                 THE SMARTER WAY
               </div>
               <h2 className="h2 mb-8">
-                Scale your tech team easily
-              </h2>
+
+Innovative and comprehensive agile transformation consulting and services</h2>
               <p className="body-text text-lg mb-12">
                 Leverage our proven approach to <strong>expand your software development capacity and deliver at speed</strong>. 
                 H2 is your partner on the ground that assembles your team, acquires and sets up your premises, 
