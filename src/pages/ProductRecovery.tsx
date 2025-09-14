@@ -4,10 +4,8 @@ import { Link } from "react-router-dom";
 import heroTeam from "@/assets/hero-team.jpg";
 import officeWorkspace from "@/assets/office-workspace.jpg";
 import teamCollaboration from "@/assets/team-collaboration.jpg";
-
 const ProductRecovery = () => {
-  return (
-    <div className="min-h-screen">
+  return <div className="min-h-screen">
       {/* Hero Section */}
       <section className="py-24 lg:py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -30,11 +28,7 @@ const ProductRecovery = () => {
               </div>
             </div>
             <div className="relative">
-              <img 
-                src={heroTeam} 
-                alt="Product recovery team analyzing and turning around stalled initiatives" 
-                className="rounded-lg w-full h-auto object-cover" 
-              />
+              <img src={heroTeam} alt="Product recovery team analyzing and turning around stalled initiatives" className="rounded-lg w-full h-auto object-cover" />
             </div>
           </div>
         </div>
@@ -66,11 +60,7 @@ const ProductRecovery = () => {
               </div>
             </div>
             <div className="relative">
-              <img 
-                src={officeWorkspace} 
-                alt="Strategic recovery planning workspace with portfolio analysis" 
-                className="rounded-lg w-full h-auto object-cover" 
-              />
+              <img src={officeWorkspace} alt="Strategic recovery planning workspace with portfolio analysis" className="rounded-lg w-full h-auto object-cover" />
             </div>
           </div>
         </div>
@@ -124,11 +114,7 @@ const ProductRecovery = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="relative order-2 lg:order-1">
-              <img 
-                src={teamCollaboration} 
-                alt="Team celebrating successful program recovery outcomes" 
-                className="rounded-lg w-full h-auto object-cover" 
-              />
+              <img src={teamCollaboration} alt="Team celebrating successful program recovery outcomes" className="rounded-lg w-full h-auto object-cover" />
             </div>
             <div className="order-1 lg:order-2">
               <h2 className="h2 mb-8">Key Outcomes</h2>
@@ -173,13 +159,11 @@ const ProductRecovery = () => {
               <Link to="/contact">START YOUR RECOVERY</Link>
             </Button>
             <Button variant="outline" size="lg" className="border-black text-black hover:bg-black hover:text-white px-8 py-4 text-base" asChild>
-              <Link to="/case-studies">VIEW SUCCESS STORIES</Link>
+              
             </Button>
           </div>
         </div>
       </section>
-    </div>
-  );
+    </div>;
 };
-
 export default ProductRecovery;
