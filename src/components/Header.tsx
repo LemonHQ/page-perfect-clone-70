@@ -24,9 +24,9 @@ const Header = () => {
   return (
     <header className="bg-background border-b border-border sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center py-6">
+        <div className="flex items-center py-6 relative">
           {/* Logo */}
-          <Link to="/" className="flex items-center">
+          <Link to="/" className="flex items-center absolute left-0">
             <img 
               src={H2Logo} 
               alt="H2 Think next" 
@@ -34,8 +34,8 @@ const Header = () => {
             />
           </Link>
 
-          {/* Navigation */}
-          <nav className="hidden lg:flex items-center space-x-10">
+          {/* Navigation - Centered */}
+          <nav className="hidden lg:flex items-center space-x-10 mx-auto">
             {navigation.map((item) => (
               <div key={item.name} className="relative group">
                 <Link
