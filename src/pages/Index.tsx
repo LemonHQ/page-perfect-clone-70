@@ -10,7 +10,7 @@ import ceoPortrait from "@/assets/ceo-portrait.jpg";
 import officeWorkspace from "@/assets/office-workspace.jpg";
 import diverseTeam from "@/assets/diverse-team.jpg";
 import teamCollaboration from "@/assets/team-collaboration.jpg";
-import developersCoding from "@/assets/developers-coding.jpg";
+import developersCoding from "@/assets/developers-coding.jpg"; 
 
 // Import article images
 import agileTransformationImage from "@/assets/articles/agile-transformation-team.jpg";
