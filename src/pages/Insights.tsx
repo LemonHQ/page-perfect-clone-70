@@ -146,7 +146,7 @@ const Insights = () => {
       </section>
 
       {/* Categories Filter */}
-      <section className="py-8 border-t border-b bg-muted/20">
+      <section className="py-8 border-t border-b bg-muted/20 hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-wrap gap-2 justify-center">
             {categories.map((category) => (
