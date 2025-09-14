@@ -6,21 +6,23 @@ const Footer = () => {
         {/* Locations Section */}
         
 
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-12 py-12">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
           {/* Company Info */}
           <div className="col-span-1">
             <div className="mb-6">
               <img src={h2Logo} alt="H2 IT Services LLC" className="h-12 w-auto" />
             </div>
             <p className="button-text mb-6 leading-relaxed">
-              Agile transformation for your strategic program executions
+              We scale your tech team with world-class engineers from Bangalore.
             </p>
             
           </div>
 
           {/* Our Services */}
           <div>
-            <h3>Our Services</h3>
+            <h3>Our Services
+
+          </h3>
             <ul className="space-y-3 button-text">
               <li><Link to="/portfolio-development" className="text-muted-foreground hover:text-foreground transition-colors">Portfolio Development</Link></li>
               <li><Link to="/product-recovery" className="text-muted-foreground hover:text-foreground transition-colors">Product Recovery</Link></li>
@@ -31,7 +33,9 @@ const Footer = () => {
 
           {/* Company */}
           <div>
-            <h3>Company</h3>
+            <h3>Company
+
+          </h3>
             <ul className="space-y-3 button-text">
               <li><Link to="/our-approach" className="text-muted-foreground hover:text-foreground transition-colors">Our Approach</Link></li>
               <li><Link to="/insights" className="text-muted-foreground hover:text-foreground transition-colors">Insights</Link></li>
