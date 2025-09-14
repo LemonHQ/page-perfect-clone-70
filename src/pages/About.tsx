@@ -6,10 +6,8 @@ import heroTeam from "@/assets/hero-team.jpg";
 import officeWorkspace from "@/assets/office-workspace.jpg";
 import teamCollaboration from "@/assets/team-collaboration.jpg";
 import diverseTeam from "@/assets/diverse-team.jpg";
-
 const About = () => {
-  return (
-    <div className="min-h-screen">
+  return <div className="min-h-screen">
       {/* Hero Section */}
       <section className="py-24 lg:py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -39,11 +37,7 @@ const About = () => {
               </p>
             </div>
             <div className="relative">
-              <img 
-                src={heroTeam} 
-                alt="Team working on strategic transformation initiatives" 
-                className="rounded-lg w-full h-auto object-cover" 
-              />
+              <img src={heroTeam} alt="Team working on strategic transformation initiatives" className="rounded-lg w-full h-auto object-cover" />
             </div>
           </div>
         </div>
@@ -123,7 +117,7 @@ const About = () => {
               <Link to="/contact">WORK WITH US</Link>
             </Button>
             <Button variant="outline" size="lg" className="border-black text-black hover:bg-black hover:text-white px-8 py-4 text-base" asChild>
-              <Link to="/case-studies">VIEW OUR WORK</Link>
+              
             </Button>
           </div>
         </div>
@@ -169,8 +163,6 @@ const About = () => {
       </section>
 
       <ContactSection />
-    </div>
-  );
+    </div>;
 };
-
 export default About;
