@@ -33,9 +33,6 @@
     --yellow-light: 45 86% 95%;
     --yellow-foreground: 0 0% 9%;
 
-    --purple: 280 100% 50%;
-    --purple-foreground: 0 0% 98%;
-
     --muted: 0 0% 96%;
     --muted-foreground: 0 0% 45%;
 
@@ -87,12 +84,9 @@
     --turquoise: 200 98% 39%;
     --turquoise-light: 200 20% 95%;
     --turquoise-foreground: 0 0% 98%;
-      --yellow: 45 93% 47%;
-      --yellow-light: 45 86% 95%;
-      --yellow-foreground: 0 0% 9%;
-
-      --purple: 280 100% 50%;
-      --purple-foreground: 0 0% 98%;
+    --yellow: 45 93% 47%;
+    --yellow-light: 45 86% 95%;
+    --yellow-foreground: 0 0% 9%;
 
     /* Panel Background Colors - Warm Neutral Palette (Dark Mode) */
     --panel-cream: 60 9% 92%;      /* #EDEDE9 */
@@ -118,8 +112,7 @@
 
   /* Define actual HTML heading elements */
   h1 {
-    @apply text-5xl font-semibold leading-[1.2];
-    color: hsl(var(--purple));
+    @apply text-5xl font-semibold leading-[1.2] text-black;
     font-size: 48px;
   }
   
@@ -154,8 +147,7 @@
 
   /* Typography Hierarchy - Noto Sans */
   .h1 {
-    @apply text-5xl font-semibold leading-[1.2];
-    color: hsl(var(--purple));
+    @apply text-5xl font-semibold leading-[1.2] text-black;
     font-size: 48px;
   }
   
