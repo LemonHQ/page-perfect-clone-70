@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Link } from "react-router-dom";
 import { Calendar, Clock, ArrowLeft, User, Share2, Twitter, Linkedin, Facebook, Mail, Copy, Check } from "lucide-react";
+import { Helmet } from "react-helmet-async";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -17,20 +18,28 @@ const DigitalTransformationArticle = () => {
   const { toast } = useToast();
   const [copied, setCopied] = useState(false);
   
-  const articleUrl = window.location.href;
-  const articleTitle = "5 Signs Your Digital Transformation Initiative Needs Course Correction";
-  const articleDescription = "Learn to identify early warning signals that indicate your transformation program may be heading off track and how to address them proactively.";
+  const articleData = {
+    title: "5 Signs Your Digital Transformation Initiative Needs Course Correction",
+    description: "Learn to identify early warning signals that indicate your transformation program may be heading off track and how to address them proactively.",
+    author: "Michael Rodriguez",
+    authorTitle: "Digital Transformation Director", 
+    publishDate: "2024-03-10",
+    readTime: "6 min read",
+    category: "Digital Transformation",
+    url: typeof window !== 'undefined' ? window.location.href : '',
+    image: digitalTransformationImage
+  };
   
   const shareUrls = {
-    twitter: `https://twitter.com/intent/tweet?text=${encodeURIComponent(articleTitle)}&url=${encodeURIComponent(articleUrl)}`,
-    linkedin: `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(articleUrl)}`,
-    facebook: `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(articleUrl)}`,
-    email: `mailto:?subject=${encodeURIComponent(articleTitle)}&body=${encodeURIComponent(articleDescription + '\n\n' + articleUrl)}`
+    twitter: `https://twitter.com/intent/tweet?text=${encodeURIComponent(articleData.title)}&url=${encodeURIComponent(articleData.url)}`,
+    linkedin: `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(articleData.url)}`,
+    facebook: `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(articleData.url)}`,
+    email: `mailto:?subject=${encodeURIComponent(articleData.title)}&body=${encodeURIComponent(articleData.description + '\n\n' + articleData.url)}`
   };
   
   const handleCopyLink = async () => {
     try {
-      await navigator.clipboard.writeText(articleUrl);
+      await navigator.clipboard.writeText(articleData.url);
       setCopied(true);
       toast({
         title: "Link copied!",
@@ -51,6 +60,66 @@ const DigitalTransformationArticle = () => {
   };
   return (
     <div className="min-h-screen">
+      <Helmet>
+        <title>{articleData.title} | H2 Insights</title>
+        <meta name="description" content={articleData.description} />
+        <meta name="keywords" content="digital transformation, course correction, transformation strategy, change management, business transformation" />
+        <meta name="author" content={articleData.author} />
+        <meta name="robots" content="index, follow" />
+        
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content={articleData.title} />
+        <meta property="og:description" content={articleData.description} />
+        <meta property="og:image" content={articleData.image} />
+        <meta property="og:url" content={articleData.url} />
+        <meta property="og:site_name" content="H2 Insights" />
+        <meta property="article:author" content={articleData.author} />
+        <meta property="article:published_time" content={articleData.publishDate} />
+        <meta property="article:section" content={articleData.category} />
+        
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={articleData.title} />
+        <meta name="twitter:description" content={articleData.description} />
+        <meta name="twitter:image" content={articleData.image} />
+        
+        {/* Canonical URL */}
+        <link rel="canonical" href={articleData.url} />
+        
+        {/* Structured Data - Article Schema */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": articleData.title,
+            "description": articleData.description,
+            "image": articleData.image,
+            "author": {
+              "@type": "Person",
+              "name": articleData.author,
+              "jobTitle": articleData.authorTitle
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "H2",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "/src/assets/H2-logo.jpg"
+              }
+            },
+            "datePublished": articleData.publishDate,
+            "dateModified": articleData.publishDate,
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": articleData.url
+            }
+          })}
+        </script>
+      </Helmet>
+
+      {/* Reading Progress Bar */}
+      <div className="reading-progress" id="reading-progress"></div>
       {/* Hero Section with Split Layout */}
       <section className="relative">
         <div className="max-w-7xl mx-auto">
@@ -147,7 +216,7 @@ const DigitalTransformationArticle = () => {
       {/* Article Content */}
       <article className="py-16 bg-background">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="prose prose-lg max-w-none">
+          <div className="article-content">
             <p className="text-xl leading-relaxed mb-8 text-muted-foreground">
               Digital transformation initiatives represent some of the largest investments organizations make, often consuming millions of dollars and spanning multiple years. Yet despite their strategic importance, many of these initiatives struggle to deliver the promised value. Recognizing warning signs early can mean the difference between course correction and complete failure.
             </p>

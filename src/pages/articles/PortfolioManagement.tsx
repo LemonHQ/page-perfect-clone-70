@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Link } from "react-router-dom";
 import { Calendar, Clock, ArrowLeft, User, Share2, Twitter, Linkedin, Facebook, Mail, Copy } from "lucide-react";
+import { Helmet } from "react-helmet-async";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -12,8 +13,80 @@ import portfolioManagementImage from "@/assets/articles/portfolio-management.jpg
 import ContactSection from "@/components/ContactSection";
 
 const PortfolioManagement = () => {
+  const articleData = {
+    title: "Portfolio Management in the Age of Rapid Change",
+    description: "Traditional portfolio management approaches, designed for predictable environments, are struggling to cope with today's pace of change. Discover new frameworks that balance strategic vision with tactical agility.",
+    author: "David Park",
+    authorTitle: "Portfolio Strategy Director", 
+    publishDate: "2024-03-05",
+    readTime: "7 min read",
+    category: "Portfolio Management",
+    url: typeof window !== 'undefined' ? window.location.href : '',
+    image: portfolioManagementImage
+  };
+
   return (
     <div className="min-h-screen">
+      <Helmet>
+        <title>{articleData.title} | H2 Insights</title>
+        <meta name="description" content={articleData.description} />
+        <meta name="keywords" content="portfolio management, strategic planning, resource allocation, adaptive planning, business strategy" />
+        <meta name="author" content={articleData.author} />
+        <meta name="robots" content="index, follow" />
+        
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content={articleData.title} />
+        <meta property="og:description" content={articleData.description} />
+        <meta property="og:image" content={articleData.image} />
+        <meta property="og:url" content={articleData.url} />
+        <meta property="og:site_name" content="H2 Insights" />
+        <meta property="article:author" content={articleData.author} />
+        <meta property="article:published_time" content={articleData.publishDate} />
+        <meta property="article:section" content={articleData.category} />
+        
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={articleData.title} />
+        <meta name="twitter:description" content={articleData.description} />
+        <meta name="twitter:image" content={articleData.image} />
+        
+        {/* Canonical URL */}
+        <link rel="canonical" href={articleData.url} />
+        
+        {/* Structured Data - Article Schema */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": articleData.title,
+            "description": articleData.description,
+            "image": articleData.image,
+            "author": {
+              "@type": "Person",
+              "name": articleData.author,
+              "jobTitle": articleData.authorTitle
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "H2",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "/src/assets/H2-logo.jpg"
+              }
+            },
+            "datePublished": articleData.publishDate,
+            "dateModified": articleData.publishDate,
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": articleData.url
+            }
+          })}
+        </script>
+      </Helmet>
+
+      {/* Reading Progress Bar */}
+      <div className="reading-progress" id="reading-progress"></div>
       {/* Hero Section with Split Layout */}
       <section className="relative">
         <div className="max-w-7xl mx-auto">
@@ -109,7 +182,7 @@ const PortfolioManagement = () => {
 
       <article className="py-16 bg-background">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="prose prose-lg max-w-none">
+          <div className="article-content">
             <p className="text-xl leading-relaxed mb-8 text-muted-foreground">
               Traditional portfolio management approaches, designed for predictable environments, are struggling to cope with today's pace of change. Organizations need new frameworks that balance strategic vision with tactical agility, enabling rapid response to market shifts while maintaining long-term value creation.
             </p>

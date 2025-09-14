@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Link } from "react-router-dom";
 import { Calendar, Clock, ArrowLeft, User, Share2, Twitter, Linkedin, Facebook, Mail, Copy } from "lucide-react";
+import { Helmet } from "react-helmet-async";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -12,8 +13,80 @@ import devopsIntegrationImage from "@/assets/articles/devops-integration.jpg";
 import ContactSection from "@/components/ContactSection";
 
 const DevOpsIntegration = () => {
+  const articleData = {
+    title: "DevOps Integration Strategies for Enterprise Organizations",
+    description: "Enterprise organizations face unique challenges when integrating DevOps practices into existing technology landscapes. This comprehensive guide provides practical strategies for successful DevOps integration without disrupting critical business operations.",
+    author: "James Wilson",
+    authorTitle: "Enterprise DevOps Integration Architect", 
+    publishDate: "2024-02-28",
+    readTime: "12 min read",
+    category: "DevOps Integration",
+    url: typeof window !== 'undefined' ? window.location.href : '',
+    image: devopsIntegrationImage
+  };
+
   return (
     <div className="min-h-screen">
+      <Helmet>
+        <title>{articleData.title} | H2 Insights</title>
+        <meta name="description" content={articleData.description} />
+        <meta name="keywords" content="devops integration, enterprise devops, CI/CD pipelines, organizational transformation, automation" />
+        <meta name="author" content={articleData.author} />
+        <meta name="robots" content="index, follow" />
+        
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content={articleData.title} />
+        <meta property="og:description" content={articleData.description} />
+        <meta property="og:image" content={articleData.image} />
+        <meta property="og:url" content={articleData.url} />
+        <meta property="og:site_name" content="H2 Insights" />
+        <meta property="article:author" content={articleData.author} />
+        <meta property="article:published_time" content={articleData.publishDate} />
+        <meta property="article:section" content={articleData.category} />
+        
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={articleData.title} />
+        <meta name="twitter:description" content={articleData.description} />
+        <meta name="twitter:image" content={articleData.image} />
+        
+        {/* Canonical URL */}
+        <link rel="canonical" href={articleData.url} />
+        
+        {/* Structured Data - Article Schema */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": articleData.title,
+            "description": articleData.description,
+            "image": articleData.image,
+            "author": {
+              "@type": "Person",
+              "name": articleData.author,
+              "jobTitle": articleData.authorTitle
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "H2",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "/src/assets/H2-logo.jpg"
+              }
+            },
+            "datePublished": articleData.publishDate,
+            "dateModified": articleData.publishDate,
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": articleData.url
+            }
+          })}
+        </script>
+      </Helmet>
+
+      {/* Reading Progress Bar */}
+      <div className="reading-progress" id="reading-progress"></div>
       {/* Hero Section with Split Layout */}
       <section className="relative">
         <div className="max-w-7xl mx-auto">
@@ -110,7 +183,7 @@ const DevOpsIntegration = () => {
       {/* Article Content */}
       <article className="py-16 bg-background">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="prose prose-lg max-w-none">
+          <div className="article-content">
             <p className="text-xl leading-relaxed mb-8 text-muted-foreground">
               Enterprise organizations face unique challenges when integrating DevOps practices into existing technology landscapes. Legacy systems, complex governance requirements, and established operational procedures create obstacles that don't exist in greenfield environments. This comprehensive guide provides practical strategies for successful DevOps integration without disrupting critical business operations.
             </p>
