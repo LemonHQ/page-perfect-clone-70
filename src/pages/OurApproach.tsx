@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Link } from "react-router-dom";
+import ContactSection from "@/components/ContactSection";
 const OurApproach = () => {
   return <div className="min-h-screen bg-background">
       {/* Hero Section */}
@@ -217,6 +218,8 @@ const OurApproach = () => {
           
         </div>
       </section>
+
+      <ContactSection />
     </div>;
 };
 export default OurApproach;
