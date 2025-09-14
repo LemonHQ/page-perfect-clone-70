@@ -23,108 +23,86 @@ const Contact = () => {
       {/* Contact Form Section */}
       <section className="py-24 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            {/* Left Side - Yellow Panel */}
-            <div className="bg-yellow rounded-lg p-12 relative overflow-hidden">
-              <div className="absolute bottom-0 right-0 w-32 h-32 bg-yellow-foreground/10 rounded-full transform translate-x-8 translate-y-8"></div>
-              <div className="relative z-10">
-                <h2 className="h2 mb-8">
-                  Let's talk about your new team.
-                </h2>
-                <p className="body-text text-lg mb-8">
-                  Please fill in the form so we can get to know you better. You can also get in touch with us directly via phone{" "}
-                  <a href="tel:+442038687491" className="font-bold underline hover:no-underline">
-                    +44 20 3868 7491
-                  </a>
-                </p>
-                <div className="space-y-4">
-                  <div className="flex items-center space-x-3">
-                    <Phone className="w-5 h-5 text-navy" />
-                    <span className="h6">+44 20 3868 7491</span>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <div className="h6 font-semibold tracking-wide mb-4">
+                FROM 5 TO 100+ ENGINEERS
+              </div>
+              <h2 className="h2 mb-8">
+                Set up a world-class tech team in Bangalore
+              </h2>
+              
+              <div className="space-y-6 mb-8">
+                <div className="flex items-start space-x-4">
+                  <div className="w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                    <span className="text-black text-sm font-bold">1</span>
                   </div>
-                  <div className="flex items-center space-x-3">
-                    <Mail className="w-5 h-5 text-navy" />
-                    <span className="h6">hello@thescalers.com</span>
+                  <div>
+                    <h3 className="h5 mb-2">Tell us what you need</h3>
+                    <p className="body-text">Fill in your details — your data is 100% confidential and secure</p>
                   </div>
-                  <div className="flex items-center space-x-3">
-                    <MapPin className="w-5 h-5 text-navy" />
-                    <span className="h6">Bangalore, Dublin, London, Sydney</span>
+                </div>
+                
+                <div className="flex items-start space-x-4">
+                  <div className="w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                    <span className="text-black text-sm font-bold">2</span>
+                  </div>
+                  <div>
+                    <h3 className="h5 mb-2">Talk to our experts</h3>
+                    <p className="body-text">One of our team members will contact you promptly for a brief discovery call</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start space-x-4">
+                  <div className="w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                    <span className="text-black text-sm font-bold">3</span>
+                  </div>
+                  <div>
+                    <h3 className="h5 mb-2">Get a tailored proposal</h3>
+                    <p className="body-text">We'll prepare a solution matched to your needs and timeline</p>
                   </div>
                 </div>
               </div>
             </div>
-
-            {/* Right Side - Contact Form */}
-            <div className="bg-background p-8">
-              <form className="space-y-6">
+            
+            <div className="bg-white rounded-lg p-8 border border-gray-200">
+              <div className="mb-6">
+                <div className="h6 font-semibold">
+                  Let's talk
+                </div>
+              </div>
+              
+              <form className="space-y-4">
+                <input type="text" placeholder="Full name*" className="w-full p-3 border border-gray-300 text-black rounded-lg focus:outline-none focus:ring-2 focus:ring-black" />
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                  <div>
-                    <Input type="text" placeholder="First name*" className="w-full p-4 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-turquoise" />
+                  <input type="email" placeholder="Business email*" className="w-full p-3 border border-gray-300 text-black rounded-lg focus:outline-none focus:ring-2 focus:ring-black" />
+                  <input type="tel" placeholder="Phone number*" className="w-full p-3 border border-gray-300 text-black rounded-lg focus:outline-none focus:ring-2 focus:ring-black" />
+                </div>
+                <input type="text" placeholder="Company name*" className="w-full p-3 border border-gray-300 text-black rounded-lg focus:outline-none focus:ring-2 focus:ring-black" />
+                <textarea placeholder="Message*" rows={4} className="w-full p-3 border border-gray-300 text-black rounded-lg focus:outline-none focus:ring-2 focus:ring-black"></textarea>
+                
+                <Button type="submit" className="w-full bg-black text-white hover:bg-gray-800 font-semibold py-3 rounded-full">
+                  SEND NOW →
+                </Button>
+                
+                <div className="caption flex items-center space-x-4">
+                  <div className="flex items-center space-x-2">
+                    <div className="w-5 h-5 rounded-full flex items-center justify-center">
+                      <span className="text-black text-xs">✓</span>
+                    </div>
+                    <span>100% confidential</span>
                   </div>
-                  <div>
-                    <Input type="text" placeholder="Last name*" className="w-full p-4 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-turquoise" />
+                  <div className="flex items-center space-x-2">
+                    <div className="w-5 h-5 rounded-full flex items-center justify-center">
+                      <span className="text-black text-xs">✓</span>
+                    </div>
+                    <span>We sign NDAs</span>
                   </div>
                 </div>
-
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                  <div>
-                    <Input type="email" placeholder="Business email*" className="w-full p-4 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-turquoise" />
-                  </div>
-                  <div>
-                    <Input type="tel" placeholder="Phone number" className="w-full p-4 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-turquoise" />
-                  </div>
-                </div>
-
-                <div>
-                  <Input type="text" placeholder="Company name*" className="w-full p-4 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-turquoise" />
-                </div>
-
-                <div>
-                  <Select>
-                    <SelectTrigger className="w-full p-4 border border-input rounded-lg">
-                      <SelectValue placeholder="What size is your current development team?" />
-                    </SelectTrigger>
-                    <SelectContent>
-                      <SelectItem value="0">No current team</SelectItem>
-                      <SelectItem value="1-5">1-5 developers</SelectItem>
-                      <SelectItem value="6-15">6-15 developers</SelectItem>
-                      <SelectItem value="16-30">16-30 developers</SelectItem>
-                      <SelectItem value="31-50">31-50 developers</SelectItem>
-                      <SelectItem value="50+">50+ developers</SelectItem>
-                    </SelectContent>
-                  </Select>
-                </div>
-
-                <div>
-                  <Select>
-                    <SelectTrigger className="w-full p-4 border border-input rounded-lg">
-                      <SelectValue placeholder="What size team would you like to set up?" />
-                    </SelectTrigger>
-                    <SelectContent>
-                      <SelectItem value="1-5">1-5 developers</SelectItem>
-                      <SelectItem value="6-15">6-15 developers</SelectItem>
-                      <SelectItem value="16-30">16-30 developers</SelectItem>
-                      <SelectItem value="31-50">31-50 developers</SelectItem>
-                      <SelectItem value="50+">50+ developers</SelectItem>
-                      <SelectItem value="not-sure">Not sure yet</SelectItem>
-                    </SelectContent>
-                  </Select>
-                </div>
-
-                <div>
-                  <Textarea placeholder="Message*" rows={6} className="w-full p-4 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-turquoise resize-none" />
-                </div>
-
-                <div className="space-y-4">
-                  <Button type="submit" size="lg" className="w-full bg-panel-medium text-background hover:bg-panel-medium/90 font-semibold py-4 rounded-full">
-                    SUBMIT →
-                  </Button>
-
-                  <p className="caption leading-relaxed">
-                    To give you the content requested, we need to store and process your personal data. For information on how to unsubscribe, as well as our privacy practices and commitment to protecting your privacy, please review our{" "}
-                    <a href="/privacy-policy" className="hover:underline">Privacy Policy</a>.
-                  </p>
-                </div>
+                
+                <p className="caption">
+                  To give you the content requested, we need to store and process your personal data. For information on how to unsubscribe, as well as our privacy practices and commitment to protecting your privacy, please review our Privacy Policy.
+                </p>
               </form>
             </div>
           </div>
