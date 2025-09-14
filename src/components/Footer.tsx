@@ -13,7 +13,7 @@ const Footer = () => {
               <img src={h2Logo} alt="H2 IT Services LLC" className="h-12 w-auto" />
             </div>
             <p className="button-text mb-6 leading-relaxed">
-              We scale your tech team with world-class engineers from Bangalore.
+              Agile transformation services for foward thinking companies
             </p>
             
           </div>
