@@ -31,7 +31,7 @@ const App = () => (
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
         <Toaster />
-        <Sonner />
+        {typeof window !== 'undefined' && <Sonner />}
         <div className="min-h-screen flex flex-col">
           <Header />
           <main className="flex-1">
