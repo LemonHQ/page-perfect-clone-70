@@ -166,6 +166,40 @@ const PortfolioOperations = () => {
         </div>
       </section>
 
+      {/* Team Extension Promotion Section */}
+      <section className="py-24 bg-muted/30">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div>
+              <h2 className="h2 mb-8">Need More Delivery Capacity?</h2>
+              <p className="body-text text-lg mb-8">
+                Sometimes portfolio success requires more than just strategy and governance—it demands the right people with the right skills at the right time. Our Team Extension service provides you with trusted practitioners, specialists, and experts who integrate seamlessly into your existing portfolio structures.
+              </p>
+              <div className="space-y-4 mb-8">
+                <div className="flex items-start space-x-3">
+                  <div className="w-1.5 h-1.5 bg-primary rounded-full mt-2.5 flex-shrink-0"></div>
+                  <p className="body-text">Product Owners, Portfolio Managers, and Scrum Masters</p>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <div className="w-1.5 h-1.5 bg-primary rounded-full mt-2.5 flex-shrink-0"></div>
+                  <p className="body-text">Engineering, QA, and DevOps practitioners</p>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <div className="w-1.5 h-1.5 bg-primary rounded-full mt-2.5 flex-shrink-0"></div>
+                  <p className="body-text">Agile coaches and transformation experts</p>
+                </div>
+              </div>
+              <Button className="bg-black text-white hover:bg-gray-800 font-medium px-8 py-4" asChild>
+                <Link to="/team-extension">Explore Team Extension</Link>
+              </Button>
+            </div>
+            <div className="relative">
+              <img src={teamCollaboration} alt="Team extension professionals working with portfolio teams" className="rounded-lg w-full h-auto object-cover" />
+            </div>
+          </div>
+        </div>
+      </section>
+
       <ContactSection />
     </div>;
 };
