@@ -3,37 +3,7 @@ const Footer = () => {
   return <footer className="bg-background text-foreground">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         {/* Locations Section */}
-        <div className="mb-20">
-          <div className="text-center mb-16">
-            <h3 className="h4 mb-12">Our locations:</h3>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
-            <div className="text-center">
-              <div className="w-20 h-20 bg-muted rounded-full mx-auto mb-6 flex items-center justify-center">
-                <span className="text-2xl">🏙️</span>
-              </div>
-              <h4 className="h5 mb-3">INDIA</h4>
-              <p className="h6">Bangalore</p>
-              <p className="caption">43 Residency Road</p>
-              <p className="caption">Bangalore, 560025</p>
-            </div>
-            
-            
-            
-            <div className="text-center">
-              <div className="w-20 h-20 bg-muted rounded-full mx-auto mb-6 flex items-center justify-center">
-                <span className="text-2xl">🏢</span>
-              </div>
-              <h4 className="h5 mb-3">UK</h4>
-              <p className="h6">London</p>
-              <p className="caption">127 Cheapside</p>
-              <p className="caption">London, EC2V 6BT</p>
-            </div>
-            
-            
-          </div>
-        </div>
+        
 
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
           {/* Company Info */}
