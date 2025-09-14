@@ -105,7 +105,7 @@ We help firms beat the odds, accelerate initiatives delivery across their produc
           <div className="text-center mb-16">
             <h2 className="h2 mb-8">Our Offerings</h2>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <Card className="p-8 text-center">
               <h3 className="h4 mb-4">Portfolio Acceleration</h3>
               <p className="body-text">Accelerate your portfolio delivery with proven methodologies and expert guidance.</p>
@@ -117,6 +117,10 @@ We help firms beat the odds, accelerate initiatives delivery across their produc
             <Card className="p-8 text-center">
               <h3 className="h4 mb-4">Agile Coaching</h3>
               <p className="body-text">Build sustainable agile practices and high-performing teams that deliver continuous value.</p>
+            </Card>
+            <Card className="p-8 text-center">
+              <h3 className="h4 mb-4">Portfolio Operations</h3>
+              <p className="body-text">Optimize and streamline your portfolio operations for maximum efficiency and effectiveness.</p>
             </Card>
           </div>
         </div>
