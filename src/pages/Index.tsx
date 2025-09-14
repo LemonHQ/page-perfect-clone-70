@@ -100,6 +100,35 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Why Us Section */}
+      <section className="py-24 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="h2 mb-8">Why us</h2>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+            <div className="text-center">
+              <h3 className="h3 mb-6">Create Lasting Change</h3>
+              <p className="body-text">
+                Agile succeeds when a mindset shift is embraced at every level of an organisation. Introducing agile from the ground up builds transparent organisational learning capabilities, that establish working practices & principles for sustainable delivery. Our incremental approach ensures your agile transformation is embedded within every person, process & structure, so productivity never stalls & change will last.
+              </p>
+            </div>
+            <div className="text-center">
+              <h3 className="h3 mb-6">Collaborate Relentlessly</h3>
+              <p className="body-text">
+                Agile organisations are constantly searching for ways to improve. Partnering with our dedicated team of practitioners gives your organisation access to years of experience in both living and applying agile principles, in both teams and organisations. Offering strategic expertise tailored to your business's goals teaches your team to learn new frameworks alongside consistently delivering value.
+              </p>
+            </div>
+            <div className="text-center">
+              <h3 className="h3 mb-6">Build Independence</h3>
+              <p className="body-text">
+                Agile transformation is deemed successful once an organisation can successfully apply agile principles without the need for external support. We ensure independence is embedded from day one, so you can go it alone consistently and confidently. Keeping this end goal in mind allows us to help you build sustainable skills, so your organisation can thrive through future market changes, while still delivering real value.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Statistics */}
       <section className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
