@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Link } from "react-router-dom";
+import ContactSection from "@/components/ContactSection";
 import { Check, ChevronDown, Diamond, DollarSign, Eye } from "lucide-react";
 const MarTech = () => {
   return <div className="min-h-screen">
@@ -628,7 +629,7 @@ const MarTech = () => {
       </section>
 
       {/* CTA Section */}
-      
+      <ContactSection />
     </div>;
 };
 export default MarTech;
