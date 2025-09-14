@@ -26,6 +26,10 @@ import AgileCoaching from "./pages/AgileCoaching";
 import ProductRecovery from "./pages/ProductRecovery";
 import OurApproach from "./pages/OurApproach";
 import Insights from "./pages/Insights";
+import AgileTransformationArticle from "./pages/articles/AgileTransformationArticle";
+import DigitalTransformationArticle from "./pages/articles/DigitalTransformationArticle";
+import TeamPerformanceArticle from "./pages/articles/TeamPerformanceArticle";
+import PortfolioManagementArticle from "./pages/articles/PortfolioManagementArticle";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -60,6 +64,10 @@ const App = () => (
             <Route path="/product-recovery" element={<ProductRecovery />} />
             <Route path="/our-approach" element={<OurApproach />} />
             <Route path="/insights" element={<Insights />} />
+            <Route path="/insights/agile-transformation" element={<AgileTransformationArticle />} />
+            <Route path="/insights/digital-transformation-signs" element={<DigitalTransformationArticle />} />
+            <Route path="/insights/building-high-performance-teams" element={<TeamPerformanceArticle />} />
+            <Route path="/insights/portfolio-management-rapid-change" element={<PortfolioManagementArticle />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

@@ -121,10 +121,12 @@ const Insights = () => {
                       </div>
                     </div>
                     
-                    <Button variant="outline" className="group">
-                      Read Article
-                      <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
-                    </Button>
+                    <Link to="/insights/agile-transformation">
+                      <Button variant="outline" className="group">
+                        Read Article
+                        <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+                      </Button>
+                    </Link>
                   </div>
                 </CardContent>
               </div>
@@ -156,41 +158,43 @@ const Insights = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {articles.map((article) => (
-              <Card key={article.id} className="group hover:shadow-lg transition-all duration-300 cursor-pointer">
-                <div className="bg-muted/30 h-48"></div>
-                <CardHeader>
-                  <div className="flex items-center justify-between mb-2">
-                    <Badge variant="outline" className="text-xs">{article.category}</Badge>
-                    <div className="flex items-center gap-1 text-xs text-muted-foreground">
-                      <Calendar className="w-3 h-3" />
-                      {new Date(article.date).toLocaleDateString('en-US', { 
-                        month: 'short', 
-                        day: 'numeric' 
-                      })}
-                    </div>
-                  </div>
-                  <CardTitle className="group-hover:text-primary transition-colors line-clamp-2">
-                    {article.title}
-                  </CardTitle>
-                  <CardDescription className="line-clamp-3">
-                    {article.excerpt}
-                  </CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <div className="flex items-center justify-between">
-                    <div className="flex items-center gap-2">
-                      <div className="w-6 h-6 bg-muted rounded-full flex items-center justify-center">
-                        <User className="w-3 h-3" />
+              <Link key={article.id} to={`/insights/${article.id === 2 ? 'digital-transformation-signs' : article.id === 3 ? 'building-high-performance-teams' : article.id === 4 ? 'portfolio-management-rapid-change' : 'agile-coaching-roi'}`}>
+                <Card className="group hover:shadow-lg transition-all duration-300 cursor-pointer h-full">
+                  <div className="bg-muted/30 h-48"></div>
+                  <CardHeader>
+                    <div className="flex items-center justify-between mb-2">
+                      <Badge variant="outline" className="text-xs">{article.category}</Badge>
+                      <div className="flex items-center gap-1 text-xs text-muted-foreground">
+                        <Calendar className="w-3 h-3" />
+                        {new Date(article.date).toLocaleDateString('en-US', { 
+                          month: 'short', 
+                          day: 'numeric' 
+                        })}
                       </div>
-                      <span className="text-sm text-muted-foreground">{article.author}</span>
                     </div>
-                    <div className="flex items-center gap-1 text-xs text-muted-foreground">
-                      <Clock className="w-3 h-3" />
-                      {article.readTime}
+                    <CardTitle className="group-hover:text-primary transition-colors line-clamp-2">
+                      {article.title}
+                    </CardTitle>
+                    <CardDescription className="line-clamp-3">
+                      {article.excerpt}
+                    </CardDescription>
+                  </CardHeader>
+                  <CardContent>
+                    <div className="flex items-center justify-between">
+                      <div className="flex items-center gap-2">
+                        <div className="w-6 h-6 bg-muted rounded-full flex items-center justify-center">
+                          <User className="w-3 h-3" />
+                        </div>
+                        <span className="text-sm text-muted-foreground">{article.author}</span>
+                      </div>
+                      <div className="flex items-center gap-1 text-xs text-muted-foreground">
+                        <Clock className="w-3 h-3" />
+                        {article.readTime}
+                      </div>
                     </div>
-                  </div>
-                </CardContent>
-              </Card>
+                  </CardContent>
+                </Card>
+              </Link>
             ))}
           </div>
           
