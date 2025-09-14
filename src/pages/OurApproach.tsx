@@ -2,6 +2,11 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Link } from "react-router-dom";
 import ContactSection from "@/components/ContactSection";
+
+// Import approach images
+import leanThinkingImage from "@/assets/approach/lean-thinking.jpg";
+import agileMethodologyImage from "@/assets/approach/agile-methodology.jpg";
+import devopsIntegrationImage from "@/assets/approach/devops-integration.jpg";
 const OurApproach = () => {
   return <div className="min-h-screen bg-background">
       {/* Hero Section */}
@@ -45,7 +50,11 @@ const OurApproach = () => {
                 </li>
               </ul>
             </div>
-            <div className="bg-muted/30 h-96 rounded-lg"></div>
+            <img 
+              src={leanThinkingImage} 
+              alt="Lean thinking process optimization and workflow efficiency" 
+              className="w-full h-96 object-cover rounded-lg"
+            />
           </div>
 
           {/* Agile Methodology */}
@@ -72,7 +81,11 @@ const OurApproach = () => {
                 </li>
               </ul>
             </div>
-            <div className="bg-muted/30 h-96 rounded-lg lg:order-1"></div>
+            <img 
+              src={agileMethodologyImage} 
+              alt="Agile methodology team collaboration and iterative development" 
+              className="w-full h-96 object-cover rounded-lg lg:order-1"
+            />
           </div>
 
           {/* DevOps Integration */}
@@ -99,7 +112,11 @@ const OurApproach = () => {
                 </li>
               </ul>
             </div>
-            <div className="bg-muted/30 h-96 rounded-lg"></div>
+            <img 
+              src={devopsIntegrationImage} 
+              alt="DevOps integration automation and CI/CD pipeline development" 
+              className="w-full h-96 object-cover rounded-lg"
+            />
           </div>
         </div>
       </section>
