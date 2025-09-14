@@ -12,7 +12,6 @@ import teamCollaborationImage from "@/assets/articles/team-collaboration.jpg";
 import portfolioManagementImage from "@/assets/articles/portfolio-management.jpg";
 import agileCoachingImage from "@/assets/articles/agile-coaching.jpg";
 import devopsIntegrationImage from "@/assets/articles/devops-integration.jpg";
-
 const Insights = () => {
   const featuredArticle = {
     id: 1,
@@ -26,64 +25,54 @@ const Insights = () => {
     featured: true,
     image: agileTransformationImage
   };
-
-  const articles = [
-    {
-      id: 2,
-      title: "5 Signs Your Digital Transformation Initiative Needs Course Correction",
-      excerpt: "Learn to identify early warning signals that indicate your transformation program may be heading off track and how to address them proactively.",
-      author: "Michael Rodriguez",
-      date: "2024-03-10",
-      readTime: "6 min read",
-      category: "Digital Transformation",
-      image: digitalTransformationImage
-    },
-    {
-      id: 3,
-      title: "Building High-Performance Teams: Lessons from 100+ Agile Implementations",
-      excerpt: "Key insights and proven strategies for creating teams that consistently deliver exceptional results, based on real-world case studies.",
-      author: "Emma Thompson",
-      date: "2024-03-08",
-      readTime: "10 min read",
-      category: "Team Building",
-      image: teamCollaborationImage
-    },
-    {
-      id: 4,
-      title: "Portfolio Management in the Age of Rapid Change",
-      excerpt: "How modern portfolio management practices are evolving to handle increased uncertainty and accelerated delivery expectations.",
-      author: "David Park",
-      date: "2024-03-05",
-      readTime: "7 min read",
-      category: "Portfolio Management",
-      image: portfolioManagementImage
-    },
-    {
-      id: 5,
-      title: "The ROI of Agile Coaching: Measuring Success Beyond Velocity",
-      excerpt: "Discover comprehensive metrics and KPIs that demonstrate the true business impact of agile coaching initiatives.",
-      author: "Lisa Anderson",
-      date: "2024-03-02",
-      readTime: "9 min read",
-      category: "Agile Coaching",
-      image: agileCoachingImage
-    },
-    {
-      id: 6,
-      title: "DevOps Integration Strategies for Enterprise Organizations",
-      excerpt: "Practical approaches for integrating DevOps practices into existing enterprise structures without disrupting critical operations.",
-      author: "James Wilson",
-      date: "2024-02-28",
-      readTime: "12 min read",
-      category: "DevOps",
-      image: devopsIntegrationImage
-    }
-  ];
-
+  const articles = [{
+    id: 2,
+    title: "5 Signs Your Digital Transformation Initiative Needs Course Correction",
+    excerpt: "Learn to identify early warning signals that indicate your transformation program may be heading off track and how to address them proactively.",
+    author: "Michael Rodriguez",
+    date: "2024-03-10",
+    readTime: "6 min read",
+    category: "Digital Transformation",
+    image: digitalTransformationImage
+  }, {
+    id: 3,
+    title: "Building High-Performance Teams: Lessons from 100+ Agile Implementations",
+    excerpt: "Key insights and proven strategies for creating teams that consistently deliver exceptional results, based on real-world case studies.",
+    author: "Emma Thompson",
+    date: "2024-03-08",
+    readTime: "10 min read",
+    category: "Team Building",
+    image: teamCollaborationImage
+  }, {
+    id: 4,
+    title: "Portfolio Management in the Age of Rapid Change",
+    excerpt: "How modern portfolio management practices are evolving to handle increased uncertainty and accelerated delivery expectations.",
+    author: "David Park",
+    date: "2024-03-05",
+    readTime: "7 min read",
+    category: "Portfolio Management",
+    image: portfolioManagementImage
+  }, {
+    id: 5,
+    title: "The ROI of Agile Coaching: Measuring Success Beyond Velocity",
+    excerpt: "Discover comprehensive metrics and KPIs that demonstrate the true business impact of agile coaching initiatives.",
+    author: "Lisa Anderson",
+    date: "2024-03-02",
+    readTime: "9 min read",
+    category: "Agile Coaching",
+    image: agileCoachingImage
+  }, {
+    id: 6,
+    title: "DevOps Integration Strategies for Enterprise Organizations",
+    excerpt: "Practical approaches for integrating DevOps practices into existing enterprise structures without disrupting critical operations.",
+    author: "James Wilson",
+    date: "2024-02-28",
+    readTime: "12 min read",
+    category: "DevOps",
+    image: devopsIntegrationImage
+  }];
   const categories = ["All", "Agile Transformation", "Digital Transformation", "Team Building", "Portfolio Management", "Agile Coaching", "DevOps"];
-
-  return (
-    <div className="min-h-screen">
+  return <div className="min-h-screen">
       {/* Hero Section */}
       <section className="py-24 lg:py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -104,21 +93,17 @@ const Insights = () => {
             <Badge variant="secondary" className="mb-4">Featured Article</Badge>
             <Card className="overflow-hidden">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-0">
-                <img 
-                  src={featuredArticle.image} 
-                  alt={featuredArticle.title}
-                  className="w-full h-80 lg:h-auto object-cover"
-                />
+                <img src={featuredArticle.image} alt={featuredArticle.title} className="w-full h-80 lg:h-auto object-cover" />
                 <CardContent className="p-8 lg:p-12">
                   <div className="flex items-center gap-4 mb-4">
                     <Badge variant="outline">{featuredArticle.category}</Badge>
                     <div className="flex items-center gap-2 text-sm text-muted-foreground">
                       <Calendar className="w-4 h-4" />
-                      {new Date(featuredArticle.date).toLocaleDateString('en-US', { 
-                        year: 'numeric', 
-                        month: 'long', 
-                        day: 'numeric' 
-                      })}
+                      {new Date(featuredArticle.date).toLocaleDateString('en-US', {
+                      year: 'numeric',
+                      month: 'long',
+                      day: 'numeric'
+                    })}
                     </div>
                   </div>
                   
@@ -149,16 +134,9 @@ const Insights = () => {
       <section className="py-8 border-t border-b bg-muted/20 hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-wrap gap-2 justify-center">
-            {categories.map((category) => (
-              <Button
-                key={category}
-                variant={category === "All" ? "default" : "outline"}
-                size="sm"
-                className="rounded-full"
-              >
+            {categories.map(category => <Button key={category} variant={category === "All" ? "default" : "outline"} size="sm" className="rounded-full">
                 {category}
-              </Button>
-            ))}
+              </Button>)}
           </div>
         </div>
       </section>
@@ -167,29 +145,18 @@ const Insights = () => {
       <section className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {articles.map((article) => (
-              <Link key={article.id} to={`/insights/${
-                article.id === 2 ? 'digital-transformation-signs' : 
-                article.id === 3 ? 'building-high-performance-teams' : 
-                article.id === 4 ? 'portfolio-management-rapid-change' : 
-                article.id === 5 ? 'agile-coaching-roi' : 
-                'devops-integration-strategies'
-              }`}>
+            {articles.map(article => <Link key={article.id} to={`/insights/${article.id === 2 ? 'digital-transformation-signs' : article.id === 3 ? 'building-high-performance-teams' : article.id === 4 ? 'portfolio-management-rapid-change' : article.id === 5 ? 'agile-coaching-roi' : 'devops-integration-strategies'}`}>
                 <Card className="group hover:shadow-lg transition-all duration-300 cursor-pointer h-full overflow-hidden">
-                  <img 
-                    src={article.image} 
-                    alt={article.title}
-                    className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
-                  />
+                  <img src={article.image} alt={article.title} className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" />
                   <CardHeader>
                     <div className="flex items-center justify-between mb-2">
                       <Badge variant="outline" className="text-xs">{article.category}</Badge>
                       <div className="flex items-center gap-1 text-xs text-muted-foreground">
                         <Calendar className="w-3 h-3" />
-                        {new Date(article.date).toLocaleDateString('en-US', { 
-                          month: 'short', 
-                          day: 'numeric' 
-                        })}
+                        {new Date(article.date).toLocaleDateString('en-US', {
+                      month: 'short',
+                      day: 'numeric'
+                    })}
                       </div>
                     </div>
                     <CardTitle className="group-hover:text-primary transition-colors line-clamp-2">
@@ -208,8 +175,7 @@ const Insights = () => {
                     </div>
                   </CardContent>
                 </Card>
-              </Link>
-            ))}
+              </Link>)}
           </div>
           
           {/* Load More Button */}
@@ -222,29 +188,9 @@ const Insights = () => {
       </section>
 
       {/* Newsletter Subscription */}
-      <section className="py-24 bg-muted/30">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2>Stay Updated</h2>
-          <p className="body-text text-lg mt-4 mb-8">
-            Get the latest insights delivered directly to your inbox. Join our community of transformation leaders.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
-            <input 
-              type="email" 
-              placeholder="Enter your email" 
-              className="flex-1 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
-            />
-            <Button className="px-8">Subscribe</Button>
-          </div>
-          <p className="text-sm text-muted-foreground mt-4">
-            No spam. Unsubscribe at any time.
-          </p>
-        </div>
-      </section>
+      
 
       <ContactSection />
-    </div>
-  );
+    </div>;
 };
-
 export default Insights;
