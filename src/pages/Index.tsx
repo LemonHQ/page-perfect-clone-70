@@ -3,13 +3,7 @@ import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Link } from "react-router-dom";
 import { Calendar, Clock, ArrowRight } from "lucide-react";
-import { 
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel";
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import ContactSection from "@/components/ContactSection";
 import heroTeam from "@/assets/hero-team.jpg";
 import ceoPortrait from "@/assets/ceo-portrait.jpg";
@@ -26,75 +20,67 @@ import portfolioManagementImage from "@/assets/articles/portfolio-management.jpg
 import agileCoachingImage from "@/assets/articles/agile-coaching.jpg";
 import devopsIntegrationImage from "@/assets/articles/devops-integration.jpg";
 const Index = () => {
-  const latestInsights = [
-    {
-      id: 1,
-      title: "The Future of Agile Transformation: Beyond Frameworks to Cultural Change",
-      excerpt: "Explore how successful organizations are moving beyond traditional agile frameworks to create lasting cultural transformations.",
-      author: "Sarah Chen",
-      date: "2024-03-15",
-      readTime: "8 min read",
-      category: "Agile Transformation",
-      image: agileTransformationImage,
-      link: "/insights/agile-transformation"
-    },
-    {
-      id: 2,
-      title: "5 Signs Your Digital Transformation Initiative Needs Course Correction",
-      excerpt: "Learn to identify early warning signals that indicate your transformation program may be heading off track.",
-      author: "Michael Rodriguez", 
-      date: "2024-03-10",
-      readTime: "6 min read",
-      category: "Digital Transformation",
-      image: digitalTransformationImage,
-      link: "/insights/digital-transformation-signs"
-    },
-    {
-      id: 3,
-      title: "Building High-Performance Teams: Lessons from 100+ Agile Implementations",
-      excerpt: "Key insights and proven strategies for creating teams that consistently deliver exceptional results.",
-      author: "Emma Thompson",
-      date: "2024-03-08", 
-      readTime: "10 min read",
-      category: "Team Building",
-      image: teamCollaborationArticleImage,
-      link: "/insights/building-high-performance-teams"
-    },
-    {
-      id: 4,
-      title: "Portfolio Management in the Age of Rapid Change",
-      excerpt: "How modern portfolio management practices are evolving to handle increased uncertainty and accelerated delivery expectations.",
-      author: "David Park",
-      date: "2024-03-05",
-      readTime: "7 min read", 
-      category: "Portfolio Management",
-      image: portfolioManagementImage,
-      link: "/insights/portfolio-management-rapid-change"
-    },
-    {
-      id: 5,
-      title: "The ROI of Agile Coaching: Measuring Success Beyond Velocity",
-      excerpt: "Discover comprehensive metrics and KPIs that demonstrate the true business impact of agile coaching initiatives.",
-      author: "Lisa Anderson",
-      date: "2024-03-02",
-      readTime: "9 min read",
-      category: "Agile Coaching", 
-      image: agileCoachingImage,
-      link: "/insights/agile-coaching-roi"
-    },
-    {
-      id: 6,
-      title: "DevOps Integration Strategies for Enterprise Organizations",
-      excerpt: "Practical approaches for integrating DevOps practices into existing enterprise structures without disrupting operations.",
-      author: "James Wilson",
-      date: "2024-02-28",
-      readTime: "12 min read",
-      category: "DevOps",
-      image: devopsIntegrationImage,
-      link: "/insights/devops-integration-strategies"
-    }
-  ];
-
+  const latestInsights = [{
+    id: 1,
+    title: "The Future of Agile Transformation: Beyond Frameworks to Cultural Change",
+    excerpt: "Explore how successful organizations are moving beyond traditional agile frameworks to create lasting cultural transformations.",
+    author: "Sarah Chen",
+    date: "2024-03-15",
+    readTime: "8 min read",
+    category: "Agile Transformation",
+    image: agileTransformationImage,
+    link: "/insights/agile-transformation"
+  }, {
+    id: 2,
+    title: "5 Signs Your Digital Transformation Initiative Needs Course Correction",
+    excerpt: "Learn to identify early warning signals that indicate your transformation program may be heading off track.",
+    author: "Michael Rodriguez",
+    date: "2024-03-10",
+    readTime: "6 min read",
+    category: "Digital Transformation",
+    image: digitalTransformationImage,
+    link: "/insights/digital-transformation-signs"
+  }, {
+    id: 3,
+    title: "Building High-Performance Teams: Lessons from 100+ Agile Implementations",
+    excerpt: "Key insights and proven strategies for creating teams that consistently deliver exceptional results.",
+    author: "Emma Thompson",
+    date: "2024-03-08",
+    readTime: "10 min read",
+    category: "Team Building",
+    image: teamCollaborationArticleImage,
+    link: "/insights/building-high-performance-teams"
+  }, {
+    id: 4,
+    title: "Portfolio Management in the Age of Rapid Change",
+    excerpt: "How modern portfolio management practices are evolving to handle increased uncertainty and accelerated delivery expectations.",
+    author: "David Park",
+    date: "2024-03-05",
+    readTime: "7 min read",
+    category: "Portfolio Management",
+    image: portfolioManagementImage,
+    link: "/insights/portfolio-management-rapid-change"
+  }, {
+    id: 5,
+    title: "The ROI of Agile Coaching: Measuring Success Beyond Velocity",
+    excerpt: "Discover comprehensive metrics and KPIs that demonstrate the true business impact of agile coaching initiatives.",
+    author: "Lisa Anderson",
+    date: "2024-03-02",
+    readTime: "9 min read",
+    category: "Agile Coaching",
+    image: agileCoachingImage,
+    link: "/insights/agile-coaching-roi"
+  }, {
+    id: 6,
+    title: "DevOps Integration Strategies for Enterprise Organizations",
+    excerpt: "Practical approaches for integrating DevOps practices into existing enterprise structures without disrupting operations.",
+    author: "James Wilson",
+    date: "2024-02-28",
+    readTime: "12 min read",
+    category: "DevOps",
+    image: devopsIntegrationImage,
+    link: "/insights/devops-integration-strategies"
+  }];
   return <div className="min-h-screen">
       {/* Hero Section */}
       <section className="py-24 lg:py-32">
@@ -206,11 +192,7 @@ const Index = () => {
       
 
       {/* Silicon Valley of Asia */}
-      <section className="py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          
-        </div>
-      </section>
+      
 
       {/* European and Indian Leadership */}
       
@@ -219,9 +201,7 @@ const Index = () => {
       
 
       {/* We'll help you section */}
-      <section className="py-16">
-        
-      </section>
+      
 
       {/* Case Studies */}
       
@@ -240,32 +220,24 @@ const Index = () => {
           </div>
           
           <div className="relative">
-            <Carousel
-              opts={{
-                align: "start",
-                slidesToScroll: 1,
-              }}
-              className="w-full"
-            >
+            <Carousel opts={{
+            align: "start",
+            slidesToScroll: 1
+          }} className="w-full">
               <CarouselContent className="-ml-4">
-                {latestInsights.map((insight) => (
-                  <CarouselItem key={insight.id} className="pl-4 md:basis-1/2 lg:basis-1/3">
+                {latestInsights.map(insight => <CarouselItem key={insight.id} className="pl-4 md:basis-1/2 lg:basis-1/3">
                     <Link to={insight.link}>
                       <Card className="group hover:shadow-lg transition-all duration-300 cursor-pointer h-full overflow-hidden">
-                        <img 
-                          src={insight.image} 
-                          alt={insight.title}
-                          className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
-                        />
+                        <img src={insight.image} alt={insight.title} className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" />
                         <div className="p-6">
                           <div className="flex items-center justify-between mb-3">
                             <Badge variant="outline" className="text-xs">{insight.category}</Badge>
                             <div className="flex items-center gap-1 text-xs text-muted-foreground">
                               <Calendar className="w-3 h-3" />
-                              {new Date(insight.date).toLocaleDateString('en-US', { 
-                                month: 'short', 
-                                day: 'numeric' 
-                              })}
+                              {new Date(insight.date).toLocaleDateString('en-US', {
+                            month: 'short',
+                            day: 'numeric'
+                          })}
                             </div>
                           </div>
                           <h3 className="font-semibold text-lg mb-3 group-hover:text-primary transition-colors line-clamp-2">
@@ -284,8 +256,7 @@ const Index = () => {
                         </div>
                       </Card>
                     </Link>
-                  </CarouselItem>
-                ))}
+                  </CarouselItem>)}
               </CarouselContent>
               <CarouselPrevious className="hidden md:flex" />
               <CarouselNext className="hidden md:flex" />
