@@ -62,6 +62,9 @@ const Index = () => {
             <Card className="p-8 text-center">
               <h3 className="h4 mb-4">Portfolio Operations</h3>
               <p className="body-text">Streamline workflows, initiatives delivery, and implement scalable processes—ensuring teams have the right tools, insights, and frameworks to drive efficiency and growth.</p>
+              <Button variant="link" className="mt-4 p-0 h-auto text-primary" asChild>
+                <Link to="/portfolio-operations">Learn More →</Link>
+              </Button>
             </Card>
           </div>
         </div>
