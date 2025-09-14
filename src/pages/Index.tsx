@@ -106,6 +106,9 @@ We help firms beat the odds, accelerate initiatives delivery across their produc
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="h2 mb-8">Our Offerings</h2>
+            <p className="body-text text-lg max-w-3xl mx-auto">
+              We provide comprehensive solutions to help organizations accelerate delivery, recover struggling initiatives, and build high-performing teams that deliver sustainable value.
+            </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <Card className="p-8 text-center">
