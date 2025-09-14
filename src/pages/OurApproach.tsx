@@ -12,7 +12,7 @@ const OurApproach = () => {
       {/* Hero Section */}
       <section className="pt-32 pb-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="h1 mb-8">Lean Agile Transformation</h1>
+          <h1 className="h1 mb-8">Our Approach: Lean-Agile-DevOps Transformation</h1>
           <p className="body-text text-lg mb-12 text-muted-foreground">
             In today's dynamic business environment, organizations must adapt swiftly to changing demands, 
             technological advancements, and evolving customer expectations. Our Lean-Agile-DevOps framework 
