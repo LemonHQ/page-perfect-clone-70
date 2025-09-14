@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Link } from "react-router-dom";
 import { Calendar, Clock, ArrowLeft, User, Share2, Twitter, Linkedin, Facebook, Mail, Copy } from "lucide-react";
+import { Helmet } from "react-helmet-async";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -12,8 +13,80 @@ import agileTransformationImage from "@/assets/articles/agile-transformation-tea
 import ContactSection from "@/components/ContactSection";
 
 const AgileTransformation = () => {
+  const articleData = {
+    title: "The Future of Agile Transformation: Beyond Frameworks to Cultural Change",
+    description: "Explore how successful organizations are moving beyond traditional agile frameworks to create lasting cultural transformations that drive sustainable business value.",
+    author: "Sarah Chen",
+    authorTitle: "Senior Agile Transformation Consultant", 
+    publishDate: "2024-03-15",
+    readTime: "8 min read",
+    category: "Agile Transformation",
+    url: typeof window !== 'undefined' ? window.location.href : '',
+    image: agileTransformationImage
+  };
+
   return (
     <div className="min-h-screen">
+      <Helmet>
+        <title>{articleData.title} | H2 Insights</title>
+        <meta name="description" content={articleData.description} />
+        <meta name="keywords" content="agile transformation, organizational change, cultural transformation, agile frameworks, digital transformation" />
+        <meta name="author" content={articleData.author} />
+        <meta name="robots" content="index, follow" />
+        
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content={articleData.title} />
+        <meta property="og:description" content={articleData.description} />
+        <meta property="og:image" content={articleData.image} />
+        <meta property="og:url" content={articleData.url} />
+        <meta property="og:site_name" content="H2 Insights" />
+        <meta property="article:author" content={articleData.author} />
+        <meta property="article:published_time" content={articleData.publishDate} />
+        <meta property="article:section" content={articleData.category} />
+        
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={articleData.title} />
+        <meta name="twitter:description" content={articleData.description} />
+        <meta name="twitter:image" content={articleData.image} />
+        
+        {/* Canonical URL */}
+        <link rel="canonical" href={articleData.url} />
+        
+        {/* Structured Data - Article Schema */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": articleData.title,
+            "description": articleData.description,
+            "image": articleData.image,
+            "author": {
+              "@type": "Person",
+              "name": articleData.author,
+              "jobTitle": articleData.authorTitle
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "H2",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "/src/assets/H2-logo.jpg"
+              }
+            },
+            "datePublished": articleData.publishDate,
+            "dateModified": articleData.publishDate,
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": articleData.url
+            }
+          })}
+        </script>
+      </Helmet>
+
+      {/* Reading Progress Bar */}
+      <div className="reading-progress" id="reading-progress"></div>
       {/* Hero Section with Split Layout */}
       <section className="relative">
         <div className="max-w-7xl mx-auto">
@@ -110,8 +183,8 @@ const AgileTransformation = () => {
       {/* Article Content */}
       <article className="py-16 bg-background">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="prose prose-lg max-w-none">
-            <p className="text-xl leading-relaxed mb-8 text-muted-foreground">
+          <div className="article-content">
+            <p className="lead">
               In today's rapidly evolving business landscape, organizations are discovering that true agile transformation goes far beyond implementing frameworks like Scrum or Kanban. The most successful transformations focus on cultural change—creating environments where adaptability, collaboration, and continuous learning become ingrained in the organizational DNA.
             </p>
 
@@ -246,7 +319,7 @@ const AgileTransformation = () => {
                   <User className="w-8 h-8" />
                 </div>
                 <div>
-                  <p className="font-semibold">Sarah Chen</p>
+                  <p className="font-semibold">{articleData.author}</p>
                   <p className="text-sm text-muted-foreground">
                     Sarah is a Senior Agile Transformation Consultant with over 15 years of experience helping Fortune 500 companies navigate complex organizational change. She specializes in cultural transformation and has led agile transformations across multiple industries including finance, healthcare, and technology.
                   </p>
