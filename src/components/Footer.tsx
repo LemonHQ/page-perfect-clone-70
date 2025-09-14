@@ -17,25 +17,14 @@ const Footer = () => {
             
           </div>
 
-          {/* What we do */}
+          {/* Our Services */}
           <div>
-            <h3 className="h6 mb-6">What we do</h3>
+            <h3 className="h6 mb-6">Our Services</h3>
             <ul className="space-y-3 button-text">
-              <li><Link to="/our-model" className="text-muted-foreground hover:text-foreground transition-colors">Our model overview</Link></li>
-              <li><Link to="/dedicated-team" className="text-muted-foreground hover:text-foreground transition-colors">Dedicated teams</Link></li>
-              <li><Link to="/team-extension" className="text-muted-foreground hover:text-foreground transition-colors">Team extension</Link></li>
-              <li><Link to="/offshore-centre" className="text-muted-foreground hover:text-foreground transition-colors">Offshore centers</Link></li>
-            </ul>
-          </div>
-
-          {/* Resources */}
-          <div>
-            <h3 className="h6 mb-6">Resources</h3>
-            <ul className="space-y-3 button-text">
-              <li><Link to="/case-studies" className="text-muted-foreground hover:text-foreground transition-colors">Case Studies</Link></li>
-              <li><Link to="/blog" className="text-muted-foreground hover:text-foreground transition-colors">Blog</Link></li>
-              <li><Link to="/news" className="text-muted-foreground hover:text-foreground transition-colors">News</Link></li>
-              <li><Link to="/faq" className="text-muted-foreground hover:text-foreground transition-colors">FAQ</Link></li>
+              <li><Link to="/portfolio-development" className="text-muted-foreground hover:text-foreground transition-colors">Portfolio Development</Link></li>
+              <li><Link to="/product-recovery" className="text-muted-foreground hover:text-foreground transition-colors">Product Recovery</Link></li>
+              <li><Link to="/portfolio-operations" className="text-muted-foreground hover:text-foreground transition-colors">Portfolio Operations</Link></li>
+              <li><Link to="/agile-coaching" className="text-muted-foreground hover:text-foreground transition-colors">Agile Coaching</Link></li>
             </ul>
           </div>
 
@@ -43,11 +32,13 @@ const Footer = () => {
           <div>
             <h3 className="h6 mb-6">Company</h3>
             <ul className="space-y-3 button-text">
-              <li><Link to="/about" className="text-muted-foreground hover:text-foreground transition-colors">About us</Link></li>
-              <li><Link to="/leadership" className="text-muted-foreground hover:text-foreground transition-colors">Leadership</Link></li>
-              <li><Link to="/contact" className="text-muted-foreground hover:text-foreground transition-colors">Contact us</Link></li>
+              <li><Link to="/about" className="text-muted-foreground hover:text-foreground transition-colors">About Us</Link></li>
+              <li><Link to="/contact" className="text-muted-foreground hover:text-foreground transition-colors">Contact Us</Link></li>
             </ul>
           </div>
+
+          {/* Empty column to maintain grid layout */}
+          <div></div>
         </div>
 
         <div className="border-t border-border mt-16 pt-12 text-center">
