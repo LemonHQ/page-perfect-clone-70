@@ -20,7 +20,7 @@ const Footer = () => {
 
           {/* Our Services */}
           <div>
-            <h3>Our Services
+            <h3 className="text-zinc-950">Our Services
 
           </h3>
             <ul className="space-y-3 button-text">
@@ -37,7 +37,7 @@ const Footer = () => {
 
           </h3>
             <ul className="space-y-3 button-text">
-              <li><Link to="/our-approach" className="text-muted-foreground hover:text-foreground transition-colors">Our Approach</Link></li>
+              <li className="text-zinc-950"><Link to="/our-approach" className="text-muted-foreground hover:text-foreground transition-colors">Our Approach</Link></li>
               <li><Link to="/insights" className="text-muted-foreground hover:text-foreground transition-colors">Insights</Link></li>
               <li><Link to="/about" className="text-muted-foreground hover:text-foreground transition-colors">About Us</Link></li>
               <li><Link to="/contact" className="text-muted-foreground hover:text-foreground transition-colors">Contact Us</Link></li>
