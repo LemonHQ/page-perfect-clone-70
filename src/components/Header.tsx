@@ -1,9 +1,13 @@
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Menu } from "lucide-react";
+import { useState } from "react";
 import H2Logo from "@/assets/H2-logo.jpg";
 
 const Header = () => {
   const location = useLocation();
+  const [isOpen, setIsOpen] = useState(false);
 
   const navigation = [
     { name: "Home", href: "/" },
@@ -35,6 +39,51 @@ const Header = () => {
               className="h-12 w-auto"
             />
           </Link>
+
+          {/* Mobile menu trigger */}
+          <Sheet open={isOpen} onOpenChange={setIsOpen}>
+            <SheetTrigger asChild>
+              <Button
+                variant="ghost"
+                size="icon"
+                className="lg:hidden absolute right-0"
+              >
+                <Menu className="h-5 w-5" />
+                <span className="sr-only">Toggle menu</span>
+              </Button>
+            </SheetTrigger>
+            <SheetContent side="right" className="w-80">
+              <nav className="flex flex-col space-y-4 mt-8">
+                {navigation.map((item) => (
+                  <div key={item.name}>
+                    <Link
+                      to={item.href}
+                      onClick={() => setIsOpen(false)}
+                      className={`block py-2 text-lg font-medium transition-colors hover:text-foreground ${
+                        location.pathname === item.href ? 'text-foreground' : 'text-muted-foreground'
+                      }`}
+                    >
+                      {item.name}
+                    </Link>
+                    {item.submenu && (
+                      <div className="ml-4 mt-2 space-y-2">
+                        {item.submenu.map((subitem) => (
+                          <Link
+                            key={subitem.name}
+                            to={subitem.href}
+                            onClick={() => setIsOpen(false)}
+                            className="block py-1 text-sm text-muted-foreground hover:text-foreground transition-colors"
+                          >
+                            {subitem.name}
+                          </Link>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                ))}
+              </nav>
+            </SheetContent>
+          </Sheet>
 
           {/* Navigation - Centered */}
           <nav className="hidden lg:flex items-center space-x-10 mx-auto">
