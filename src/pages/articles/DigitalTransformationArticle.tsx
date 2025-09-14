@@ -329,7 +329,7 @@ const DigitalTransformationArticle = () => {
               The most successful digital transformations are those that embrace learning and adjustment as core capabilities. By building these capabilities into your transformation approach from the beginning, you'll be better positioned to navigate the inevitable challenges and ultimately achieve your transformation goals.
             </p>
 
-            <div className="mt-12 p-8 bg-muted/30 rounded-lg">
+            {/* <div className="mt-12 p-8 bg-muted/30 rounded-lg">
               <h3 className="mt-6 mb-3">About the Author</h3>
               <div className="flex items-center gap-4 mt-4">
                 <div className="w-16 h-16 bg-muted rounded-full flex items-center justify-center">
@@ -342,7 +342,7 @@ const DigitalTransformationArticle = () => {
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </article>

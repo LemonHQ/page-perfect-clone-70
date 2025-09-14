@@ -330,7 +330,7 @@ const DevOpsIntegration = () => {
               Remember that DevOps integration is a journey rather than a destination. Focus on continuous improvement, learning, and adaptation as technology and business needs evolve. The most successful enterprise DevOps implementations are those that create sustainable capabilities for ongoing innovation and value delivery.
             </p>
 
-            <div className="mt-12 p-8 bg-muted/30 rounded-lg">
+            {/* <div className="mt-12 p-8 bg-muted/30 rounded-lg">
               <h3 className="mt-6 mb-3">About the Author</h3>
               <div className="flex items-center gap-4 mt-4">
                 <div className="w-16 h-16 bg-muted rounded-full flex items-center justify-center">
@@ -343,7 +343,7 @@ const DevOpsIntegration = () => {
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </article>

@@ -353,7 +353,7 @@ const TeamPerformance = () => {
               Start your journey by focusing on one or two of these lessons that resonate most strongly with your current situation. Build success gradually, learn from your experiences, and remember that building high-performance teams is itself a skill that improves with practice and reflection.
             </p>
 
-            <div className="mt-12 p-8 bg-muted/30 rounded-lg">
+            {/* <div className="mt-12 p-8 bg-muted/30 rounded-lg">
               <h3 className="mt-6 mb-3">About the Author</h3>
               <div className="flex items-center gap-4 mt-4">
                 <div className="w-16 h-16 bg-muted rounded-full flex items-center justify-center">
@@ -366,7 +366,7 @@ const TeamPerformance = () => {
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </article>

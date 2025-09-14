@@ -141,7 +141,7 @@ const PortfolioManagement = () => {
               This includes leading indicators of market position, customer satisfaction trends, and organizational learning rates. The goal is creating portfolios that perform well under multiple scenarios rather than optimizing for single-point forecasts.
             </p>
 
-            <div className="mt-12 p-8 bg-muted/30 rounded-lg">
+            {/* <div className="mt-12 p-8 bg-muted/30 rounded-lg">
               <h3 className="mt-6 mb-3">About the Author</h3>
               <div className="flex items-center gap-4 mt-4">
                 <div className="w-16 h-16 bg-muted rounded-full flex items-center justify-center">
@@ -154,7 +154,7 @@ const PortfolioManagement = () => {
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </article>

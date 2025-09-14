@@ -267,7 +267,7 @@ const AgileCoachingROI = () => {
               Remember that measurement itself should enhance rather than burden coaching relationships. The most effective ROI measurement systems provide insights that help coaches and their clients achieve better results while building organizational confidence in coaching as a strategic investment.
             </p>
 
-            <div className="mt-12 p-8 bg-muted/30 rounded-lg">
+            {/* <div className="mt-12 p-8 bg-muted/30 rounded-lg">
               <h3 className="mt-6 mb-3">About the Author</h3>
               <div className="flex items-center gap-4 mt-4">
                 <div className="w-16 h-16 bg-muted rounded-full flex items-center justify-center">
@@ -280,7 +280,7 @@ const AgileCoachingROI = () => {
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </article>

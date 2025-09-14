@@ -239,7 +239,7 @@ const AgileTransformation = () => {
               The journey isn't easy, and there are no universal solutions that work for every organization. However, by focusing on the human elements of transformation—trust, psychological safety, continuous learning, and customer-centricity—organizations can create the conditions necessary for sustainable agile transformation. The future belongs to organizations that can adapt quickly while maintaining their core values and purpose, and cultural transformation is the key to achieving this balance.
             </p>
 
-            <div className="mt-12 p-8 bg-muted/30 rounded-lg">
+            {/* <div className="mt-12 p-8 bg-muted/30 rounded-lg">
               <h3 className="mt-6 mb-3">About the Author</h3>
               <div className="flex items-center gap-4 mt-4">
                 <div className="w-16 h-16 bg-muted rounded-full flex items-center justify-center">
@@ -252,7 +252,7 @@ const AgileTransformation = () => {
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </article>
