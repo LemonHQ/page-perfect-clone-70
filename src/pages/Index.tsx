@@ -78,7 +78,7 @@ const Index = () => {
               <div className="h6 tracking-wide mb-6">
                 THE SMARTER WAY
               </div>
-              <h2>Innovative and comprehensive agile transformation consulting and services</h2>
+              <h2 className="h2 mb-8">Innovative and comprehensive agile transformation consulting and services</h2>
               <p className="body-text text-lg mb-12">
                 Our agile experts help assess your readiness and maturity to develop innovative, comprehensive agile strategies and roadmaps. 
                 <br /><br />
