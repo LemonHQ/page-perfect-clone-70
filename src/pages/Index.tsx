@@ -47,19 +47,31 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <Card className="p-8 text-center">
               <h3 className="h4 mb-4">Portfolio Development</h3>
-              <p className="body-text">Successfully develop and execute your change or transformation roadmap and delivery plan with Agile practices</p>
+              <p className="body-text mb-6">Successfully develop and execute your change or transformation roadmap and delivery plan with Agile practices</p>
+              <Button variant="outline" className="border-black text-black hover:bg-black hover:text-white" asChild>
+                <Link to="/portfolio-development">Learn More</Link>
+              </Button>
             </Card>
             <Card className="p-8 text-center">
               <h3 className="h4 mb-4">Product Recovery</h3>
-              <p className="body-text">Turn around struggling initiatives and get your products back on track.</p>
+              <p className="body-text mb-6">Turn around struggling initiatives and get your products back on track.</p>
+              <Button variant="outline" className="border-black text-black hover:bg-black hover:text-white" asChild>
+                <Link to="/product-recovery">Learn More</Link>
+              </Button>
             </Card>
             <Card className="p-8 text-center">
               <h3 className="h4 mb-4">Agile Coaching</h3>
-              <p className="body-text">Build sustainable agile practices and high-performing teams that continue to deliver sustainable value.</p>
+              <p className="body-text mb-6">Build sustainable agile practices and high-performing teams that continue to deliver sustainable value.</p>
+              <Button variant="outline" className="border-black text-black hover:bg-black hover:text-white" asChild>
+                <Link to="/agile-coaching">Learn More</Link>
+              </Button>
             </Card>
             <Card className="p-8 text-center">
               <h3 className="h4 mb-4">Portfolio Operations</h3>
-              <p className="body-text">Streamline workflows, initiatives delivery, and implement scalable processes—ensuring teams have the right tools, insights, and frameworks to drive efficiency and growth.</p>
+              <p className="body-text mb-6">Streamline workflows, initiatives delivery, and implement scalable processes—ensuring teams have the right tools, insights, and frameworks to drive efficiency and growth.</p>
+              <Button variant="outline" className="border-black text-black hover:bg-black hover:text-white" asChild>
+                <Link to="/portfolio-operations">Learn More</Link>
+              </Button>
             </Card>
           </div>
         </div>
