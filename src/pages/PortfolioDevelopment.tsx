@@ -175,17 +175,17 @@ const PortfolioDevelopment = () => {
       </section>
 
       {/* Call to Action */}
-      <section className="py-24 bg-primary text-primary-foreground">
+      <section className="py-24 bg-white text-foreground">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="h2 mb-8">Ready to Transform Your Portfolio?</h2>
           <p className="body-text text-lg mb-12 opacity-90">
             Let's discuss how we can help you build a high-performing portfolio that delivers sustainable value and drives business growth.
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
-            <Button size="lg" variant="secondary" className="px-8 py-4 text-base" asChild>
+            <Button size="lg" className="bg-black text-white hover:bg-gray-800 px-8 py-4 text-base" asChild>
               <Link to="/contact">START YOUR TRANSFORMATION</Link>
             </Button>
-            <Button variant="outline" size="lg" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary px-8 py-4 text-base" asChild>
+            <Button variant="outline" size="lg" className="border-black text-black hover:bg-black hover:text-white px-8 py-4 text-base" asChild>
               <Link to="/case-studies">VIEW SUCCESS STORIES</Link>
             </Button>
           </div>
