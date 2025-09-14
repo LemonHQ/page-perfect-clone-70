@@ -19,7 +19,7 @@ const Index = () => {
                 <br /><br />We help firms beat the odds, accelerate initiatives delivery across their product and market portfolios, recover struggling projects, and build teams that deliver sustainable value, so your success continues long after we're gone.</p>
               <div className="flex flex-col sm:flex-row gap-6">
                 <Button size="lg" className="bg-black text-white hover:bg-gray-800 font-medium px-8 py-4 text-base" asChild>
-                  <Link to="/our-model">OUR MODEL</Link>
+                  <Link to="/our-model">OUR APPROACH</Link>
                 </Button>
                 <Button variant="outline" size="lg" className="border-black text-black hover:bg-black hover:text-white px-8 py-4 text-base" asChild>
                   <Link to="/contact">LET'S TALK</Link>
@@ -47,30 +47,18 @@ const Index = () => {
             <Card className="p-8 text-center">
               <h3 className="h4 mb-4">Portfolio Development</h3>
               <p className="body-text">Successfully develop and execute your change or transformation roadmap and delivery plan with Agile practices</p>
-              <Button variant="link" className="mt-4 p-0 h-auto text-primary" asChild>
-                <Link to="/portfolio-development">Learn More →</Link>
-              </Button>
             </Card>
             <Card className="p-8 text-center">
               <h3 className="h4 mb-4">Product Recovery</h3>
               <p className="body-text">Turn around struggling initiatives and get your products back on track.</p>
-              <Button variant="link" className="mt-4 p-0 h-auto text-primary" asChild>
-                <Link to="/product-recovery">Learn More →</Link>
-              </Button>
             </Card>
             <Card className="p-8 text-center">
               <h3 className="h4 mb-4">Agile Coaching</h3>
               <p className="body-text">Build sustainable agile practices and high-performing teams that continue to deliver sustainable value.</p>
-              <Button variant="link" className="mt-4 p-0 h-auto text-primary" asChild>
-                <Link to="/agile-coaching">Learn More →</Link>
-              </Button>
             </Card>
             <Card className="p-8 text-center">
               <h3 className="h4 mb-4">Portfolio Operations</h3>
               <p className="body-text">Streamline workflows, initiatives delivery, and implement scalable processes—ensuring teams have the right tools, insights, and frameworks to drive efficiency and growth.</p>
-              <Button variant="link" className="mt-4 p-0 h-auto text-primary" asChild>
-                <Link to="/portfolio-operations">Learn More →</Link>
-              </Button>
             </Card>
           </div>
         </div>
@@ -106,37 +94,8 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Why Us Section */}
-      <section className="py-24 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="h2 mb-8">Why us</h2>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-            <div className="text-center">
-              <h3 className="h3 mb-6">Create Lasting Change</h3>
-              <p className="body-text">
-                Agile succeeds when a mindset shift is embraced at every level of an organisation. Introducing agile from the ground up builds transparent organisational learning capabilities, that establish working practices & principles for sustainable delivery. Our incremental approach ensures your agile transformation is embedded within every person, process & structure, so productivity never stalls & change will last.
-              </p>
-            </div>
-            <div className="text-center">
-              <h3 className="h3 mb-6">Collaborate Relentlessly</h3>
-              <p className="body-text">
-                Agile organisations are constantly searching for ways to improve. Partnering with our dedicated team of practitioners gives your organisation access to years of experience in both living and applying agile principles, in both teams and organisations. Offering strategic expertise tailored to your business's goals teaches your team to learn new frameworks alongside consistently delivering value.
-              </p>
-            </div>
-            <div className="text-center">
-              <h3 className="h3 mb-6">Build Independence</h3>
-              <p className="body-text">
-                Agile transformation is deemed successful once an organisation can successfully apply agile principles without the need for external support. We ensure independence is embedded from day one, so you can go it alone consistently and confidently. Keeping this end goal in mind allows us to help you build sustainable skills, so your organisation can thrive through future market changes, while still delivering real value.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Statistics */}
-      {/* <section className="py-24">
+      <section className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
             <div>
@@ -156,10 +115,10 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
 
       {/* How We Work */}
-      {/* <section className="py-16">
+      <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center">
@@ -229,10 +188,10 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
 
       {/* Work with your offshore team */}
-      {/* <section className="py-16">
+      <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -248,10 +207,10 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
 
       {/* Statistics Section */}
-      {/* <section className="py-16">
+      <section className="py-16">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center">
@@ -282,10 +241,10 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
 
       {/* Silicon Valley of Asia */}
-      {/* <section className="py-16">
+      <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -312,10 +271,10 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
 
       {/* European and Indian Leadership */}
-      {/* <section className="py-16">
+      <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="relative">
@@ -339,10 +298,10 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
 
       {/* Powered by People */}
-      {/* <section className="py-16">
+      <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -366,10 +325,10 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
 
       {/* We'll help you section */}
-      {/* <section className="py-16">
+      <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-12">
             <h2 className="h2 mb-8">
@@ -424,10 +383,10 @@ const Index = () => {
             </Button>
           </div>
         </div>
-      </section> */}
+      </section>
 
       {/* Case Studies */}
-      {/* <section className="py-16">
+      <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <div className="h6 font-semibold tracking-wide mb-4">
@@ -463,10 +422,10 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
 
       {/* Testimonial */}
-      {/* <section className="py-16 text-black">
+      <section className="py-16 text-black">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8">
             <div className="h6 font-semibold tracking-wide mb-8">
@@ -497,7 +456,7 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
 
       {/* Knowledge Base */}
       <section className="py-16">
