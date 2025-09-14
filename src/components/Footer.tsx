@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import h2Logo from "@/assets/H2-logo.jpg";
 const Footer = () => {
   return <footer className="bg-background text-foreground">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
@@ -8,8 +9,8 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
           {/* Company Info */}
           <div className="col-span-1">
-            <div className="h3 mb-6">
-              H2
+            <div className="mb-6">
+              <img src={h2Logo} alt="H2 IT Services LLC" className="h-12 w-auto" />
             </div>
             <p className="button-text mb-6 leading-relaxed">
               We scale your tech team with world-class engineers from Bangalore.
