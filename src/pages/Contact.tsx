@@ -5,7 +5,7 @@ const Contact = () => {
       <section className="py-24 lg:py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="h1 mb-8">
+            <h1>
               Contact
             </h1>
             <p className="body-text text-lg max-w-2xl mx-auto">

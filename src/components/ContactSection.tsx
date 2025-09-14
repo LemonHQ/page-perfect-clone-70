@@ -85,7 +85,7 @@ const ContactSection = () => {
                 <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
                   <span className="text-green-600 text-2xl">✓</span>
                 </div>
-                <h2 className="h2 mb-4">Thank you for reaching out!</h2>
+                <h2>Thank you for reaching out!</h2>
                 <p className="body-text mb-6">
                   We've received your inquiry and will get back to you within 24 hours. 
                   A confirmation email has been sent to your inbox.
@@ -123,7 +123,7 @@ const ContactSection = () => {
                   <span className="text-black text-sm font-bold">1</span>
                 </div>
                 <div>
-                  <h3 className="h5 mb-2">Tell us what you need</h3>
+                  <h3>Tell us what you need</h3>
                   <p className="body-text">Fill in your details — your data is 100% confidential and secure</p>
                 </div>
               </div>
@@ -133,7 +133,7 @@ const ContactSection = () => {
                   <span className="text-black text-sm font-bold">2</span>
                 </div>
                 <div>
-                  <h3 className="h5 mb-2">Talk to our experts</h3>
+                  <h3>Talk to our experts</h3>
                   <p className="body-text">One of our team members will contact you promptly for a brief discovery call</p>
                 </div>
               </div>
@@ -143,7 +143,7 @@ const ContactSection = () => {
                   <span className="text-black text-sm font-bold">3</span>
                 </div>
                 <div>
-                  <h3 className="h5 mb-2">Get a tailored proposal</h3>
+                  <h3>Get a tailored proposal</h3>
                   <p className="body-text">We'll prepare a solution matched to your needs and timeline</p>
                 </div>
               </div>

@@ -20,7 +20,7 @@ const Footer = () => {
 
           {/* Our Services */}
           <div>
-            <h3 className="h6 mb-6">Our Services</h3>
+            <h3>Our Services</h3>
             <ul className="space-y-3 button-text">
               <li><Link to="/portfolio-development" className="text-muted-foreground hover:text-foreground transition-colors">Portfolio Development</Link></li>
               <li><Link to="/product-recovery" className="text-muted-foreground hover:text-foreground transition-colors">Product Recovery</Link></li>
@@ -31,7 +31,7 @@ const Footer = () => {
 
           {/* Company */}
           <div>
-            <h3 className="h6 mb-6">Company</h3>
+            <h3>Company</h3>
             <ul className="space-y-3 button-text">
               <li><Link to="/our-approach" className="text-muted-foreground hover:text-foreground transition-colors">Our Approach</Link></li>
               <li><Link to="/about" className="text-muted-foreground hover:text-foreground transition-colors">About Us</Link></li>

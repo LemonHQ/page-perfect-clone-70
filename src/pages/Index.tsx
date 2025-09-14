@@ -15,7 +15,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
-              <h1 className="h1 mb-8">Proven Agile Acceleration and Delivery</h1>
+              <h1>Proven Agile Acceleration and Delivery</h1>
               <p className="body-text text-lg mb-12">For CTOS, CDOS, Product portfolio owners & PMOS under pressure to perform and deliver change and transformation initiatives.
                 <br /><br />We help firms beat the odds, accelerate initiatives delivery across their product and market portfolios, recover struggling projects, and build teams that deliver sustainable value, so your success continues long after we're gone.</p>
               <div className="flex flex-col sm:flex-row gap-6">
@@ -41,7 +41,7 @@ const Index = () => {
       <section className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="h2 mb-8">Our Offerings</h2>
+            <h2>Our Offerings</h2>
             <p className="body-text text-lg max-w-3xl mx-auto">Whether you're preparing to launch or navigating the path to business-as-usual (BAU), we provide the strategic guidance and hands-on support needed to build momentum, create structure, and drive success.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -91,7 +91,7 @@ const Index = () => {
               <div className="h6 tracking-wide mb-6">
                 THE SMARTER WAY
               </div>
-              <h2 className="h2 mb-8">Innovative and comprehensive agile transformation consulting and services</h2>
+              <h2>Innovative and comprehensive agile transformation consulting and services</h2>
               <p className="body-text text-lg mb-12">
                 Our agile experts help assess your readiness and maturity to develop innovative, comprehensive agile strategies and roadmaps. 
                 <br /><br />
