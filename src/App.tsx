@@ -35,28 +35,28 @@ const App = () => (
         <div className="min-h-screen flex flex-col">
           <Header />
           <main className="flex-1">
-          <Routes>
-            <Route path="/" element={<Index />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/portfolio-development" element={<PortfolioDevelopment />} />
-            <Route path="/portfolio-operations" element={<PortfolioOperations />} />
-            <Route path="/agile-coaching" element={<AgileCoaching />} />
-            <Route path="/product-recovery" element={<ProductRecovery />} />
-            <Route path="/our-approach" element={<OurApproach />} />
-            <Route path="/insights" element={<Insights />} />
-            <Route path="/insights/agile-transformation" element={<AgileTransformation />} />
-            <Route path="/insights/digital-transformation-signs" element={<DigitalTransformationArticle />} />
-            <Route path="/insights/building-high-performance-teams" element={<TeamPerformance />} />
-            <Route path="/insights/portfolio-management-rapid-change" element={<PortfolioManagement />} />
-            <Route path="/insights/agile-coaching-roi" element={<AgileCoachingROI />} />
-            <Route path="/insights/devops-integration-strategies" element={<DevOpsIntegration />} />
-            {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-            <Route path="*" element={<NotFound />} />
-          </Routes>
-        </main>
-        <Footer />
-      </div>
+            <Routes>
+              <Route path="/" element={<Index />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/portfolio-development" element={<PortfolioDevelopment />} />
+              <Route path="/portfolio-operations" element={<PortfolioOperations />} />
+              <Route path="/agile-coaching" element={<AgileCoaching />} />
+              <Route path="/product-recovery" element={<ProductRecovery />} />
+              <Route path="/our-approach" element={<OurApproach />} />
+              <Route path="/insights" element={<Insights />} />
+              <Route path="/insights/agile-transformation" element={<AgileTransformation />} />
+              <Route path="/insights/digital-transformation-signs" element={<DigitalTransformationArticle />} />
+              <Route path="/insights/building-high-performance-teams" element={<TeamPerformance />} />
+              <Route path="/insights/portfolio-management-rapid-change" element={<PortfolioManagement />} />
+              <Route path="/insights/agile-coaching-roi" element={<AgileCoachingROI />} />
+              <Route path="/insights/devops-integration-strategies" element={<DevOpsIntegration />} />
+              {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+              <Route path="*" element={<NotFound />} />
+            </Routes>
+          </main>
+          <Footer />
+        </div>
     </TooltipProvider>
   </QueryClientProvider>
 </HelmetProvider>

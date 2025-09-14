@@ -8,48 +8,20 @@ const toAbsolute = (p) => path.resolve(__dirname, p)
 const template = fs.readFileSync(toAbsolute('dist/index.html'), 'utf-8')
 const { render } = await import('./dist/server/entry-server.js')
 
-// Routes extracted from App.tsx - keep in sync with routing configuration
-const routesToPrerender = [
-  '/',
-  '/about',
-  '/contact',
-  '/portfolio-development',
-  '/portfolio-operations',
-  '/agile-coaching',
-  '/product-recovery',
-  '/our-approach',
-  '/insights',
-  '/insights/agile-transformation',
-  '/insights/digital-transformation-signs',
-  '/insights/building-high-performance-teams',
-  '/insights/portfolio-management-rapid-change',
-  '/insights/agile-coaching-roi',
-  '/insights/devops-integration-strategies'
-]
+const routesToPrerender = fs
+  .readdirSync(toAbsolute('src/pages'))
+  .map((file) => {
+    const name = file.replace(/\.tsx$/, '').toLowerCase()
+    return name === 'index' ? '/' : `/${name}`
+  })
 
 ;(async () => {
   for (const url of routesToPrerender) {
-    try {
-      const appHtml = render(url);
-      const html = template.replace(`<!--app-html-->`, appHtml)
+    const appHtml = render(url);
+    const html = template.replace(`<!--app-html-->`, appHtml)
 
-      // Generate file path that matches the route structure
-      const filePath = url === '/' ? 'dist/index.html' : `dist${url}.html`
-      const fullPath = toAbsolute(filePath)
-      
-      // Ensure all necessary directories exist (including nested ones)
-      const dir = path.dirname(fullPath)
-      if (!fs.existsSync(dir)) {
-        fs.mkdirSync(dir, { recursive: true })
-        console.log('created directory:', dir)
-      }
-      
-      // Write the HTML file
-      fs.writeFileSync(fullPath, html)
-      console.log('pre-rendered:', filePath)
-    } catch (error) {
-      console.error(`Failed to prerender ${url}:`, error)
-    }
+    const filePath = `dist${url === '/' ? '/index' : url}.html`
+    fs.writeFileSync(toAbsolute(filePath), html)
+    console.log('pre-rendered:', filePath)
   }
-  console.log(`Successfully pre-rendered ${routesToPrerender.length} routes`)
 })()
