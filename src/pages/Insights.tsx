@@ -168,7 +168,13 @@ const Insights = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {articles.map((article) => (
-              <Link key={article.id} to={`/insights/${article.id === 2 ? 'digital-transformation-signs' : article.id === 3 ? 'building-high-performance-teams' : article.id === 4 ? 'portfolio-management-rapid-change' : 'agile-coaching-roi'}`}>
+              <Link key={article.id} to={`/insights/${
+                article.id === 2 ? 'digital-transformation-signs' : 
+                article.id === 3 ? 'building-high-performance-teams' : 
+                article.id === 4 ? 'portfolio-management-rapid-change' : 
+                article.id === 5 ? 'agile-coaching-roi' : 
+                'devops-integration-strategies'
+              }`}>
                 <Card className="group hover:shadow-lg transition-all duration-300 cursor-pointer h-full overflow-hidden">
                   <img 
                     src={article.image} 

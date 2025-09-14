@@ -1,73 +1,119 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Link } from "react-router-dom";
-import { Calendar, Clock, ArrowLeft, User, Share2 } from "lucide-react";
+import { Calendar, Clock, ArrowLeft, User, Share2, Twitter, Linkedin, Facebook, Mail, Copy } from "lucide-react";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 import teamCollaborationImage from "@/assets/articles/team-collaboration.jpg";
 import ContactSection from "@/components/ContactSection";
 
 const TeamPerformanceArticle = () => {
   return (
     <div className="min-h-screen">
-      {/* Article Header */}
-      <section className="py-12 border-b bg-muted/20">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <Link to="/insights" className="inline-flex items-center text-sm text-muted-foreground hover:text-foreground mb-6">
-            <ArrowLeft className="w-4 h-4 mr-2" />
-            Back to Insights
-          </Link>
-          
-          <div className="flex items-center gap-4 mb-6">
-            <Badge variant="outline">Team Building</Badge>
-            <div className="flex items-center gap-4 text-sm text-muted-foreground">
-              <div className="flex items-center gap-1">
-                <Calendar className="w-4 h-4" />
-                March 8, 2024
+      {/* Hero Section with Split Layout */}
+      <section className="relative">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 min-h-[60vh]">
+            {/* Left Side - Content */}
+            <div className="flex flex-col justify-center px-4 sm:px-6 lg:px-8 py-16 lg:py-24">
+              <Link to="/insights" className="inline-flex items-center text-sm text-muted-foreground hover:text-foreground mb-6">
+                <ArrowLeft className="w-4 h-4 mr-2" />
+                Back to Insights
+              </Link>
+              
+              <div className="mb-6">
+                <Badge variant="secondary" className="mb-4 text-xs font-medium">INSIGHTS</Badge>
               </div>
-              <div className="flex items-center gap-1">
-                <Clock className="w-4 h-4" />
-                10 min read
-              </div>
-            </div>
-          </div>
-          
-          <h1 className="mb-6">Building High-Performance Teams: Lessons from 100+ Agile Implementations</h1>
-          
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-3">
-              <div className="w-10 h-10 bg-muted rounded-full flex items-center justify-center">
-                <User className="w-5 h-5" />
-              </div>
-              <div>
-                <p className="font-medium">Emma Thompson</p>
-                <p className="text-sm text-muted-foreground">Agile Team Performance Specialist</p>
+              
+              <h1 className="text-4xl lg:text-5xl font-bold mb-6 leading-tight">
+                Building High-Performance Teams: Lessons from 100+ Agile Implementations
+              </h1>
+              
+              <div className="flex items-center gap-6 text-sm text-muted-foreground mb-8">
+                <div className="flex items-center gap-1">
+                  <Clock className="w-4 h-4" />
+                  10 min read
+                </div>
+                <div className="flex items-center gap-1">
+                  <Calendar className="w-4 h-4" />
+                  March 8, 2024
+                </div>
               </div>
             </div>
             
-            <Button variant="outline" size="sm">
-              <Share2 className="w-4 h-4 mr-2" />
-              Share
-            </Button>
+            {/* Right Side - Hero Image with Geometric Overlay */}
+            <div className="relative">
+              <img 
+                src={teamCollaborationImage} 
+                alt="High-performance team collaboration" 
+                className="w-full h-full object-cover"
+              />
+              {/* Geometric Overlay Elements */}
+              <div className="absolute bottom-0 left-0 w-24 h-24 bg-gradient-to-r from-green-500 to-emerald-500 opacity-90"></div>
+              <div className="absolute bottom-0 left-16 w-16 h-16 bg-gradient-to-r from-blue-500 to-cyan-500 opacity-90"></div>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Featured Image */}
-      <section className="py-0">
-        <div className="max-w-6xl mx-auto">
-          <img 
-            src={teamCollaborationImage} 
-            alt="High-performance team collaboration" 
-            className="w-full h-96 object-cover"
-          />
+      {/* Author Section */}
+      <section className="py-12 border-b bg-background">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center gap-6">
+            <div className="w-16 h-16 bg-muted rounded-full flex items-center justify-center overflow-hidden">
+              <User className="w-8 h-8" />
+            </div>
+            <div>
+              <h3 className="text-xl font-semibold">Emma Thompson</h3>
+              <p className="text-muted-foreground">Agile Team Performance Specialist</p>
+            </div>
+            <div className="ml-auto">
+              <DropdownMenu>
+                <DropdownMenuTrigger asChild>
+                  <Button variant="outline" size="sm">
+                    <Share2 className="w-4 h-4 mr-2" />
+                    Share
+                  </Button>
+                </DropdownMenuTrigger>
+                <DropdownMenuContent align="end" className="w-48">
+                  <DropdownMenuItem className="cursor-pointer">
+                    <Twitter className="w-4 h-4 mr-2" />
+                    Share on Twitter
+                  </DropdownMenuItem>
+                  <DropdownMenuItem className="cursor-pointer">
+                    <Linkedin className="w-4 h-4 mr-2" />
+                    Share on LinkedIn
+                  </DropdownMenuItem>
+                  <DropdownMenuItem className="cursor-pointer">
+                    <Facebook className="w-4 h-4 mr-2" />
+                    Share on Facebook
+                  </DropdownMenuItem>
+                  <DropdownMenuItem className="cursor-pointer">
+                    <Mail className="w-4 h-4 mr-2" />
+                    Share via Email
+                  </DropdownMenuItem>
+                  <DropdownMenuItem className="cursor-pointer">
+                    <Copy className="w-4 h-4 mr-2" />
+                    Copy Link
+                  </DropdownMenuItem>
+                </DropdownMenuContent>
+              </DropdownMenu>
+            </div>
+          </div>
         </div>
       </section>
 
       {/* Article Content */}
-      <article className="py-16">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 prose prose-lg max-w-none">
-          <p className="lead text-xl mb-8">
-            Over the past decade, I've had the privilege of working with more than 100 agile implementations across diverse industries, from startups to Fortune 500 companies. Through this journey, I've observed patterns that distinguish truly high-performing teams from those that merely follow agile practices. The insights shared here are distilled from real-world experiences and measurable outcomes.
-          </p>
+      <article className="py-16 bg-background">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="prose prose-lg max-w-none">
+            <p className="text-xl leading-relaxed mb-8 text-muted-foreground">
+              Over the past decade, I've had the privilege of working with more than 100 agile implementations across diverse industries, from startups to Fortune 500 companies. Through this journey, I've observed patterns that distinguish truly high-performing teams from those that merely follow agile practices. The insights shared here are distilled from real-world experiences and measurable outcomes.
+            </p>
 
           <p>
             High-performance teams aren't created by accident or through the simple adoption of agile frameworks. They emerge from deliberate actions, thoughtful design decisions, and sustained commitment to continuous improvement. The lessons I'll share have been validated across multiple contexts and can be applied regardless of your industry or organizational size.
@@ -303,21 +349,22 @@ const TeamPerformanceArticle = () => {
             Remember that high performance isn't about perfection—it's about continuous improvement and learning. The most successful teams I've worked with are those that maintain humility about their capabilities while consistently pushing themselves to achieve greater impact. They understand that today's high performance is tomorrow's baseline, and they're always looking for ways to raise their game.
           </p>
 
-          <p>
-            Start your journey by focusing on one or two of these lessons that resonate most strongly with your current situation. Build success gradually, learn from your experiences, and remember that building high-performance teams is itself a skill that improves with practice and reflection.
-          </p>
+            <p>
+              Start your journey by focusing on one or two of these lessons that resonate most strongly with your current situation. Build success gradually, learn from your experiences, and remember that building high-performance teams is itself a skill that improves with practice and reflection.
+            </p>
 
-          <div className="mt-12 p-6 bg-muted/30 rounded-lg">
-            <h3>About the Author</h3>
-            <div className="flex items-center gap-4 mt-4">
-              <div className="w-16 h-16 bg-muted rounded-full flex items-center justify-center">
-                <User className="w-8 h-8" />
-              </div>
-              <div>
-                <p className="font-semibold">Emma Thompson</p>
-                <p className="text-sm text-muted-foreground">
-                  Emma is an Agile Team Performance Specialist with extensive experience in building and coaching high-performing teams across technology, finance, and healthcare industries. She holds certifications in agile coaching and organizational psychology, and has led team performance initiatives for organizations ranging from startups to Fortune 100 companies.
-                </p>
+            <div className="mt-12 p-8 bg-muted/30 rounded-lg">
+              <h3>About the Author</h3>
+              <div className="flex items-center gap-4 mt-4">
+                <div className="w-16 h-16 bg-muted rounded-full flex items-center justify-center">
+                  <User className="w-8 h-8" />
+                </div>
+                <div>
+                  <p className="font-semibold">Emma Thompson</p>
+                  <p className="text-sm text-muted-foreground">
+                    Emma is an Agile Team Performance Specialist with extensive experience in building and coaching high-performing teams across technology, finance, and healthcare industries. She holds certifications in agile coaching and organizational psychology, and has led team performance initiatives for organizations ranging from startups to Fortune 100 companies.
+                  </p>
+                </div>
               </div>
             </div>
           </div>

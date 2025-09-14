@@ -30,6 +30,8 @@ import AgileTransformationArticle from "./pages/articles/AgileTransformationArti
 import DigitalTransformationArticle from "./pages/articles/DigitalTransformationArticle";
 import TeamPerformanceArticle from "./pages/articles/TeamPerformanceArticle";
 import PortfolioManagementArticle from "./pages/articles/PortfolioManagementArticle";
+import AgileCoachingROIArticle from "./pages/articles/AgileCoachingROIArticle";
+import DevOpsIntegrationArticle from "./pages/articles/DevOpsIntegrationArticle";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -68,6 +70,8 @@ const App = () => (
             <Route path="/insights/digital-transformation-signs" element={<DigitalTransformationArticle />} />
             <Route path="/insights/building-high-performance-teams" element={<TeamPerformanceArticle />} />
             <Route path="/insights/portfolio-management-rapid-change" element={<PortfolioManagementArticle />} />
+            <Route path="/insights/agile-coaching-roi" element={<AgileCoachingROIArticle />} />
+            <Route path="/insights/devops-integration-strategies" element={<DevOpsIntegrationArticle />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

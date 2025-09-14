@@ -1,73 +1,119 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Link } from "react-router-dom";
-import { Calendar, Clock, ArrowLeft, User, Share2 } from "lucide-react";
+import { Calendar, Clock, ArrowLeft, User, Share2, Twitter, Linkedin, Facebook, Mail, Copy } from "lucide-react";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 import agileTransformationImage from "@/assets/articles/agile-transformation-team.jpg";
 import ContactSection from "@/components/ContactSection";
 
 const AgileTransformationArticle = () => {
   return (
     <div className="min-h-screen">
-      {/* Article Header */}
-      <section className="py-12 border-b bg-muted/20">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <Link to="/insights" className="inline-flex items-center text-sm text-muted-foreground hover:text-foreground mb-6">
-            <ArrowLeft className="w-4 h-4 mr-2" />
-            Back to Insights
-          </Link>
-          
-          <div className="flex items-center gap-4 mb-6">
-            <Badge variant="outline">Agile Transformation</Badge>
-            <div className="flex items-center gap-4 text-sm text-muted-foreground">
-              <div className="flex items-center gap-1">
-                <Calendar className="w-4 h-4" />
-                March 15, 2024
+      {/* Hero Section with Split Layout */}
+      <section className="relative">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 min-h-[60vh]">
+            {/* Left Side - Content */}
+            <div className="flex flex-col justify-center px-4 sm:px-6 lg:px-8 py-16 lg:py-24">
+              <Link to="/insights" className="inline-flex items-center text-sm text-muted-foreground hover:text-foreground mb-6">
+                <ArrowLeft className="w-4 h-4 mr-2" />
+                Back to Insights
+              </Link>
+              
+              <div className="mb-6">
+                <Badge variant="secondary" className="mb-4 text-xs font-medium">INSIGHTS</Badge>
               </div>
-              <div className="flex items-center gap-1">
-                <Clock className="w-4 h-4" />
-                8 min read
-              </div>
-            </div>
-          </div>
-          
-          <h1 className="mb-6">The Future of Agile Transformation: Beyond Frameworks to Cultural Change</h1>
-          
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-3">
-              <div className="w-10 h-10 bg-muted rounded-full flex items-center justify-center">
-                <User className="w-5 h-5" />
-              </div>
-              <div>
-                <p className="font-medium">Sarah Chen</p>
-                <p className="text-sm text-muted-foreground">Senior Agile Transformation Consultant</p>
+              
+              <h1 className="text-4xl lg:text-5xl font-bold mb-6 leading-tight">
+                The Future of Agile Transformation: Beyond Frameworks to Cultural Change
+              </h1>
+              
+              <div className="flex items-center gap-6 text-sm text-muted-foreground mb-8">
+                <div className="flex items-center gap-1">
+                  <Clock className="w-4 h-4" />
+                  8 min read
+                </div>
+                <div className="flex items-center gap-1">
+                  <Calendar className="w-4 h-4" />
+                  March 15, 2024
+                </div>
               </div>
             </div>
             
-            <Button variant="outline" size="sm">
-              <Share2 className="w-4 h-4 mr-2" />
-              Share
-            </Button>
+            {/* Right Side - Hero Image with Geometric Overlay */}
+            <div className="relative">
+              <img 
+                src={agileTransformationImage} 
+                alt="Agile transformation team collaboration" 
+                className="w-full h-full object-cover"
+              />
+              {/* Geometric Overlay Elements */}
+              <div className="absolute bottom-0 left-0 w-24 h-24 bg-gradient-to-r from-blue-500 to-cyan-500 opacity-90"></div>
+              <div className="absolute bottom-0 left-16 w-16 h-16 bg-gradient-to-r from-purple-500 to-indigo-500 opacity-90"></div>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Featured Image */}
-      <section className="py-0">
-        <div className="max-w-6xl mx-auto">
-          <img 
-            src={agileTransformationImage} 
-            alt="Agile transformation team collaboration" 
-            className="w-full h-96 object-cover"
-          />
+      {/* Author Section */}
+      <section className="py-12 border-b bg-background">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center gap-6">
+            <div className="w-16 h-16 bg-muted rounded-full flex items-center justify-center overflow-hidden">
+              <User className="w-8 h-8" />
+            </div>
+            <div>
+              <h3 className="text-xl font-semibold">Sarah Chen</h3>
+              <p className="text-muted-foreground">Senior Agile Transformation Consultant</p>
+            </div>
+            <div className="ml-auto">
+              <DropdownMenu>
+                <DropdownMenuTrigger asChild>
+                  <Button variant="outline" size="sm">
+                    <Share2 className="w-4 h-4 mr-2" />
+                    Share
+                  </Button>
+                </DropdownMenuTrigger>
+                <DropdownMenuContent align="end" className="w-48">
+                  <DropdownMenuItem className="cursor-pointer">
+                    <Twitter className="w-4 h-4 mr-2" />
+                    Share on Twitter
+                  </DropdownMenuItem>
+                  <DropdownMenuItem className="cursor-pointer">
+                    <Linkedin className="w-4 h-4 mr-2" />
+                    Share on LinkedIn
+                  </DropdownMenuItem>
+                  <DropdownMenuItem className="cursor-pointer">
+                    <Facebook className="w-4 h-4 mr-2" />
+                    Share on Facebook
+                  </DropdownMenuItem>
+                  <DropdownMenuItem className="cursor-pointer">
+                    <Mail className="w-4 h-4 mr-2" />
+                    Share via Email
+                  </DropdownMenuItem>
+                  <DropdownMenuItem className="cursor-pointer">
+                    <Copy className="w-4 h-4 mr-2" />
+                    Copy Link
+                  </DropdownMenuItem>
+                </DropdownMenuContent>
+              </DropdownMenu>
+            </div>
+          </div>
         </div>
       </section>
 
       {/* Article Content */}
-      <article className="py-16">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 prose prose-lg max-w-none">
-          <p className="lead text-xl mb-8">
-            In today's rapidly evolving business landscape, organizations are discovering that true agile transformation goes far beyond implementing frameworks like Scrum or Kanban. The most successful transformations focus on cultural change—creating environments where adaptability, collaboration, and continuous learning become ingrained in the organizational DNA.
-          </p>
+      <article className="py-16 bg-background">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="prose prose-lg max-w-none">
+            <p className="text-xl leading-relaxed mb-8 text-muted-foreground">
+              In today's rapidly evolving business landscape, organizations are discovering that true agile transformation goes far beyond implementing frameworks like Scrum or Kanban. The most successful transformations focus on cultural change—creating environments where adaptability, collaboration, and continuous learning become ingrained in the organizational DNA.
+            </p>
 
           <h2>The Evolution of Agile Thinking</h2>
           <p>
@@ -189,21 +235,22 @@ const AgileTransformationArticle = () => {
             True agile transformation extends far beyond the adoption of specific frameworks or methodologies. It requires a fundamental shift in organizational culture—one that values collaboration over competition, learning over knowing, and adaptation over adherence to predetermined plans. Organizations that successfully navigate this cultural transformation will find themselves better equipped to respond to uncertainty, deliver value to customers, and create engaging work environments for their employees.
           </p>
 
-          <p>
-            The journey isn't easy, and there are no universal solutions that work for every organization. However, by focusing on the human elements of transformation—trust, psychological safety, continuous learning, and customer-centricity—organizations can create the conditions necessary for sustainable agile transformation. The future belongs to organizations that can adapt quickly while maintaining their core values and purpose, and cultural transformation is the key to achieving this balance.
-          </p>
+            <p>
+              The journey isn't easy, and there are no universal solutions that work for every organization. However, by focusing on the human elements of transformation—trust, psychological safety, continuous learning, and customer-centricity—organizations can create the conditions necessary for sustainable agile transformation. The future belongs to organizations that can adapt quickly while maintaining their core values and purpose, and cultural transformation is the key to achieving this balance.
+            </p>
 
-          <div className="mt-12 p-6 bg-muted/30 rounded-lg">
-            <h3>About the Author</h3>
-            <div className="flex items-center gap-4 mt-4">
-              <div className="w-16 h-16 bg-muted rounded-full flex items-center justify-center">
-                <User className="w-8 h-8" />
-              </div>
-              <div>
-                <p className="font-semibold">Sarah Chen</p>
-                <p className="text-sm text-muted-foreground">
-                  Sarah is a Senior Agile Transformation Consultant with over 15 years of experience helping Fortune 500 companies navigate complex organizational change. She specializes in cultural transformation and has led agile transformations across multiple industries including finance, healthcare, and technology.
-                </p>
+            <div className="mt-12 p-8 bg-muted/30 rounded-lg">
+              <h3>About the Author</h3>
+              <div className="flex items-center gap-4 mt-4">
+                <div className="w-16 h-16 bg-muted rounded-full flex items-center justify-center">
+                  <User className="w-8 h-8" />
+                </div>
+                <div>
+                  <p className="font-semibold">Sarah Chen</p>
+                  <p className="text-sm text-muted-foreground">
+                    Sarah is a Senior Agile Transformation Consultant with over 15 years of experience helping Fortune 500 companies navigate complex organizational change. She specializes in cultural transformation and has led agile transformations across multiple industries including finance, healthcare, and technology.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
