@@ -47,6 +47,9 @@ const Index = () => {
             <Card className="p-8 text-center">
               <h3 className="h4 mb-4">Portfolio Development</h3>
               <p className="body-text">Successfully develop and execute your change or transformation roadmap and delivery plan with Agile practices</p>
+              <Button variant="link" className="mt-4 p-0 h-auto text-primary" asChild>
+                <Link to="/portfolio-development">Learn More →</Link>
+              </Button>
             </Card>
             <Card className="p-8 text-center">
               <h3 className="h4 mb-4">Product Recovery</h3>
