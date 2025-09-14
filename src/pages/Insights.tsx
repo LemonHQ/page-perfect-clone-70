@@ -5,6 +5,14 @@ import { Link } from "react-router-dom";
 import { Calendar, Clock, ArrowRight, User } from "lucide-react";
 import ContactSection from "@/components/ContactSection";
 
+// Import article images
+import agileTransformationImage from "@/assets/articles/agile-transformation-team.jpg";
+import digitalTransformationImage from "@/assets/articles/digital-transformation.jpg";
+import teamCollaborationImage from "@/assets/articles/team-collaboration.jpg";
+import portfolioManagementImage from "@/assets/articles/portfolio-management.jpg";
+import agileCoachingImage from "@/assets/articles/agile-coaching.jpg";
+import devopsIntegrationImage from "@/assets/articles/devops-integration.jpg";
+
 const Insights = () => {
   const featuredArticle = {
     id: 1,
@@ -15,7 +23,8 @@ const Insights = () => {
     date: "2024-03-15",
     readTime: "8 min read",
     category: "Agile Transformation",
-    featured: true
+    featured: true,
+    image: agileTransformationImage
   };
 
   const articles = [
@@ -26,7 +35,8 @@ const Insights = () => {
       author: "Michael Rodriguez",
       date: "2024-03-10",
       readTime: "6 min read",
-      category: "Digital Transformation"
+      category: "Digital Transformation",
+      image: digitalTransformationImage
     },
     {
       id: 3,
@@ -35,7 +45,8 @@ const Insights = () => {
       author: "Emma Thompson",
       date: "2024-03-08",
       readTime: "10 min read",
-      category: "Team Building"
+      category: "Team Building",
+      image: teamCollaborationImage
     },
     {
       id: 4,
@@ -44,7 +55,8 @@ const Insights = () => {
       author: "David Park",
       date: "2024-03-05",
       readTime: "7 min read",
-      category: "Portfolio Management"
+      category: "Portfolio Management",
+      image: portfolioManagementImage
     },
     {
       id: 5,
@@ -53,7 +65,8 @@ const Insights = () => {
       author: "Lisa Anderson",
       date: "2024-03-02",
       readTime: "9 min read",
-      category: "Agile Coaching"
+      category: "Agile Coaching",
+      image: agileCoachingImage
     },
     {
       id: 6,
@@ -62,7 +75,8 @@ const Insights = () => {
       author: "James Wilson",
       date: "2024-02-28",
       readTime: "12 min read",
-      category: "DevOps"
+      category: "DevOps",
+      image: devopsIntegrationImage
     }
   ];
 
@@ -90,7 +104,11 @@ const Insights = () => {
             <Badge variant="secondary" className="mb-4">Featured Article</Badge>
             <Card className="overflow-hidden">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-0">
-                <div className="bg-muted/30 h-80 lg:h-auto"></div>
+                <img 
+                  src={featuredArticle.image} 
+                  alt={featuredArticle.title}
+                  className="w-full h-80 lg:h-auto object-cover"
+                />
                 <CardContent className="p-8 lg:p-12">
                   <div className="flex items-center gap-4 mb-4">
                     <Badge variant="outline">{featuredArticle.category}</Badge>
@@ -108,17 +126,9 @@ const Insights = () => {
                   <p className="body-text mb-6">{featuredArticle.excerpt}</p>
                   
                   <div className="flex items-center justify-between">
-                    <div className="flex items-center gap-3">
-                      <div className="w-8 h-8 bg-muted rounded-full flex items-center justify-center">
-                        <User className="w-4 h-4" />
-                      </div>
-                      <div>
-                        <p className="text-sm font-medium">{featuredArticle.author}</p>
-                        <div className="flex items-center gap-1 text-xs text-muted-foreground">
-                          <Clock className="w-3 h-3" />
-                          {featuredArticle.readTime}
-                        </div>
-                      </div>
+                    <div className="flex items-center gap-1 text-xs text-muted-foreground">
+                      <Clock className="w-3 h-3" />
+                      {featuredArticle.readTime}
                     </div>
                     
                     <Link to="/insights/agile-transformation">
@@ -159,8 +169,12 @@ const Insights = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {articles.map((article) => (
               <Link key={article.id} to={`/insights/${article.id === 2 ? 'digital-transformation-signs' : article.id === 3 ? 'building-high-performance-teams' : article.id === 4 ? 'portfolio-management-rapid-change' : 'agile-coaching-roi'}`}>
-                <Card className="group hover:shadow-lg transition-all duration-300 cursor-pointer h-full">
-                  <div className="bg-muted/30 h-48"></div>
+                <Card className="group hover:shadow-lg transition-all duration-300 cursor-pointer h-full overflow-hidden">
+                  <img 
+                    src={article.image} 
+                    alt={article.title}
+                    className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
                   <CardHeader>
                     <div className="flex items-center justify-between mb-2">
                       <Badge variant="outline" className="text-xs">{article.category}</Badge>
@@ -180,13 +194,7 @@ const Insights = () => {
                     </CardDescription>
                   </CardHeader>
                   <CardContent>
-                    <div className="flex items-center justify-between">
-                      <div className="flex items-center gap-2">
-                        <div className="w-6 h-6 bg-muted rounded-full flex items-center justify-center">
-                          <User className="w-3 h-3" />
-                        </div>
-                        <span className="text-sm text-muted-foreground">{article.author}</span>
-                      </div>
+                    <div className="flex items-center justify-end">
                       <div className="flex items-center gap-1 text-xs text-muted-foreground">
                         <Clock className="w-3 h-3" />
                         {article.readTime}
