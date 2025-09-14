@@ -1,5 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
+import H2Logo from "@/assets/H2-logo.jpg";
 
 const Header = () => {
   const location = useLocation();
@@ -25,10 +26,12 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-6">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2">
-            <div className="h3 font-bold">
-              H2
-            </div>
+          <Link to="/" className="flex items-center">
+            <img 
+              src={H2Logo} 
+              alt="H2 Think next" 
+              className="h-12 w-auto"
+            />
           </Link>
 
           {/* Navigation */}
