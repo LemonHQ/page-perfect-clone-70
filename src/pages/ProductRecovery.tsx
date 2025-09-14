@@ -164,6 +164,26 @@ const ProductRecovery = () => {
           </div>
         </div>
       </section>
+
+      {/* Let's Talk Section */}
+      <section className="py-24 bg-white text-foreground">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center">
+            <h2 className="h2 mb-8">Ready to Turn Around Your Stalled Initiatives?</h2>
+            <p className="body-text text-lg mb-12 max-w-3xl mx-auto">
+              Let's discuss how we can help you restore momentum, rebuild confidence, and deliver the outcomes your business needs.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-6 justify-center">
+              <Button size="lg" className="bg-black text-white hover:bg-gray-800 font-medium px-8 py-4 text-base" asChild>
+                <Link to="/our-approach">OUR APPROACH</Link>
+              </Button>
+              <Button variant="outline" size="lg" className="border-black text-black hover:bg-black hover:text-white px-8 py-4 text-base" asChild>
+                <Link to="/contact">LET'S TALK</Link>
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>;
 };
 export default ProductRecovery;
