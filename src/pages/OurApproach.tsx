@@ -12,7 +12,8 @@ const OurApproach = () => {
       {/* Hero Section */}
       <section className="pt-32 pb-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="h1 mb-8">Our Approach: Lean-Agile-DevOps Transformation</h1>
+          <h1 className="h1 mb-8">Our Approach:
+Lean Agile Transformation</h1>
           <p className="body-text text-lg mb-12 text-muted-foreground">
             In today's dynamic business environment, organizations must adapt swiftly to changing demands, 
             technological advancements, and evolving customer expectations. Our Lean-Agile-DevOps framework 
@@ -50,11 +51,7 @@ const OurApproach = () => {
                 </li>
               </ul>
             </div>
-            <img 
-              src={leanThinkingImage} 
-              alt="Lean thinking process optimization and workflow efficiency" 
-              className="w-full h-96 object-cover rounded-lg"
-            />
+            <img src={leanThinkingImage} alt="Lean thinking process optimization and workflow efficiency" className="w-full h-96 object-cover rounded-lg" />
           </div>
 
           {/* Agile Methodology */}
@@ -81,11 +78,7 @@ const OurApproach = () => {
                 </li>
               </ul>
             </div>
-            <img 
-              src={agileMethodologyImage} 
-              alt="Agile methodology team collaboration and iterative development" 
-              className="w-full h-96 object-cover rounded-lg lg:order-1"
-            />
+            <img src={agileMethodologyImage} alt="Agile methodology team collaboration and iterative development" className="w-full h-96 object-cover rounded-lg lg:order-1" />
           </div>
 
           {/* DevOps Integration */}
@@ -112,11 +105,7 @@ const OurApproach = () => {
                 </li>
               </ul>
             </div>
-            <img 
-              src={devopsIntegrationImage} 
-              alt="DevOps integration automation and CI/CD pipeline development" 
-              className="w-full h-96 object-cover rounded-lg"
-            />
+            <img src={devopsIntegrationImage} alt="DevOps integration automation and CI/CD pipeline development" className="w-full h-96 object-cover rounded-lg" />
           </div>
         </div>
       </section>
